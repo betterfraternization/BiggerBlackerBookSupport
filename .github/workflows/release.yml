@@ -1,0 +1,1149 @@
+name: Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_ref:
+        description: "Branch (or tag) to build & bump"
+        required: true
+        default: main
+        type: string
+      run_android_build:
+        description: "Run Android build"
+        required: true
+        default: true
+        type: boolean
+      run_android_distribution:
+        description: "Upload Android build to Google Play"
+        required: true
+        default: true
+        type: boolean
+      run_ios_build:
+        description: "Run iOS build"
+        required: true
+        default: true
+        type: boolean
+      run_ios_distribution:
+        description: "Upload iOS build to TestFlight"
+        required: true
+        default: true
+        type: boolean
+      run_deploy_docs:
+        description: "Deploy technical documentation"
+        required: true
+        default: true
+        type: boolean
+      run_deploy_user_docs:
+        description: "Deploy user documentation"
+        required: true
+        default: true
+        type: boolean
+      app_version:
+        description: "Optional version override (e.g. 2.0.3)"
+        required: false
+        type: string
+
+permissions:
+  contents: "write"
+  packages: "write"
+  actions: "read"
+  issues: "write"
+  pull-requests: "write"
+
+jobs:
+  pre-release:
+    name: Pre-Release
+    if: always()
+    runs-on: ubuntu-latest
+    outputs:
+      telegram_enabled: ${{ steps.telegram_guard.outputs.enabled }}
+    steps:
+      - name: Determine Telegram availability
+        id: telegram_guard
+        run: |
+          if [[ -n "$TELEGRAM_BOT_TOKEN" && -n "$TELEGRAM_CHAT_ID" ]]; then
+            echo "enabled=true" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          echo "enabled=false" >> $GITHUB_OUTPUT
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+      - name: Telegram Build Start Notification
+        if: ${{ steps.telegram_guard.outputs.enabled == 'true' }}
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_CHAT_ID }}
+          token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          message: |
+            🚀 Release started for `${{ inputs.target_ref }}`
+            • Android build: ${{ inputs.run_android_build }}
+            • Android distribution: ${{ inputs.run_android_distribution }}
+            • iOS build: ${{ inputs.run_ios_build }}
+            • iOS distribution: ${{ inputs.run_ios_distribution }}
+            • Version override: ${{ inputs.app_version != '' && inputs.app_version || 'auto (patch)' }}
+
+  prepare-release:
+    name: Prepare Release Version
+    needs: pre-release
+    runs-on: macos-latest
+    outputs:
+      version: ${{ steps.set-version.outputs.version }}
+      build: ${{ steps.set-version.outputs.build }}
+      major_version: ${{ steps.set-version.outputs.majorVersion }}
+      minor_version: ${{ steps.set-version.outputs.minorVersion }}
+      new_major: ${{ steps.set-version.outputs.newMajorVersion }}
+      new_minor: ${{ steps.set-version.outputs.newMinorVersion }}
+      sha: ${{ steps.set-version.outputs.sha }}
+    steps:
+      - name: Telegram notify – prepare-release started
+        if: ${{ needs.pre-release.outputs.telegram_enabled == 'true' }}
+        run: |
+          MESSAGE="🧮 prepare-release job running on macOS."
+          curl -sS -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
+            -d chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" \
+            --data-urlencode text="$MESSAGE"
+
+      - name: Set GitHub App Token
+        uses: actions/create-github-app-token@v1
+        id: app-token
+        with:
+          app-id: ${{ secrets.VERSION_BUMPER_APPID }}
+          private-key: ${{ secrets.VERSION_BUMPER_SECRET }}
+
+      - name: Check out Git repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ steps.app-token.outputs.token }}
+          repository: ${{ github.repository }}
+          ref: ${{ inputs.target_ref }}
+
+      - name: Set up Node environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20.x"
+
+      - name: Install node modules
+        run: yarn --immutable
+        env:
+          NPM_TOKEN_GOOGLE_SIGN_IN: ${{ secrets.NPM_TOKEN_GOOGLE_SIGN_IN }}
+          NPM_TOKEN_FONT_AWESOME: ${{ secrets.NPM_TOKEN_FONT_AWESOME }}
+
+      - name: Apply manual version override
+        if: ${{ inputs.app_version != '' }}
+        run: |
+          VERSION="${{ inputs.app_version }}"
+          if [[ ! "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+            echo "Provided version must be in the form X.Y.Z"
+            exit 1
+          fi
+          node <<'NODE'
+          const fs = require('fs');
+          const path = require('path');
+          const pkgPath = path.resolve('package.json');
+          const pkg = JSON.parse(fs.readFileSync(pkgPath, 'utf8'));
+          pkg.version = process.env.APP_VERSION;
+          fs.writeFileSync(pkgPath, JSON.stringify(pkg, null, 2) + '\n');
+          NODE
+        env:
+          APP_VERSION: ${{ inputs.app_version }}
+
+      - name: Ensure clean git state
+        if: ${{ inputs.app_version == '' }}
+        run: git reset --hard HEAD
+
+      - name: Automated Version Bump
+        if: ${{ inputs.app_version == '' }}
+        uses: paramsinghvc/gh-action-bump-version@master
+        env:
+          GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
+        with:
+          tag-prefix: "v"
+          bump-policy: "ignore"
+          default: patch
+          minor-wording: "__skip_minor__"
+          major-wording: "__skip_major__"
+          skip-tag: "true"
+          skip-push: "true"
+
+      - name: Set Version and Build Number, Tag and Commit
+        id: set-version
+        run: yarn build:set-version
+        shell: bash
+        env:
+          NPM_TOKEN_GOOGLE_SIGN_IN: ${{ secrets.NPM_TOKEN_GOOGLE_SIGN_IN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          NPM_TOKEN_FONT_AWESOME: ${{ secrets.NPM_TOKEN_FONT_AWESOME }}
+          TARGET_REF: ${{ inputs.target_ref }}
+
+  ios-build:
+    name: Build iOS App
+    needs:
+      - pre-release
+      - prepare-release
+    runs-on: macos-latest
+    steps:
+      - name: Telegram notify – ios-build started
+        if: ${{ needs.pre-release.outputs.telegram_enabled == 'true' }}
+        run: |
+          MESSAGE="🍎 ios-build job started."
+          curl -sS -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
+            -d chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" \
+            --data-urlencode text="$MESSAGE"
+
+      - name: iOS build disabled
+        if: ${{ !fromJSON(inputs.run_ios_build) }}
+        run: echo "iOS build disabled via workflow input."
+
+      - name: Set GitHub App Token
+        if: ${{ fromJSON(inputs.run_ios_build) }}
+        id: ios-app-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.VERSION_BUMPER_APPID }}
+          private-key: ${{ secrets.VERSION_BUMPER_SECRET }}
+
+      - name: Set up Xcode
+        if: ${{ fromJSON(inputs.run_ios_build) }}
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: "26.0.1"
+
+      - name: Check Xcode version
+        if: ${{ fromJSON(inputs.run_ios_build) }}
+        run: /usr/bin/xcodebuild -version
+
+      - name: Show installed SDKs
+        if: ${{ fromJSON(inputs.run_ios_build) }}
+        run: /usr/bin/xcodebuild -showsdks
+
+      - name: Check out Git repository
+        if: ${{ fromJSON(inputs.run_ios_build) }}
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ steps.ios-app-token.outputs.token }}
+          repository: ${{ github.repository }}
+          ref: ${{ needs.prepare-release.outputs.sha || inputs.target_ref }}
+
+      - name: Set up Node environment
+        if: ${{ fromJSON(inputs.run_ios_build) }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20.x"
+
+      - name: Setup Ruby
+        if: ${{ fromJSON(inputs.run_ios_build) }}
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2.0"
+          bundler-cache: true
+
+      - name: Install ccache
+        if: ${{ fromJSON(inputs.run_ios_build) }}
+        run: brew install ccache
+
+      - name: Print Node.js and Ruby versions
+        if: ${{ fromJSON(inputs.run_ios_build) }}
+        run: |
+          echo "Node.js version: "
+          node -v
+          echo "Node is located in: "
+          echo "$(which node)"
+          echo "Ruby version: "
+          ruby -v
+
+      - name: Print Node.js directory location
+        if: ${{ fromJSON(inputs.run_ios_build) }}
+        run: |
+          echo "Node.js directory location: $(command -v node)"
+
+      - name: Set NODE_BINARY environment variable
+        if: ${{ fromJSON(inputs.run_ios_build) }}
+        working-directory: ./ios
+        run: |
+          ln -s $(command -v node) /usr/local/bin/node
+          export NODE_BINARY=$(command -v node)
+          export NO_FLIPPER=1
+          echo export NODE_BINARY=$(command -v node) > .xcode.env
+          echo export NODE_BINARY=$(command -v node) > .xcode.env.local
+          echo export NO_FLIPPER=1 >> .xcode.env.local
+
+      - name: Print NODE_BINARY environment variable
+        if: ${{ fromJSON(inputs.run_ios_build) }}
+        run: |
+          echo "NODE_BINARY: $NODE_BINARY"
+
+      - name: Print .xcode.env file content
+        if: ${{ fromJSON(inputs.run_ios_build) }}
+        working-directory: ./ios
+        run: cat .xcode.env
+
+      - name: Install Bundler
+        if: ${{ fromJSON(inputs.run_ios_build) }}
+        working-directory: ./ios
+        run: gem install bundler
+
+      - name: Install dependencies
+        if: ${{ fromJSON(inputs.run_ios_build) }}
+        working-directory: ./ios
+        run: |
+          echo ">>> INSTALL DEPENDENCIES"
+          bundle install
+
+      - name: Create .netrc file for MapBox
+        if: ${{ fromJSON(inputs.run_ios_build) }}
+        run: |
+          touch ~/.netrc
+          chmod 600 ~/.netrc
+          echo "machine api.mapbox.com" >>~/.netrc
+          echo "login mapbox" >>~/.netrc
+          echo "password ${{ secrets.REACT_APP_MAPBOX_TOKEN }}" >>~/.netrc
+          echo "machine github.com" >>~/.netrc
+          echo "login worldlee78" >>~/.netrc
+          echo "password ${{ secrets.GITHUB_TOKEN }}" >>~/.netrc
+
+      - name: Print .netrc file
+        if: ${{ fromJSON(inputs.run_ios_build) }}
+        run: |
+          if [ -f ~/.netrc ]; then
+            cat ~/.netrc
+          else
+            echo ".netrc file does not exist"
+          fi
+
+      - name: Install node modules if cache not present
+        if: ${{ fromJSON(inputs.run_ios_build) }}
+        run: yarn --immutable
+        env:
+          NPM_TOKEN_GOOGLE_SIGN_IN: ${{ secrets.NPM_TOKEN_GOOGLE_SIGN_IN }}
+          NPM_TOKEN_FONT_AWESOME: ${{ secrets.NPM_TOKEN_FONT_AWESOME }}
+
+      - name: Pod Install
+        if: ${{ fromJSON(inputs.run_ios_build) }}
+        run: |
+          yarn ios:podinstall
+        env:
+          NPM_TOKEN_GOOGLE_SIGN_IN: ${{ secrets.NPM_TOKEN_GOOGLE_SIGN_IN }}
+          NPM_TOKEN_FONT_AWESOME: ${{ secrets.NPM_TOKEN_FONT_AWESOME }}
+
+      - name: Create download directories
+        if: ${{ fromJSON(inputs.run_ios_build) }}
+        run: |
+          mkdir -p ./ios/Resources
+
+      - name: Download Geocoder Database for iOS from GitHub Pre-Release
+        if: ${{ fromJSON(inputs.run_ios_build) }}
+        uses: dsaltares/fetch-gh-release-asset@master
+        with:
+          version: "tags/pre-release-database"
+          file: "BBBGeocoder.realm"
+          target: "ios/Resources/BBBGeocoder.realm"
+          token: ${{ secrets.GH_PAT }}
+
+      - name: Copy .env.default to .env
+        if: ${{ fromJSON(inputs.run_ios_build) }}
+        run: cp .env.default .env
+
+      - name: Replace secrets in .env.default and create .env file
+        if: ${{ fromJSON(inputs.run_ios_build) }}
+        run: |
+          yarn replace-secrets
+        env:
+          REACT_APP_APPLE_APP_ID: ${{ secrets.REACT_APP_APPLE_APP_ID }}
+          REACT_APP_DROPBOX_CLIENT_KEY: ${{ secrets.REACT_APP_DROPBOX_CLIENT_KEY }}
+          REACT_APP_DROPBOX_CLIENT_SECRET: ${{ secrets.REACT_APP_DROPBOX_CLIENT_SECRET }}
+          REACT_APP_GOOGLE_MAPS_IOS_API_KEY: ${{ secrets.REACT_APP_GOOGLE_MAPS_IOS_API_KEY }}
+          REACT_APP_GOOGLE_CLIENT_ID: ${{ secrets.REACT_APP_GOOGLE_CLIENT_ID }}
+          REACT_APP_GOOGLE_MAPS_ANDROID_API_KEY: ${{ secrets.REACT_APP_GOOGLE_MAPS_ANDROID_API_KEY }}
+          REACT_APP_GOOGLE_PACKAGE_NAME: ${{ secrets.REACT_APP_GOOGLE_PACKAGE_NAME }}
+          REACT_APP_IAPHUB_API_KEY: ${{ secrets.REACT_APP_IAPHUB_API_KEY }}
+          REACT_APP_IAPHUB_APP_ID: ${{ secrets.REACT_APP_IAPHUB_APP_ID }}
+          REACT_APP_ICLOUD_API_TOKEN: ${{ secrets.REACT_APP_ICLOUD_API_TOKEN }}
+          REACT_APP_ICLOUD_CONTAINER: ${{ secrets.REACT_APP_ICLOUD_CONTAINER }}
+          REACT_APP_MAPBOX_TOKEN: ${{ secrets.REACT_APP_MAPBOX_TOKEN }}
+          NPM_TOKEN_GOOGLE_SIGN_IN: ${{ secrets.NPM_TOKEN_GOOGLE_SIGN_IN }}
+          NPM_TOKEN_FONT_AWESOME: ${{ secrets.NPM_TOKEN_FONT_AWESOME }}
+
+      - name: Print .env file content
+        if: ${{ fromJSON(inputs.run_ios_build) }}
+        run: cat .env
+
+      - name: Print the completion message and file path
+        if: ${{ fromJSON(inputs.run_ios_build) }}
+        run: echo ".env file has been created at ${{ github.workspace }}/.env"
+
+      - name: XCode Build Settings
+        if: ${{ fromJSON(inputs.run_ios_build) }}
+        working-directory: ./ios
+        run: |
+          xcodebuild -configuration Release -showBuildSettings
+
+      - name: Import code sign
+        if: ${{ fromJSON(inputs.run_ios_build) }}
+        uses: Apple-Actions/import-codesign-certs@v1
+        with:
+          p12-file-base64: ${{ secrets.APPLE_CERTIFICATES_FILE_BASE64 }}
+          p12-password: ${{ secrets.APPLE_CERTIFICATES_PASSWORD }}
+
+      - name: Download provisioning
+        if: ${{ fromJSON(inputs.run_ios_build) }}
+        uses: Apple-Actions/download-provisioning-profiles@v1
+        with:
+          bundle-id: com.gtek-solutions.biggerblackerbook
+          profile-type: "IOS_APP_STORE"
+          issuer-id: ${{ secrets.APPLE_APPSTORE_ISSUER_ID }}
+          api-key-id: ${{ secrets.APPLE_APPSTORE_KEY_ID }}
+          api-private-key: ${{ secrets.APPLE_APPSTORE_PRIVATE_KEY }}
+
+      - name: Build iOS App
+        if: ${{ fromJSON(inputs.run_ios_build) }}
+        run: yarn ios:ci:build
+        env:
+          REACT_APP_APPLE_APP_ID: ${{ secrets.REACT_APP_APPLE_APP_ID }}
+          REACT_APP_DROPBOX_CLIENT_KEY: ${{ secrets.REACT_APP_DROPBOX_CLIENT_KEY }}
+          REACT_APP_DROPBOX_CLIENT_SECRET: ${{ secrets.REACT_APP_DROPBOX_CLIENT_SECRET }}
+          REACT_APP_GOOGLE_MAPS_IOS_API_KEY: ${{ secrets.REACT_APP_GOOGLE_MAPS_IOS_API_KEY }}
+          REACT_APP_GOOGLE_CLIENT_ID: ${{ secrets.REACT_APP_GOOGLE_CLIENT_ID }}
+          REACT_APP_GOOGLE_MAPS_ANDROID_API_KEY: ${{ secrets.REACT_APP_GOOGLE_MAPS_ANDROID_API_KEY }}
+          REACT_APP_GOOGLE_PACKAGE_NAME: ${{ secrets.REACT_APP_GOOGLE_PACKAGE_NAME }}
+          REACT_APP_IAPHUB_API_KEY: ${{ secrets.REACT_APP_IAPHUB_API_KEY }}
+          REACT_APP_IAPHUB_APP_ID: ${{ secrets.REACT_APP_IAPHUB_APP_ID }}
+          REACT_APP_ICLOUD_API_TOKEN: ${{ secrets.REACT_APP_ICLOUD_API_TOKEN }}
+          REACT_APP_ICLOUD_CONTAINER: ${{ secrets.REACT_APP_ICLOUD_CONTAINER }}
+          REACT_APP_MAPBOX_TOKEN: ${{ secrets.REACT_APP_MAPBOX_TOKEN }}
+          NPM_TOKEN_GOOGLE_SIGN_IN: ${{ secrets.NPM_TOKEN_GOOGLE_SIGN_IN }}
+          GOOGLE_PLAY_JSON_KEY: ${{ secrets.ANDROID_SERVICE_ACCOUNT_JSON_TEXT }}
+          NPM_TOKEN_FONT_AWESOME: ${{ secrets.NPM_TOKEN_FONT_AWESOME }}
+
+      - name: Upload iOS archive to Artifacts
+        if: ${{ fromJSON(inputs.run_ios_build) && success() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: ios-app
+          path: ios/.build/Artifacts/BiggerBlackerBook.xcarchive.zip
+          retention-days: 3
+
+      - name: Upload iOS IPA to Artifacts
+        if: ${{ fromJSON(inputs.run_ios_build) && success() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: ios-ipa
+          path: ios/.build/Artifacts/BiggerBlackerBook/BiggerBlackerBook.ipa
+          retention-days: 3
+
+  ios-distribute:
+    name: Upload iOS to TestFlight
+    needs:
+      - pre-release
+      - ios-build
+    runs-on: macos-latest
+    steps:
+      - name: Telegram notify – ios-distribute started
+        if: ${{ needs.pre-release.outputs.telegram_enabled == 'true' }}
+        run: |
+          MESSAGE="📤 ios-distribute job started."
+          curl -sS -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
+            -d chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" \
+            --data-urlencode text="$MESSAGE"
+
+      - name: iOS TestFlight upload disabled
+        if: ${{ !fromJSON(inputs.run_ios_distribution) || !fromJSON(inputs.run_ios_build) }}
+        run: echo "iOS TestFlight upload disabled via workflow input or iOS build disabled."
+
+      - name: Download iOS IPA artifact
+        if: ${{ fromJSON(inputs.run_ios_distribution) && fromJSON(inputs.run_ios_build) && needs.ios-build.result == 'success' }}
+        uses: actions/download-artifact@v4
+        with:
+          name: ios-ipa
+          path: ios-artifacts
+
+      - name: Locate downloaded IPA
+        if: ${{ fromJSON(inputs.run_ios_distribution) && fromJSON(inputs.run_ios_build) && needs.ios-build.result == 'success' }}
+        id: locate_ios_ipa
+        run: |
+          set -euo pipefail
+          IPA_PATH="$(find ios-artifacts -type f -name '*.ipa' -print -quit)"
+          if [[ -z "$IPA_PATH" ]]; then
+            echo "Unable to locate .ipa under ios-artifacts" >&2
+            ls -R ios-artifacts || true
+            exit 1
+          fi
+          echo "ipa_path=$IPA_PATH" >> "$GITHUB_OUTPUT"
+
+      - name: Upload to TestFlight
+        if: ${{ fromJSON(inputs.run_ios_distribution) && fromJSON(inputs.run_ios_build) && needs.ios-build.result == 'success' }}
+        uses: Apple-Actions/upload-testflight-build@master
+        with:
+          app-path: ${{ steps.locate_ios_ipa.outputs.ipa_path }}
+          issuer-id: ${{ secrets.APPLE_APPSTORE_ISSUER_ID }}
+          api-key-id: ${{ secrets.APPLE_APPSTORE_KEY_ID }}
+          api-private-key: ${{ secrets.APPLE_APPSTORE_PRIVATE_KEY }}
+
+  android-build:
+    name: Build Android App
+    needs:
+      - pre-release
+      - prepare-release
+    runs-on: macos-latest
+    outputs:
+      aab_path: ${{ steps.build_android.outputs.aab_path }}
+    steps:
+      - name: Telegram notify – android-build started
+        if: ${{ needs.pre-release.outputs.telegram_enabled == 'true' }}
+        run: |
+          MESSAGE="🤖 android-build job started."
+          curl -sS -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
+            -d chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" \
+            --data-urlencode text="$MESSAGE"
+
+      - name: Android build disabled
+        if: ${{ !fromJSON(inputs.run_android_build) }}
+        run: echo "Android build disabled via workflow input."
+
+      - name: Set GitHub App Token
+        if: ${{ fromJSON(inputs.run_android_build) }}
+        id: android-app-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.VERSION_BUMPER_APPID }}
+          private-key: ${{ secrets.VERSION_BUMPER_SECRET }}
+
+      - name: Check out Git repository
+        if: ${{ fromJSON(inputs.run_android_build) }}
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ steps.android-app-token.outputs.token }}
+          repository: ${{ github.repository }}
+          ref: ${{ needs.prepare-release.outputs.sha || inputs.target_ref }}
+
+      - name: Set up Node environment
+        if: ${{ fromJSON(inputs.run_android_build) }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20.x"
+
+      - name: Export Gradle Node path for Android
+        if: ${{ fromJSON(inputs.run_android_build) }}
+        run: echo "ORG_GRADLE_PROJECT_reactNativeNodeExecutableAndArgs=$(command -v node)" >> $GITHUB_ENV
+
+      - name: Set up our JDK environment
+        if: ${{ fromJSON(inputs.run_android_build) }}
+        uses: actions/setup-java@v4
+        with:
+          java-version: "17"
+          distribution: "temurin"
+
+      - name: Install ccache
+        if: ${{ fromJSON(inputs.run_android_build) }}
+        run: brew install ccache
+
+      - name: Install node modules if cache not present
+        if: ${{ fromJSON(inputs.run_android_build) }}
+        run: yarn --immutable
+        env:
+          NPM_TOKEN_GOOGLE_SIGN_IN: ${{ secrets.NPM_TOKEN_GOOGLE_SIGN_IN }}
+          NPM_TOKEN_FONT_AWESOME: ${{ secrets.NPM_TOKEN_FONT_AWESOME }}
+
+      - name: Create .netrc file for MapBox
+        if: ${{ fromJSON(inputs.run_android_build) }}
+        run: |
+          touch ~/.netrc
+          chmod 600 ~/.netrc
+          echo "machine api.mapbox.com" >>~/.netrc
+          echo "login mapbox" >>~/.netrc
+          echo "password ${{ secrets.REACT_APP_MAPBOX_TOKEN }}" >>~/.netrc
+          echo "machine github.com" >>~/.netrc
+          echo "login worldlee78" >>~/.netrc
+          echo "password ${{ secrets.GITHUB_TOKEN }}" >>~/.netrc
+
+      - name: Create download directories
+        if: ${{ fromJSON(inputs.run_android_build) }}
+        run: |
+          mkdir -p ./android/app/src/main/assets
+
+      - name: Download Geocoder Database for Android from GitHub Pre-Release
+        if: ${{ fromJSON(inputs.run_android_build) }}
+        uses: dsaltares/fetch-gh-release-asset@master
+        with:
+          version: "tags/pre-release-database"
+          file: "BBBGeocoder.realm"
+          target: "android/app/src/main/assets/BBBGeocoder.realm"
+          token: ${{ secrets.GH_PAT }}
+
+      - name: Copy .env.default to .env
+        if: ${{ fromJSON(inputs.run_android_build) }}
+        run: cp .env.default .env
+
+      - name: Replace secrets in .env.default and create .env file
+        if: ${{ fromJSON(inputs.run_android_build) }}
+        run: |
+          yarn replace-secrets
+        env:
+          REACT_APP_APPLE_APP_ID: ${{ secrets.REACT_APP_APPLE_APP_ID }}
+          REACT_APP_DROPBOX_CLIENT_KEY: ${{ secrets.REACT_APP_DROPBOX_CLIENT_KEY }}
+          REACT_APP_DROPBOX_CLIENT_SECRET: ${{ secrets.REACT_APP_DROPBOX_CLIENT_SECRET }}
+          REACT_APP_GOOGLE_MAPS_IOS_API_KEY: ${{ secrets.REACT_APP_GOOGLE_MAPS_IOS_API_KEY }}
+          REACT_APP_GOOGLE_CLIENT_ID: ${{ secrets.REACT_APP_GOOGLE_CLIENT_ID }}
+          REACT_APP_GOOGLE_MAPS_ANDROID_API_KEY: ${{ secrets.REACT_APP_GOOGLE_MAPS_ANDROID_API_KEY }}
+          REACT_APP_GOOGLE_PACKAGE_NAME: ${{ secrets.REACT_APP_GOOGLE_PACKAGE_NAME }}
+          REACT_APP_IAPHUB_API_KEY: ${{ secrets.REACT_APP_IAPHUB_API_KEY }}
+          REACT_APP_IAPHUB_APP_ID: ${{ secrets.REACT_APP_IAPHUB_APP_ID }}
+          REACT_APP_ICLOUD_API_TOKEN: ${{ secrets.REACT_APP_ICLOUD_API_TOKEN }}
+          REACT_APP_ICLOUD_CONTAINER: ${{ secrets.REACT_APP_ICLOUD_CONTAINER }}
+          REACT_APP_MAPBOX_TOKEN: ${{ secrets.REACT_APP_MAPBOX_TOKEN }}
+          NPM_TOKEN_GOOGLE_SIGN_IN: ${{ secrets.NPM_TOKEN_GOOGLE_SIGN_IN }}
+          NPM_TOKEN_FONT_AWESOME: ${{ secrets.NPM_TOKEN_FONT_AWESOME }}
+
+      - name: Print .env file content
+        if: ${{ fromJSON(inputs.run_android_build) }}
+        run: cat .env
+
+      - name: Print the completion message and file path
+        if: ${{ fromJSON(inputs.run_android_build) }}
+        run: echo ".env file has been created at ${{ github.workspace }}/.env"
+
+      - name: Make Gradlew Executable
+        if: ${{ fromJSON(inputs.run_android_build) }}
+        working-directory: ./android
+        run: chmod +x ./gradlew
+
+      - name: Create Android Keystore File
+        if: ${{ fromJSON(inputs.run_android_build) }}
+        run: |
+          echo "${{ secrets.ANDROID_SIGNING_KEY }}" | base64 --decode > ${{ github.workspace }}/android/bbbook-key.keystore
+
+      - name: Verify keystore file
+        if: ${{ fromJSON(inputs.run_android_build) }}
+        run: |
+          if [ -f ${{ github.workspace }}/android/bbbook-key.keystore ]; then
+            echo "Keystore file exists."
+          else
+            echo "Keystore file does not exist."
+            exit 1
+          fi
+
+      - name: Create local.properties
+        if: ${{ fromJSON(inputs.run_android_build) }}
+        run: |
+          echo "ANDROID_ALIAS=${{ secrets.ANDROID_ALIAS }}" >> ${{ github.workspace }}/android/local.properties
+          echo "ANDROID_KEY_STORE_PASSWORD=${{ secrets.ANDROID_KEY_STORE_PASSWORD }}" >> ${{ github.workspace }}/android/local.properties
+          echo "ANDROID_KEY_PASSWORD=${{ secrets.ANDROID_KEY_PASSWORD }}" >> ${{ github.workspace }}/android/local.properties
+          echo "${{ secrets.ANDROID_SIGNING_KEY }}" | base64 --decode > ${{ github.workspace }}/android/bbbook-key.keystore
+
+      - name: Print local.properties
+        if: ${{ fromJSON(inputs.run_android_build) }}
+        run: cat ${{ github.workspace }}/android/local.properties
+
+      - name: Point Gradle to Node
+        if: ${{ fromJSON(inputs.run_android_build) }}
+        run: |
+          echo "reactNativeNodeExecutableAndArgs=$(which node)" >> android/gradle.properties
+          echo "Wrote Node path to android/gradle.properties:"
+          tail -n 2 android/gradle.properties
+
+      # ---- Clean native caches to avoid stale autolinking metadata ----
+      - name: Build Android App
+        if: ${{ fromJSON(inputs.run_android_build) }}
+        id: build_android
+        run: |
+          set -o pipefail
+          export METRO_DISABLE_CACHE=1
+          yarn android:build:ci:aab --info --stacktrace 2>&1 | tee android_build.log
+          AAB=$(ls -1t android/app/build/outputs/bundle/release/*.aab | head -n 1)
+          if [[ -z "$AAB" ]]; then
+            echo "Failed to locate built AAB."
+            exit 1
+          fi
+          mkdir -p android/build-artifacts
+          DEST="android/build-artifacts/app-release.aab"
+          cp "$AAB" "$DEST"
+          echo "AAB_PATH=$DEST" >> $GITHUB_ENV
+          echo "Using AAB: $DEST"
+          (command -v sha256sum >/dev/null && sha256sum "$AAB") || shasum -a 256 "$AAB"
+          echo "aab_path=$DEST" >> $GITHUB_OUTPUT
+        env:
+          ORG_GRADLE_PROJECT_reactNativeNodeExecutableAndArgs: ${{ env.ORG_GRADLE_PROJECT_reactNativeNodeExecutableAndArgs }}
+          ORG_GRADLE_PROJECT_newArchEnabled: "true"
+          REACT_APP_APPLE_APP_ID: ${{ secrets.REACT_APP_APPLE_APP_ID }}
+          REACT_APP_DROPBOX_CLIENT_KEY: ${{ secrets.REACT_APP_DROPBOX_CLIENT_KEY }}
+          REACT_APP_DROPBOX_CLIENT_SECRET: ${{ secrets.REACT_APP_DROPBOX_CLIENT_SECRET }}
+          REACT_APP_GOOGLE_MAPS_IOS_API_KEY: ${{ secrets.REACT_APP_GOOGLE_MAPS_IOS_API_KEY }}
+          REACT_APP_GOOGLE_CLIENT_ID: ${{ secrets.REACT_APP_GOOGLE_CLIENT_ID }}
+          REACT_APP_GOOGLE_MAPS_ANDROID_API_KEY: ${{ secrets.REACT_APP_GOOGLE_MAPS_ANDROID_API_KEY }}
+          REACT_APP_GOOGLE_PACKAGE_NAME: ${{ secrets.REACT_APP_GOOGLE_PACKAGE_NAME }}
+          REACT_APP_IAPHUB_API_KEY: ${{ secrets.REACT_APP_IAPHUB_API_KEY }}
+          REACT_APP_IAPHUB_APP_ID: ${{ secrets.REACT_APP_IAPHUB_APP_ID }}
+          REACT_APP_ICLOUD_API_TOKEN: ${{ secrets.REACT_APP_ICLOUD_API_TOKEN }}
+          REACT_APP_ICLOUD_CONTAINER: ${{ secrets.REACT_APP_ICLOUD_CONTAINER }}
+          REACT_APP_MAPBOX_TOKEN: ${{ secrets.REACT_APP_MAPBOX_TOKEN }}
+          NPM_TOKEN_GOOGLE_SIGN_IN: ${{ secrets.NPM_TOKEN_GOOGLE_SIGN_IN }}
+          NPM_TOKEN_FONT_AWESOME: ${{ secrets.NPM_TOKEN_FONT_AWESOME }}
+
+      - name: Upload Android diagnostics
+        if: ${{ always() && fromJSON(inputs.run_android_build) }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: android-diagnostics
+          path: |
+            android/build/reports/problems
+            android/app/.cxx/**/CMakeOutput.log
+            android/app/.cxx/**/CMakeError.log
+            android/app/build/generated/autolinking/autolinking.json
+            android/app/build/generated/autolinking/src/main/jni/Android-autolinking.cmake
+            android_build.log
+          if-no-files-found: ignore
+          retention-days: 5
+
+      - name: Upload Android Application to Artifacts
+        if: ${{ fromJSON(inputs.run_android_build) && success() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: android-app
+          path: ${{ env.AAB_PATH }}
+          retention-days: 3
+
+  android-distribute:
+    name: Publish Android App
+    needs:
+      - pre-release
+      - prepare-release
+      - android-build
+    runs-on: ubuntu-latest
+    if: always()
+    outputs:
+      conclusion: ${{ steps.finalize.outputs.conclusion }}
+    steps:
+      - name: Telegram notify – android-distribute started
+        if: ${{ needs.pre-release.outputs.telegram_enabled == 'true' }}
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_CHAT_ID }}
+          token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          message: "🚀 android-distribute job started."
+
+      - name: Evaluate distribution conditions
+        id: gate
+        run: |
+          status="skipped"
+          should_run="false"
+          reason=""
+          if [[ "$RUN_ANDROID_DISTRIBUTION" != "true" ]]; then
+            reason="Distribution disabled via workflow input."
+          elif [[ "$RUN_ANDROID_BUILD" != "true" ]]; then
+            reason="Android build disabled; cannot distribute."
+          elif [[ "$BUILD_RESULT" != "success" ]]; then
+            reason="Android build did not succeed (status: $BUILD_RESULT)."
+            status="$BUILD_RESULT"
+          elif [[ -z "$AAB_RELATIVE_PATH" ]]; then
+            reason="Android artifact path missing from build."
+            status="failed"
+          else
+            should_run="true"
+            status="pending"
+          fi
+
+          echo "should_run=$should_run" >> $GITHUB_OUTPUT
+          echo "status=$status" >> $GITHUB_OUTPUT
+          if [[ -n "$reason" ]]; then
+            echo "$reason"
+          fi
+        env:
+          RUN_ANDROID_DISTRIBUTION: ${{ format('{0}', inputs.run_android_distribution) }}
+          RUN_ANDROID_BUILD: ${{ format('{0}', inputs.run_android_build) }}
+          BUILD_RESULT: ${{ needs.android-build.result }}
+          AAB_RELATIVE_PATH: ${{ needs.android-build.outputs.aab_path }}
+
+      - name: Distribution skipped
+        if: ${{ steps.gate.outputs.should_run != 'true' }}
+        run: echo "Android distribution skipped."
+
+      - name: Check out Git repository
+        if: ${{ steps.gate.outputs.should_run == 'true' }}
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          repository: ${{ github.repository }}
+          ref: ${{ needs.prepare-release.outputs.sha || inputs.target_ref }}
+
+      - name: Download Android artifact
+        if: ${{ steps.gate.outputs.should_run == 'true' }}
+        uses: actions/download-artifact@v4
+        with:
+          name: android-app
+          path: android-artifacts
+
+      - name: Gather closed issues notes
+        if: ${{ steps.gate.outputs.should_run == 'true' }}
+        id: closed_issues
+        run: |
+          echo "issues_notes=Not captured in automation." >> $GITHUB_OUTPUT
+
+      - name: Build Play release notes file
+        if: ${{ steps.gate.outputs.should_run == 'true' }}
+        id: build_notes
+        run: |
+          NOTES_DIR=release-notes/en-US
+          mkdir -p $NOTES_DIR
+          {
+            cat distribution/play-whatsnew.md
+            echo ""
+            echo "--"
+            echo "Issues fixed in this build:"
+            echo "${{ steps.closed_issues.outputs.issues_notes }}"
+          } > $NOTES_DIR/default.txt
+
+      - name: Locate Android artifact
+        if: ${{ steps.gate.outputs.should_run == 'true' }}
+        id: locate_aab
+        run: |
+          set -euo pipefail
+          TARGET_BASENAME="$(basename "${AAB_RELATIVE_PATH}")"
+          CANDIDATE="android-artifacts/${AAB_RELATIVE_PATH}"
+
+          if [[ -f "$CANDIDATE" ]]; then
+            FILE="$CANDIDATE"
+          else
+            echo "Primary path $CANDIDATE not found. Scanning downloaded artifact directory..."
+            FILE="$(find android-artifacts -type f -name "$TARGET_BASENAME" -print -quit || true)"
+          fi
+
+          if [[ -z "$FILE" || ! -f "$FILE" ]]; then
+            echo "Android artifact ${TARGET_BASENAME} not found under android-artifacts/"
+            ls -R android-artifacts || true
+            exit 1
+          fi
+
+          echo "Found AAB at $FILE"
+          echo "upload_path=$FILE" >> $GITHUB_OUTPUT
+        env:
+          AAB_RELATIVE_PATH: ${{ needs.android-build.outputs.aab_path }}
+
+      - name: Upload App to Google Play
+        if: ${{ steps.gate.outputs.should_run == 'true' }}
+        id: upload_play
+        uses: r0adkll/upload-google-play@v1
+        with:
+          serviceAccountJsonPlainText: ${{ secrets.ANDROID_SERVICE_ACCOUNT_JSON_TEXT }}
+          packageName: com.gteksolutions.BiggerBlackerBook
+          releaseFiles: ${{ steps.locate_aab.outputs.upload_path }}
+          track: internal
+          status: completed
+          inAppUpdatePriority: 2
+          whatsNewDirectory: distribution/whatsnew
+          changesNotSentForReview: true
+
+      - name: Finalize distribution status
+        if: always()
+        id: finalize
+        run: |
+          if [[ "${{ steps.gate.outputs.should_run }}" != "true" ]]; then
+            echo "conclusion=${{ steps.gate.outputs.status }}" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          case "$UPLOAD_CONCLUSION" in
+            success) conclusion="success";;
+            failure) conclusion="failure";;
+            cancelled) conclusion="cancelled";;
+            *) conclusion="${UPLOAD_CONCLUSION:-unknown}";;
+          esac
+          echo "conclusion=$conclusion" >> $GITHUB_OUTPUT
+        env:
+          UPLOAD_CONCLUSION: ${{ steps.upload_play.conclusion }}
+
+  deploy-docs:
+    if: ${{ fromJSON(inputs.run_deploy_docs) }}
+    name: Deploy Technical Docs
+    needs: prepare-release
+    runs-on: ubuntu-latest
+    outputs:
+      result: ${{ steps.set_result.outputs.result }}
+    steps:
+      # Checkout repo
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # Set up Node
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+          cache: "yarn"
+        env:
+          REACT_APP_APPLE_APP_ID: ${{ secrets.REACT_APP_APPLE_APP_ID }}
+          REACT_APP_DROPBOX_CLIENT_KEY: ${{ secrets.REACT_APP_DROPBOX_CLIENT_KEY }}
+          REACT_APP_DROPBOX_CLIENT_SECRET: ${{ secrets.REACT_APP_DROPBOX_CLIENT_SECRET }}
+          REACT_APP_GOOGLE_MAPS_IOS_API_KEY: ${{ secrets.REACT_APP_GOOGLE_MAPS_IOS_API_KEY }}
+          REACT_APP_GOOGLE_CLIENT_ID: ${{ secrets.REACT_APP_GOOGLE_CLIENT_ID }}
+          REACT_APP_GOOGLE_MAPS_ANDROID_API_KEY: ${{ secrets.REACT_APP_GOOGLE_MAPS_ANDROID_API_KEY }}
+          REACT_APP_GOOGLE_PACKAGE_NAME: ${{ secrets.REACT_APP_GOOGLE_PACKAGE_NAME }}
+          REACT_APP_IAPHUB_API_KEY: ${{ secrets.REACT_APP_IAPHUB_API_KEY }}
+          REACT_APP_IAPHUB_APP_ID: ${{ secrets.REACT_APP_IAPHUB_APP_ID }}
+          REACT_APP_ICLOUD_API_TOKEN: ${{ secrets.REACT_APP_ICLOUD_API_TOKEN }}
+          REACT_APP_ICLOUD_CONTAINER: ${{ secrets.REACT_APP_ICLOUD_CONTAINER }}
+          REACT_APP_MAPBOX_TOKEN: ${{ secrets.REACT_APP_MAPBOX_TOKEN }}
+          NPM_TOKEN_GOOGLE_SIGN_IN: ${{ secrets.NPM_TOKEN_GOOGLE_SIGN_IN }}
+          NPM_TOKEN_FONT_AWESOME: ${{ secrets.NPM_TOKEN_FONT_AWESOME }}
+
+
+      - name: Install Yarn
+        run: yarn set version 4.9.1
+        env:
+          REACT_APP_APPLE_APP_ID: ${{ secrets.REACT_APP_APPLE_APP_ID }}
+          REACT_APP_DROPBOX_CLIENT_KEY: ${{ secrets.REACT_APP_DROPBOX_CLIENT_KEY }}
+          REACT_APP_DROPBOX_CLIENT_SECRET: ${{ secrets.REACT_APP_DROPBOX_CLIENT_SECRET }}
+          REACT_APP_GOOGLE_MAPS_IOS_API_KEY: ${{ secrets.REACT_APP_GOOGLE_MAPS_IOS_API_KEY }}
+          REACT_APP_GOOGLE_CLIENT_ID: ${{ secrets.REACT_APP_GOOGLE_CLIENT_ID }}
+          REACT_APP_GOOGLE_MAPS_ANDROID_API_KEY: ${{ secrets.REACT_APP_GOOGLE_MAPS_ANDROID_API_KEY }}
+          REACT_APP_GOOGLE_PACKAGE_NAME: ${{ secrets.REACT_APP_GOOGLE_PACKAGE_NAME }}
+          REACT_APP_IAPHUB_API_KEY: ${{ secrets.REACT_APP_IAPHUB_API_KEY }}
+          REACT_APP_IAPHUB_APP_ID: ${{ secrets.REACT_APP_IAPHUB_APP_ID }}
+          REACT_APP_ICLOUD_API_TOKEN: ${{ secrets.REACT_APP_ICLOUD_API_TOKEN }}
+          REACT_APP_ICLOUD_CONTAINER: ${{ secrets.REACT_APP_ICLOUD_CONTAINER }}
+          REACT_APP_MAPBOX_TOKEN: ${{ secrets.REACT_APP_MAPBOX_TOKEN }}
+          NPM_TOKEN_GOOGLE_SIGN_IN: ${{ secrets.NPM_TOKEN_GOOGLE_SIGN_IN }}
+          NPM_TOKEN_FONT_AWESOME: ${{ secrets.NPM_TOKEN_FONT_AWESOME }}
+
+
+      - name: Install dependencies
+        run: yarn --immutable
+        env:
+          REACT_APP_APPLE_APP_ID: ${{ secrets.REACT_APP_APPLE_APP_ID }}
+          REACT_APP_DROPBOX_CLIENT_KEY: ${{ secrets.REACT_APP_DROPBOX_CLIENT_KEY }}
+          REACT_APP_DROPBOX_CLIENT_SECRET: ${{ secrets.REACT_APP_DROPBOX_CLIENT_SECRET }}
+          REACT_APP_GOOGLE_MAPS_IOS_API_KEY: ${{ secrets.REACT_APP_GOOGLE_MAPS_IOS_API_KEY }}
+          REACT_APP_GOOGLE_CLIENT_ID: ${{ secrets.REACT_APP_GOOGLE_CLIENT_ID }}
+          REACT_APP_GOOGLE_MAPS_ANDROID_API_KEY: ${{ secrets.REACT_APP_GOOGLE_MAPS_ANDROID_API_KEY }}
+          REACT_APP_GOOGLE_PACKAGE_NAME: ${{ secrets.REACT_APP_GOOGLE_PACKAGE_NAME }}
+          REACT_APP_IAPHUB_API_KEY: ${{ secrets.REACT_APP_IAPHUB_API_KEY }}
+          REACT_APP_IAPHUB_APP_ID: ${{ secrets.REACT_APP_IAPHUB_APP_ID }}
+          REACT_APP_ICLOUD_API_TOKEN: ${{ secrets.REACT_APP_ICLOUD_API_TOKEN }}
+          REACT_APP_ICLOUD_CONTAINER: ${{ secrets.REACT_APP_ICLOUD_CONTAINER }}
+          REACT_APP_MAPBOX_TOKEN: ${{ secrets.REACT_APP_MAPBOX_TOKEN }}
+          NPM_TOKEN_GOOGLE_SIGN_IN: ${{ secrets.NPM_TOKEN_GOOGLE_SIGN_IN }}
+          NPM_TOKEN_FONT_AWESOME: ${{ secrets.NPM_TOKEN_FONT_AWESOME }}
+
+      - name: Build Docusaurus site
+        run: yarn docs:build:ci
+        env:
+          REACT_APP_APPLE_APP_ID: ${{ secrets.REACT_APP_APPLE_APP_ID }}
+          REACT_APP_DROPBOX_CLIENT_KEY: ${{ secrets.REACT_APP_DROPBOX_CLIENT_KEY }}
+          REACT_APP_DROPBOX_CLIENT_SECRET: ${{ secrets.REACT_APP_DROPBOX_CLIENT_SECRET }}
+          REACT_APP_GOOGLE_MAPS_IOS_API_KEY: ${{ secrets.REACT_APP_GOOGLE_MAPS_IOS_API_KEY }}
+          REACT_APP_GOOGLE_CLIENT_ID: ${{ secrets.REACT_APP_GOOGLE_CLIENT_ID }}
+          REACT_APP_GOOGLE_MAPS_ANDROID_API_KEY: ${{ secrets.REACT_APP_GOOGLE_MAPS_ANDROID_API_KEY }}
+          REACT_APP_GOOGLE_PACKAGE_NAME: ${{ secrets.REACT_APP_GOOGLE_PACKAGE_NAME }}
+          REACT_APP_IAPHUB_API_KEY: ${{ secrets.REACT_APP_IAPHUB_API_KEY }}
+          REACT_APP_IAPHUB_APP_ID: ${{ secrets.REACT_APP_IAPHUB_APP_ID }}
+          REACT_APP_ICLOUD_API_TOKEN: ${{ secrets.REACT_APP_ICLOUD_API_TOKEN }}
+          REACT_APP_ICLOUD_CONTAINER: ${{ secrets.REACT_APP_ICLOUD_CONTAINER }}
+          REACT_APP_MAPBOX_TOKEN: ${{ secrets.REACT_APP_MAPBOX_TOKEN }}
+          NPM_TOKEN_GOOGLE_SIGN_IN: ${{ secrets.NPM_TOKEN_GOOGLE_SIGN_IN }}
+          NPM_TOKEN_FONT_AWESOME: ${{ secrets.NPM_TOKEN_FONT_AWESOME }}
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+
+      - name: Set result output
+        id: set_result
+        run: echo "result=success" >> $GITHUB_OUTPUT
+
+  deploy-user-docs:
+    if: ${{ fromJSON(inputs.run_deploy_user_docs) }}
+    name: Deploy User Docs
+    runs-on: ubuntu-latest
+    needs: prepare-release
+    outputs:
+      result: ${{ steps.set_result.outputs.result }}
+    steps:
+      - name: Trigger deploy-user-docs in website repo
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.WEBSITE_PAT }}
+          repository: betterfraternization/BiggerBlackerBookWebsite
+          event-type: deploy-website
+
+      - name: Set result output
+        id: set_result
+        run: echo "result=success" >> $GITHUB_OUTPUT
+
+  notify:
+    name: Post-Release
+    needs:
+      - pre-release
+      - prepare-release
+      - ios-build
+      - ios-distribute
+      - android-build
+      - android-distribute
+      - deploy-user-docs
+      - deploy-docs
+
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Telegram notify – notify job started
+        if: ${{ needs.pre-release.outputs.telegram_enabled == 'true' }}
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_CHAT_ID }}
+          token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          message: "📝 notify job started (post-release processing)."
+
+      - name: Set GitHub App Token
+        if: ${{ needs.prepare-release.result == 'success' && needs.prepare-release.outputs.new_major == 'true' }}
+        id: post-app-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.VERSION_BUMPER_APPID }}
+          private-key: ${{ secrets.VERSION_BUMPER_SECRET }}
+
+      - name: Check out Git repository
+        if: ${{ needs.prepare-release.result == 'success' && needs.prepare-release.outputs.new_major == 'true' }}
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ steps.post-app-token.outputs.token }}
+          repository: ${{ github.repository }}
+          ref: ${{ needs.prepare-release.outputs.sha || inputs.target_ref }}
+
+      - name: Create release branch if major version
+        if: ${{ needs.prepare-release.result == 'success' && needs.prepare-release.outputs.new_major == 'true' }}
+        env:
+          GITHUB_TOKEN: ${{ steps.post-app-token.outputs.token }}
+        run: |
+          BRANCH_NAME=releases/${{ needs.prepare-release.outputs.major_version }}.0.0
+          if ! git ls-remote --exit-code --heads origin $BRANCH_NAME; then
+            git checkout -b $BRANCH_NAME
+            git push origin $BRANCH_NAME
+          else
+            echo "Branch $BRANCH_NAME already exists. Skipping branch creation."
+          fi
+
+      - name: Create GitHub Release
+        if: ${{ needs.prepare-release.result == 'success' && (needs.prepare-release.outputs.new_major == 'true' || needs.prepare-release.outputs.new_minor == 'true') }}
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v${{ needs.prepare-release.outputs.version }}
+          release_name: Release v${{ needs.prepare-release.outputs.version }}
+          body: "Release v${{ needs.prepare-release.outputs.version }}.${{ needs.prepare-release.outputs.build }}"
+          draft: false
+          prerelease: false
+
+      - name: Prepare notification message
+        id: telegram_payload
+        run: |
+          format_line() {
+            local label="$1"
+            local enabled="$2"
+            local result="$3"
+            if [[ "$enabled" != "true" ]]; then
+              echo "$label: ⏭️ Disabled"
+              return
+            fi
+            case "$result" in
+              success) icon="✅"; status="Success";;
+              failure) icon="❌"; status="Failed";;
+              cancelled) icon="🚫"; status="Cancelled";;
+              skipped) icon="⏭️"; status="Skipped";;
+              *) icon="⚠️"; status="$result";;
+            esac
+            echo "$label: $icon $status"
+          }
+
+          android_build_enabled="${{ format('{0}', inputs.run_android_build) }}"
+          ios_build_enabled="${{ format('{0}', inputs.run_ios_build) }}"
+          ios_distribution_enabled="${{ format('{0}', inputs.run_ios_distribution) }}"
+          android_distribution_enabled="${{ format('{0}', inputs.run_android_distribution) }}"
+          deploy_docs_enabled="${{ format('{0}', inputs.run_deploy_docs) }}"
+          deploy_user_docs_enabled="${{ format('{0}', inputs.run_deploy_user_docs) }}"
+
+          overall="success"
+          if [[ "${{ needs.prepare-release.result }}" != "success" ]]; then
+            overall="failed"
+          fi
+          if [[ "$android_build_enabled" == "true" && "${{ needs.android-build.result }}" != "success" ]]; then
+            overall="failed"
+          fi
+          if [[ "$ios_build_enabled" == "true" && "${{ needs.ios-build.result }}" != "success" ]]; then
+            overall="failed"
+          fi
+          if [[ "$ios_distribution_enabled" == "true" && "${{ needs.ios-distribute.result }}" != "success" ]]; then
+            overall="failed"
+          fi
+          if [[ "$deploy_docs_enabled" == "true" && "${{ needs.deploy-docs.outputs.result }}" != "success" ]]; then
+            overall="failed"
+          fi
+          if [[ "$deploy_user_docs_enabled" == "true" && "${{ needs.deploy-user-docs.outputs.result }}" != "success" ]]; then
+            overall="failed"
+          fi
+          android_upload_enabled="false"
+          if [[ "$android_distribution_enabled" == "true" && "$android_build_enabled" == "true" ]]; then
+            android_upload_enabled="true"
+            if [[ "${{ needs.android-distribute.outputs.conclusion }}" != "success" ]]; then
+              overall="failed"
+            fi
+          fi
+
+          case "$overall" in
+            failed) summary_icon="❌"; summary_text="Failed";;
+            *) summary_icon="✅"; summary_text="Success";;
+          esac
+
+          VERSION="${{ needs.prepare-release.outputs.version }}"
+          BUILD_NUMBER="${{ needs.prepare-release.outputs.build }}"
+          if [[ -z "$VERSION" ]]; then
+            VERSION="unknown"
+          fi
+          if [[ -z "$BUILD_NUMBER" ]]; then
+            BUILD_NUMBER="?"
+          fi
+
+          message="$(
+          {
+            echo "${summary_icon} Release outcome: $summary_text"
+            echo "Version: $VERSION.$BUILD_NUMBER"
+            echo "Branch: ${{ inputs.target_ref }}"
+            echo ""
+            format_line "Android Build" "$android_build_enabled" "${{ needs.android-build.result }}"
+            format_line "iOS Build" "$ios_build_enabled" "${{ needs.ios-build.result }}"
+            format_line "iOS TestFlight" "$ios_distribution_enabled" "${{ needs.ios-distribute.result }}"
+            format_line "Android Upload" "$android_upload_enabled" "${{ needs.android-distribute.outputs.conclusion }}"
+            format_line "Technical Docs" "$deploy_docs_enabled" "${{ needs.deploy-docs.outputs.result }}"
+            format_line "User Docs" "$deploy_user_docs_enabled" "${{ needs.deploy-user-docs.outputs.result }}"
+
+            }
+          )"
+
+          printf 'message<<EOF\n%s\nEOF\n' "$message" >> "$GITHUB_OUTPUT"
+
+      - name: Determine Telegram availability
+        id: telegram_guard
+        run: |
+          if [[ -n "$TELEGRAM_BOT_TOKEN" && -n "$TELEGRAM_CHAT_ID" ]]; then
+            echo "enabled=true" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          echo "enabled=false" >> $GITHUB_OUTPUT
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+      - name: Send Telegram Notification
+        if: ${{ steps.telegram_guard.outputs.enabled == 'true' }}
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_CHAT_ID }}
+          token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          message: ${{ steps.telegram_payload.outputs.message }}
