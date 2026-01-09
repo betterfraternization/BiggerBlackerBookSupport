@@ -1,0 +1,359 @@
+[2026-01-09T23:57:27.573Z] [debug] 2026-01-09T23:57:27.573Z | DEBUG : [Database] Finished retrieving all records in Tombstone table | raw: ["[Database] Finished retrieving all records in Tombstone table"]
+[2026-01-09T23:57:27.568Z] [debug] 2026-01-09T23:57:27.568Z | DEBUG : [Database] Retrieving all records in Tombstone table: 0 records found | raw: ["[Database] Retrieving all records in Tombstone table: 0 records found"]
+[2026-01-09T23:57:27.564Z] [debug] 2026-01-09T23:57:27.564Z | DEBUG : [Database] Finished retrieving all records in Tombstone table | raw: ["[Database] Finished retrieving all records in Tombstone table"]
+[2026-01-09T23:57:27.561Z] [debug] 2026-01-09T23:57:27.560Z | DEBUG : [Database] Retrieving all records in Tombstone table: 0 records found | raw: ["[Database] Retrieving all records in Tombstone table: 0 records found"]
+[2026-01-09T23:57:26.789Z] [info] 2026-01-09T23:57:26.788Z | INFO : Navigating to route name: SupportRequest | raw: ["Navigating to route name: SupportRequest"]
+[2026-01-09T23:57:26.777Z] [debug] 2026-01-09T23:57:26.777Z | DEBUG : [Navigation] Current route name: SupportRequest | raw: ["[Navigation] Current route name:","SupportRequest"]
+[2026-01-09T23:57:26.772Z] [debug] 2026-01-09T23:57:26.772Z | DEBUG : [Navigation] Previous route name: FeedbackAndSupport | raw: ["[Navigation] Previous route name:","FeedbackAndSupport"]
+[2026-01-09T23:57:24.268Z] [info] 2026-01-09T23:57:24.268Z | INFO : Navigating to route name: FeedbackAndSupport | raw: ["Navigating to route name: FeedbackAndSupport"]
+[2026-01-09T23:57:24.257Z] [debug] 2026-01-09T23:57:24.257Z | DEBUG : [Navigation] Current route name: FeedbackAndSupport | raw: ["[Navigation] Current route name:","FeedbackAndSupport"]
+[2026-01-09T23:57:24.248Z] [debug] 2026-01-09T23:57:24.248Z | DEBUG : [Navigation] Previous route name: Settings | raw: ["[Navigation] Previous route name:","Settings"]
+[2026-01-09T23:57:21.280Z] [info] 2026-01-09T23:57:21.280Z | INFO : Navigating to route name: Settings | raw: ["Navigating to route name: Settings"]
+[2026-01-09T23:57:21.269Z] [debug] 2026-01-09T23:57:21.269Z | DEBUG : [Navigation] Current route name: Settings | raw: ["[Navigation] Current route name:","Settings"]
+[2026-01-09T23:57:21.264Z] [debug] 2026-01-09T23:57:21.264Z | DEBUG : [Navigation] Previous route name: SettingsStack | raw: ["[Navigation] Previous route name:","SettingsStack"]
+[2026-01-09T23:57:21.047Z] [info] 2026-01-09T23:57:21.047Z | INFO : Navigating to route name: SettingsStack | raw: ["Navigating to route name: SettingsStack"]
+[2026-01-09T23:57:21.041Z] [debug] 2026-01-09T23:57:21.041Z | DEBUG : [Navigation] Current route name: SettingsStack | raw: ["[Navigation] Current route name:","SettingsStack"]
+[2026-01-09T23:57:21.036Z] [debug] 2026-01-09T23:57:21.036Z | DEBUG : [Navigation] Previous route name: Calendar | raw: ["[Navigation] Previous route name:","Calendar"]
+[2026-01-09T23:57:18.834Z] [warn] 2026-01-09T23:57:18.834Z | WARN : [useViewModelHooks] Encountered invalidated Realm object while comparing arrays 
+{
+  "error": {},
+  "index": 0
+} | raw: ["[useViewModelHooks] Encountered invalidated Realm object while comparing arrays",{"error":{},"index":0}]
+[2026-01-09T23:57:18.828Z] [warn] 2026-01-09T23:57:18.828Z | WARN : [useViewModelHooks] Encountered invalidated Realm object while comparing arrays 
+{
+  "error": {},
+  "index": 0
+} | raw: ["[useViewModelHooks] Encountered invalidated Realm object while comparing arrays",{"error":{},"index":0}]
+[2026-01-09T23:57:18.823Z] [warn] 2026-01-09T23:57:18.823Z | WARN : [useViewModelHooks] Encountered invalidated Realm object while comparing arrays 
+{
+  "error": {},
+  "index": 0
+} | raw: ["[useViewModelHooks] Encountered invalidated Realm object while comparing arrays",{"error":{},"index":0}]
+[2026-01-09T23:57:18.818Z] [warn] 2026-01-09T23:57:18.818Z | WARN : [useViewModelHooks] Encountered invalidated Realm object while comparing arrays 
+{
+  "error": {},
+  "index": 0
+} | raw: ["[useViewModelHooks] Encountered invalidated Realm object while comparing arrays",{"error":{},"index":0}]
+[2026-01-09T23:57:18.812Z] [warn] 2026-01-09T23:57:18.812Z | WARN : [useViewModelHooks] Encountered invalidated Realm object while comparing arrays 
+{
+  "error": {},
+  "index": 0
+} | raw: ["[useViewModelHooks] Encountered invalidated Realm object while comparing arrays",{"error":{},"index":0}]
+[2026-01-09T23:57:18.807Z] [warn] 2026-01-09T23:57:18.807Z | WARN : [useViewModelHooks] Encountered invalidated Realm object while comparing arrays 
+{
+  "error": {},
+  "index": 0
+} | raw: ["[useViewModelHooks] Encountered invalidated Realm object while comparing arrays",{"error":{},"index":0}]
+[2026-01-09T23:57:18.793Z] [warn] 2026-01-09T23:57:18.793Z | WARN : [useViewModelHooks] Encountered invalidated Realm object while comparing arrays 
+{
+  "error": {},
+  "index": 0
+} | raw: ["[useViewModelHooks] Encountered invalidated Realm object while comparing arrays",{"error":{},"index":0}]
+[2026-01-09T23:57:18.787Z] [warn] 2026-01-09T23:57:18.787Z | WARN : [useViewModelHooks] Encountered invalidated Realm object while comparing arrays 
+{
+  "error": {},
+  "index": 0
+} | raw: ["[useViewModelHooks] Encountered invalidated Realm object while comparing arrays",{"error":{},"index":0}]
+[2026-01-09T23:57:18.752Z] [debug] 2026-01-09T23:57:18.752Z | DEBUG : [Database] Finished retrieving all records in CalendarEvent table | raw: ["[Database] Finished retrieving all records in CalendarEvent table"]
+[2026-01-09T23:57:18.748Z] [debug] 2026-01-09T23:57:18.748Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 81 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 81 records found"]
+[2026-01-09T23:57:18.738Z] [debug] 2026-01-09T23:57:18.738Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-09T23:57:18.733Z] [debug] 2026-01-09T23:57:18.733Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 9 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 9 records found"]
+[2026-01-09T23:57:18.729Z] [debug] 2026-01-09T23:57:18.729Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-09T23:57:18.723Z] [debug] 2026-01-09T23:57:18.723Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 9 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 9 records found"]
+[2026-01-09T23:57:18.717Z] [debug] 2026-01-09T23:57:18.717Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-09T23:57:18.713Z] [debug] 2026-01-09T23:57:18.713Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Encounter table: 66 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Encounter table: 66 records found"]
+[2026-01-09T23:57:18.707Z] [debug] 2026-01-09T23:57:18.707Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-09T23:57:18.703Z] [debug] 2026-01-09T23:57:18.703Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 9 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 9 records found"]
+[2026-01-09T23:57:18.698Z] [debug] 2026-01-09T23:57:18.698Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-09T23:57:18.694Z] [debug] 2026-01-09T23:57:18.694Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 9 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 9 records found"]
+[2026-01-09T23:57:18.689Z] [debug] 2026-01-09T23:57:18.688Z | DEBUG : [Database] Finished retrieving all records in CalendarEvent table | raw: ["[Database] Finished retrieving all records in CalendarEvent table"]
+[2026-01-09T23:57:18.683Z] [debug] 2026-01-09T23:57:18.683Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 81 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 81 records found"]
+[2026-01-09T23:57:18.678Z] [debug] 2026-01-09T23:57:18.678Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-09T23:57:18.673Z] [debug] 2026-01-09T23:57:18.673Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 9 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 9 records found"]
+[2026-01-09T23:57:18.668Z] [debug] 2026-01-09T23:57:18.668Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-09T23:57:18.663Z] [debug] 2026-01-09T23:57:18.663Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 9 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 9 records found"]
+[2026-01-09T23:57:18.658Z] [debug] 2026-01-09T23:57:18.658Z | DEBUG : [Database] Finished retrieving all records in CalendarEvent table | raw: ["[Database] Finished retrieving all records in CalendarEvent table"]
+[2026-01-09T23:57:18.653Z] [debug] 2026-01-09T23:57:18.653Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 81 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 81 records found"]
+[2026-01-09T23:57:18.643Z] [debug] 2026-01-09T23:57:18.643Z | DEBUG : [MainAppNavigator] Rendering RootStack.Navigator with initialRouteName: BottomTabs | raw: ["[MainAppNavigator] Rendering RootStack.Navigator with initialRouteName:","BottomTabs"]
+[2026-01-09T23:57:18.635Z] [info] 2026-01-09T23:57:18.635Z | INFO : [AutoBackup] hook mounted | raw: ["[AutoBackup] hook mounted"]
+[2026-01-09T23:57:18.628Z] [debug] 2026-01-09T23:57:18.628Z | DEBUG : [Database] Finished retrieving all records in MedicationLog table | raw: ["[Database] Finished retrieving all records in MedicationLog table"]
+[2026-01-09T23:57:18.623Z] [debug] 2026-01-09T23:57:18.623Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 38 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 38 records found"]
+[2026-01-09T23:57:18.618Z] [debug] 2026-01-09T23:57:18.618Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-09T23:57:18.614Z] [debug] 2026-01-09T23:57:18.614Z | DEBUG : [Database] Retrieving all records in Encounter table: 66 records found | raw: ["[Database] Retrieving all records in Encounter table: 66 records found"]
+[2026-01-09T23:57:18.609Z] [debug] 2026-01-09T23:57:18.609Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-01-09T23:57:18.604Z] [debug] 2026-01-09T23:57:18.604Z | DEBUG : [Database] Retrieving all records in Treatment table: 0 records found | raw: ["[Database] Retrieving all records in Treatment table: 0 records found"]
+[2026-01-09T23:57:18.600Z] [debug] 2026-01-09T23:57:18.600Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-01-09T23:57:18.595Z] [debug] 2026-01-09T23:57:18.595Z | DEBUG : [Database] Retrieving all records in TestTaken table: 15 records found | raw: ["[Database] Retrieving all records in TestTaken table: 15 records found"]
+[2026-01-09T23:56:33.108Z] [debug] 2026-01-09T23:56:33.108Z | DEBUG : [MainAppNavigator] Rendering RootStack.Navigator with initialRouteName: BottomTabs | raw: ["[MainAppNavigator] Rendering RootStack.Navigator with initialRouteName:","BottomTabs"]
+[2026-01-09T23:56:33.104Z] [info] 2026-01-09T23:56:33.104Z | INFO : [AutoBackup] hook mounted | raw: ["[AutoBackup] hook mounted"]
+[2026-01-09T23:56:33.095Z] [debug] 2026-01-09T23:56:33.095Z | DEBUG : [Database] Finished retrieving all records in MedicationLog table | raw: ["[Database] Finished retrieving all records in MedicationLog table"]
+[2026-01-09T23:56:33.090Z] [debug] 2026-01-09T23:56:33.090Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 38 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 38 records found"]
+[2026-01-09T23:56:33.084Z] [debug] 2026-01-09T23:56:33.084Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-09T23:56:33.077Z] [debug] 2026-01-09T23:56:33.077Z | DEBUG : [Database] Retrieving all records in Encounter table: 66 records found | raw: ["[Database] Retrieving all records in Encounter table: 66 records found"]
+[2026-01-09T23:56:33.072Z] [debug] 2026-01-09T23:56:33.072Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-01-09T23:56:33.062Z] [debug] 2026-01-09T23:56:33.062Z | DEBUG : [Database] Retrieving all records in Treatment table: 0 records found | raw: ["[Database] Retrieving all records in Treatment table: 0 records found"]
+[2026-01-09T23:56:33.055Z] [debug] 2026-01-09T23:56:33.054Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-01-09T23:56:33.046Z] [debug] 2026-01-09T23:56:33.046Z | DEBUG : [Database] Retrieving all records in TestTaken table: 15 records found | raw: ["[Database] Retrieving all records in TestTaken table: 15 records found"]
+[2026-01-09T23:56:33.017Z] [debug] 2026-01-09T23:56:33.017Z | DEBUG : [MainAppNavigator] Rendering RootStack.Navigator with initialRouteName: BottomTabs | raw: ["[MainAppNavigator] Rendering RootStack.Navigator with initialRouteName:","BottomTabs"]
+[2026-01-09T23:56:33.012Z] [warn] 2026-01-09T23:56:33.012Z | WARN : [useViewModelHooks] Encountered invalidated Realm object while comparing arrays 
+{
+  "error": {},
+  "index": 0
+} | raw: ["[useViewModelHooks] Encountered invalidated Realm object while comparing arrays",{"error":{},"index":0}]
+[2026-01-09T23:56:33.008Z] [info] 2026-01-09T23:56:33.008Z | INFO : [AutoBackup] hook mounted | raw: ["[AutoBackup] hook mounted"]
+[2026-01-09T23:56:33.002Z] [warn] 2026-01-09T23:56:33.002Z | WARN : [useViewModelHooks] Encountered invalidated Realm object while comparing arrays 
+{
+  "error": {},
+  "index": 0
+} | raw: ["[useViewModelHooks] Encountered invalidated Realm object while comparing arrays",{"error":{},"index":0}]
+[2026-01-09T23:56:32.995Z] [warn] 2026-01-09T23:56:32.995Z | WARN : [useViewModelHooks] Encountered invalidated Realm object while comparing arrays 
+{
+  "error": {},
+  "index": 0
+} | raw: ["[useViewModelHooks] Encountered invalidated Realm object while comparing arrays",{"error":{},"index":0}]
+[2026-01-09T23:56:32.989Z] [warn] 2026-01-09T23:56:32.989Z | WARN : [useViewModelHooks] Encountered invalidated Realm object while comparing arrays 
+{
+  "error": {},
+  "index": 0
+} | raw: ["[useViewModelHooks] Encountered invalidated Realm object while comparing arrays",{"error":{},"index":0}]
+[2026-01-09T23:56:32.985Z] [warn] 2026-01-09T23:56:32.985Z | WARN : [useViewModelHooks] Encountered invalidated Realm object while comparing arrays 
+{
+  "error": {},
+  "index": 0
+} | raw: ["[useViewModelHooks] Encountered invalidated Realm object while comparing arrays",{"error":{},"index":0}]
+[2026-01-09T23:56:32.980Z] [warn] 2026-01-09T23:56:32.980Z | WARN : [useViewModelHooks] Encountered invalidated Realm object while comparing arrays 
+{
+  "error": {},
+  "index": 0
+} | raw: ["[useViewModelHooks] Encountered invalidated Realm object while comparing arrays",{"error":{},"index":0}]
+[2026-01-09T23:56:32.974Z] [warn] 2026-01-09T23:56:32.974Z | WARN : [useViewModelHooks] Encountered invalidated Realm object while comparing arrays 
+{
+  "error": {},
+  "index": 0
+} | raw: ["[useViewModelHooks] Encountered invalidated Realm object while comparing arrays",{"error":{},"index":0}]
+[2026-01-09T23:56:32.971Z] [warn] 2026-01-09T23:56:32.971Z | WARN : [useViewModelHooks] Encountered invalidated Realm object while comparing arrays 
+{
+  "error": {},
+  "index": 0
+} | raw: ["[useViewModelHooks] Encountered invalidated Realm object while comparing arrays",{"error":{},"index":0}]
+[2026-01-09T23:56:32.966Z] [warn] 2026-01-09T23:56:32.966Z | WARN : [useViewModelHooks] Encountered invalidated Realm object while comparing arrays 
+{
+  "error": {},
+  "index": 0
+} | raw: ["[useViewModelHooks] Encountered invalidated Realm object while comparing arrays",{"error":{},"index":0}]
+[2026-01-09T23:56:32.962Z] [warn] 2026-01-09T23:56:32.962Z | WARN : [useViewModelHooks] Encountered invalidated Realm object while comparing arrays 
+{
+  "error": {},
+  "index": 0
+} | raw: ["[useViewModelHooks] Encountered invalidated Realm object while comparing arrays",{"error":{},"index":0}]
+[2026-01-09T23:56:32.957Z] [warn] 2026-01-09T23:56:32.957Z | WARN : [useViewModelHooks] Encountered invalidated Realm object while comparing arrays 
+{
+  "error": {},
+  "index": 0
+} | raw: ["[useViewModelHooks] Encountered invalidated Realm object while comparing arrays",{"error":{},"index":0}]
+[2026-01-09T23:56:32.952Z] [warn] 2026-01-09T23:56:32.952Z | WARN : [useViewModelHooks] Encountered invalidated Realm object while comparing arrays 
+{
+  "error": {},
+  "index": 0
+} | raw: ["[useViewModelHooks] Encountered invalidated Realm object while comparing arrays",{"error":{},"index":0}]
+[2026-01-09T23:56:32.948Z] [warn] 2026-01-09T23:56:32.948Z | WARN : [useViewModelHooks] Encountered invalidated Realm object while comparing arrays 
+{
+  "error": {},
+  "index": 0
+} | raw: ["[useViewModelHooks] Encountered invalidated Realm object while comparing arrays",{"error":{},"index":0}]
+[2026-01-09T23:56:32.944Z] [warn] 2026-01-09T23:56:32.944Z | WARN : [useViewModelHooks] Encountered invalidated Realm object while comparing arrays 
+{
+  "error": {},
+  "index": 0
+} | raw: ["[useViewModelHooks] Encountered invalidated Realm object while comparing arrays",{"error":{},"index":0}]
+[2026-01-09T23:56:32.938Z] [debug] 2026-01-09T23:56:32.938Z | DEBUG : [Database] Finished retrieving all records in MedicationLog table | raw: ["[Database] Finished retrieving all records in MedicationLog table"]
+[2026-01-09T23:56:32.935Z] [debug] 2026-01-09T23:56:32.935Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 38 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 38 records found"]
+[2026-01-09T23:56:32.930Z] [debug] 2026-01-09T23:56:32.930Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-09T23:56:32.926Z] [debug] 2026-01-09T23:56:32.926Z | DEBUG : [Database] Retrieving all records in Encounter table: 66 records found | raw: ["[Database] Retrieving all records in Encounter table: 66 records found"]
+[2026-01-09T23:56:32.921Z] [warn] 2026-01-09T23:56:32.921Z | WARN : [useViewModelHooks] Encountered invalidated Realm object while comparing arrays 
+{
+  "error": {},
+  "index": 0
+} | raw: ["[useViewModelHooks] Encountered invalidated Realm object while comparing arrays",{"error":{},"index":0}]
+[2026-01-09T23:56:32.916Z] [debug] 2026-01-09T23:56:32.916Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-01-09T23:56:32.912Z] [debug] 2026-01-09T23:56:32.912Z | DEBUG : [Database] Retrieving all records in Treatment table: 0 records found | raw: ["[Database] Retrieving all records in Treatment table: 0 records found"]
+[2026-01-09T23:56:32.908Z] [debug] 2026-01-09T23:56:32.908Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-01-09T23:56:32.904Z] [debug] 2026-01-09T23:56:32.904Z | DEBUG : [Database] Retrieving all records in TestTaken table: 15 records found | raw: ["[Database] Retrieving all records in TestTaken table: 15 records found"]
+[2026-01-09T23:56:32.897Z] [debug] 2026-01-09T23:56:32.897Z | DEBUG : [DatabaseOperationsProvider] Phase=idle → Navigation markReady() invoked | raw: ["[DatabaseOperationsProvider] Phase=idle → Navigation markReady() invoked"]
+[2026-01-09T23:56:32.892Z] [debug] 2026-01-09T23:56:32.892Z | DEBUG : [DatabaseOperationsProvider] coordinator phase changed 
+{
+  "phase": "idle"
+} | raw: ["[DatabaseOperationsProvider] coordinator phase changed",{"phase":"idle"}]
+[2026-01-09T23:56:32.887Z] [debug] 2026-01-09T23:56:32.887Z | DEBUG : [DatabaseOperationsProvider] phase changed 
+{
+  "phase": "idle"
+} | raw: ["[DatabaseOperationsProvider] phase changed",{"phase":"idle"}]
+[2026-01-09T23:56:32.883Z] [debug] 2026-01-09T23:56:32.883Z | DEBUG : [DatabaseCoordinationGate] overlay decision 
+{
+  "phase": "idle",
+  "shouldShowResolver": false,
+  "isBackupInProgress": false,
+  "currentType": null,
+  "showResolverOverlay": null,
+  "overlayMounted": false
+} | raw: ["[DatabaseCoordinationGate] overlay decision",{"phase":"idle","shouldShowResolver":false,"isBackupInProgress":false,"currentType":null,"showResolverOverlay":null,"overlayMounted":false}]
+[2026-01-09T23:56:32.878Z] [debug] 2026-01-09T23:56:32.878Z | DEBUG : [DatabaseCoordinationGate] overlay state 
+{
+  "phase": "idle",
+  "shouldShowResolver": false,
+  "isBackupInProgress": false,
+  "showResolverOverlay": null,
+  "currentType": null
+} | raw: ["[DatabaseCoordinationGate] overlay state",{"phase":"idle","shouldShowResolver":false,"isBackupInProgress":false,"showResolverOverlay":null,"currentType":null}]
+[2026-01-09T23:56:32.874Z] [info] 2026-01-09T23:56:32.874Z | INFO : [Backup] ✅ Succeeded | raw: ["[Backup] ✅ Succeeded"]
+[2026-01-09T23:56:32.869Z] [debug] 2026-01-09T23:56:32.869Z | DEBUG : [DatabaseCoordinationGate] Running onComplete callback 
+{
+  "operationType": "backup",
+  "success": true
+} | raw: ["[DatabaseCoordinationGate] Running onComplete callback",{"operationType":"backup","success":true}]
+[2026-01-09T23:56:32.862Z] [warn] 2026-01-09T23:56:32.862Z | WARN : [useViewModelHooks] Encountered invalidated Realm object while comparing arrays 
+{
+  "error": {},
+  "index": 0
+} | raw: ["[useViewModelHooks] Encountered invalidated Realm object while comparing arrays",{"error":{},"index":0}]
+[2026-01-09T23:56:32.855Z] [warn] 2026-01-09T23:56:32.855Z | WARN : [useViewModelHooks] Encountered invalidated Realm object while comparing arrays 
+{
+  "error": {},
+  "index": 0
+} | raw: ["[useViewModelHooks] Encountered invalidated Realm object while comparing arrays",{"error":{},"index":0}]
+[2026-01-09T23:56:32.850Z] [warn] 2026-01-09T23:56:32.850Z | WARN : [GoogleDrive] Resume pending operations is not supported. | raw: ["[GoogleDrive] Resume pending operations is not supported."]
+[2026-01-09T23:56:32.832Z] [debug] 2026-01-09T23:56:32.832Z | DEBUG : [MainAppNavigator] Rendering RootStack.Navigator with initialRouteName: BottomTabs | raw: ["[MainAppNavigator] Rendering RootStack.Navigator with initialRouteName:","BottomTabs"]
+[2026-01-09T23:56:32.827Z] [debug] 2026-01-09T23:56:32.827Z | DEBUG : [Database] Finished retrieving all records in MedicationRegimen table | raw: ["[Database] Finished retrieving all records in MedicationRegimen table"]
+[2026-01-09T23:56:32.823Z] [debug] 2026-01-09T23:56:32.823Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationRegimen table: 8 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationRegimen table: 8 records found"]
+[2026-01-09T23:56:32.818Z] [debug] 2026-01-09T23:56:32.818Z | DEBUG : [Database] Finished retrieving all records in Screening table | raw: ["[Database] Finished retrieving all records in Screening table"]
+[2026-01-09T23:56:32.814Z] [debug] 2026-01-09T23:56:32.814Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Screening table: 10 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Screening table: 10 records found"]
+[2026-01-09T23:56:32.810Z] [info] 2026-01-09T23:56:32.810Z | INFO : [AutoBackup] hook mounted | raw: ["[AutoBackup] hook mounted"]
+[2026-01-09T23:56:32.805Z] [debug] 2026-01-09T23:56:32.805Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-09T23:56:32.800Z] [debug] 2026-01-09T23:56:32.800Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 9 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 9 records found"]
+[2026-01-09T23:56:32.797Z] [debug] 2026-01-09T23:56:32.796Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-09T23:56:32.792Z] [debug] 2026-01-09T23:56:32.792Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 9 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 9 records found"]
+[2026-01-09T23:56:32.787Z] [debug] 2026-01-09T23:56:32.787Z | DEBUG : [Database] Finished retrieving all records in Screening table | raw: ["[Database] Finished retrieving all records in Screening table"]
+[2026-01-09T23:56:32.782Z] [debug] 2026-01-09T23:56:32.782Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Screening table: 10 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Screening table: 10 records found"]
+[2026-01-09T23:56:32.778Z] [debug] 2026-01-09T23:56:32.778Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-09T23:56:32.773Z] [debug] 2026-01-09T23:56:32.773Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 9 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 9 records found"]
+[2026-01-09T23:56:32.769Z] [debug] 2026-01-09T23:56:32.769Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-09T23:56:32.765Z] [debug] 2026-01-09T23:56:32.765Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 9 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 9 records found"]
+[2026-01-09T23:56:32.761Z] [debug] 2026-01-09T23:56:32.761Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-09T23:56:32.756Z] [debug] 2026-01-09T23:56:32.756Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 9 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 9 records found"]
+[2026-01-09T23:56:32.751Z] [debug] 2026-01-09T23:56:32.751Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-09T23:56:32.747Z] [debug] 2026-01-09T23:56:32.747Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 9 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 9 records found"]
+[2026-01-09T23:56:32.742Z] [debug] 2026-01-09T23:56:32.742Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-09T23:56:32.738Z] [debug] 2026-01-09T23:56:32.738Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 9 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 9 records found"]
+[2026-01-09T23:56:32.733Z] [debug] 2026-01-09T23:56:32.733Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-09T23:56:32.729Z] [debug] 2026-01-09T23:56:32.729Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 9 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 9 records found"]
+[2026-01-09T23:56:32.724Z] [debug] 2026-01-09T23:56:32.724Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-09T23:56:32.720Z] [debug] 2026-01-09T23:56:32.720Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 9 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 9 records found"]
+[2026-01-09T23:56:32.716Z] [debug] 2026-01-09T23:56:32.716Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-09T23:56:32.711Z] [debug] 2026-01-09T23:56:32.711Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 9 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 9 records found"]
+[2026-01-09T23:56:32.705Z] [debug] 2026-01-09T23:56:32.705Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-09T23:56:32.701Z] [debug] 2026-01-09T23:56:32.701Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 9 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 9 records found"]
+[2026-01-09T23:56:32.695Z] [debug] 2026-01-09T23:56:32.695Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-09T23:56:32.688Z] [debug] 2026-01-09T23:56:32.688Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 9 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 9 records found"]
+[2026-01-09T23:56:32.680Z] [debug] 2026-01-09T23:56:32.680Z | DEBUG : [Database] Finished retrieving all records in MedicationLog table | raw: ["[Database] Finished retrieving all records in MedicationLog table"]
+[2026-01-09T23:56:32.676Z] [debug] 2026-01-09T23:56:32.676Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 38 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 38 records found"]
+[2026-01-09T23:56:32.670Z] [debug] 2026-01-09T23:56:32.670Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-09T23:56:32.666Z] [debug] 2026-01-09T23:56:32.666Z | DEBUG : [Database] Retrieving all records in Encounter table: 66 records found | raw: ["[Database] Retrieving all records in Encounter table: 66 records found"]
+[2026-01-09T23:56:32.658Z] [debug] 2026-01-09T23:56:32.658Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-09T23:56:32.654Z] [debug] 2026-01-09T23:56:32.654Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 9 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 9 records found"]
+[2026-01-09T23:56:32.649Z] [debug] 2026-01-09T23:56:32.649Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-09T23:56:32.645Z] [debug] 2026-01-09T23:56:32.645Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 9 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 9 records found"]
+[2026-01-09T23:56:32.638Z] [debug] 2026-01-09T23:56:32.638Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-01-09T23:56:32.634Z] [debug] 2026-01-09T23:56:32.634Z | DEBUG : [Database] Retrieving all records in Treatment table: 0 records found | raw: ["[Database] Retrieving all records in Treatment table: 0 records found"]
+[2026-01-09T23:56:32.630Z] [debug] 2026-01-09T23:56:32.630Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-01-09T23:56:32.626Z] [debug] 2026-01-09T23:56:32.626Z | DEBUG : [Database] Retrieving all records in TestTaken table: 15 records found | raw: ["[Database] Retrieving all records in TestTaken table: 15 records found"]
+[2026-01-09T23:56:32.608Z] [warn] 2026-01-09T23:56:32.608Z | WARN : [Database] Realm instance was closed unexpectedly; reopening for operation 
+{
+  "hasEncryptionKey": false,
+  "path": "/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBookDB/BBBDatabase.realm"
+} | raw: ["[Database] Realm instance was closed unexpectedly; reopening for operation",{"hasEncryptionKey":false,"path":"/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBookDB/BBBDatabase.realm"}]
+[2026-01-09T23:56:32.602Z] [info] 2026-01-09T23:56:32.602Z | INFO : [AutoBackup] Backup succeeded | raw: ["[AutoBackup] Backup succeeded"]
+[2026-01-09T23:56:32.599Z] [debug] 2026-01-09T23:56:32.599Z | DEBUG : [DatabaseOperationsWorkflow] Operation succeeded 
+{
+  "type": "backup"
+} | raw: ["[DatabaseOperationsWorkflow] Operation succeeded",{"type":"backup"}]
+[2026-01-09T23:56:32.595Z] [debug] 2026-01-09T23:56:32.595Z | DEBUG : [DatabaseOperationsProvider] phase set to idle after completion | raw: ["[DatabaseOperationsProvider] phase set to idle after completion"]
+[2026-01-09T23:56:32.590Z] [info] 2026-01-09T23:56:32.590Z | INFO : [Backup] ✅ Succeeded | raw: ["[Backup] ✅ Succeeded"]
+[2026-01-09T23:56:32.586Z] [debug] 2026-01-09T23:56:32.586Z | DEBUG : [DatabaseOperationsProvider] Completing operation 
+{
+  "hasOnComplete": true,
+  "operationType": "backup",
+  "success": true
+} | raw: ["[DatabaseOperationsProvider] Completing operation",{"hasOnComplete":true,"operationType":"backup","success":true}]
+[2026-01-09T23:56:32.582Z] [debug] 2026-01-09T23:56:32.582Z | DEBUG : [DataManagement] Backup Finished | raw: ["[DataManagement] Backup Finished"]
+[2026-01-09T23:56:32.577Z] [debug] 2026-01-09T23:56:32.577Z | DEBUG : [DataManagement] Backup Progress: 100% | raw: ["[DataManagement] Backup Progress: 100%"]
+[2026-01-09T23:56:31.212Z] [debug] 2026-01-09T23:56:31.212Z | DEBUG : [FileSystem] Reading file at file:///data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBook_Export_2026-01-09_15-56-30.zip | raw: ["[FileSystem] Reading file at file:///data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBook_Export_2026-01-09_15-56-30.zip"]
+[2026-01-09T23:56:31.028Z] [debug] 2026-01-09T23:56:31.028Z | DEBUG : [DatabaseOperationsProvider] coordinator progress update 
+{
+  "progress": 1
+} | raw: ["[DatabaseOperationsProvider] coordinator progress update",{"progress":1}]
+[2026-01-09T23:56:31.021Z] [warn] 2026-01-09T23:56:31.021Z | WARN : [GoogleDrive] Resume pending operations is not supported. | raw: ["[GoogleDrive] Resume pending operations is not supported."]
+[2026-01-09T23:56:30.970Z] [debug] 2026-01-09T23:56:30.970Z | DEBUG : [MainAppNavigator] Rendering RootStack.Navigator with initialRouteName: BottomTabs | raw: ["[MainAppNavigator] Rendering RootStack.Navigator with initialRouteName:","BottomTabs"]
+[2026-01-09T23:56:30.966Z] [info] 2026-01-09T23:56:30.966Z | INFO : [AutoBackup] hook mounted | raw: ["[AutoBackup] hook mounted"]
+[2026-01-09T23:56:30.954Z] [debug] 2026-01-09T23:56:30.954Z | DEBUG : [Database] Finished retrieving all records in MedicationLog table | raw: ["[Database] Finished retrieving all records in MedicationLog table"]
+[2026-01-09T23:56:30.946Z] [debug] 2026-01-09T23:56:30.946Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 38 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 38 records found"]
+[2026-01-09T23:56:30.940Z] [debug] 2026-01-09T23:56:30.940Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-09T23:56:30.935Z] [debug] 2026-01-09T23:56:30.935Z | DEBUG : [Database] Retrieving all records in Encounter table: 66 records found | raw: ["[Database] Retrieving all records in Encounter table: 66 records found"]
+[2026-01-09T23:56:30.930Z] [debug] 2026-01-09T23:56:30.930Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-01-09T23:56:30.924Z] [debug] 2026-01-09T23:56:30.924Z | DEBUG : [Database] Retrieving all records in Treatment table: 0 records found | raw: ["[Database] Retrieving all records in Treatment table: 0 records found"]
+[2026-01-09T23:56:30.920Z] [debug] 2026-01-09T23:56:30.920Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-01-09T23:56:30.915Z] [debug] 2026-01-09T23:56:30.915Z | DEBUG : [Database] Retrieving all records in TestTaken table: 15 records found | raw: ["[Database] Retrieving all records in TestTaken table: 15 records found"]
+[2026-01-09T23:56:30.899Z] [info] 2026-01-09T23:56:30.899Z | INFO : [NotificationManager] All trigger notifications:  
+[] | raw: ["[NotificationManager] All trigger notifications: ",[]]
+[2026-01-09T23:56:30.892Z] [debug] 2026-01-09T23:56:30.892Z | DEBUG : [FileSystem] File stats at /data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBook_Export_2026-01-09_15-56-30.zip: {"filename":"BBBook_Export_2026-01-09_15-56-30.zip","lastModified":1768002990672,"path":"/data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBook_Export_2026-01-09_15-56-30.zip","size":77887,"type":"file"} | raw: ["[FileSystem] File stats at /data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBook_Export_2026-01-09_15-56-30.zip: {\"filename\":\"BBBook_Export_2026-01-09_15-56-30.zip\",\"lastModified\":1768002990672,\"path\":\"/data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBook_Export_2026-01-09_15-56-30.zip\",\"size\":77887,\"type\":\"file\"}"]
+[2026-01-09T23:56:30.883Z] [debug] 2026-01-09T23:56:30.883Z | DEBUG : [FileSystem] Getting file stats at /data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBook_Export_2026-01-09_15-56-30.zip | raw: ["[FileSystem] Getting file stats at /data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBook_Export_2026-01-09_15-56-30.zip"]
+[2026-01-09T23:56:30.877Z] [debug] 2026-01-09T23:56:30.877Z | DEBUG : [FileSystem] Directory at /data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook already exists. No need to create. | raw: ["[FileSystem] Directory at /data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook already exists. No need to create."]
+[2026-01-09T23:56:30.872Z] [debug] 2026-01-09T23:56:30.872Z | DEBUG : [FileSystem] Directory at /data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook exists | raw: ["[FileSystem] Directory at /data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook exists"]
+[2026-01-09T23:56:30.867Z] [debug] 2026-01-09T23:56:30.867Z | DEBUG : [FileSystem] Checking if directory exists at /data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook | raw: ["[FileSystem] Checking if directory exists at /data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook"]
+[2026-01-09T23:56:30.858Z] [debug] 2026-01-09T23:56:30.858Z | DEBUG : [Database] Finished exporting. | raw: ["[Database] Finished exporting."]
+[2026-01-09T23:56:30.854Z] [debug] 2026-01-09T23:56:30.854Z | DEBUG : [DataManagement] Export Progress: 100% | raw: ["[DataManagement] Export Progress: 100%"]
+[2026-01-09T23:56:30.849Z] [debug] 2026-01-09T23:56:30.849Z | DEBUG : [Database] export Progress: 100% | raw: ["[Database] export Progress: 100%"]
+[2026-01-09T23:56:30.845Z] [info] 2026-01-09T23:56:30.845Z | INFO : [ExportManager] done Export process complete | raw: ["[ExportManager]","done","Export process complete"]
+[2026-01-09T23:56:30.826Z] [info] 2026-01-09T23:56:30.826Z | INFO : [Database] Zip File: /data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBook_Export_2026-01-09_15-56-30.zip | raw: ["[Database] Zip File:","/data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBook_Export_2026-01-09_15-56-30.zip"]
+[2026-01-09T23:56:30.822Z] [debug] 2026-01-09T23:56:30.822Z | DEBUG : [FileSystem] Zip file created at /data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBookDB/ | raw: ["[FileSystem] Zip file created at /data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBookDB/"]
+[2026-01-09T23:56:30.793Z] [debug] 2026-01-09T23:56:30.793Z | DEBUG : [DatabaseOperationsProvider] coordinator progress update 
+{
+  "progress": 0.95
+} | raw: ["[DatabaseOperationsProvider] coordinator progress update",{"progress":0.95}]
+[2026-01-09T23:56:30.787Z] [debug] 2026-01-09T23:56:30.787Z | DEBUG : [DatabaseCoordinationGate] overlay decision 
+{
+  "phase": "backingUp",
+  "shouldShowResolver": true,
+  "isBackupInProgress": true,
+  "currentType": "backup",
+  "showResolverOverlay": true,
+  "overlayMounted": true
+} | raw: ["[DatabaseCoordinationGate] overlay decision",{"phase":"backingUp","shouldShowResolver":true,"isBackupInProgress":true,"currentType":"backup","showResolverOverlay":true,"overlayMounted":true}]
+[2026-01-09T23:56:30.782Z] [debug] 2026-01-09T23:56:30.782Z | DEBUG : [DatabaseCoordinationGate] overlay state 
+{
+  "phase": "backingUp",
+  "shouldShowResolver": true,
+  "isBackupInProgress": true,
+  "showResolverOverlay": true,
+  "currentType": "backup"
+} | raw: ["[DatabaseCoordinationGate] overlay state",{"phase":"backingUp","shouldShowResolver":true,"isBackupInProgress":true,"showResolverOverlay":true,"currentType":"backup"}]
+[2026-01-09T23:56:30.777Z] [warn] 2026-01-09T23:56:30.777Z | WARN : [GoogleDrive] Resume pending operations is not supported. | raw: ["[GoogleDrive] Resume pending operations is not supported."]
+[2026-01-09T23:56:30.728Z] [debug] 2026-01-09T23:56:30.728Z | DEBUG : [MainAppNavigator] Rendering RootStack.Navigator with initialRouteName: BottomTabs | raw: ["[MainAppNavigator] Rendering RootStack.Navigator with initialRouteName:","BottomTabs"]
+[2026-01-09T23:56:30.723Z] [info] 2026-01-09T23:56:30.723Z | INFO : [AutoBackup] hook mounted | raw: ["[AutoBackup] hook mounted"]
+[2026-01-09T23:56:30.715Z] [debug] 2026-01-09T23:56:30.715Z | DEBUG : [Database] Finished retrieving all records in MedicationLog table | raw: ["[Database] Finished retrieving all records in MedicationLog table"]
+[2026-01-09T23:56:30.712Z] [debug] 2026-01-09T23:56:30.712Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 38 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 38 records found"]
+[2026-01-09T23:56:30.706Z] [debug] 2026-01-09T23:56:30.706Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-09T23:56:30.702Z] [debug] 2026-01-09T23:56:30.702Z | DEBUG : [Database] Retrieving all records in Encounter table: 66 records found | raw: ["[Database] Retrieving all records in Encounter table: 66 records found"]
+[2026-01-09T23:56:30.697Z] [debug] 2026-01-09T23:56:30.697Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-01-09T23:56:30.693Z] [debug] 2026-01-09T23:56:30.693Z | DEBUG : [Database] Retrieving all records in Treatment table: 0 records found | raw: ["[Database] Retrieving all records in Treatment table: 0 records found"]
+[2026-01-09T23:56:30.688Z] [debug] 2026-01-09T23:56:30.688Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-01-09T23:56:30.684Z] [debug] 2026-01-09T23:56:30.684Z | DEBUG : [Database] Retrieving all records in TestTaken table: 15 records found | raw: ["[Database] Retrieving all records in TestTaken table: 15 records found"]
+[2026-01-09T23:56:30.660Z] [debug] 2026-01-09T23:56:30.660Z | DEBUG : [FileSystem] Zipping file from /data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBookDB/ to /data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBook_Export_2026-01-09_15-56-30.zip | raw: ["[FileSystem] Zipping file from /data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBookDB/ to /data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBook_Export_2026-01-09_15-56-30.zip"]
+[2026-01-09T23:56:30.654Z] [debug] 2026-01-09T23:56:30.654Z | DEBUG : [Database] Create zip file at: /data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBookDB /data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBook_Export_2026-01-09_15-56-30.zip | raw: ["[Database] Create zip file at:","/data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBookDB","/data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBook_Export_2026-01-09_15-56-30.zip"]
+[2026-01-09T23:56:30.648Z] [debug] 2026-01-09T23:56:30.648Z | DEBUG : [DataManagement] Export Progress: 95% | raw: ["[DataManagement] Export Progress: 95%"]
+[2026-01-09T23:56:30.644Z] [debug] 2026-01-09T23:56:30.644Z | DEBUG : [Database] export Progress: 95% | raw: ["[Database] export Progress: 95%"]
+[2026-01-09T23:56:30.602Z] [info] 2026-01-09T23:56:30.602Z | INFO : [ExportManager] done Creating zip file for export | raw: ["[ExportManager]","done","Creating zip file for export"]
+[2026-01-09T23:56:30.597Z] [debug] 2026-01-09T23:56:30.597Z | DEBUG : [DataManagement] Export Progress: 80% | raw: ["[DataManagement] Export Progress: 80%"]
+[2026-01-09T23:56:30.590Z] [debug] 2026-01-09T23:56:30.590Z | DEBUG : [Database] export Progress: 80% | raw: ["[Database] export Progress: 80%"]
+[2026-01-09T23:56:30.586Z] [info] 2026-01-09T23:56:30.586Z | INFO : [ExportManager] validating-new Finalizing export and zipping files | raw: ["[ExportManager]","validating-new","Finalizing export and zipping files"]
+[2026-01-09T23:56:30.580Z] [debug] 2026-01-09T23:56:30.580Z | DEBUG : [DataManagement] Export Progress: 57.56250000000001% | raw: ["[DataManagement] Export Progress: 57.56250000000001%"]
+[2026-01-09T23:56:30.574Z] [debug] 2026-01-09T23:56:30.574Z | DEBUG : [Database] export Progress: 57.56250000000001% | raw: ["[Database] export Progress: 57.56250000000001%"]
