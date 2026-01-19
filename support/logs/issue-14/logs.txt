@@ -1,0 +1,510 @@
+# BBBLogs.txt
+[2026-01-19T19:36:10.476Z] [debug] 2026-01-19T19:36:10.476Z | DEBUG : [Database] Finished retrieving all records in Tombstone table | raw: ["[Database] Finished retrieving all records in Tombstone table"]
+[2026-01-19T19:36:10.455Z] [debug] 2026-01-19T19:36:10.455Z | DEBUG : [Database] Retrieving all records in Tombstone table: 0 records found | raw: ["[Database] Retrieving all records in Tombstone table: 0 records found"]
+[2026-01-19T19:35:49.520Z] [debug] 2026-01-19T19:35:49.520Z | DEBUG : [MainAppNavigator] Rendering RootStack.Navigator with initialRouteName: BottomTabs | raw: ["[MainAppNavigator] Rendering RootStack.Navigator with initialRouteName:","BottomTabs"]
+[2026-01-19T19:35:49.515Z] [info] 2026-01-19T19:35:49.515Z | INFO : [AutoBackup] hook mounted | raw: ["[AutoBackup] hook mounted"]
+[2026-01-19T19:35:49.509Z] [debug] 2026-01-19T19:35:49.509Z | DEBUG : [Database] Finished retrieving all records in MedicationLog table | raw: ["[Database] Finished retrieving all records in MedicationLog table"]
+[2026-01-19T19:35:49.504Z] [debug] 2026-01-19T19:35:49.504Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found"]
+[2026-01-19T19:35:49.499Z] [debug] 2026-01-19T19:35:49.499Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-19T19:35:49.494Z] [debug] 2026-01-19T19:35:49.494Z | DEBUG : [Database] Retrieving all records in Encounter table: 0 records found | raw: ["[Database] Retrieving all records in Encounter table: 0 records found"]
+[2026-01-19T19:35:49.489Z] [debug] 2026-01-19T19:35:49.489Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-01-19T19:35:49.484Z] [debug] 2026-01-19T19:35:49.484Z | DEBUG : [Database] Retrieving all records in Treatment table: 0 records found | raw: ["[Database] Retrieving all records in Treatment table: 0 records found"]
+[2026-01-19T19:35:49.478Z] [debug] 2026-01-19T19:35:49.478Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-01-19T19:35:49.472Z] [debug] 2026-01-19T19:35:49.472Z | DEBUG : [Database] Retrieving all records in TestTaken table: 0 records found | raw: ["[Database] Retrieving all records in TestTaken table: 0 records found"]
+[2026-01-19T19:35:35.955Z] [debug] 2026-01-19T19:35:35.955Z | DEBUG : [MainAppNavigator] Rendering RootStack.Navigator with initialRouteName: BottomTabs | raw: ["[MainAppNavigator] Rendering RootStack.Navigator with initialRouteName:","BottomTabs"]
+[2026-01-19T19:35:35.951Z] [info] 2026-01-19T19:35:35.951Z | INFO : [AutoBackup] hook mounted | raw: ["[AutoBackup] hook mounted"]
+[2026-01-19T19:35:35.947Z] [debug] 2026-01-19T19:35:35.947Z | DEBUG : [Database] Finished retrieving all records in MedicationLog table | raw: ["[Database] Finished retrieving all records in MedicationLog table"]
+[2026-01-19T19:35:35.944Z] [debug] 2026-01-19T19:35:35.944Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found"]
+[2026-01-19T19:35:35.940Z] [debug] 2026-01-19T19:35:35.940Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-19T19:35:35.937Z] [debug] 2026-01-19T19:35:35.937Z | DEBUG : [Database] Retrieving all records in Encounter table: 0 records found | raw: ["[Database] Retrieving all records in Encounter table: 0 records found"]
+[2026-01-19T19:35:35.933Z] [debug] 2026-01-19T19:35:35.933Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-01-19T19:35:35.928Z] [debug] 2026-01-19T19:35:35.928Z | DEBUG : [Database] Retrieving all records in Treatment table: 0 records found | raw: ["[Database] Retrieving all records in Treatment table: 0 records found"]
+[2026-01-19T19:35:35.923Z] [debug] 2026-01-19T19:35:35.923Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-01-19T19:35:35.918Z] [debug] 2026-01-19T19:35:35.918Z | DEBUG : [Database] Retrieving all records in TestTaken table: 0 records found | raw: ["[Database] Retrieving all records in TestTaken table: 0 records found"]
+[2026-01-19T19:35:35.908Z] [debug] 2026-01-19T19:35:35.908Z | DEBUG : [AutoBackup] checking backup time 
+11.809612777777778 | raw: ["[AutoBackup] checking backup time",11.809612777777778]
+[2026-01-19T19:35:35.891Z] [debug] 2026-01-19T19:35:35.890Z | DEBUG : [AutoBackup] App moved to background | raw: ["[AutoBackup] App moved to background"]
+[2026-01-19T19:35:35.377Z] [debug] 2026-01-19T19:35:35.377Z | DEBUG : [MainAppNavigator] Rendering RootStack.Navigator with initialRouteName: BottomTabs | raw: ["[MainAppNavigator] Rendering RootStack.Navigator with initialRouteName:","BottomTabs"]
+[2026-01-19T19:35:35.373Z] [info] 2026-01-19T19:35:35.373Z | INFO : [AutoBackup] hook mounted | raw: ["[AutoBackup] hook mounted"]
+[2026-01-19T19:35:35.368Z] [debug] 2026-01-19T19:35:35.368Z | DEBUG : [Database] Finished retrieving all records in MedicationLog table | raw: ["[Database] Finished retrieving all records in MedicationLog table"]
+[2026-01-19T19:35:35.366Z] [debug] 2026-01-19T19:35:35.366Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found"]
+[2026-01-19T19:35:35.363Z] [debug] 2026-01-19T19:35:35.363Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-19T19:35:35.361Z] [debug] 2026-01-19T19:35:35.361Z | DEBUG : [Database] Retrieving all records in Encounter table: 0 records found | raw: ["[Database] Retrieving all records in Encounter table: 0 records found"]
+[2026-01-19T19:35:35.356Z] [debug] 2026-01-19T19:35:35.356Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-01-19T19:35:35.352Z] [debug] 2026-01-19T19:35:35.351Z | DEBUG : [Database] Retrieving all records in Treatment table: 0 records found | raw: ["[Database] Retrieving all records in Treatment table: 0 records found"]
+[2026-01-19T19:35:35.345Z] [debug] 2026-01-19T19:35:35.345Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-01-19T19:35:35.340Z] [debug] 2026-01-19T19:35:35.340Z | DEBUG : [Database] Retrieving all records in TestTaken table: 0 records found | raw: ["[Database] Retrieving all records in TestTaken table: 0 records found"]
+[2026-01-19T19:35:10.432Z] [debug] 2026-01-19T19:35:10.432Z | DEBUG : [Database] Finished retrieving all records in Tombstone table | raw: ["[Database] Finished retrieving all records in Tombstone table"]
+[2026-01-19T19:35:10.416Z] [debug] 2026-01-19T19:35:10.416Z | DEBUG : [Database] Retrieving all records in Tombstone table: 0 records found | raw: ["[Database] Retrieving all records in Tombstone table: 0 records found"]
+[2026-01-19T19:34:51.950Z] [info] 2026-01-19T19:34:51.950Z | INFO : Navigating to route name: SupportRequest | raw: ["Navigating to route name: SupportRequest"]
+[2026-01-19T19:34:51.946Z] [debug] 2026-01-19T19:34:51.946Z | DEBUG : [Navigation] Current route name: SupportRequest | raw: ["[Navigation] Current route name:","SupportRequest"]
+[2026-01-19T19:34:51.940Z] [debug] 2026-01-19T19:34:51.940Z | DEBUG : [Navigation] Previous route name: FeedbackAndSupport | raw: ["[Navigation] Previous route name:","FeedbackAndSupport"]
+[2026-01-19T19:34:47.232Z] [info] 2026-01-19T19:34:47.232Z | INFO : Navigating to route name: FeedbackAndSupport | raw: ["Navigating to route name: FeedbackAndSupport"]
+[2026-01-19T19:34:47.227Z] [debug] 2026-01-19T19:34:47.227Z | DEBUG : [Navigation] Current route name: FeedbackAndSupport | raw: ["[Navigation] Current route name:","FeedbackAndSupport"]
+[2026-01-19T19:34:47.219Z] [debug] 2026-01-19T19:34:47.219Z | DEBUG : [Navigation] Previous route name: Settings | raw: ["[Navigation] Previous route name:","Settings"]
+[2026-01-19T19:34:42.312Z] [info] 2026-01-19T19:34:42.312Z | INFO : Navigating to route name: Settings | raw: ["Navigating to route name: Settings"]
+[2026-01-19T19:34:42.309Z] [debug] 2026-01-19T19:34:42.309Z | DEBUG : [Navigation] Current route name: Settings | raw: ["[Navigation] Current route name:","Settings"]
+[2026-01-19T19:34:42.305Z] [debug] 2026-01-19T19:34:42.305Z | DEBUG : [Navigation] Previous route name: SettingsStack | raw: ["[Navigation] Previous route name:","SettingsStack"]
+[2026-01-19T19:34:42.241Z] [info] 2026-01-19T19:34:42.241Z | INFO : Navigating to route name: SettingsStack | raw: ["Navigating to route name: SettingsStack"]
+[2026-01-19T19:34:42.235Z] [debug] 2026-01-19T19:34:42.235Z | DEBUG : [Navigation] Current route name: SettingsStack | raw: ["[Navigation] Current route name:","SettingsStack"]
+[2026-01-19T19:34:42.227Z] [debug] 2026-01-19T19:34:42.227Z | DEBUG : [Navigation] Previous route name: Calendar | raw: ["[Navigation] Previous route name:","Calendar"]
+[2026-01-19T19:34:39.393Z] [debug] 2026-01-19T19:34:39.393Z | DEBUG : [Navigation] Current route name: Calendar | raw: ["[Navigation] Current route name:","Calendar"]
+[2026-01-19T19:34:39.389Z] [debug] 2026-01-19T19:34:39.389Z | DEBUG : [Navigation] Previous route name: Calendar | raw: ["[Navigation] Previous route name:","Calendar"]
+[2026-01-19T19:34:39.355Z] [debug] 2026-01-19T19:34:39.355Z | DEBUG : [MainAppNavigator] Rendering RootStack.Navigator with initialRouteName: BottomTabs | raw: ["[MainAppNavigator] Rendering RootStack.Navigator with initialRouteName:","BottomTabs"]
+[2026-01-19T19:34:39.352Z] [info] 2026-01-19T19:34:39.352Z | INFO : [AutoBackup] hook mounted | raw: ["[AutoBackup] hook mounted"]
+[2026-01-19T19:34:39.348Z] [debug] 2026-01-19T19:34:39.348Z | DEBUG : [Database] Finished retrieving all records in MedicationLog table | raw: ["[Database] Finished retrieving all records in MedicationLog table"]
+[2026-01-19T19:34:39.345Z] [debug] 2026-01-19T19:34:39.345Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found"]
+[2026-01-19T19:34:39.341Z] [debug] 2026-01-19T19:34:39.341Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-19T19:34:39.338Z] [debug] 2026-01-19T19:34:39.338Z | DEBUG : [Database] Retrieving all records in Encounter table: 0 records found | raw: ["[Database] Retrieving all records in Encounter table: 0 records found"]
+[2026-01-19T19:34:39.335Z] [debug] 2026-01-19T19:34:39.335Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-01-19T19:34:39.332Z] [debug] 2026-01-19T19:34:39.332Z | DEBUG : [Database] Retrieving all records in Treatment table: 0 records found | raw: ["[Database] Retrieving all records in Treatment table: 0 records found"]
+[2026-01-19T19:34:39.329Z] [debug] 2026-01-19T19:34:39.329Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-01-19T19:34:39.326Z] [debug] 2026-01-19T19:34:39.326Z | DEBUG : [Database] Retrieving all records in TestTaken table: 0 records found | raw: ["[Database] Retrieving all records in TestTaken table: 0 records found"]
+[2026-01-19T19:34:39.319Z] [debug] 2026-01-19T19:34:39.319Z | DEBUG : Location permission granted | raw: ["Location permission","granted"]
+[2026-01-19T19:34:39.316Z] [debug] 2026-01-19T19:34:39.316Z | DEBUG : Notifications permission granted | raw: ["Notifications permission","granted"]
+[2026-01-19T19:34:39.299Z] [debug] 2026-01-19T19:34:39.299Z | DEBUG : HealthKit permission 
+2 | raw: ["HealthKit permission",2]
+[2026-01-19T19:34:39.277Z] [debug] 2026-01-19T19:34:39.277Z | DEBUG : [Navigation] Current route name: Calendar | raw: ["[Navigation] Current route name:","Calendar"]
+[2026-01-19T19:34:39.274Z] [debug] 2026-01-19T19:34:39.274Z | DEBUG : [Navigation] Previous route name: Calendar | raw: ["[Navigation] Previous route name:","Calendar"]
+[2026-01-19T19:34:39.256Z] [info] 2026-01-19T19:34:39.256Z | INFO : Navigating to route name: Calendar | raw: ["Navigating to route name: Calendar"]
+[2026-01-19T19:34:39.253Z] [debug] 2026-01-19T19:34:39.253Z | DEBUG : [Navigation] Current route name: Calendar | raw: ["[Navigation] Current route name:","Calendar"]
+[2026-01-19T19:34:39.250Z] [debug] 2026-01-19T19:34:39.250Z | DEBUG : [Navigation] Previous route name: 
+undefined | raw: ["[Navigation] Previous route name:",null]
+[2026-01-19T19:34:39.220Z] [debug] 2026-01-19T19:34:39.220Z | DEBUG : [Database] Finished retrieving all records in CalendarEvent table | raw: ["[Database] Finished retrieving all records in CalendarEvent table"]
+[2026-01-19T19:34:39.216Z] [debug] 2026-01-19T19:34:39.216Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found"]
+[2026-01-19T19:34:39.211Z] [debug] 2026-01-19T19:34:39.211Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-19T19:34:39.208Z] [debug] 2026-01-19T19:34:39.208Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found"]
+[2026-01-19T19:34:39.204Z] [debug] 2026-01-19T19:34:39.204Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-19T19:34:39.201Z] [debug] 2026-01-19T19:34:39.201Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found"]
+[2026-01-19T19:34:39.198Z] [debug] 2026-01-19T19:34:39.198Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-19T19:34:39.195Z] [debug] 2026-01-19T19:34:39.195Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Encounter table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Encounter table: 0 records found"]
+[2026-01-19T19:34:39.192Z] [debug] 2026-01-19T19:34:39.191Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-19T19:34:39.189Z] [debug] 2026-01-19T19:34:39.189Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found"]
+[2026-01-19T19:34:39.185Z] [debug] 2026-01-19T19:34:39.185Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-19T19:34:39.182Z] [debug] 2026-01-19T19:34:39.182Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found"]
+[2026-01-19T19:34:39.178Z] [debug] 2026-01-19T19:34:39.178Z | DEBUG : [Database] Finished retrieving all records in CalendarEvent table | raw: ["[Database] Finished retrieving all records in CalendarEvent table"]
+[2026-01-19T19:34:39.174Z] [debug] 2026-01-19T19:34:39.174Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found"]
+[2026-01-19T19:34:39.171Z] [debug] 2026-01-19T19:34:39.171Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-19T19:34:39.168Z] [debug] 2026-01-19T19:34:39.168Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found"]
+[2026-01-19T19:34:39.163Z] [debug] 2026-01-19T19:34:39.163Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-19T19:34:39.159Z] [debug] 2026-01-19T19:34:39.159Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found"]
+[2026-01-19T19:34:39.156Z] [debug] 2026-01-19T19:34:39.156Z | DEBUG : [Database] Finished retrieving all records in CalendarEvent table | raw: ["[Database] Finished retrieving all records in CalendarEvent table"]
+[2026-01-19T19:34:39.154Z] [debug] 2026-01-19T19:34:39.154Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found"]
+[2026-01-19T19:34:39.149Z] [debug] 2026-01-19T19:34:39.149Z | DEBUG : [DatabaseOperationsProvider] Phase=idle → Navigation markReady() invoked | raw: ["[DatabaseOperationsProvider] Phase=idle → Navigation markReady() invoked"]
+[2026-01-19T19:34:39.141Z] [debug] 2026-01-19T19:34:39.141Z | DEBUG : [DatabaseOperationsProvider] coordinator phase changed 
+{
+  "phase": "idle"
+} | raw: ["[DatabaseOperationsProvider] coordinator phase changed",{"phase":"idle"}]
+[2026-01-19T19:34:39.138Z] [debug] 2026-01-19T19:34:39.138Z | DEBUG : [DatabaseOperationsProvider] phase changed 
+{
+  "phase": "idle"
+} | raw: ["[DatabaseOperationsProvider] phase changed",{"phase":"idle"}]
+[2026-01-19T19:34:39.136Z] [debug] 2026-01-19T19:34:39.136Z | DEBUG : [DatabaseCoordinationGate] overlay decision 
+{
+  "phase": "idle",
+  "shouldShowResolver": false,
+  "isBackupInProgress": false,
+  "currentType": null,
+  "showResolverOverlay": null,
+  "overlayMounted": false
+} | raw: ["[DatabaseCoordinationGate] overlay decision",{"phase":"idle","shouldShowResolver":false,"isBackupInProgress":false,"currentType":null,"showResolverOverlay":null,"overlayMounted":false}]
+[2026-01-19T19:34:39.134Z] [debug] 2026-01-19T19:34:39.134Z | DEBUG : [DatabaseCoordinationGate] overlay state 
+{
+  "phase": "idle",
+  "shouldShowResolver": false,
+  "isBackupInProgress": false,
+  "showResolverOverlay": null,
+  "currentType": null
+} | raw: ["[DatabaseCoordinationGate] overlay state",{"phase":"idle","shouldShowResolver":false,"isBackupInProgress":false,"showResolverOverlay":null,"currentType":null}]
+[2026-01-19T19:34:39.132Z] [error] 2026-01-19T19:34:39.132Z | ERROR : [BackupRestoreSection] Restore error | raw: ["[BackupRestoreSection] Restore error"]
+[2026-01-19T19:34:39.129Z] [error] 2026-01-19T19:34:39.129Z | ERROR : [Restore] ❌ Restore Failed Operation failed! undefined is not a function | raw: ["[Restore] ❌ Restore Failed","Operation failed! undefined is not a function"]
+[2026-01-19T19:34:39.127Z] [warn] 2026-01-19T19:34:39.127Z | WARN : [useRestoreDatabase] Restore Ended: Hide Loading | raw: ["[useRestoreDatabase] Restore Ended: Hide Loading"]
+[2026-01-19T19:34:39.125Z] [debug] 2026-01-19T19:34:39.125Z | DEBUG : [DatabaseCoordinationGate] Running onComplete callback 
+{
+  "operationType": "restore",
+  "success": false
+} | raw: ["[DatabaseCoordinationGate] Running onComplete callback",{"operationType":"restore","success":false}]
+[2026-01-19T19:34:39.119Z] [debug] 2026-01-19T19:34:39.119Z | DEBUG : [iCloud] Resumed pending operations | raw: ["[iCloud] Resumed pending operations"]
+[2026-01-19T19:34:39.117Z] [debug] 2026-01-19T19:34:39.117Z | DEBUG : [iCloud] Resuming pending operations | raw: ["[iCloud] Resuming pending operations"]
+[2026-01-19T19:34:39.106Z] [debug] 2026-01-19T19:34:39.106Z | DEBUG : [MainAppNavigator] Rendering RootStack.Navigator with initialRouteName: BottomTabs | raw: ["[MainAppNavigator] Rendering RootStack.Navigator with initialRouteName:","BottomTabs"]
+[2026-01-19T19:34:39.102Z] [debug] 2026-01-19T19:34:39.102Z | DEBUG : [Database] Finished retrieving all records in MedicationRegimen table | raw: ["[Database] Finished retrieving all records in MedicationRegimen table"]
+[2026-01-19T19:34:39.099Z] [debug] 2026-01-19T19:34:39.099Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationRegimen table: 6 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationRegimen table: 6 records found"]
+[2026-01-19T19:34:39.096Z] [debug] 2026-01-19T19:34:39.096Z | DEBUG : [Database] Finished retrieving all records in Screening table | raw: ["[Database] Finished retrieving all records in Screening table"]
+[2026-01-19T19:34:39.093Z] [debug] 2026-01-19T19:34:39.093Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Screening table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Screening table: 0 records found"]
+[2026-01-19T19:34:39.090Z] [info] 2026-01-19T19:34:39.090Z | INFO : [AutoBackup] hook mounted | raw: ["[AutoBackup] hook mounted"]
+[2026-01-19T19:34:39.086Z] [debug] 2026-01-19T19:34:39.086Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-19T19:34:39.083Z] [debug] 2026-01-19T19:34:39.083Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found"]
+[2026-01-19T19:34:39.080Z] [debug] 2026-01-19T19:34:39.080Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-19T19:34:39.077Z] [debug] 2026-01-19T19:34:39.077Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found"]
+[2026-01-19T19:34:39.074Z] [debug] 2026-01-19T19:34:39.074Z | DEBUG : [Database] Finished retrieving all records in Screening table | raw: ["[Database] Finished retrieving all records in Screening table"]
+[2026-01-19T19:34:39.071Z] [debug] 2026-01-19T19:34:39.071Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Screening table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Screening table: 0 records found"]
+[2026-01-19T19:34:39.067Z] [debug] 2026-01-19T19:34:39.067Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-19T19:34:39.064Z] [debug] 2026-01-19T19:34:39.064Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found"]
+[2026-01-19T19:34:39.061Z] [debug] 2026-01-19T19:34:39.061Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-19T19:34:39.058Z] [debug] 2026-01-19T19:34:39.058Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found"]
+[2026-01-19T19:34:39.055Z] [debug] 2026-01-19T19:34:39.055Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-19T19:34:39.052Z] [debug] 2026-01-19T19:34:39.052Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found"]
+[2026-01-19T19:34:39.049Z] [debug] 2026-01-19T19:34:39.049Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-19T19:34:39.046Z] [debug] 2026-01-19T19:34:39.046Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found"]
+[2026-01-19T19:34:39.043Z] [debug] 2026-01-19T19:34:39.043Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-19T19:34:39.040Z] [debug] 2026-01-19T19:34:39.040Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found"]
+[2026-01-19T19:34:39.037Z] [debug] 2026-01-19T19:34:39.037Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-19T19:34:39.034Z] [debug] 2026-01-19T19:34:39.034Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found"]
+[2026-01-19T19:34:39.031Z] [debug] 2026-01-19T19:34:39.031Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-19T19:34:39.028Z] [debug] 2026-01-19T19:34:39.028Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found"]
+[2026-01-19T19:34:39.024Z] [debug] 2026-01-19T19:34:39.024Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-19T19:34:39.022Z] [debug] 2026-01-19T19:34:39.022Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found"]
+[2026-01-19T19:34:39.018Z] [debug] 2026-01-19T19:34:39.018Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-19T19:34:39.015Z] [debug] 2026-01-19T19:34:39.015Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found"]
+[2026-01-19T19:34:39.012Z] [debug] 2026-01-19T19:34:39.012Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-19T19:34:39.009Z] [debug] 2026-01-19T19:34:39.009Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found"]
+[2026-01-19T19:34:39.006Z] [debug] 2026-01-19T19:34:39.006Z | DEBUG : [Database] Finished retrieving all records in MedicationLog table | raw: ["[Database] Finished retrieving all records in MedicationLog table"]
+[2026-01-19T19:34:39.003Z] [debug] 2026-01-19T19:34:39.003Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found"]
+[2026-01-19T19:34:39.000Z] [debug] 2026-01-19T19:34:39.000Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-19T19:34:38.997Z] [debug] 2026-01-19T19:34:38.997Z | DEBUG : [Database] Retrieving all records in Encounter table: 0 records found | raw: ["[Database] Retrieving all records in Encounter table: 0 records found"]
+[2026-01-19T19:34:38.994Z] [debug] 2026-01-19T19:34:38.994Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-19T19:34:38.991Z] [debug] 2026-01-19T19:34:38.991Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found"]
+[2026-01-19T19:34:38.988Z] [debug] 2026-01-19T19:34:38.988Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-19T19:34:38.985Z] [debug] 2026-01-19T19:34:38.985Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found"]
+[2026-01-19T19:34:38.982Z] [debug] 2026-01-19T19:34:38.982Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-01-19T19:34:38.979Z] [debug] 2026-01-19T19:34:38.979Z | DEBUG : [Database] Retrieving all records in Treatment table: 0 records found | raw: ["[Database] Retrieving all records in Treatment table: 0 records found"]
+[2026-01-19T19:34:38.976Z] [debug] 2026-01-19T19:34:38.976Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-01-19T19:34:38.973Z] [debug] 2026-01-19T19:34:38.973Z | DEBUG : [Database] Retrieving all records in TestTaken table: 0 records found | raw: ["[Database] Retrieving all records in TestTaken table: 0 records found"]
+[2026-01-19T19:34:38.969Z] [debug] 2026-01-19T19:34:38.969Z | DEBUG : [DatabaseOperationsProvider] phase set to idle after completion | raw: ["[DatabaseOperationsProvider] phase set to idle after completion"]
+[2026-01-19T19:34:38.966Z] [error] 2026-01-19T19:34:38.966Z | ERROR : [BackupRestoreSection] Restore error | raw: ["[BackupRestoreSection] Restore error"]
+[2026-01-19T19:34:38.962Z] [error] 2026-01-19T19:34:38.962Z | ERROR : [Restore] ❌ Restore Failed Operation failed! undefined is not a function | raw: ["[Restore] ❌ Restore Failed","Operation failed! undefined is not a function"]
+[2026-01-19T19:34:38.960Z] [warn] 2026-01-19T19:34:38.960Z | WARN : [useRestoreDatabase] Restore Ended: Hide Loading | raw: ["[useRestoreDatabase] Restore Ended: Hide Loading"]
+[2026-01-19T19:34:38.957Z] [debug] 2026-01-19T19:34:38.957Z | DEBUG : [DatabaseOperationsProvider] Completing operation 
+{
+  "hasOnComplete": true,
+  "operationType": "restore",
+  "success": false
+} | raw: ["[DatabaseOperationsProvider] Completing operation",{"hasOnComplete":true,"operationType":"restore","success":false}]
+[2026-01-19T19:34:38.954Z] [error] 2026-01-19T19:34:38.953Z | ERROR : [DatabaseOperationsWorkflow] ImportManager.run failed undefined is not a function | raw: ["[DatabaseOperationsWorkflow] ImportManager.run failed",{}]
+[2026-01-19T19:34:38.950Z] [debug] 2026-01-19T19:34:38.950Z | DEBUG : [FileSystem] The path /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Documents/BBBook/BBBookDB/BBBDatabase.realm is not a directory. | raw: ["[FileSystem] The path /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Documents/BBBook/BBBookDB/BBBDatabase.realm is not a directory."]
+[2026-01-19T19:34:38.947Z] [debug] 2026-01-19T19:34:38.947Z | DEBUG : [FileSystem] Checking if path is directory at /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Documents/BBBook/BBBookDB/BBBDatabase.realm | raw: ["[FileSystem] Checking if path is directory at /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Documents/BBBook/BBBookDB/BBBDatabase.realm"]
+[2026-01-19T19:34:38.944Z] [debug] 2026-01-19T19:34:38.944Z | DEBUG : [FileSystem] Files in directory 
+{
+  "directory": "/var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Documents/BBBook/BBBookDB",
+  "files": [
+    "BBBDatabase.realm",
+    "BBBDatabase.realm.note",
+    "BBBDatabase.realm.management",
+    "BBBDatabase.realm.lock"
+  ]
+} | raw: ["[FileSystem] Files in directory",{"directory":"/var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Documents/BBBook/BBBookDB","files":["BBBDatabase.realm","BBBDatabase.realm.note","BBBDatabase.realm.management","BBBDatabase.realm.lock"]}]
+[2026-01-19T19:34:38.939Z] [debug] 2026-01-19T19:34:38.939Z | DEBUG : [FileSystem] Listing files at /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Documents/BBBook/BBBookDB | raw: ["[FileSystem] Listing files at /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Documents/BBBook/BBBookDB"]
+[2026-01-19T19:34:38.934Z] [debug] 2026-01-19T19:34:38.934Z | DEBUG : [FileSystem] Making directory at /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Documents/BBBook/BBBookDB.bak-20260119193438 | raw: ["[FileSystem] Making directory at /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Documents/BBBook/BBBookDB.bak-20260119193438"]
+[2026-01-19T19:34:38.932Z] [debug] 2026-01-19T19:34:38.932Z | DEBUG : [FileSystem] Directory at /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Documents/BBBook/BBBookDB.bak-20260119193438 does not exist | raw: ["[FileSystem] Directory at /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Documents/BBBook/BBBookDB.bak-20260119193438 does not exist"]
+[2026-01-19T19:34:38.929Z] [debug] 2026-01-19T19:34:38.929Z | DEBUG : [FileSystem] Checking if directory exists at /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Documents/BBBook/BBBookDB.bak-20260119193438 | raw: ["[FileSystem] Checking if directory exists at /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Documents/BBBook/BBBookDB.bak-20260119193438"]
+[2026-01-19T19:34:38.925Z] [debug] 2026-01-19T19:34:38.925Z | DEBUG : [FileSystem] The path /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Documents/BBBook/BBBookDB is a directory. | raw: ["[FileSystem] The path /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Documents/BBBook/BBBookDB is a directory."]
+[2026-01-19T19:34:38.922Z] [debug] 2026-01-19T19:34:38.922Z | DEBUG : [FileSystem] Checking if path is directory at /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Documents/BBBook/BBBookDB | raw: ["[FileSystem] Checking if path is directory at /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Documents/BBBook/BBBookDB"]
+[2026-01-19T19:34:38.918Z] [debug] 2026-01-19T19:34:38.918Z | DEBUG : [ImportManager] Emit phase: backing-up, progress: 0.15 | raw: ["[ImportManager] Emit phase: backing-up, progress: 0.15"]
+[2026-01-19T19:34:38.915Z] [debug] 2026-01-19T19:34:38.915Z | DEBUG : [ImportManager] Staged schema version acceptable; deferring migration to swap 
+{
+  "currentVersion": 29,
+  "stagedSchemaVersion": 19
+} | raw: ["[ImportManager] Staged schema version acceptable; deferring migration to swap",{"currentVersion":29,"stagedSchemaVersion":19}]
+[2026-01-19T19:34:38.895Z] [error] 2026-01-19T19:34:38.895Z | ERROR : [ImportManager] Staged Realm open failed; probing schema version 
+{
+  "error": {},
+  "expectEncrypted": false,
+  "path": "/var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Library/Caches/BBBook/BBBookDB/BBBDatabase.realm"
+} | raw: ["[ImportManager] Staged Realm open failed; probing schema version",{"error":{},"expectEncrypted":false,"path":"/var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Library/Caches/BBBook/BBBookDB/BBBDatabase.realm"}]
+[2026-01-19T19:34:38.889Z] [info] 2026-01-19T19:34:38.889Z | INFO : [ImportManager] validateRealmOpens start 
+{
+  "expectEncrypted": false,
+  "realmPath": "/var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Library/Caches/BBBook/BBBookDB/BBBDatabase.realm"
+} | raw: ["[ImportManager] validateRealmOpens start",{"expectEncrypted":false,"realmPath":"/var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Library/Caches/BBBook/BBBookDB/BBBDatabase.realm"}]
+[2026-01-19T19:34:38.883Z] [debug] 2026-01-19T19:34:38.883Z | DEBUG : [ImportManager] Emit phase: validating-staged, progress: 0.05 | raw: ["[ImportManager] Emit phase: validating-staged, progress: 0.05"]
+[2026-01-19T19:34:38.878Z] [debug] 2026-01-19T19:34:38.878Z | DEBUG : [FileSystem] Deleted file at /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Library/Caches/BBBook/BBBBackupFile.zip | raw: ["[FileSystem] Deleted file at /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Library/Caches/BBBook/BBBBackupFile.zip"]
+[2026-01-19T19:34:38.874Z] [info] 2026-01-19T19:34:38.874Z | INFO : [CloudStorage] Deleting importPath: /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Library/Caches/BBBook/BBBBackupFile.zip | raw: ["[CloudStorage] Deleting importPath:","/var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Library/Caches/BBBook/BBBBackupFile.zip"]
+[2026-01-19T19:34:38.869Z] [debug] 2026-01-19T19:34:38.869Z | DEBUG : [FileSystem] Files in directory 
+{
+  "directory": "/var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Library/Caches/BBBook/BBBookDB",
+  "files": [
+    "37af5b84-33dd-4da5-8669-ee1d216ea891.jpg",
+    "988a44d7-345b-4a99-9f72-50738453ef1d.jpg",
+    "f38d56cf-72b9-48cc-b37d-bd015ea70017.jpg",
+    "2f97caeb-8bf4-4967-be1c-7e6d5991a082.jpg",
+    "bce3d273-3ccf-4ff4-a95a-d2d14d45d3a2.jpg",
+    "edfff856-2f83-408c-a328-d3781c7c5d44.jpg",
+    "091f1090-8d30-4592-9110-f95457fd73e0.jpg",
+    "1f08bb34-8287-4ab5-8f84-6dc96b36ac6f.jpg",
+    "a37a3b49-5c8e-428f-b4e0-9e2916d39eba.jpg",
+    "bf2f4757-3934-4e69-b38c-f2bc25bb66cc.jpg",
+    "25ec7016-fd87-4ade-a261-e493a9853e1c.jpg",
+    "94f9ad23-ecbf-4234-a165-1cc5ef6f34b8.jpg",
+    "75fd7e05-847d-4cb5-8fff-b87bbd6a891f.jpg",
+    "7ec70869-cbf8-487f-a7af-d6a27d69137f.jpg",
+    "2db0af23-1929-4fab-9c4e-99e935ab43ca.jpg",
+    "fbf24289-69b0-4f01-8756-303f6ab11aae.jpg",
+    "0f8d52a7-3f10-4b67-9560-1b391258dcf8.jpg",
+    "773ab13a-615e-496d-b165-242638b04533.jpg",
+    "3885337c-450a-4895-8f09-808d7ba99b38.jpg",
+    "bd939671-12bd-4a57-9430-f2f91736d3e1.jpg",
+    "cfdc6008-c2f7-47e9-8a31-f0e964dc2e2d.jpg",
+    "78a02c07-7dd1-48de-9709-30b2dec6b919.jpg",
+    "61dcaa78-ef46-4a0a-91d4-dd3afa66b415.jpg",
+    "04488fe3-6a2a-477d-ab41-64628506b7a2.jpg",
+    "7974cea0-b47d-436c-8595-54d844056567.jpg",
+    "4d77f134-fb10-480e-9b15-544915162311.jpg",
+    "85244769-96fe-47a4-8f32-73e47c2853a4.jpg",
+    "a4e484f5-21df-4c5c-8eaa-7653aa885025.jpg",
+    "991ffbcc-c629-4690-bb5a-af81b804831a.jpg",
+    "e8a156cb-319c-441d-9873-9b5706e61518.jpg",
+    "fdb7abea-b58c-42ec-8532-facd94357ac1.jpg",
+    "cf973087-6c3e-4925-bdaa-4b0fb0d2ab2d.jpg",
+    "8c12aec1-ef1f-4e4b-b85b-fa1f90132125.jpg",
+    "2d9c861c-ff3c-4443-9001-e6a9bb04d006.jpg",
+    "e290b25f-b08d-4532-8dba-b3f26451783f.jpg",
+    "d21d2508-882c-42f8-982b-b95dbff186af.jpg",
+    "3a56ed11-259f-4809-9330-e3caa27953de.jpg",
+    "0abe0587-530f-48de-acd3-47b252ecf4d0.jpg",
+    "25742484-b1c5-49dd-9420-0b30d09ffccf.jpg",
+    "1b7ace72-f237-453b-a87a-0c0d29c45628.jpg",
+    "166959a2-d0b4-41cf-ad34-79560e38e785.jpg",
+    "bfe2b41d-033a-4c91-a6b1-3bc186edaad1.jpg",
+    "a7066e9c-953e-445e-84f1-fc3995aa553b.jpg",
+    "c6a7a82c-7ce0-4176-bf35-0aac01b7516c.jpg",
+    "0fd61de5-093b-47a1-a2fc-f3882ecb57e6.jpg",
+    "5d23ae4b-cf6b-44ca-b100-642f4acbae96.jpg",
+    "d2513f9b-4a45-4c24-85ec-4f982567a071.jpg",
+    "f20717b6-db99-4f96-b165-860656a7d9d8.jpg",
+    "2460dea9-77e1-4b8e-b0c3-16a95fcc7b8f.jpg",
+    "18211b84-d836-41d5-8e07-4a3c8ae55ff6.jpg",
+    "b18946dc-ff80-4ff9-9c79-0b5d64901b61.jpg",
+    "7949b1ba-bbd5-46fa-9836-fc1213e5c7db.jpg",
+    "b57d834d-131c-48cd-9d0b-72b96f3feae2.jpg",
+    "e4031418-0ac4-4bd1-8be4-74af5f9ea415.jpg",
+    "187b5a1b-2790-4eea-bee4-c5b64e2ccad4.jpg",
+    "59b14c73-20ba-45a4-b21c-999183a74671.jpg",
+    "bc8396bc-770a-4b11-a824-b7e62a3d1fb5.jpg",
+    "3fa046be-a1f0-46e2-894d-a736f7527726.jpg",
+    "3ad34451-fa38-432e-b7db-e91b9d4610d2.jpg",
+    "2630f492-d2e1-44dd-90df-520cd8d09e68.jpg",
+    "98219e9b-08cb-492c-8409-d3113d96e01b.jpg",
+    "dd3cc11a-41df-48f2-867d-a7f7d5272272.jpg",
+    "678885b8-aa50-40db-817c-8981113d8405.jpg",
+    "f62e9873-acaf-424b-8751-e3d24fad71dd.jpg",
+    "439bef6c-6fee-4b02-8ff3-26543b8d708f.jpg",
+    "096e176c-a12c-4df8-a769-3bee18377783.jpg",
+    "a1e3ccbc-54e0-49e6-90ad-a1ec7f6c560b.jpg",
+    "7a39b6fd-30c1-495d-bd5d-0d3148a22734.jpg",
+    "6c971c18-adb0-403a-966d-5ab006c57890.jpg",
+    "88530c5d-9efa-4f31-a733-8a54bd17e933.jpg",
+    "77587096-5d7b-4e59-a334-eab3bf2e8da2.jpg",
+    "9a41dfd5-f25f-4d77-82db-9511adf6192f.jpg",
+    "a08d1f2e-0d59-4f47-bcc7-df313bb62c4b.jpg",
+    "0dd99b54-7e43-4a5b-82c5-13ffae2d4d1f.jpg",
+    "3eee982d-80bb-40e1-b60d-b0431e038e8a.jpg",
+    "c771aa86-8df4-4c8a-bd7f-37e26f1c2262.jpg",
+    "6b7ea473-8647-4aca-ac55-8f4d1aeabe02.jpg",
+    "9b5eee3a-2851-4b5d-a2e6-2576df9f1319.jpg",
+    "1ab2ef67-89f4-434d-98b5-a7901068ed72.jpg",
+    "a4d33b24-bd9e-42b6-b9f4-c11bce290043.jpg",
+    "673e56fa-62d7-4cad-b987-95dedc9fb256.jpg",
+    "e6864214-08cb-40b5-a742-775afd5e2535.jpg",
+    "e7dfee9d-1d39-4b8a-903c-71a65606a757.jpg",
+    "82491afa-27f8-4f44-8a37-fc56777a4ce6.jpg",
+    "98a0c986-c2b5-4477-a32b-e7b51ae471f8.jpg",
+    "253dbf5d-ab5e-4e5b-bd1b-40d06aab4703.jpg",
+    "064ffb3b-b83f-461d-894b-9394d44f4397.jpg",
+    "27e836b8-1eaf-4f2f-99c8-0c04efc80c6f.jpg",
+    "BBBDatabase.realm",
+    "afb44f40-14d6-4a82-a6b0-de41b755845c.jpg",
+    "432c6b31-58b7-44af-8cdc-6ae005e88607.jpg",
+    "04f55591-44f8-4f0d-ab82-be49cd5638e0.jpg",
+    "396148c4-71db-48e1-b9b7-9e58fc801e5a.jpg",
+    "554b0b2c-a06c-44ea-98d7-d0506e433dca.jpg",
+    "8ec9773a-2cf0-4d6d-a330-7fa745ae2246.jpg",
+    "61966d9a-dd62-40be-9be6-4cf25aec58d7.jpg",
+    "e9542bb9-68dc-4c09-b7b5-707ae2f94dbc.jpg",
+    "0904985e-6b9b-4675-9fa9-659c3abc9d5b.jpg",
+    "7a85db0c-ee79-433e-becf-e2d83fc945a9.jpg",
+    "7bf4e518-622a-46a4-b346-5b981fce887b.jpg",
+    "3fda71e7-627b-4b7e-bd56-1f20d30731d6.jpg",
+    "0500bc25-5c17-4286-a56e-cd1b16d5e42f.jpg",
+    "2bae3298-223d-44ad-846e-3fc63b070f2a.jpg",
+    "3d9e1297-a506-4a1b-ae7f-f9b9e10ec1d7.jpg",
+    "dd79faff-4faa-4c46-8da4-d81d7a60db1a.jpg",
+    "5fb392ee-9027-4f50-b9b1-48d69c863fa5.jpg",
+    "3df9543a-991a-4827-89e9-0747295e38dd.jpg",
+    "11c310e9-2b67-4165-9a43-3c3673904a7a.jpg",
+    "78698266-e621-44ad-9f51-5fc91daa2ff8.jpg",
+    "a02240e6-c648-4a31-bef4-76ee8b5df9e3.jpg",
+    "eab3daef-44a1-4748-8321-6d0b377d816a.jpg",
+    "ac2b66d1-1420-4071-ae4a-3d40af87f342.jpg",
+    "feb05a6b-2c5c-4a23-8add-4de0e76cf753.jpg",
+    "a2ad8dec-35a1-4943-8258-1b31a09b4c1e.jpg",
+    "4be30738-fb89-4dd5-af99-e950d3947844.jpg",
+    "47d508db-649c-4dda-bbd8-3c58d8840d9b.jpg",
+    "54aedb3b-34af-4f66-b725-8f1e60da610c.jpg",
+    "07942b5e-e09a-4e2f-a077-22dfb79d5461.jpg",
+    "b3cb4439-633c-42a4-ab83-41d41746523f.jpg",
+    "6d98d90d-7637-480c-be4c-589cdcea7b13.jpg",
+    "686b29d0-12e2-4dde-ae91-2f2e83aece6a.jpg",
+    "1ef5bbfc-59d2-4610-b1fe-deb23d25a637.jpg",
+    "ca986444-76aa-4044-acae-22ba29083760.jpg",
+    "cfeed64d-c4d4-4464-910d-3a134d1996e7.jpg",
+    "ab5ff627-ca78-46ef-ab4a-1fe4f6f88418.jpg",
+    "21fff80c-4362-47ac-8cd1-2fadcf2ecaa4.jpg",
+    "2dfe4714-15c3-4f05-a5b1-3f47b961ad98.jpg",
+    "207f1365-7881-4476-aaa7-d8d4d7b36846.jpg",
+    "9303b7be-edb0-4f38-91f9-f702db5e681c.jpg",
+    "d5967ee4-824d-4377-9bfc-0b3a23a7e3f4.jpg",
+    "2bdbc726-45cc-472c-a61d-9d8a8e66c503.jpg",
+    "ef5a38d9-63c7-443a-ac5e-05e5ea61c067.jpg",
+    "694103a6-d66c-41e5-8be3-125199b52a5c.jpg",
+    "6567f26f-982b-461f-8f35-2c26c94dd49e.jpg",
+    "08dc7dfa-dfe5-47b8-a8c1-c2ed6f5ab8b8.jpg",
+    "4dcba23b-5703-4289-a24d-ce291a6f1088.jpg",
+    "17ab0b35-13e5-4a25-9ed0-20ab8e9e6948.jpg",
+    "bc5860b7-221a-4605-9b24-1ebfb040ff38.jpg",
+    "e2c8ad2f-d1fc-4987-9cd9-a5f927359ca4.jpg",
+    "3e6dbe02-b621-4749-b22f-9004a35c01a1.jpg",
+    "bae57a70-ebe8-4eff-8dcf-f5ac52de63a5.jpg",
+    "bd541c56-58b9-4cc7-80ea-604373996fdc.jpg",
+    "a5b5d413-064d-4755-84ec-42865aec1340.jpg",
+    "65e153e4-9750-446d-bc19-21d3a0b9f9bd.jpg",
+    "b3de482b-ed41-4212-b7d2-41a6403b0ec1.jpg",
+    "a66b6076-4ac0-47de-988f-83a354b3de29.jpg",
+    "7eda4bb0-dc9c-46f1-ade1-4eb3d8713fa6.jpg",
+    "b1d7a383-09c2-44af-83b3-08493ac53c0c.jpg",
+    "1c9fe02f-b0dc-458a-9fec-7c618372ebb0.jpg",
+    "d98e0141-7874-4520-b1eb-ccb890fd4f45.jpg",
+    "7011f1c3-e6d7-488d-a443-3b929977a26e.jpg",
+    "5b1e1344-5bc9-45b0-a5bb-cd7ecd0d4dc0.jpg",
+    "351465a6-4773-4ed0-a13f-5cdf16a5319f.jpg",
+    "fd9e8e86-9d56-43cd-be16-9c3e6114b98f.jpg",
+    "1a60d8f9-8f26-43ff-9eeb-1f65c6dcc952.jpg",
+    "86274eec-3ff9-44f6-90c4-7604125201d3.jpg",
+    "fe81cf2a-fa50-4d0d-af96-5d31452e2b36.jpg",
+    "a2322d24-02ba-400d-9f58-6da14578325c.jpg",
+    "d726350e-66dc-4c3b-aa8b-75f87e5cd5e7.jpg",
+    "b4b85520-ee32-423c-931d-474e09a9cf68.jpg",
+    "f16889f6-8e05-4884-8850-13195c52c741.jpg",
+    "8cd4c2f5-8097-4237-be43-339a6a96d803.jpg",
+    "04ddeabc-8a18-47ee-a59b-ca5fa544904e.jpg",
+    "7947c64e-3ee4-4c9a-aeaf-ecbb4d46887d.jpg",
+    "9d08a030-ae38-4387-8b7a-b19a05c61dbf.jpg",
+    "1c6042a1-51fb-4a21-8813-fc57be92f699.jpg",
+    "b111ee3c-50df-40ad-9926-5a808f3db8d3.jpg",
+    "733bbec0-275f-4115-b5a2-58ad80019ed3.jpg",
+    "0088e833-87e7-4eb4-ac77-68a1267621a1.jpg",
+    "16be63ac-f870-4c0d-a7bd-0455f8012041.jpg",
+    "e1758684-624b-4766-801f-0f6c0426adb8.jpg",
+    "1c2fdd9f-0914-488a-baa6-383f1d13c4cf.jpg",
+    "5fe6a96d-95f4-4608-b32b-bf25f8c66546.jpg",
+    "12e22329-77bd-418e-b064-b4863965b7a8.jpg",
+    "9747455d-d527-4ef6-9ce5-8f3f2c1b13dd.jpg",
+    "9a60b8ee-ccdb-4c8f-94d1-6376a249f1da.jpg",
+    "ce714fd3-e26e-48c4-867e-932e60a05518.jpg",
+    "0f61ed1f-4487-40c8-9cf9-84c2e40a0029.jpg",
+    "6284f0f7-fde3-4b61-a075-88dd12e068c2.jpg",
+    "a0493ae6-0234-4b72-816c-2a965ce6e00f.jpg",
+    "106b5847-e6a0-4ce5-b74a-dc1b1a76bf0c.jpg",
+    "a341fc6c-4a44-434c-9700-da6d0ea9c801.jpg",
+    "286f924a-1ba5-46f4-b0d8-37465d0764ee.jpg",
+    "60449603-c483-420d-a796-1f91be8e99a9.jpg",
+    "ed61fed8-dfd1-43b9-bd4f-3097f7170be0.jpg",
+    "f5f1ac5d-f151-41ae-b648-cb066549df4b.jpg",
+    "54c4a8b7-a81d-44a0-a7f3-af894cb8f155.jpg",
+    "1aa1bed4-e61a-439f-b6d1-12ea06f38874.jpg",
+    "0a757ad9-f2fb-4c49-8b5c-667711168d1e.jpg",
+    "8b168c11-6b07-4961-8dfa-5a7eaa01e83c.jpg",
+    "5b85491c-f6a1-4d47-9800-11de3d84ab56.jpg",
+    "b91c27de-d66c-4638-baa5-21acdda4cac6.jpg",
+    "fce01391-fe2d-4bbc-85fc-d544ee9ee79b.jpg",
+    "2c13863a-f190-47a3-b067-4f7b461699ec.jpg",
+    "f1abf160-392f-4c57-b875-478eebf33c66.jpg",
+    "1da012b8-ac23-46c6-b06f-8b3ddff48c07.jpg",
+    "497282c5-4a3f-4a6a-a539-3eab00ddcca0.jpg",
+    "492d3503-ac02-4f92-8438-17708a4ca699.jpg",
+    "fb1a154c-fa70-41f0-aec7-30e01a1e2676.jpg",
+    "1f182c7f-0b0b-4d8e-977f-b0a7e4078d56.jpg",
+    "c46b49ea-258c-4819-a78b-aac6fc5b0673.jpg",
+    "c3a75161-4211-4fea-a184-72ba1d2c72a1.jpg",
+    "717bbcb7-7e37-4a62-afb2-2c30122f0616.jpg",
+    "0956b297-893e-460e-ba94-336624cc3d48.jpg",
+    "7171865b-0465-4842-8486-74bf890ec9f2.jpg",
+    "e1af09fa-12ed-4d35-a154-a6a58184cdc5.jpg",
+    "e17d5eb9-dcd7-48f0-9ab0-eeee7afdd7f9.jpg",
+    "9206ee59-bc96-4763-ba92-b60622bc2dcb.jpg",
+    "79bfe8e8-ce1b-438d-a23b-882553bef0e0.jpg",
+    "7fcd89dc-295e-4582-bf3d-a008103006f9.jpg",
+    "3294cf83-71f9-4d7a-9e3c-afff39cbbab4.jpg",
+    "90487bc8-1254-4454-bc28-22896a486df0.jpg",
+    "3b15da3b-72bf-4b81-85e9-8b76ee697da7.jpg"
+  ]
+} | raw: ["[FileSystem] Files in directory",{"directory":"/var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Library/Caches/BBBook/BBBookDB","files":["37af5b84-33dd-4da5-8669-ee1d216ea891.jpg","988a44d7-345b-4a99-9f72-50738453ef1d.jpg","f38d56cf-72b9-48cc-b37d-bd015ea70017.jpg","2f97caeb-8bf4-4967-be1c-7e6d5991a082.jpg","bce3d273-3ccf-4ff4-a95a-d2d14d45d3a2.jpg","edfff856-2f83-408c-a328-d3781c7c5d44.jpg","091f1090-8d30-4592-9110-f95457fd73e0.jpg","1f08bb34-8287-4ab5-8f84-6dc96b36ac6f.jpg","a37a3b49-5c8e-428f-b4e0-9e2916d39eba.jpg","bf2f4757-3934-4e69-b38c-f2bc25bb66cc.jpg","25ec7016-fd87-4ade-a261-e493a9853e1c.jpg","94f9ad23-ecbf-4234-a165-1cc5ef6f34b8.jpg","75fd7e05-847d-4cb5-8fff-b87bbd6a891f.jpg","7ec70869-cbf8-487f-a7af-d6a27d69137f.jpg","2db0af23-1929-4fab-9c4e-99e935ab43ca.jpg","fbf24289-69b0-4f01-8756-303f6ab11aae.jpg","0f8d52a7-3f10-4b67-9560-1b391258dcf8.jpg","773ab13a-615e-496d-b165-242638b04533.jpg","3885337c-450a-4895-8f09-808d7ba99b38.jpg","bd939671-12bd-4a57-9430-f2f91736d3e1.jpg","cfdc6008-c2f7-47e9-8a31-f0e964dc2e2d.jpg","78a02c07-7dd1-48de-9709-30b2dec6b919.jpg","61dcaa78-ef46-4a0a-91d4-dd3afa66b415.jpg","04488fe3-6a2a-477d-ab41-64628506b7a2.jpg","7974cea0-b47d-436c-8595-54d844056567.jpg","4d77f134-fb10-480e-9b15-544915162311.jpg","85244769-96fe-47a4-8f32-73e47c2853a4.jpg","a4e484f5-21df-4c5c-8eaa-7653aa885025.jpg","991ffbcc-c629-4690-bb5a-af81b804831a.jpg","e8a156cb-319c-441d-9873-9b5706e61518.jpg","fdb7abea-b58c-42ec-8532-facd94357ac1.jpg","cf973087-6c3e-4925-bdaa-4b0fb0d2ab2d.jpg","8c12aec1-ef1f-4e4b-b85b-fa1f90132125.jpg","2d9c861c-ff3c-4443-9001-e6a9bb04d006.jpg","e290b25f-b08d-4532-8dba-b3f26451783f.jpg","d21d2508-882c-42f8-982b-b95dbff186af.jpg","3a56ed11-259f-4809-9330-e3caa27953de.jpg","0abe0587-530f-48de-acd3-47b252ecf4d0.jpg","25742484-b1c5-49dd-9420-0b30d09ffccf.jpg","1b7ace72-f237-453b-a87a-0c0d29c45628.jpg","166959a2-d0b4-41cf-ad34-79560e38e785.jpg","bfe2b41d-033a-4c91-a6b1-3bc186edaad1.jpg","a7066e9c-953e-445e-84f1-fc3995aa553b.jpg","c6a7a82c-7ce0-4176-bf35-0aac01b7516c.jpg","0fd61de5-093b-47a1-a2fc-f3882ecb57e6.jpg","5d23ae4b-cf6b-44ca-b100-642f4acbae96.jpg","d2513f9b-4a45-4c24-85ec-4f982567a071.jpg","f20717b6-db99-4f96-b165-860656a7d9d8.jpg","2460dea9-77e1-4b8e-b0c3-16a95fcc7b8f.jpg","18211b84-d836-41d5-8e07-4a3c8ae55ff6.jpg","b18946dc-ff80-4ff9-9c79-0b5d64901b61.jpg","7949b1ba-bbd5-46fa-9836-fc1213e5c7db.jpg","b57d834d-131c-48cd-9d0b-72b96f3feae2.jpg","e4031418-0ac4-4bd1-8be4-74af5f9ea415.jpg","187b5a1b-2790-4eea-bee4-c5b64e2ccad4.jpg","59b14c73-20ba-45a4-b21c-999183a74671.jpg","bc8396bc-770a-4b11-a824-b7e62a3d1fb5.jpg","3fa046be-a1f0-46e2-894d-a736f7527726.jpg","3ad34451-fa38-432e-b7db-e91b9d4610d2.jpg","2630f492-d2e1-44dd-90df-520cd8d09e68.jpg","98219e9b-08cb-492c-8409-d3113d96e01b.jpg","dd3cc11a-41df-48f2-867d-a7f7d5272272.jpg","678885b8-aa50-40db-817c-8981113d8405.jpg","f62e9873-acaf-424b-8751-e3d24fad71dd.jpg","439bef6c-6fee-4b02-8ff3-26543b8d708f.jpg","096e176c-a12c-4df8-a769-3bee18377783.jpg","a1e3ccbc-54e0-49e6-90ad-a1ec7f6c560b.jpg","7a39b6fd-30c1-495d-bd5d-0d3148a22734.jpg","6c971c18-adb0-403a-966d-5ab006c57890.jpg","88530c5d-9efa-4f31-a733-8a54bd17e933.jpg","77587096-5d7b-4e59-a334-eab3bf2e8da2.jpg","9a41dfd5-f25f-4d77-82db-9511adf6192f.jpg","a08d1f2e-0d59-4f47-bcc7-df313bb62c4b.jpg","0dd99b54-7e43-4a5b-82c5-13ffae2d4d1f.jpg","3eee982d-80bb-40e1-b60d-b0431e038e8a.jpg","c771aa86-8df4-4c8a-bd7f-37e26f1c2262.jpg","6b7ea473-8647-4aca-ac55-8f4d1aeabe02.jpg","9b5eee3a-2851-4b5d-a2e6-2576df9f1319.jpg","1ab2ef67-89f4-434d-98b5-a7901068ed72.jpg","a4d33b24-bd9e-42b6-b9f4-c11bce290043.jpg","673e56fa-62d7-4cad-b987-95dedc9fb256.jpg","e6864214-08cb-40b5-a742-775afd5e2535.jpg","e7dfee9d-1d39-4b8a-903c-71a65606a757.jpg","82491afa-27f8-4f44-8a37-fc56777a4ce6.jpg","98a0c986-c2b5-4477-a32b-e7b51ae471f8.jpg","253dbf5d-ab5e-4e5b-bd1b-40d06aab4703.jpg","064ffb3b-b83f-461d-894b-9394d44f4397.jpg","27e836b8-1eaf-4f2f-99c8-0c04efc80c6f.jpg","BBBDatabase.realm","afb44f40-14d6-4a82-a6b0-de41b755845c.jpg","432c6b31-58b7-44af-8cdc-6ae005e88607.jpg","04f55591-44f8-4f0d-ab82-be49cd5638e0.jpg","396148c4-71db-48e1-b9b7-9e58fc801e5a.jpg","554b0b2c-a06c-44ea-98d7-d0506e433dca.jpg","8ec9773a-2cf0-4d6d-a330-7fa745ae2246.jpg","61966d9a-dd62-40be-9be6-4cf25aec58d7.jpg","e9542bb9-68dc-4c09-b7b5-707ae2f94dbc.jpg","0904985e-6b9b-4675-9fa9-659c3abc9d5b.jpg","7a85db0c-ee79-433e-becf-e2d83fc945a9.jpg","7bf4e518-622a-46a4-b346-5b981fce887b.jpg","3fda71e7-627b-4b7e-bd56-1f20d30731d6.jpg","0500bc25-5c17-4286-a56e-cd1b16d5e42f.jpg","2bae3298-223d-44ad-846e-3fc63b070f2a.jpg","3d9e1297-a506-4a1b-ae7f-f9b9e10ec1d7.jpg","dd79faff-4faa-4c46-8da4-d81d7a60db1a.jpg","5fb392ee-9027-4f50-b9b1-48d69c863fa5.jpg","3df9543a-991a-4827-89e9-0747295e38dd.jpg","11c310e9-2b67-4165-9a43-3c3673904a7a.jpg","78698266-e621-44ad-9f51-5fc91daa2ff8.jpg","a02240e6-c648-4a31-bef4-76ee8b5df9e3.jpg","eab3daef-44a1-4748-8321-6d0b377d816a.jpg","ac2b66d1-1420-4071-ae4a-3d40af87f342.jpg","feb05a6b-2c5c-4a23-8add-4de0e76cf753.jpg","a2ad8dec-35a1-4943-8258-1b31a09b4c1e.jpg","4be30738-fb89-4dd5-af99-e950d3947844.jpg","47d508db-649c-4dda-bbd8-3c58d8840d9b.jpg","54aedb3b-34af-4f66-b725-8f1e60da610c.jpg","07942b5e-e09a-4e2f-a077-22dfb79d5461.jpg","b3cb4439-633c-42a4-ab83-41d41746523f.jpg","6d98d90d-7637-480c-be4c-589cdcea7b13.jpg","686b29d0-12e2-4dde-ae91-2f2e83aece6a.jpg","1ef5bbfc-59d2-4610-b1fe-deb23d25a637.jpg","ca986444-76aa-4044-acae-22ba29083760.jpg","cfeed64d-c4d4-4464-910d-3a134d1996e7.jpg","ab5ff627-ca78-46ef-ab4a-1fe4f6f88418.jpg","21fff80c-4362-47ac-8cd1-2fadcf2ecaa4.jpg","2dfe4714-15c3-4f05-a5b1-3f47b961ad98.jpg","207f1365-7881-4476-aaa7-d8d4d7b36846.jpg","9303b7be-edb0-4f38-91f9-f702db5e681c.jpg","d5967ee4-824d-4377-9bfc-0b3a23a7e3f4.jpg","2bdbc726-45cc-472c-a61d-9d8a8e66c503.jpg","ef5a38d9-63c7-443a-ac5e-05e5ea61c067.jpg","694103a6-d66c-41e5-8be3-125199b52a5c.jpg","6567f26f-982b-461f-8f35-2c26c94dd49e.jpg","08dc7dfa-dfe5-47b8-a8c1-c2ed6f5ab8b8.jpg","4dcba23b-5703-4289-a24d-ce291a6f1088.jpg","17ab0b35-13e5-4a25-9ed0-20ab8e9e6948.jpg","bc5860b7-221a-4605-9b24-1ebfb040ff38.jpg","e2c8ad2f-d1fc-4987-9cd9-a5f927359ca4.jpg","3e6dbe02-b621-4749-b22f-9004a35c01a1.jpg","bae57a70-ebe8-4eff-8dcf-f5ac52de63a5.jpg","bd541c56-58b9-4cc7-80ea-604373996fdc.jpg","a5b5d413-064d-4755-84ec-42865aec1340.jpg","65e153e4-9750-446d-bc19-21d3a0b9f9bd.jpg","b3de482b-ed41-4212-b7d2-41a6403b0ec1.jpg","a66b6076-4ac0-47de-988f-83a354b3de29.jpg","7eda4bb0-dc9c-46f1-ade1-4eb3d8713fa6.jpg","b1d7a383-09c2-44af-83b3-08493ac53c0c.jpg","1c9fe02f-b0dc-458a-9fec-7c618372ebb0.jpg","d98e0141-7874-4520-b1eb-ccb890fd4f45.jpg","7011f1c3-e6d7-488d-a443-3b929977a26e.jpg","5b1e1344-5bc9-45b0-a5bb-cd7ecd0d4dc0.jpg","351465a6-4773-4ed0-a13f-5cdf16a5319f.jpg","fd9e8e86-9d56-43cd-be16-9c3e6114b98f.jpg","1a60d8f9-8f26-43ff-9eeb-1f65c6dcc952.jpg","86274eec-3ff9-44f6-90c4-7604125201d3.jpg","fe81cf2a-fa50-4d0d-af96-5d31452e2b36.jpg","a2322d24-02ba-400d-9f58-6da14578325c.jpg","d726350e-66dc-4c3b-aa8b-75f87e5cd5e7.jpg","b4b85520-ee32-423c-931d-474e09a9cf68.jpg","f16889f6-8e05-4884-8850-13195c52c741.jpg","8cd4c2f5-8097-4237-be43-339a6a96d803.jpg","04ddeabc-8a18-47ee-a59b-ca5fa544904e.jpg","7947c64e-3ee4-4c9a-aeaf-ecbb4d46887d.jpg","9d08a030-ae38-4387-8b7a-b19a05c61dbf.jpg","1c6042a1-51fb-4a21-8813-fc57be92f699.jpg","b111ee3c-50df-40ad-9926-5a808f3db8d3.jpg","733bbec0-275f-4115-b5a2-58ad80019ed3.jpg","0088e833-87e7-4eb4-ac77-68a1267621a1.jpg","16be63ac-f870-4c0d-a7bd-0455f8012041.jpg","e1758684-624b-4766-801f-0f6c0426adb8.jpg","1c2fdd9f-0914-488a-baa6-383f1d13c4cf.jpg","5fe6a96d-95f4-4608-b32b-bf25f8c66546.jpg","12e22329-77bd-418e-b064-b4863965b7a8.jpg","9747455d-d527-4ef6-9ce5-8f3f2c1b13dd.jpg","9a60b8ee-ccdb-4c8f-94d1-6376a249f1da.jpg","ce714fd3-e26e-48c4-867e-932e60a05518.jpg","0f61ed1f-4487-40c8-9cf9-84c2e40a0029.jpg","6284f0f7-fde3-4b61-a075-88dd12e068c2.jpg","a0493ae6-0234-4b72-816c-2a965ce6e00f.jpg","106b5847-e6a0-4ce5-b74a-dc1b1a76bf0c.jpg","a341fc6c-4a44-434c-9700-da6d0ea9c801.jpg","286f924a-1ba5-46f4-b0d8-37465d0764ee.jpg","60449603-c483-420d-a796-1f91be8e99a9.jpg","ed61fed8-dfd1-43b9-bd4f-3097f7170be0.jpg","f5f1ac5d-f151-41ae-b648-cb066549df4b.jpg","54c4a8b7-a81d-44a0-a7f3-af894cb8f155.jpg","1aa1bed4-e61a-439f-b6d1-12ea06f38874.jpg","0a757ad9-f2fb-4c49-8b5c-667711168d1e.jpg","8b168c11-6b07-4961-8dfa-5a7eaa01e83c.jpg","5b85491c-f6a1-4d47-9800-11de3d84ab56.jpg","b91c27de-d66c-4638-baa5-21acdda4cac6.jpg","fce01391-fe2d-4bbc-85fc-d544ee9ee79b.jpg","2c13863a-f190-47a3-b067-4f7b461699ec.jpg","f1abf160-392f-4c57-b875-478eebf33c66.jpg","1da012b8-ac23-46c6-b06f-8b3ddff48c07.jpg","497282c5-4a3f-4a6a-a539-3eab00ddcca0.jpg","492d3503-ac02-4f92-8438-17708a4ca699.jpg","fb1a154c-fa70-41f0-aec7-30e01a1e2676.jpg","1f182c7f-0b0b-4d8e-977f-b0a7e4078d56.jpg","c46b49ea-258c-4819-a78b-aac6fc5b0673.jpg","c3a75161-4211-4fea-a184-72ba1d2c72a1.jpg","717bbcb7-7e37-4a62-afb2-2c30122f0616.jpg","0956b297-893e-460e-ba94-336624cc3d48.jpg","7171865b-0465-4842-8486-74bf890ec9f2.jpg","e1af09fa-12ed-4d35-a154-a6a58184cdc5.jpg","e17d5eb9-dcd7-48f0-9ab0-eeee7afdd7f9.jpg","9206ee59-bc96-4763-ba92-b60622bc2dcb.jpg","79bfe8e8-ce1b-438d-a23b-882553bef0e0.jpg","7fcd89dc-295e-4582-bf3d-a008103006f9.jpg","3294cf83-71f9-4d7a-9e3c-afff39cbbab4.jpg","90487bc8-1254-4454-bc28-22896a486df0.jpg","3b15da3b-72bf-4b81-85e9-8b76ee697da7.jpg"]}]
+[2026-01-19T19:34:38.779Z] [debug] 2026-01-19T19:34:38.779Z | DEBUG : [FileSystem] Listing files at /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Library/Caches/BBBook/BBBookDB | raw: ["[FileSystem] Listing files at /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Library/Caches/BBBook/BBBookDB"]
+[2026-01-19T19:34:38.771Z] [debug] 2026-01-19T19:34:38.771Z | DEBUG : [FileSystem] File unzipped to /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Library/Caches/BBBook/BBBookDB | raw: ["[FileSystem] File unzipped to /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Library/Caches/BBBook/BBBookDB"]
+[2026-01-19T19:34:38.619Z] [debug] 2026-01-19T19:34:38.619Z | DEBUG : [DatabaseOperationsProvider] coordinator progress update 
+{
+  "progress": 1
+} | raw: ["[DatabaseOperationsProvider] coordinator progress update",{"progress":1}]
+[2026-01-19T19:34:38.615Z] [debug] 2026-01-19T19:34:38.615Z | DEBUG : [FileSystem] Unzipping file from /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Library/Caches/BBBook/BBBBackupFile.zip to /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Library/Caches/BBBook/BBBookDB | raw: ["[FileSystem] Unzipping file from /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Library/Caches/BBBook/BBBBackupFile.zip to /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Library/Caches/BBBook/BBBookDB"]
+[2026-01-19T19:34:38.603Z] [info] 2026-01-19T19:34:38.603Z | INFO : [CloudStorage] Unzipping file: /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Library/Caches/BBBook/BBBBackupFile.zip to: /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Library/Caches/BBBook/BBBookDB | raw: ["[CloudStorage] Unzipping file:","/var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Library/Caches/BBBook/BBBBackupFile.zip","to:","/var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Library/Caches/BBBook/BBBookDB"]
+[2026-01-19T19:34:38.598Z] [debug] 2026-01-19T19:34:38.598Z | DEBUG : [FileSystem] Deleted directory at /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Library/Caches/BBBook/BBBookDB | raw: ["[FileSystem] Deleted directory at /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Library/Caches/BBBook/BBBookDB"]
+[2026-01-19T19:34:38.578Z] [debug] 2026-01-19T19:34:38.578Z | DEBUG : [FileSystem] Deleting directory at /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Library/Caches/BBBook/BBBookDB (contents: 37af5b84-33dd-4da5-8669-ee1d216ea891.jpg, 988a44d7-345b-4a99-9f72-50738453ef1d.jpg, f38d56cf-72b9-48cc-b37d-bd015ea70017.jpg, 2f97caeb-8bf4-4967-be1c-7e6d5991a082.jpg, bce3d273-3ccf-4ff4-a95a-d2d14d45d3a2.jpg, edfff856-2f83-408c-a328-d3781c7c5d44.jpg, 091f1090-8d30-4592-9110-f95457fd73e0.jpg, 1f08bb34-8287-4ab5-8f84-6dc96b36ac6f.jpg, a37a3b49-5c8e-428f-b4e0-9e2916d39eba.jpg, bf2f4757-3934-4e69-b38c-f2bc25bb66cc.jpg, 25ec7016-fd87-4ade-a261-e493a9853e1c.jpg, 94f9ad23-ecbf-4234-a165-1cc5ef6f34b8.jpg, 75fd7e05-847d-4cb5-8fff-b87bbd6a891f.jpg, 7ec70869-cbf8-487f-a7af-d6a27d69137f.jpg, 2db0af23-1929-4fab-9c4e-99e935ab43ca.jpg, fbf24289-69b0-4f01-8756-303f6ab11aae.jpg, 0f8d52a7-3f10-4b67-9560-1b391258dcf8.jpg, 773ab13a-615e-496d-b165-242638b04533.jpg, 3885337c-450a-4895-8f09-808d7ba99b38.jpg, bd939671-12bd-4a57-9430-f2f91736d3e1.jpg, cfdc6008-c2f7-47e9-8a31-f0e964dc2e2d.jpg, 78a02c07-7dd1-48de-9709-30b2dec6b919.jpg, 61dcaa78-ef46-4a0a-91d4-dd3afa66b415.jpg, 04488fe3-6a2a-477d-ab41-64628506b7a2.jpg, 7974cea0-b47d-436c-8595-54d844056567.jpg, 4d77f134-fb10-480e-9b15-544915162311.jpg, 85244769-96fe-47a4-8f32-73e47c2853a4.jpg, a4e484f5-21df-4c5c-8eaa-7653aa885025.jpg, 991ffbcc-c629-4690-bb5a-af81b804831a.jpg, e8a156cb-319c-441d-9873-9b5706e61518.jpg, fdb7abea-b58c-42ec-8532-facd94357ac1.jpg, cf973087-6c3e-4925-bdaa-4b0fb0d2ab2d.jpg, 8c12aec1-ef1f-4e4b-b85b-fa1f90132125.jpg, 2d9c861c-ff3c-4443-9001-e6a9bb04d006.jpg, e290b25f-b08d-4532-8dba-b3f26451783f.jpg, d21d2508-882c-42f8-982b-b95dbff186af.jpg, 3a56ed11-259f-4809-9330-e3caa27953de.jpg, 0abe0587-530f-48de-acd3-47b252ecf4d0.jpg, 25742484-b1c5-49dd-9420-0b30d09ffccf.jpg, 1b7ace72-f237-453b-a87a-0c0d29c45628.jpg, 166959a2-d0b4-41cf-ad34-79560e38e785.jpg, bfe2b41d-033a-4c91-a6b1-3bc186edaad1.jpg, a7066e9c-953e-445e-84f1-fc3995aa553b.jpg, c6a7a82c-7ce0-4176-bf35-0aac01b7516c.jpg, 0fd61de5-093b-47a1-a2fc-f3882ecb57e6.jpg, 5d23ae4b-cf6b-44ca-b100-642f4acbae96.jpg, d2513f9b-4a45-4c24-85ec-4f982567a071.jpg, f20717b6-db99-4f96-b165-860656a7d9d8.jpg, 2460dea9-77e1-4b8e-b0c3-16a95fcc7b8f.jpg, 18211b84-d836-41d5-8e07-4a3c8ae55ff6.jpg, b18946dc-ff80-4ff9-9c79-0b5d64901b61.jpg, 7949b1ba-bbd5-46fa-9836-fc1213e5c7db.jpg, b57d834d-131c-48cd-9d0b-72b96f3feae2.jpg, e4031418-0ac4-4bd1-8be4-74af5f9ea415.jpg, 187b5a1b-2790-4eea-bee4-c5b64e2ccad4.jpg, 59b14c73-20ba-45a4-b21c-999183a74671.jpg, bc8396bc-770a-4b11-a824-b7e62a3d1fb5.jpg, 3fa046be-a1f0-46e2-894d-a736f7527726.jpg, 3ad34451-fa38-432e-b7db-e91b9d4610d2.jpg, 2630f492-d2e1-44dd-90df-520cd8d09e68.jpg, 98219e9b-08cb-492c-8409-d3113d96e01b.jpg, dd3cc11a-41df-48f2-867d-a7f7d5272272.jpg, 678885b8-aa50-40db-817c-8981113d8405.jpg, f62e9873-acaf-424b-8751-e3d24fad71dd.jpg, 439bef6c-6fee-4b02-8ff3-26543b8d708f.jpg, 096e176c-a12c-4df8-a769-3bee18377783.jpg, a1e3ccbc-54e0-49e6-90ad-a1ec7f6c560b.jpg, 7a39b6fd-30c1-495d-bd5d-0d3148a22734.jpg, 6c971c18-adb0-403a-966d-5ab006c57890.jpg, 88530c5d-9efa-4f31-a733-8a54bd17e933.jpg, 77587096-5d7b-4e59-a334-eab3bf2e8da2.jpg, 9a41dfd5-f25f-4d77-82db-9511adf6192f.jpg, a08d1f2e-0d59-4f47-bcc7-df313bb62c4b.jpg, 0dd99b54-7e43-4a5b-82c5-13ffae2d4d1f.jpg, 3eee982d-80bb-40e1-b60d-b0431e038e8a.jpg, c771aa86-8df4-4c8a-bd7f-37e26f1c2262.jpg, 6b7ea473-8647-4aca-ac55-8f4d1aeabe02.jpg, 9b5eee3a-2851-4b5d-a2e6-2576df9f1319.jpg, 1ab2ef67-89f4-434d-98b5-a7901068ed72.jpg, a4d33b24-bd9e-42b6-b9f4-c11bce290043.jpg, 673e56fa-62d7-4cad-b987-95dedc9fb256.jpg, e6864214-08cb-40b5-a742-775afd5e2535.jpg, e7dfee9d-1d39-4b8a-903c-71a65606a757.jpg, 82491afa-27f8-4f44-8a37-fc56777a4ce6.jpg, 98a0c986-c2b5-4477-a32b-e7b51ae471f8.jpg, 253dbf5d-ab5e-4e5b-bd1b-40d06aab4703.jpg, 064ffb3b-b83f-461d-894b-9394d44f4397.jpg, 27e836b8-1eaf-4f2f-99c8-0c04efc80c6f.jpg, BBBDatabase.realm, afb44f40-14d6-4a82-a6b0-de41b755845c.jpg, 432c6b31-58b7-44af-8cdc-6ae005e88607.jpg, 04f55591-44f8-4f0d-ab82-be49cd5638e0.jpg, 396148c4-71db-48e1-b9b7-9e58fc801e5a.jpg, 554b0b2c-a06c-44ea-98d7-d0506e433dca.jpg, 8ec9773a-2cf0-4d6d-a330-7fa745ae2246.jpg, 61966d9a-dd62-40be-9be6-4cf25aec58d7.jpg, e9542bb9-68dc-4c09-b7b5-707ae2f94dbc.jpg, 0904985e-6b9b-4675-9fa9-659c3abc9d5b.jpg, 7a85db0c-ee79-433e-becf-e2d83fc945a9.jpg, 7bf4e518-622a-46a4-b346-5b981fce887b.jpg, 3fda71e7-627b-4b7e-bd56-1f20d30731d6.jpg, 0500bc25-5c17-4286-a56e-cd1b16d5e42f.jpg, 2bae3298-223d-44ad-846e-3fc63b070f2a.jpg, 3d9e1297-a506-4a1b-ae7f-f9b9e10ec1d7.jpg, dd79faff-4faa-4c46-8da4-d81d7a60db1a.jpg, 5fb392ee-9027-4f50-b9b1-48d69c863fa5.jpg, 3df9543a-991a-4827-89e9-0747295e38dd.jpg, 11c310e9-2b67-4165-9a43-3c3673904a7a.jpg, 78698266-e621-44ad-9f51-5fc91daa2ff8.jpg, a02240e6-c648-4a31-bef4-76ee8b5df9e3.jpg, eab3daef-44a1-4748-8321-6d0b377d816a.jpg, ac2b66d1-1420-4071-ae4a-3d40af87f342.jpg, feb05a6b-2c5c-4a23-8add-4de0e76cf753.jpg, a2ad8dec-35a1-4943-8258-1b31a09b4c1e.jpg, 4be30738-fb89-4dd5-af99-e950d3947844.jpg, 47d508db-649c-4dda-bbd8-3c58d8840d9b.jpg, 54aedb3b-34af-4f66-b725-8f1e60da610c.jpg, 07942b5e-e09a-4e2f-a077-22dfb79d5461.jpg, b3cb4439-633c-42a4-ab83-41d41746523f.jpg, 6d98d90d-7637-480c-be4c-589cdcea7b13.jpg, 686b29d0-12e2-4dde-ae91-2f2e83aece6a.jpg, 1ef5bbfc-59d2-4610-b1fe-deb23d25a637.jpg, ca986444-76aa-4044-acae-22ba29083760.jpg, cfeed64d-c4d4-4464-910d-3a134d1996e7.jpg, ab5ff627-ca78-46ef-ab4a-1fe4f6f88418.jpg, 21fff80c-4362-47ac-8cd1-2fadcf2ecaa4.jpg, 2dfe4714-15c3-4f05-a5b1-3f47b961ad98.jpg, 207f1365-7881-4476-aaa7-d8d4d7b36846.jpg, 9303b7be-edb0-4f38-91f9-f702db5e681c.jpg, d5967ee4-824d-4377-9bfc-0b3a23a7e3f4.jpg, 2bdbc726-45cc-472c-a61d-9d8a8e66c503.jpg, BBBDatabase.realm.note, ef5a38d9-63c7-443a-ac5e-05e5ea61c067.jpg, 694103a6-d66c-41e5-8be3-125199b52a5c.jpg, 6567f26f-982b-461f-8f35-2c26c94dd49e.jpg, 08dc7dfa-dfe5-47b8-a8c1-c2ed6f5ab8b8.jpg, 4dcba23b-5703-4289-a24d-ce291a6f1088.jpg, 17ab0b35-13e5-4a25-9ed0-20ab8e9e6948.jpg, bc5860b7-221a-4605-9b24-1ebfb040ff38.jpg, e2c8ad2f-d1fc-4987-9cd9-a5f927359ca4.jpg, 3e6dbe02-b621-4749-b22f-9004a35c01a1.jpg, bae57a70-ebe8-4eff-8dcf-f5ac52de63a5.jpg, bd541c56-58b9-4cc7-80ea-604373996fdc.jpg, a5b5d413-064d-4755-84ec-42865aec1340.jpg, 65e153e4-9750-446d-bc19-21d3a0b9f9bd.jpg, b3de482b-ed41-4212-b7d2-41a6403b0ec1.jpg, a66b6076-4ac0-47de-988f-83a354b3de29.jpg, 7eda4bb0-dc9c-46f1-ade1-4eb3d8713fa6.jpg, b1d7a383-09c2-44af-83b3-08493ac53c0c.jpg, 1c9fe02f-b0dc-458a-9fec-7c618372ebb0.jpg, d98e0141-7874-4520-b1eb-ccb890fd4f45.jpg, 7011f1c3-e6d7-488d-a443-3b929977a26e.jpg, 5b1e1344-5bc9-45b0-a5bb-cd7ecd0d4dc0.jpg, 351465a6-4773-4ed0-a13f-5cdf16a5319f.jpg, BBBDatabase.realm.management, fd9e8e86-9d56-43cd-be16-9c3e6114b98f.jpg, 1a60d8f9-8f26-43ff-9eeb-1f65c6dcc952.jpg, 86274eec-3ff9-44f6-90c4-7604125201d3.jpg, fe81cf2a-fa50-4d0d-af96-5d31452e2b36.jpg, a2322d24-02ba-400d-9f58-6da14578325c.jpg, d726350e-66dc-4c3b-aa8b-75f87e5cd5e7.jpg, b4b85520-ee32-423c-931d-474e09a9cf68.jpg, f16889f6-8e05-4884-8850-13195c52c741.jpg, 8cd4c2f5-8097-4237-be43-339a6a96d803.jpg, 04ddeabc-8a18-47ee-a59b-ca5fa544904e.jpg, 7947c64e-3ee4-4c9a-aeaf-ecbb4d46887d.jpg, 9d08a030-ae38-4387-8b7a-b19a05c61dbf.jpg, 1c6042a1-51fb-4a21-8813-fc57be92f699.jpg, b111ee3c-50df-40ad-9926-5a808f3db8d3.jpg, 733bbec0-275f-4115-b5a2-58ad80019ed3.jpg, 0088e833-87e7-4eb4-ac77-68a1267621a1.jpg, 16be63ac-f870-4c0d-a7bd-0455f8012041.jpg, e1758684-624b-4766-801f-0f6c0426adb8.jpg, 1c2fdd9f-0914-488a-baa6-383f1d13c4cf.jpg, 5fe6a96d-95f4-4608-b32b-bf25f8c66546.jpg, 12e22329-77bd-418e-b064-b4863965b7a8.jpg, 9747455d-d527-4ef6-9ce5-8f3f2c1b13dd.jpg, 9a60b8ee-ccdb-4c8f-94d1-6376a249f1da.jpg, ce714fd3-e26e-48c4-867e-932e60a05518.jpg, 0f61ed1f-4487-40c8-9cf9-84c2e40a0029.jpg, 6284f0f7-fde3-4b61-a075-88dd12e068c2.jpg, a0493ae6-0234-4b72-816c-2a965ce6e00f.jpg, 106b5847-e6a0-4ce5-b74a-dc1b1a76bf0c.jpg, a341fc6c-4a44-434c-9700-da6d0ea9c801.jpg, 286f924a-1ba5-46f4-b0d8-37465d0764ee.jpg, 60449603-c483-420d-a796-1f91be8e99a9.jpg, ed61fed8-dfd1-43b9-bd4f-3097f7170be0.jpg, f5f1ac5d-f151-41ae-b648-cb066549df4b.jpg, 54c4a8b7-a81d-44a0-a7f3-af894cb8f155.jpg, 1aa1bed4-e61a-439f-b6d1-12ea06f38874.jpg, 0a757ad9-f2fb-4c49-8b5c-667711168d1e.jpg, 8b168c11-6b07-4961-8dfa-5a7eaa01e83c.jpg, 5b85491c-f6a1-4d47-9800-11de3d84ab56.jpg, b91c27de-d66c-4638-baa5-21acdda4cac6.jpg, fce01391-fe2d-4bbc-85fc-d544ee9ee79b.jpg, 2c13863a-f190-47a3-b067-4f7b461699ec.jpg, f1abf160-392f-4c57-b875-478eebf33c66.jpg, 1da012b8-ac23-46c6-b06f-8b3ddff48c07.jpg, 497282c5-4a3f-4a6a-a539-3eab00ddcca0.jpg, 492d3503-ac02-4f92-8438-17708a4ca699.jpg, fb1a154c-fa70-41f0-aec7-30e01a1e2676.jpg, BBBDatabase.realm.lock, 1f182c7f-0b0b-4d8e-977f-b0a7e4078d56.jpg, c46b49ea-258c-4819-a78b-aac6fc5b0673.jpg, c3a75161-4211-4fea-a184-72ba1d2c72a1.jpg, 717bbcb7-7e37-4a62-afb2-2c30122f0616.jpg, 0956b297-893e-460e-ba94-336624cc3d48.jpg, 7171865b-0465-4842-8486-74bf890ec9f2.jpg, e1af09fa-12ed-4d35-a154-a6a58184cdc5.jpg, e17d5eb9-dcd7-48f0-9ab0-eeee7afdd7f9.jpg, 9206ee59-bc96-4763-ba92-b60622bc2dcb.jpg, 79bfe8e8-ce1b-438d-a23b-882553bef0e0.jpg, 7fcd89dc-295e-4582-bf3d-a008103006f9.jpg, 3294cf83-71f9-4d7a-9e3c-afff39cbbab4.jpg, 90487bc8-1254-4454-bc28-22896a486df0.jpg, 3b15da3b-72bf-4b81-85e9-8b76ee697da7.jpg) | raw: ["[FileSystem] Deleting directory at /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Library/Caches/BBBook/BBBookDB (contents: 37af5b84-33dd-4da5-8669-ee1d216ea891.jpg, 988a44d7-345b-4a99-9f72-50738453ef1d.jpg, f38d56cf-72b9-48cc-b37d-bd015ea70017.jpg, 2f97caeb-8bf4-4967-be1c-7e6d5991a082.jpg, bce3d273-3ccf-4ff4-a95a-d2d14d45d3a2.jpg, edfff856-2f83-408c-a328-d3781c7c5d44.jpg, 091f1090-8d30-4592-9110-f95457fd73e0.jpg, 1f08bb34-8287-4ab5-8f84-6dc96b36ac6f.jpg, a37a3b49-5c8e-428f-b4e0-9e2916d39eba.jpg, bf2f4757-3934-4e69-b38c-f2bc25bb66cc.jpg, 25ec7016-fd87-4ade-a261-e493a9853e1c.jpg, 94f9ad23-ecbf-4234-a165-1cc5ef6f34b8.jpg, 75fd7e05-847d-4cb5-8fff-b87bbd6a891f.jpg, 7ec70869-cbf8-487f-a7af-d6a27d69137f.jpg, 2db0af23-1929-4fab-9c4e-99e935ab43ca.jpg, fbf24289-69b0-4f01-8756-303f6ab11aae.jpg, 0f8d52a7-3f10-4b67-9560-1b391258dcf8.jpg, 773ab13a-615e-496d-b165-242638b04533.jpg, 3885337c-450a-4895-8f09-808d7ba99b38.jpg, bd939671-12bd-4a57-9430-f2f91736d3e1.jpg, cfdc6008-c2f7-47e9-8a31-f0e964dc2e2d.jpg, 78a02c07-7dd1-48de-9709-30b2dec6b919.jpg, 61dcaa78-ef46-4a0a-91d4-dd3afa66b415.jpg, 04488fe3-6a2a-477d-ab41-64628506b7a2.jpg, 7974cea0-b47d-436c-8595-54d844056567.jpg, 4d77f134-fb10-480e-9b15-544915162311.jpg, 85244769-96fe-47a4-8f32-73e47c2853a4.jpg, a4e484f5-21df-4c5c-8eaa-7653aa885025.jpg, 991ffbcc-c629-4690-bb5a-af81b804831a.jpg, e8a156cb-319c-441d-9873-9b5706e61518.jpg, fdb7abea-b58c-42ec-8532-facd94357ac1.jpg, cf973087-6c3e-4925-bdaa-4b0fb0d2ab2d.jpg, 8c12aec1-ef1f-4e4b-b85b-fa1f90132125.jpg, 2d9c861c-ff3c-4443-9001-e6a9bb04d006.jpg, e290b25f-b08d-4532-8dba-b3f26451783f.jpg, d21d2508-882c-42f8-982b-b95dbff186af.jpg, 3a56ed11-259f-4809-9330-e3caa27953de.jpg, 0abe0587-530f-48de-acd3-47b252ecf4d0.jpg, 25742484-b1c5-49dd-9420-0b30d09ffccf.jpg, 1b7ace72-f237-453b-a87a-0c0d29c45628.jpg, 166959a2-d0b4-41cf-ad34-79560e38e785.jpg, bfe2b41d-033a-4c91-a6b1-3bc186edaad1.jpg, a7066e9c-953e-445e-84f1-fc3995aa553b.jpg, c6a7a82c-7ce0-4176-bf35-0aac01b7516c.jpg, 0fd61de5-093b-47a1-a2fc-f3882ecb57e6.jpg, 5d23ae4b-cf6b-44ca-b100-642f4acbae96.jpg, d2513f9b-4a45-4c24-85ec-4f982567a071.jpg, f20717b6-db99-4f96-b165-860656a7d9d8.jpg, 2460dea9-77e1-4b8e-b0c3-16a95fcc7b8f.jpg, 18211b84-d836-41d5-8e07-4a3c8ae55ff6.jpg, b18946dc-ff80-4ff9-9c79-0b5d64901b61.jpg, 7949b1ba-bbd5-46fa-9836-fc1213e5c7db.jpg, b57d834d-131c-48cd-9d0b-72b96f3feae2.jpg, e4031418-0ac4-4bd1-8be4-74af5f9ea415.jpg, 187b5a1b-2790-4eea-bee4-c5b64e2ccad4.jpg, 59b14c73-20ba-45a4-b21c-999183a74671.jpg, bc8396bc-770a-4b11-a824-b7e62a3d1fb5.jpg, 3fa046be-a1f0-46e2-894d-a736f7527726.jpg, 3ad34451-fa38-432e-b7db-e91b9d4610d2.jpg, 2630f492-d2e1-44dd-90df-520cd8d09e68.jpg, 98219e9b-08cb-492c-8409-d3113d96e01b.jpg, dd3cc11a-41df-48f2-867d-a7f7d5272272.jpg, 678885b8-aa50-40db-817c-8981113d8405.jpg, f62e9873-acaf-424b-8751-e3d24fad71dd.jpg, 439bef6c-6fee-4b02-8ff3-26543b8d708f.jpg, 096e176c-a12c-4df8-a769-3bee18377783.jpg, a1e3ccbc-54e0-49e6-90ad-a1ec7f6c560b.jpg, 7a39b6fd-30c1-495d-bd5d-0d3148a22734.jpg, 6c971c18-adb0-403a-966d-5ab006c57890.jpg, 88530c5d-9efa-4f31-a733-8a54bd17e933.jpg, 77587096-5d7b-4e59-a334-eab3bf2e8da2.jpg, 9a41dfd5-f25f-4d77-82db-9511adf6192f.jpg, a08d1f2e-0d59-4f47-bcc7-df313bb62c4b.jpg, 0dd99b54-7e43-4a5b-82c5-13ffae2d4d1f.jpg, 3eee982d-80bb-40e1-b60d-b0431e038e8a.jpg, c771aa86-8df4-4c8a-bd7f-37e26f1c2262.jpg, 6b7ea473-8647-4aca-ac55-8f4d1aeabe02.jpg, 9b5eee3a-2851-4b5d-a2e6-2576df9f1319.jpg, 1ab2ef67-89f4-434d-98b5-a7901068ed72.jpg, a4d33b24-bd9e-42b6-b9f4-c11bce290043.jpg, 673e56fa-62d7-4cad-b987-95dedc9fb256.jpg, e6864214-08cb-40b5-a742-775afd5e2535.jpg, e7dfee9d-1d39-4b8a-903c-71a65606a757.jpg, 82491afa-27f8-4f44-8a37-fc56777a4ce6.jpg, 98a0c986-c2b5-4477-a32b-e7b51ae471f8.jpg, 253dbf5d-ab5e-4e5b-bd1b-40d06aab4703.jpg, 064ffb3b-b83f-461d-894b-9394d44f4397.jpg, 27e836b8-1eaf-4f2f-99c8-0c04efc80c6f.jpg, BBBDatabase.realm, afb44f40-14d6-4a82-a6b0-de41b755845c.jpg, 432c6b31-58b7-44af-8cdc-6ae005e88607.jpg, 04f55591-44f8-4f0d-ab82-be49cd5638e0.jpg, 396148c4-71db-48e1-b9b7-9e58fc801e5a.jpg, 554b0b2c-a06c-44ea-98d7-d0506e433dca.jpg, 8ec9773a-2cf0-4d6d-a330-7fa745ae2246.jpg, 61966d9a-dd62-40be-9be6-4cf25aec58d7.jpg, e9542bb9-68dc-4c09-b7b5-707ae2f94dbc.jpg, 0904985e-6b9b-4675-9fa9-659c3abc9d5b.jpg, 7a85db0c-ee79-433e-becf-e2d83fc945a9.jpg, 7bf4e518-622a-46a4-b346-5b981fce887b.jpg, 3fda71e7-627b-4b7e-bd56-1f20d30731d6.jpg, 0500bc25-5c17-4286-a56e-cd1b16d5e42f.jpg, 2bae3298-223d-44ad-846e-3fc63b070f2a.jpg, 3d9e1297-a506-4a1b-ae7f-f9b9e10ec1d7.jpg, dd79faff-4faa-4c46-8da4-d81d7a60db1a.jpg, 5fb392ee-9027-4f50-b9b1-48d69c863fa5.jpg, 3df9543a-991a-4827-89e9-0747295e38dd.jpg, 11c310e9-2b67-4165-9a43-3c3673904a7a.jpg, 78698266-e621-44ad-9f51-5fc91daa2ff8.jpg, a02240e6-c648-4a31-bef4-76ee8b5df9e3.jpg, eab3daef-44a1-4748-8321-6d0b377d816a.jpg, ac2b66d1-1420-4071-ae4a-3d40af87f342.jpg, feb05a6b-2c5c-4a23-8add-4de0e76cf753.jpg, a2ad8dec-35a1-4943-8258-1b31a09b4c1e.jpg, 4be30738-fb89-4dd5-af99-e950d3947844.jpg, 47d508db-649c-4dda-bbd8-3c58d8840d9b.jpg, 54aedb3b-34af-4f66-b725-8f1e60da610c.jpg, 07942b5e-e09a-4e2f-a077-22dfb79d5461.jpg, b3cb4439-633c-42a4-ab83-41d41746523f.jpg, 6d98d90d-7637-480c-be4c-589cdcea7b13.jpg, 686b29d0-12e2-4dde-ae91-2f2e83aece6a.jpg, 1ef5bbfc-59d2-4610-b1fe-deb23d25a637.jpg, ca986444-76aa-4044-acae-22ba29083760.jpg, cfeed64d-c4d4-4464-910d-3a134d1996e7.jpg, ab5ff627-ca78-46ef-ab4a-1fe4f6f88418.jpg, 21fff80c-4362-47ac-8cd1-2fadcf2ecaa4.jpg, 2dfe4714-15c3-4f05-a5b1-3f47b961ad98.jpg, 207f1365-7881-4476-aaa7-d8d4d7b36846.jpg, 9303b7be-edb0-4f38-91f9-f702db5e681c.jpg, d5967ee4-824d-4377-9bfc-0b3a23a7e3f4.jpg, 2bdbc726-45cc-472c-a61d-9d8a8e66c503.jpg, BBBDatabase.realm.note, ef5a38d9-63c7-443a-ac5e-05e5ea61c067.jpg, 694103a6-d66c-41e5-8be3-125199b52a5c.jpg, 6567f26f-982b-461f-8f35-2c26c94dd49e.jpg, 08dc7dfa-dfe5-47b8-a8c1-c2ed6f5ab8b8.jpg, 4dcba23b-5703-4289-a24d-ce291a6f1088.jpg, 17ab0b35-13e5-4a25-9ed0-20ab8e9e6948.jpg, bc5860b7-221a-4605-9b24-1ebfb040ff38.jpg, e2c8ad2f-d1fc-4987-9cd9-a5f927359ca4.jpg, 3e6dbe02-b621-4749-b22f-9004a35c01a1.jpg, bae57a70-ebe8-4eff-8dcf-f5ac52de63a5.jpg, bd541c56-58b9-4cc7-80ea-604373996fdc.jpg, a5b5d413-064d-4755-84ec-42865aec1340.jpg, 65e153e4-9750-446d-bc19-21d3a0b9f9bd.jpg, b3de482b-ed41-4212-b7d2-41a6403b0ec1.jpg, a66b6076-4ac0-47de-988f-83a354b3de29.jpg, 7eda4bb0-dc9c-46f1-ade1-4eb3d8713fa6.jpg, b1d7a383-09c2-44af-83b3-08493ac53c0c.jpg, 1c9fe02f-b0dc-458a-9fec-7c618372ebb0.jpg, d98e0141-7874-4520-b1eb-ccb890fd4f45.jpg, 7011f1c3-e6d7-488d-a443-3b929977a26e.jpg, 5b1e1344-5bc9-45b0-a5bb-cd7ecd0d4dc0.jpg, 351465a6-4773-4ed0-a13f-5cdf16a5319f.jpg, BBBDatabase.realm.management, fd9e8e86-9d56-43cd-be16-9c3e6114b98f.jpg, 1a60d8f9-8f26-43ff-9eeb-1f65c6dcc952.jpg, 86274eec-3ff9-44f6-90c4-7604125201d3.jpg, fe81cf2a-fa50-4d0d-af96-5d31452e2b36.jpg, a2322d24-02ba-400d-9f58-6da14578325c.jpg, d726350e-66dc-4c3b-aa8b-75f87e5cd5e7.jpg, b4b85520-ee32-423c-931d-474e09a9cf68.jpg, f16889f6-8e05-4884-8850-13195c52c741.jpg, 8cd4c2f5-8097-4237-be43-339a6a96d803.jpg, 04ddeabc-8a18-47ee-a59b-ca5fa544904e.jpg, 7947c64e-3ee4-4c9a-aeaf-ecbb4d46887d.jpg, 9d08a030-ae38-4387-8b7a-b19a05c61dbf.jpg, 1c6042a1-51fb-4a21-8813-fc57be92f699.jpg, b111ee3c-50df-40ad-9926-5a808f3db8d3.jpg, 733bbec0-275f-4115-b5a2-58ad80019ed3.jpg, 0088e833-87e7-4eb4-ac77-68a1267621a1.jpg, 16be63ac-f870-4c0d-a7bd-0455f8012041.jpg, e1758684-624b-4766-801f-0f6c0426adb8.jpg, 1c2fdd9f-0914-488a-baa6-383f1d13c4cf.jpg, 5fe6a96d-95f4-4608-b32b-bf25f8c66546.jpg, 12e22329-77bd-418e-b064-b4863965b7a8.jpg, 9747455d-d527-4ef6-9ce5-8f3f2c1b13dd.jpg, 9a60b8ee-ccdb-4c8f-94d1-6376a249f1da.jpg, ce714fd3-e26e-48c4-867e-932e60a05518.jpg, 0f61ed1f-4487-40c8-9cf9-84c2e40a0029.jpg, 6284f0f7-fde3-4b61-a075-88dd12e068c2.jpg, a0493ae6-0234-4b72-816c-2a965ce6e00f.jpg, 106b5847-e6a0-4ce5-b74a-dc1b1a76bf0c.jpg, a341fc6c-4a44-434c-9700-da6d0ea9c801.jpg, 286f924a-1ba5-46f4-b0d8-37465d0764ee.jpg, 60449603-c483-420d-a796-1f91be8e99a9.jpg, ed61fed8-dfd1-43b9-bd4f-3097f7170be0.jpg, f5f1ac5d-f151-41ae-b648-cb066549df4b.jpg, 54c4a8b7-a81d-44a0-a7f3-af894cb8f155.jpg, 1aa1bed4-e61a-439f-b6d1-12ea06f38874.jpg, 0a757ad9-f2fb-4c49-8b5c-667711168d1e.jpg, 8b168c11-6b07-4961-8dfa-5a7eaa01e83c.jpg, 5b85491c-f6a1-4d47-9800-11de3d84ab56.jpg, b91c27de-d66c-4638-baa5-21acdda4cac6.jpg, fce01391-fe2d-4bbc-85fc-d544ee9ee79b.jpg, 2c13863a-f190-47a3-b067-4f7b461699ec.jpg, f1abf160-392f-4c57-b875-478eebf33c66.jpg, 1da012b8-ac23-46c6-b06f-8b3ddff48c07.jpg, 497282c5-4a3f-4a6a-a539-3eab00ddcca0.jpg, 492d3503-ac02-4f92-8438-17708a4ca699.jpg, fb1a154c-fa70-41f0-aec7-30e01a1e2676.jpg, BBBDatabase.realm.lock, 1f182c7f-0b0b-4d8e-977f-b0a7e4078d56.jpg, c46b49ea-258c-4819-a78b-aac6fc5b0673.jpg, c3a75161-4211-4fea-a184-72ba1d2c72a1.jpg, 717bbcb7-7e37-4a62-afb2-2c30122f0616.jpg, 0956b297-893e-460e-ba94-336624cc3d48.jpg, 7171865b-0465-4842-8486-74bf890ec9f2.jpg, e1af09fa-12ed-4d35-a154-a6a58184cdc5.jpg, e17d5eb9-dcd7-48f0-9ab0-eeee7afdd7f9.jpg, 9206ee59-bc96-4763-ba92-b60622bc2dcb.jpg, 79bfe8e8-ce1b-438d-a23b-882553bef0e0.jpg, 7fcd89dc-295e-4582-bf3d-a008103006f9.jpg, 3294cf83-71f9-4d7a-9e3c-afff39cbbab4.jpg, 90487bc8-1254-4454-bc28-22896a486df0.jpg, 3b15da3b-72bf-4b81-85e9-8b76ee697da7.jpg)"]
+[2026-01-19T19:34:38.456Z] [debug] 2026-01-19T19:34:38.456Z | DEBUG : [FileSystem] Directory at /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Library/Caches/BBBook/BBBookDB exists | raw: ["[FileSystem] Directory at /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Library/Caches/BBBook/BBBookDB exists"]
+[2026-01-19T19:34:38.450Z] [debug] 2026-01-19T19:34:38.450Z | DEBUG : [FileSystem] Checking if directory exists at /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Library/Caches/BBBook/BBBookDB | raw: ["[FileSystem] Checking if directory exists at /var/mobile/Containers/Data/Application/122A2A08-7A6C-468E-8449-FA8D932776BF/Library/Caches/BBBook/BBBookDB"]
+[2026-01-19T19:34:38.443Z] [debug] 2026-01-19T19:34:38.443Z | DEBUG : [useRestoreDatabase] Restore Progress: 100% | raw: ["[useRestoreDatabase] Restore Progress: 100%"]
+[2026-01-19T19:34:38.436Z] [debug] 2026-01-19T19:34:38.436Z | DEBUG : [DataManagement] Restore Progress: 100% | raw: ["[DataManagement] Restore Progress: 100%"]
+[2026-01-19T19:34:38.424Z] [debug] 2026-01-19T19:34:38.423Z | DEBUG : RestoreProgress event from native module 
+{
+  "progress": 1
+} | raw: ["RestoreProgress event from native module",{"progress":1}]
+[2026-01-19T19:34:38.320Z] [debug] 2026-01-19T19:34:38.320Z | DEBUG : [DatabaseOperationsProvider] coordinator progress update 
+{
+  "progress": 0.3
+} | raw: ["[DatabaseOperationsProvider] coordinator progress update",{"progress":0.3}]
+[2026-01-19T19:34:38.312Z] [debug] 2026-01-19T19:34:38.312Z | DEBUG : [useRestoreDatabase] Restore Progress: 100% | raw: ["[useRestoreDatabase] Restore Progress: 100%"]
+[2026-01-19T19:34:38.307Z] [debug] 2026-01-19T19:34:38.307Z | DEBUG : [DataManagement] Restore Progress: 100% | raw: ["[DataManagement] Restore Progress: 100%"]
+[2026-01-19T19:34:38.299Z] [debug] 2026-01-19T19:34:38.299Z | DEBUG : RestoreProgress event from native module 
+{
+  "progress": 1
+} | raw: ["RestoreProgress event from native module",{"progress":1}]
+[2026-01-19T19:34:38.270Z] [debug] 2026-01-19T19:34:38.270Z | DEBUG : [DatabaseOperationsProvider] coordinator progress update 
+{
+  "progress": 0.29878397526918804
+} | raw: ["[DatabaseOperationsProvider] coordinator progress update",{"progress":0.29878397526918804}]
+[2026-01-19T19:34:38.261Z] [debug] 2026-01-19T19:34:38.261Z | DEBUG : [useRestoreDatabase] Restore Progress: 99.59465842306268% | raw: ["[useRestoreDatabase] Restore Progress: 99.59465842306268%"]
+[2026-01-19T19:34:38.255Z] [debug] 2026-01-19T19:34:38.255Z | DEBUG : [DataManagement] Restore Progress: 99.59465842306268% | raw: ["[DataManagement] Restore Progress: 99.59465842306268%"]
+[2026-01-19T19:34:38.243Z] [debug] 2026-01-19T19:34:38.243Z | DEBUG : RestoreProgress event from native module 
+{
+  "progress": 0.9959465842306268
+} | raw: ["RestoreProgress event from native module",{"progress":0.9959465842306268}]
+[2026-01-19T19:34:38.189Z] [debug] 2026-01-19T19:34:38.189Z | DEBUG : [DatabaseOperationsProvider] coordinator progress update 
+{
+  "progress": 0.28914578251856904
+} | raw: ["[DatabaseOperationsProvider] coordinator progress update",{"progress":0.28914578251856904}]
+[2026-01-19T19:34:38.179Z] [debug] 2026-01-19T19:34:38.179Z | DEBUG : [useRestoreDatabase] Restore Progress: 96.3819275061897% | raw: ["[useRestoreDatabase] Restore Progress: 96.3819275061897%"]
+[2026-01-19T19:34:38.172Z] [debug] 2026-01-19T19:34:38.172Z | DEBUG : [DataManagement] Restore Progress: 96.3819275061897% | raw: ["[DataManagement] Restore Progress: 96.3819275061897%"]
+[2026-01-19T19:34:38.159Z] [debug] 2026-01-19T19:34:38.159Z | DEBUG : RestoreProgress event from native module 
+{
+  "progress": 0.9638192750618969
+} | raw: ["RestoreProgress event from native module",{"progress":0.9638192750618969}]
+[2026-01-19T19:34:38.071Z] [debug] 2026-01-19T19:34:38.071Z | DEBUG : [DatabaseOperationsProvider] coordinator progress update 
+{
+  "progress": 0.2795075897679501
+} | raw: ["[DatabaseOperationsProvider] coordinator progress update",{"progress":0.2795075897679501}]
+[2026-01-19T19:34:38.064Z] [debug] 2026-01-19T19:34:38.064Z | DEBUG : [useRestoreDatabase] Restore Progress: 93.1691965893167% | raw: ["[useRestoreDatabase] Restore Progress: 93.1691965893167%"]
+[2026-01-19T19:34:38.058Z] [debug] 2026-01-19T19:34:38.058Z | DEBUG : [DataManagement] Restore Progress: 93.1691965893167% | raw: ["[DataManagement] Restore Progress: 93.1691965893167%"]
+[2026-01-19T19:34:38.051Z] [debug] 2026-01-19T19:34:38.050Z | DEBUG : RestoreProgress event from native module 
+{
+  "progress": 0.9316919658931669
+} | raw: ["RestoreProgress event from native module",{"progress":0.9316919658931669}]
+[2026-01-19T19:34:38.022Z] [debug] 2026-01-19T19:34:38.022Z | DEBUG : [DatabaseOperationsProvider] coordinator progress update 
+{
+  "progress": 0.2698693970173311
+} | raw: ["[DatabaseOperationsProvider] coordinator progress update",{"progress":0.2698693970173311}]
+[2026-01-19T19:34:38.014Z] [debug] 2026-01-19T19:34:38.014Z | DEBUG : [useRestoreDatabase] Restore Progress: 89.95646567244371% | raw: ["[useRestoreDatabase] Restore Progress: 89.95646567244371%"]
+[2026-01-19T19:34:38.009Z] [debug] 2026-01-19T19:34:38.009Z | DEBUG : [DataManagement] Restore Progress: 89.95646567244371% | raw: ["[DataManagement] Restore Progress: 89.95646567244371%"]
+[2026-01-19T19:34:38.004Z] [debug] 2026-01-19T19:34:38.004Z | DEBUG : RestoreProgress event from native module 
+{
+  "progress": 0.8995646567244371
+} | raw: ["RestoreProgress event from native module",{"progress":0.8995646567244371}]
+[2026-01-19T19:34:37.998Z] [debug] 2026-01-19T19:34:37.998Z | DEBUG : [useRestoreDatabase] Restore Progress: 86.74373475557073% | raw: ["[useRestoreDatabase] Restore Progress: 86.74373475557073%"]
+[2026-01-19T19:34:37.993Z] [debug] 2026-01-19T19:34:37.993Z | DEBUG : [DataManagement] Restore Progress: 86.74373475557073% | raw: ["[DataManagement] Restore Progress: 86.74373475557073%"]
