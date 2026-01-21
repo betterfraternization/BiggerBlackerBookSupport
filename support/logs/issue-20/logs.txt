@@ -1,0 +1,331 @@
+# BBBLogs.txt
+[2026-01-21T04:14:03.024Z] [debug] 2026-01-21T04:14:03.023Z | DEBUG : [Database] Finished retrieving all records in Tombstone table | raw: ["[Database] Finished retrieving all records in Tombstone table"]
+[2026-01-21T04:14:03.015Z] [debug] 2026-01-21T04:14:03.015Z | DEBUG : [Database] Retrieving all records in Tombstone table: 0 records found | raw: ["[Database] Retrieving all records in Tombstone table: 0 records found"]
+[2026-01-21T04:13:28.068Z] [info] 2026-01-21T04:13:28.068Z | INFO : Navigating to route name: SupportRequest | raw: ["Navigating to route name: SupportRequest"]
+[2026-01-21T04:13:28.064Z] [debug] 2026-01-21T04:13:28.064Z | DEBUG : [Navigation] Current route name: SupportRequest | raw: ["[Navigation] Current route name:","SupportRequest"]
+[2026-01-21T04:13:28.059Z] [debug] 2026-01-21T04:13:28.059Z | DEBUG : [Navigation] Previous route name: FeedbackAndSupport | raw: ["[Navigation] Previous route name:","FeedbackAndSupport"]
+[2026-01-21T04:13:19.511Z] [info] 2026-01-21T04:13:19.511Z | INFO : Navigating to route name: FeedbackAndSupport | raw: ["Navigating to route name: FeedbackAndSupport"]
+[2026-01-21T04:13:19.507Z] [debug] 2026-01-21T04:13:19.507Z | DEBUG : [Navigation] Current route name: FeedbackAndSupport | raw: ["[Navigation] Current route name:","FeedbackAndSupport"]
+[2026-01-21T04:13:19.500Z] [debug] 2026-01-21T04:13:19.500Z | DEBUG : [Navigation] Previous route name: Settings | raw: ["[Navigation] Previous route name:","Settings"]
+[2026-01-21T04:13:09.755Z] [info] 2026-01-21T04:13:09.755Z | INFO : Navigating to route name: Settings | raw: ["Navigating to route name: Settings"]
+[2026-01-21T04:13:09.752Z] [debug] 2026-01-21T04:13:09.752Z | DEBUG : [Navigation] Current route name: Settings | raw: ["[Navigation] Current route name:","Settings"]
+[2026-01-21T04:13:09.750Z] [debug] 2026-01-21T04:13:09.750Z | DEBUG : [Navigation] Previous route name: SettingsStack | raw: ["[Navigation] Previous route name:","SettingsStack"]
+[2026-01-21T04:13:09.685Z] [info] 2026-01-21T04:13:09.685Z | INFO : Navigating to route name: SettingsStack | raw: ["Navigating to route name: SettingsStack"]
+[2026-01-21T04:13:09.681Z] [debug] 2026-01-21T04:13:09.680Z | DEBUG : [Navigation] Current route name: SettingsStack | raw: ["[Navigation] Current route name:","SettingsStack"]
+[2026-01-21T04:13:09.672Z] [debug] 2026-01-21T04:13:09.672Z | DEBUG : [Navigation] Previous route name: Calendar | raw: ["[Navigation] Previous route name:","Calendar"]
+[2026-01-21T04:13:07.527Z] [debug] 2026-01-21T04:13:07.527Z | DEBUG : [Navigation] Current route name: Calendar | raw: ["[Navigation] Current route name:","Calendar"]
+[2026-01-21T04:13:07.524Z] [debug] 2026-01-21T04:13:07.524Z | DEBUG : [Navigation] Previous route name: Calendar | raw: ["[Navigation] Previous route name:","Calendar"]
+[2026-01-21T04:13:07.490Z] [debug] 2026-01-21T04:13:07.490Z | DEBUG : [MainAppNavigator] Rendering RootStack.Navigator with initialRouteName: BottomTabs | raw: ["[MainAppNavigator] Rendering RootStack.Navigator with initialRouteName:","BottomTabs"]
+[2026-01-21T04:13:07.488Z] [info] 2026-01-21T04:13:07.488Z | INFO : [AutoBackup] hook mounted | raw: ["[AutoBackup] hook mounted"]
+[2026-01-21T04:13:07.484Z] [debug] 2026-01-21T04:13:07.484Z | DEBUG : [Database] Finished retrieving all records in MedicationLog table | raw: ["[Database] Finished retrieving all records in MedicationLog table"]
+[2026-01-21T04:13:07.482Z] [debug] 2026-01-21T04:13:07.482Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found"]
+[2026-01-21T04:13:07.479Z] [debug] 2026-01-21T04:13:07.479Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-21T04:13:07.477Z] [debug] 2026-01-21T04:13:07.477Z | DEBUG : [Database] Retrieving all records in Encounter table: 0 records found | raw: ["[Database] Retrieving all records in Encounter table: 0 records found"]
+[2026-01-21T04:13:07.474Z] [debug] 2026-01-21T04:13:07.474Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-01-21T04:13:07.471Z] [debug] 2026-01-21T04:13:07.471Z | DEBUG : [Database] Retrieving all records in Treatment table: 0 records found | raw: ["[Database] Retrieving all records in Treatment table: 0 records found"]
+[2026-01-21T04:13:07.469Z] [debug] 2026-01-21T04:13:07.469Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-01-21T04:13:07.467Z] [debug] 2026-01-21T04:13:07.467Z | DEBUG : [Database] Retrieving all records in TestTaken table: 0 records found | raw: ["[Database] Retrieving all records in TestTaken table: 0 records found"]
+[2026-01-21T04:13:07.462Z] [debug] 2026-01-21T04:13:07.461Z | DEBUG : Location permission granted | raw: ["Location permission","granted"]
+[2026-01-21T04:13:07.459Z] [debug] 2026-01-21T04:13:07.459Z | DEBUG : Notifications permission granted | raw: ["Notifications permission","granted"]
+[2026-01-21T04:13:07.443Z] [debug] 2026-01-21T04:13:07.443Z | DEBUG : HealthKit permission 
+2 | raw: ["HealthKit permission",2]
+[2026-01-21T04:13:07.423Z] [debug] 2026-01-21T04:13:07.423Z | DEBUG : [Navigation] Current route name: Calendar | raw: ["[Navigation] Current route name:","Calendar"]
+[2026-01-21T04:13:07.420Z] [debug] 2026-01-21T04:13:07.420Z | DEBUG : [Navigation] Previous route name: Calendar | raw: ["[Navigation] Previous route name:","Calendar"]
+[2026-01-21T04:13:07.402Z] [info] 2026-01-21T04:13:07.402Z | INFO : Navigating to route name: Calendar | raw: ["Navigating to route name: Calendar"]
+[2026-01-21T04:13:07.400Z] [debug] 2026-01-21T04:13:07.400Z | DEBUG : [Navigation] Current route name: Calendar | raw: ["[Navigation] Current route name:","Calendar"]
+[2026-01-21T04:13:07.397Z] [debug] 2026-01-21T04:13:07.397Z | DEBUG : [Navigation] Previous route name: 
+undefined | raw: ["[Navigation] Previous route name:",null]
+[2026-01-21T04:13:07.367Z] [debug] 2026-01-21T04:13:07.367Z | DEBUG : [Database] Finished retrieving all records in CalendarEvent table | raw: ["[Database] Finished retrieving all records in CalendarEvent table"]
+[2026-01-21T04:13:07.364Z] [debug] 2026-01-21T04:13:07.364Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found"]
+[2026-01-21T04:13:07.359Z] [debug] 2026-01-21T04:13:07.359Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-21T04:13:07.357Z] [debug] 2026-01-21T04:13:07.357Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found"]
+[2026-01-21T04:13:07.354Z] [debug] 2026-01-21T04:13:07.354Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-21T04:13:07.351Z] [debug] 2026-01-21T04:13:07.351Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found"]
+[2026-01-21T04:13:07.348Z] [debug] 2026-01-21T04:13:07.348Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-21T04:13:07.346Z] [debug] 2026-01-21T04:13:07.346Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Encounter table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Encounter table: 0 records found"]
+[2026-01-21T04:13:07.343Z] [debug] 2026-01-21T04:13:07.343Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-21T04:13:07.341Z] [debug] 2026-01-21T04:13:07.341Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found"]
+[2026-01-21T04:13:07.337Z] [debug] 2026-01-21T04:13:07.337Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-21T04:13:07.335Z] [debug] 2026-01-21T04:13:07.335Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found"]
+[2026-01-21T04:13:07.332Z] [debug] 2026-01-21T04:13:07.332Z | DEBUG : [Database] Finished retrieving all records in CalendarEvent table | raw: ["[Database] Finished retrieving all records in CalendarEvent table"]
+[2026-01-21T04:13:07.329Z] [debug] 2026-01-21T04:13:07.329Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found"]
+[2026-01-21T04:13:07.327Z] [debug] 2026-01-21T04:13:07.327Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-21T04:13:07.324Z] [debug] 2026-01-21T04:13:07.324Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found"]
+[2026-01-21T04:13:07.322Z] [debug] 2026-01-21T04:13:07.322Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-21T04:13:07.321Z] [debug] 2026-01-21T04:13:07.321Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found"]
+[2026-01-21T04:13:07.319Z] [debug] 2026-01-21T04:13:07.319Z | DEBUG : [Database] Finished retrieving all records in CalendarEvent table | raw: ["[Database] Finished retrieving all records in CalendarEvent table"]
+[2026-01-21T04:13:07.317Z] [debug] 2026-01-21T04:13:07.317Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found"]
+[2026-01-21T04:13:07.313Z] [debug] 2026-01-21T04:13:07.313Z | DEBUG : [DatabaseOperationsProvider] Phase=idle → Navigation markReady() invoked | raw: ["[DatabaseOperationsProvider] Phase=idle → Navigation markReady() invoked"]
+[2026-01-21T04:13:07.312Z] [debug] 2026-01-21T04:13:07.312Z | DEBUG : [DatabaseOperationsProvider] coordinator phase changed 
+{
+  "phase": "idle"
+} | raw: ["[DatabaseOperationsProvider] coordinator phase changed",{"phase":"idle"}]
+[2026-01-21T04:13:07.310Z] [debug] 2026-01-21T04:13:07.310Z | DEBUG : [DatabaseOperationsProvider] phase changed 
+{
+  "phase": "idle"
+} | raw: ["[DatabaseOperationsProvider] phase changed",{"phase":"idle"}]
+[2026-01-21T04:13:07.308Z] [debug] 2026-01-21T04:13:07.308Z | DEBUG : [DatabaseCoordinationGate] overlay decision 
+{
+  "phase": "idle",
+  "shouldShowResolver": false,
+  "isBackupInProgress": false,
+  "currentType": null,
+  "showResolverOverlay": null,
+  "overlayMounted": false
+} | raw: ["[DatabaseCoordinationGate] overlay decision",{"phase":"idle","shouldShowResolver":false,"isBackupInProgress":false,"currentType":null,"showResolverOverlay":null,"overlayMounted":false}]
+[2026-01-21T04:13:07.306Z] [debug] 2026-01-21T04:13:07.306Z | DEBUG : [DatabaseCoordinationGate] overlay state 
+{
+  "phase": "idle",
+  "shouldShowResolver": false,
+  "isBackupInProgress": false,
+  "showResolverOverlay": null,
+  "currentType": null
+} | raw: ["[DatabaseCoordinationGate] overlay state",{"phase":"idle","shouldShowResolver":false,"isBackupInProgress":false,"showResolverOverlay":null,"currentType":null}]
+[2026-01-21T04:13:07.305Z] [error] 2026-01-21T04:13:07.305Z | ERROR : [BackupRestoreSection] Restore error | raw: ["[BackupRestoreSection] Restore error"]
+[2026-01-21T04:13:07.303Z] [error] 2026-01-21T04:13:07.303Z | ERROR : [Restore] ❌ Restore Failed Operation failed! undefined is not a function | raw: ["[Restore] ❌ Restore Failed","Operation failed! undefined is not a function"]
+[2026-01-21T04:13:07.302Z] [warn] 2026-01-21T04:13:07.302Z | WARN : [useRestoreDatabase] Restore Ended: Hide Loading | raw: ["[useRestoreDatabase] Restore Ended: Hide Loading"]
+[2026-01-21T04:13:07.300Z] [debug] 2026-01-21T04:13:07.300Z | DEBUG : [DatabaseCoordinationGate] Running onComplete callback 
+{
+  "operationType": "restore",
+  "success": false
+} | raw: ["[DatabaseCoordinationGate] Running onComplete callback",{"operationType":"restore","success":false}]
+[2026-01-21T04:13:07.295Z] [debug] 2026-01-21T04:13:07.295Z | DEBUG : [iCloud] Resumed pending operations | raw: ["[iCloud] Resumed pending operations"]
+[2026-01-21T04:13:07.292Z] [debug] 2026-01-21T04:13:07.292Z | DEBUG : [iCloud] Resuming pending operations | raw: ["[iCloud] Resuming pending operations"]
+[2026-01-21T04:13:07.280Z] [debug] 2026-01-21T04:13:07.280Z | DEBUG : [MainAppNavigator] Rendering RootStack.Navigator with initialRouteName: BottomTabs | raw: ["[MainAppNavigator] Rendering RootStack.Navigator with initialRouteName:","BottomTabs"]
+[2026-01-21T04:13:07.277Z] [debug] 2026-01-21T04:13:07.277Z | DEBUG : [Database] Finished retrieving all records in MedicationRegimen table | raw: ["[Database] Finished retrieving all records in MedicationRegimen table"]
+[2026-01-21T04:13:07.274Z] [debug] 2026-01-21T04:13:07.274Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationRegimen table: 6 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationRegimen table: 6 records found"]
+[2026-01-21T04:13:07.271Z] [debug] 2026-01-21T04:13:07.271Z | DEBUG : [Database] Finished retrieving all records in Screening table | raw: ["[Database] Finished retrieving all records in Screening table"]
+[2026-01-21T04:13:07.268Z] [debug] 2026-01-21T04:13:07.268Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Screening table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Screening table: 0 records found"]
+[2026-01-21T04:13:07.265Z] [info] 2026-01-21T04:13:07.265Z | INFO : [AutoBackup] hook mounted | raw: ["[AutoBackup] hook mounted"]
+[2026-01-21T04:13:07.261Z] [debug] 2026-01-21T04:13:07.260Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-21T04:13:07.258Z] [debug] 2026-01-21T04:13:07.258Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found"]
+[2026-01-21T04:13:07.255Z] [debug] 2026-01-21T04:13:07.255Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-21T04:13:07.252Z] [debug] 2026-01-21T04:13:07.252Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found"]
+[2026-01-21T04:13:07.249Z] [debug] 2026-01-21T04:13:07.249Z | DEBUG : [Database] Finished retrieving all records in Screening table | raw: ["[Database] Finished retrieving all records in Screening table"]
+[2026-01-21T04:13:07.246Z] [debug] 2026-01-21T04:13:07.246Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Screening table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Screening table: 0 records found"]
+[2026-01-21T04:13:07.243Z] [debug] 2026-01-21T04:13:07.243Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-21T04:13:07.241Z] [debug] 2026-01-21T04:13:07.241Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found"]
+[2026-01-21T04:13:07.238Z] [debug] 2026-01-21T04:13:07.238Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-21T04:13:07.235Z] [debug] 2026-01-21T04:13:07.235Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found"]
+[2026-01-21T04:13:07.232Z] [debug] 2026-01-21T04:13:07.232Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-21T04:13:07.229Z] [debug] 2026-01-21T04:13:07.229Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found"]
+[2026-01-21T04:13:07.226Z] [debug] 2026-01-21T04:13:07.226Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-21T04:13:07.224Z] [debug] 2026-01-21T04:13:07.224Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found"]
+[2026-01-21T04:13:07.220Z] [debug] 2026-01-21T04:13:07.220Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-21T04:13:07.217Z] [debug] 2026-01-21T04:13:07.217Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found"]
+[2026-01-21T04:13:07.215Z] [debug] 2026-01-21T04:13:07.215Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-21T04:13:07.212Z] [debug] 2026-01-21T04:13:07.212Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found"]
+[2026-01-21T04:13:07.209Z] [debug] 2026-01-21T04:13:07.209Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-21T04:13:07.206Z] [debug] 2026-01-21T04:13:07.206Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found"]
+[2026-01-21T04:13:07.203Z] [debug] 2026-01-21T04:13:07.203Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-21T04:13:07.200Z] [debug] 2026-01-21T04:13:07.200Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found"]
+[2026-01-21T04:13:07.197Z] [debug] 2026-01-21T04:13:07.197Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-21T04:13:07.194Z] [debug] 2026-01-21T04:13:07.194Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found"]
+[2026-01-21T04:13:07.191Z] [debug] 2026-01-21T04:13:07.191Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-21T04:13:07.188Z] [debug] 2026-01-21T04:13:07.188Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found"]
+[2026-01-21T04:13:07.185Z] [debug] 2026-01-21T04:13:07.185Z | DEBUG : [Database] Finished retrieving all records in MedicationLog table | raw: ["[Database] Finished retrieving all records in MedicationLog table"]
+[2026-01-21T04:13:07.182Z] [debug] 2026-01-21T04:13:07.182Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found"]
+[2026-01-21T04:13:07.179Z] [debug] 2026-01-21T04:13:07.179Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-21T04:13:07.177Z] [debug] 2026-01-21T04:13:07.177Z | DEBUG : [Database] Retrieving all records in Encounter table: 0 records found | raw: ["[Database] Retrieving all records in Encounter table: 0 records found"]
+[2026-01-21T04:13:07.174Z] [debug] 2026-01-21T04:13:07.174Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-21T04:13:07.171Z] [debug] 2026-01-21T04:13:07.171Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found"]
+[2026-01-21T04:13:07.169Z] [debug] 2026-01-21T04:13:07.169Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-21T04:13:07.166Z] [debug] 2026-01-21T04:13:07.166Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found"]
+[2026-01-21T04:13:07.163Z] [debug] 2026-01-21T04:13:07.163Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-01-21T04:13:07.160Z] [debug] 2026-01-21T04:13:07.160Z | DEBUG : [Database] Retrieving all records in Treatment table: 0 records found | raw: ["[Database] Retrieving all records in Treatment table: 0 records found"]
+[2026-01-21T04:13:07.158Z] [debug] 2026-01-21T04:13:07.158Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-01-21T04:13:07.155Z] [debug] 2026-01-21T04:13:07.155Z | DEBUG : [Database] Retrieving all records in TestTaken table: 0 records found | raw: ["[Database] Retrieving all records in TestTaken table: 0 records found"]
+[2026-01-21T04:13:07.151Z] [debug] 2026-01-21T04:13:07.151Z | DEBUG : [DatabaseOperationsProvider] phase set to idle after completion | raw: ["[DatabaseOperationsProvider] phase set to idle after completion"]
+[2026-01-21T04:13:07.148Z] [error] 2026-01-21T04:13:07.148Z | ERROR : [BackupRestoreSection] Restore error | raw: ["[BackupRestoreSection] Restore error"]
+[2026-01-21T04:13:07.145Z] [error] 2026-01-21T04:13:07.145Z | ERROR : [Restore] ❌ Restore Failed Operation failed! undefined is not a function | raw: ["[Restore] ❌ Restore Failed","Operation failed! undefined is not a function"]
+[2026-01-21T04:13:07.143Z] [warn] 2026-01-21T04:13:07.143Z | WARN : [useRestoreDatabase] Restore Ended: Hide Loading | raw: ["[useRestoreDatabase] Restore Ended: Hide Loading"]
+[2026-01-21T04:13:07.140Z] [debug] 2026-01-21T04:13:07.140Z | DEBUG : [DatabaseOperationsProvider] Completing operation 
+{
+  "hasOnComplete": true,
+  "operationType": "restore",
+  "success": false
+} | raw: ["[DatabaseOperationsProvider] Completing operation",{"hasOnComplete":true,"operationType":"restore","success":false}]
+[2026-01-21T04:13:07.137Z] [error] 2026-01-21T04:13:07.137Z | ERROR : [DatabaseOperationsWorkflow] ImportManager.run failed undefined is not a function | raw: ["[DatabaseOperationsWorkflow] ImportManager.run failed",{}]
+[2026-01-21T04:13:07.134Z] [debug] 2026-01-21T04:13:07.134Z | DEBUG : [FileSystem] The path /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Documents/BBBook/BBBookDB/BBBDatabase.realm is not a directory. | raw: ["[FileSystem] The path /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Documents/BBBook/BBBookDB/BBBDatabase.realm is not a directory."]
+[2026-01-21T04:13:07.131Z] [debug] 2026-01-21T04:13:07.131Z | DEBUG : [FileSystem] Checking if path is directory at /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Documents/BBBook/BBBookDB/BBBDatabase.realm | raw: ["[FileSystem] Checking if path is directory at /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Documents/BBBook/BBBookDB/BBBDatabase.realm"]
+[2026-01-21T04:13:07.129Z] [debug] 2026-01-21T04:13:07.129Z | DEBUG : [FileSystem] Files in directory 
+{
+  "directory": "/var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Documents/BBBook/BBBookDB",
+  "files": [
+    "BBBDatabase.realm",
+    "BBBDatabase.realm.note",
+    "BBBDatabase.realm.management",
+    "BBBDatabase.realm.lock"
+  ]
+} | raw: ["[FileSystem] Files in directory",{"directory":"/var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Documents/BBBook/BBBookDB","files":["BBBDatabase.realm","BBBDatabase.realm.note","BBBDatabase.realm.management","BBBDatabase.realm.lock"]}]
+[2026-01-21T04:13:07.123Z] [debug] 2026-01-21T04:13:07.123Z | DEBUG : [FileSystem] Listing files at /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Documents/BBBook/BBBookDB | raw: ["[FileSystem] Listing files at /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Documents/BBBook/BBBookDB"]
+[2026-01-21T04:13:07.120Z] [debug] 2026-01-21T04:13:07.120Z | DEBUG : [FileSystem] Making directory at /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Documents/BBBook/BBBookDB.bak-20260121041307 | raw: ["[FileSystem] Making directory at /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Documents/BBBook/BBBookDB.bak-20260121041307"]
+[2026-01-21T04:13:07.117Z] [debug] 2026-01-21T04:13:07.117Z | DEBUG : [FileSystem] Directory at /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Documents/BBBook/BBBookDB.bak-20260121041307 does not exist | raw: ["[FileSystem] Directory at /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Documents/BBBook/BBBookDB.bak-20260121041307 does not exist"]
+[2026-01-21T04:13:07.114Z] [debug] 2026-01-21T04:13:07.114Z | DEBUG : [FileSystem] Checking if directory exists at /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Documents/BBBook/BBBookDB.bak-20260121041307 | raw: ["[FileSystem] Checking if directory exists at /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Documents/BBBook/BBBookDB.bak-20260121041307"]
+[2026-01-21T04:13:07.111Z] [debug] 2026-01-21T04:13:07.111Z | DEBUG : [FileSystem] The path /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Documents/BBBook/BBBookDB is a directory. | raw: ["[FileSystem] The path /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Documents/BBBook/BBBookDB is a directory."]
+[2026-01-21T04:13:07.108Z] [debug] 2026-01-21T04:13:07.108Z | DEBUG : [FileSystem] Checking if path is directory at /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Documents/BBBook/BBBookDB | raw: ["[FileSystem] Checking if path is directory at /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Documents/BBBook/BBBookDB"]
+[2026-01-21T04:13:07.104Z] [debug] 2026-01-21T04:13:07.104Z | DEBUG : [ImportManager] Emit phase: backing-up, progress: 0.15 | raw: ["[ImportManager] Emit phase: backing-up, progress: 0.15"]
+[2026-01-21T04:13:07.101Z] [debug] 2026-01-21T04:13:07.101Z | DEBUG : [ImportManager] Staged schema version acceptable; deferring migration to swap 
+{
+  "currentVersion": 29,
+  "stagedSchemaVersion": 19
+} | raw: ["[ImportManager] Staged schema version acceptable; deferring migration to swap",{"currentVersion":29,"stagedSchemaVersion":19}]
+[2026-01-21T04:13:07.087Z] [error] 2026-01-21T04:13:07.087Z | ERROR : [ImportManager] Staged Realm open failed; probing schema version 
+{
+  "error": {},
+  "expectEncrypted": false,
+  "path": "/var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Library/Caches/BBBook/BBBookDB/BBBDatabase.realm"
+} | raw: ["[ImportManager] Staged Realm open failed; probing schema version",{"error":{},"expectEncrypted":false,"path":"/var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Library/Caches/BBBook/BBBookDB/BBBDatabase.realm"}]
+[2026-01-21T04:13:07.080Z] [info] 2026-01-21T04:13:07.079Z | INFO : [ImportManager] validateRealmOpens start 
+{
+  "expectEncrypted": false,
+  "realmPath": "/var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Library/Caches/BBBook/BBBookDB/BBBDatabase.realm"
+} | raw: ["[ImportManager] validateRealmOpens start",{"expectEncrypted":false,"realmPath":"/var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Library/Caches/BBBook/BBBookDB/BBBDatabase.realm"}]
+[2026-01-21T04:13:07.075Z] [debug] 2026-01-21T04:13:07.075Z | DEBUG : [ImportManager] Emit phase: validating-staged, progress: 0.05 | raw: ["[ImportManager] Emit phase: validating-staged, progress: 0.05"]
+[2026-01-21T04:13:07.071Z] [debug] 2026-01-21T04:13:07.071Z | DEBUG : [FileSystem] Deleted file at /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Library/Caches/BBBook/BBBBackupFile.zip | raw: ["[FileSystem] Deleted file at /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Library/Caches/BBBook/BBBBackupFile.zip"]
+[2026-01-21T04:13:07.067Z] [info] 2026-01-21T04:13:07.067Z | INFO : [CloudStorage] Deleting importPath: /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Library/Caches/BBBook/BBBBackupFile.zip | raw: ["[CloudStorage] Deleting importPath:","/var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Library/Caches/BBBook/BBBBackupFile.zip"]
+[2026-01-21T04:13:07.063Z] [debug] 2026-01-21T04:13:07.063Z | DEBUG : [FileSystem] Files in directory 
+{
+  "directory": "/var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Library/Caches/BBBook/BBBookDB",
+  "files": [
+    "3c548d70-2fae-404f-8a86-aff7e19a75d9.jpg",
+    "c3cd3947-1040-4098-a659-353b90b3cea4.jpg",
+    "ef979688-d8d4-4d30-86d0-52575753785f.jpg",
+    "d4d88090-7aed-4522-9a93-e8effc2ae563.jpg",
+    "81a3f757-cce8-428c-84c7-eaa8e63e2c8b.jpg",
+    "8ec08073-c74f-4b0a-ab86-3f933ceece1f.jpg",
+    "BBBDatabase.realm",
+    "dcda72f7-a626-4eda-9f31-3e1aeab8db43.jpg",
+    "d2626301-e4a0-4cd1-97cd-6b1add95a0c5.jpg",
+    "d6c55999-ab83-4fef-854b-1e1523725462.jpg",
+    "3115b69e-9d0f-42fa-80bb-b1538222709b.jpg",
+    "b50573a2-fee2-4882-8910-7b60bb96e8e2.jpg",
+    "16fe8b5e-3e29-4cbb-be0e-18c42bee742a.jpg"
+  ]
+} | raw: ["[FileSystem] Files in directory",{"directory":"/var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Library/Caches/BBBook/BBBookDB","files":["3c548d70-2fae-404f-8a86-aff7e19a75d9.jpg","c3cd3947-1040-4098-a659-353b90b3cea4.jpg","ef979688-d8d4-4d30-86d0-52575753785f.jpg","d4d88090-7aed-4522-9a93-e8effc2ae563.jpg","81a3f757-cce8-428c-84c7-eaa8e63e2c8b.jpg","8ec08073-c74f-4b0a-ab86-3f933ceece1f.jpg","BBBDatabase.realm","dcda72f7-a626-4eda-9f31-3e1aeab8db43.jpg","d2626301-e4a0-4cd1-97cd-6b1add95a0c5.jpg","d6c55999-ab83-4fef-854b-1e1523725462.jpg","3115b69e-9d0f-42fa-80bb-b1538222709b.jpg","b50573a2-fee2-4882-8910-7b60bb96e8e2.jpg","16fe8b5e-3e29-4cbb-be0e-18c42bee742a.jpg"]}]
+[2026-01-21T04:13:07.047Z] [debug] 2026-01-21T04:13:07.047Z | DEBUG : [FileSystem] Listing files at /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Library/Caches/BBBook/BBBookDB | raw: ["[FileSystem] Listing files at /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Library/Caches/BBBook/BBBookDB"]
+[2026-01-21T04:13:07.042Z] [debug] 2026-01-21T04:13:07.042Z | DEBUG : [FileSystem] File unzipped to /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Library/Caches/BBBook/BBBookDB | raw: ["[FileSystem] File unzipped to /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Library/Caches/BBBook/BBBookDB"]
+[2026-01-21T04:13:07.027Z] [debug] 2026-01-21T04:13:07.027Z | DEBUG : [DatabaseOperationsProvider] coordinator progress update 
+{
+  "progress": 1
+} | raw: ["[DatabaseOperationsProvider] coordinator progress update",{"progress":1}]
+[2026-01-21T04:13:07.020Z] [debug] 2026-01-21T04:13:07.020Z | DEBUG : [FileSystem] Unzipping file from /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Library/Caches/BBBook/BBBBackupFile.zip to /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Library/Caches/BBBook/BBBookDB | raw: ["[FileSystem] Unzipping file from /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Library/Caches/BBBook/BBBBackupFile.zip to /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Library/Caches/BBBook/BBBookDB"]
+[2026-01-21T04:13:07.015Z] [info] 2026-01-21T04:13:07.015Z | INFO : [CloudStorage] Unzipping file: /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Library/Caches/BBBook/BBBBackupFile.zip to: /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Library/Caches/BBBook/BBBookDB | raw: ["[CloudStorage] Unzipping file:","/var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Library/Caches/BBBook/BBBBackupFile.zip","to:","/var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Library/Caches/BBBook/BBBookDB"]
+[2026-01-21T04:13:07.009Z] [debug] 2026-01-21T04:13:07.009Z | DEBUG : [FileSystem] Deleted directory at /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Library/Caches/BBBook/BBBookDB | raw: ["[FileSystem] Deleted directory at /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Library/Caches/BBBook/BBBookDB"]
+[2026-01-21T04:13:07.000Z] [debug] 2026-01-21T04:13:07.000Z | DEBUG : [FileSystem] Deleting directory at /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Library/Caches/BBBook/BBBookDB (contents: 3c548d70-2fae-404f-8a86-aff7e19a75d9.jpg, c3cd3947-1040-4098-a659-353b90b3cea4.jpg, ef979688-d8d4-4d30-86d0-52575753785f.jpg, d4d88090-7aed-4522-9a93-e8effc2ae563.jpg, 81a3f757-cce8-428c-84c7-eaa8e63e2c8b.jpg, 8ec08073-c74f-4b0a-ab86-3f933ceece1f.jpg, BBBDatabase.realm, dcda72f7-a626-4eda-9f31-3e1aeab8db43.jpg, d2626301-e4a0-4cd1-97cd-6b1add95a0c5.jpg, d6c55999-ab83-4fef-854b-1e1523725462.jpg, 3115b69e-9d0f-42fa-80bb-b1538222709b.jpg, BBBDatabase.realm.note, b50573a2-fee2-4882-8910-7b60bb96e8e2.jpg, BBBDatabase.realm.management, 16fe8b5e-3e29-4cbb-be0e-18c42bee742a.jpg, BBBDatabase.realm.lock) | raw: ["[FileSystem] Deleting directory at /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Library/Caches/BBBook/BBBookDB (contents: 3c548d70-2fae-404f-8a86-aff7e19a75d9.jpg, c3cd3947-1040-4098-a659-353b90b3cea4.jpg, ef979688-d8d4-4d30-86d0-52575753785f.jpg, d4d88090-7aed-4522-9a93-e8effc2ae563.jpg, 81a3f757-cce8-428c-84c7-eaa8e63e2c8b.jpg, 8ec08073-c74f-4b0a-ab86-3f933ceece1f.jpg, BBBDatabase.realm, dcda72f7-a626-4eda-9f31-3e1aeab8db43.jpg, d2626301-e4a0-4cd1-97cd-6b1add95a0c5.jpg, d6c55999-ab83-4fef-854b-1e1523725462.jpg, 3115b69e-9d0f-42fa-80bb-b1538222709b.jpg, BBBDatabase.realm.note, b50573a2-fee2-4882-8910-7b60bb96e8e2.jpg, BBBDatabase.realm.management, 16fe8b5e-3e29-4cbb-be0e-18c42bee742a.jpg, BBBDatabase.realm.lock)"]
+[2026-01-21T04:13:06.975Z] [debug] 2026-01-21T04:13:06.975Z | DEBUG : [FileSystem] Directory at /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Library/Caches/BBBook/BBBookDB exists | raw: ["[FileSystem] Directory at /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Library/Caches/BBBook/BBBookDB exists"]
+[2026-01-21T04:13:06.970Z] [debug] 2026-01-21T04:13:06.970Z | DEBUG : [FileSystem] Checking if directory exists at /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Library/Caches/BBBook/BBBookDB | raw: ["[FileSystem] Checking if directory exists at /var/mobile/Containers/Data/Application/FC9ED022-3479-4F9E-A1E2-C1D61B64FF39/Library/Caches/BBBook/BBBookDB"]
+[2026-01-21T04:13:06.964Z] [debug] 2026-01-21T04:13:06.964Z | DEBUG : [useRestoreDatabase] Restore Progress: 100% | raw: ["[useRestoreDatabase] Restore Progress: 100%"]
+[2026-01-21T04:13:06.958Z] [debug] 2026-01-21T04:13:06.958Z | DEBUG : [DataManagement] Restore Progress: 100% | raw: ["[DataManagement] Restore Progress: 100%"]
+[2026-01-21T04:13:06.949Z] [debug] 2026-01-21T04:13:06.949Z | DEBUG : RestoreProgress event from native module 
+{
+  "progress": 1
+} | raw: ["RestoreProgress event from native module",{"progress":1}]
+[2026-01-21T04:13:06.846Z] [debug] 2026-01-21T04:13:06.846Z | DEBUG : [DatabaseOperationsProvider] coordinator progress update 
+{
+  "progress": 0.3
+} | raw: ["[DatabaseOperationsProvider] coordinator progress update",{"progress":0.3}]
+[2026-01-21T04:13:06.839Z] [debug] 2026-01-21T04:13:06.839Z | DEBUG : [useRestoreDatabase] Restore Progress: 100% | raw: ["[useRestoreDatabase] Restore Progress: 100%"]
+[2026-01-21T04:13:06.835Z] [debug] 2026-01-21T04:13:06.835Z | DEBUG : [DataManagement] Restore Progress: 100% | raw: ["[DataManagement] Restore Progress: 100%"]
+[2026-01-21T04:13:06.829Z] [debug] 2026-01-21T04:13:06.829Z | DEBUG : RestoreProgress event from native module 
+{
+  "progress": 1
+} | raw: ["RestoreProgress event from native module",{"progress":1}]
+[2026-01-21T04:13:06.821Z] [debug] 2026-01-21T04:13:06.821Z | DEBUG : [DatabaseOperationsProvider] coordinator progress update 
+{
+  "progress": 0.18067505716223736
+} | raw: ["[DatabaseOperationsProvider] coordinator progress update",{"progress":0.18067505716223736}]
+[2026-01-21T04:13:06.814Z] [debug] 2026-01-21T04:13:06.814Z | DEBUG : [useRestoreDatabase] Restore Progress: 60.22501905407912% | raw: ["[useRestoreDatabase] Restore Progress: 60.22501905407912%"]
+[2026-01-21T04:13:06.809Z] [debug] 2026-01-21T04:13:06.809Z | DEBUG : [DataManagement] Restore Progress: 60.22501905407912% | raw: ["[DataManagement] Restore Progress: 60.22501905407912%"]
+[2026-01-21T04:13:06.804Z] [debug] 2026-01-21T04:13:06.804Z | DEBUG : RestoreProgress event from native module 
+{
+  "progress": 0.6022501905407912
+} | raw: ["RestoreProgress event from native module",{"progress":0.6022501905407912}]
+[2026-01-21T04:13:06.506Z] [debug] 2026-01-21T04:13:06.506Z | DEBUG : [iCloud] Restoring from iCloud... | raw: ["[iCloud] Restoring from iCloud..."]
+[2026-01-21T04:13:06.503Z] [debug] 2026-01-21T04:13:06.503Z | DEBUG : [iCloud] Starting restore in iCloud | raw: ["[iCloud] Starting restore in iCloud"]
+[2026-01-21T04:13:06.490Z] [info] 2026-01-21T04:13:06.490Z | INFO : Navigating to route name: UNKNOWN | raw: ["Navigating to route name: UNKNOWN"]
+[2026-01-21T04:13:06.487Z] [debug] 2026-01-21T04:13:06.487Z | DEBUG : [Navigation] Current route name: 
+undefined | raw: ["[Navigation] Current route name:",null]
+[2026-01-21T04:13:06.483Z] [debug] 2026-01-21T04:13:06.483Z | DEBUG : [Navigation] Previous route name: DataManagement | raw: ["[Navigation] Previous route name:","DataManagement"]
+[2026-01-21T04:13:06.476Z] [debug] 2026-01-21T04:13:06.476Z | DEBUG : [DatabaseOperationsProvider] coordinator progress update 
+{
+  "progress": 0
+} | raw: ["[DatabaseOperationsProvider] coordinator progress update",{"progress":0}]
+[2026-01-21T04:13:06.472Z] [debug] 2026-01-21T04:13:06.472Z | DEBUG : [DatabaseOperationsProvider] Phase=restoring → Navigation resetReady() invoked | raw: ["[DatabaseOperationsProvider] Phase=restoring → Navigation resetReady() invoked"]
+[2026-01-21T04:13:06.469Z] [debug] 2026-01-21T04:13:06.469Z | DEBUG : [DatabaseOperationsProvider] coordinator phase changed 
+{
+  "phase": "restoring"
+} | raw: ["[DatabaseOperationsProvider] coordinator phase changed",{"phase":"restoring"}]
+[2026-01-21T04:13:06.465Z] [debug] 2026-01-21T04:13:06.465Z | DEBUG : [DatabaseOperationsProvider] phase changed 
+{
+  "phase": "restoring"
+} | raw: ["[DatabaseOperationsProvider] phase changed",{"phase":"restoring"}]
+[2026-01-21T04:13:06.462Z] [debug] 2026-01-21T04:13:06.462Z | DEBUG : [DatabaseCoordinationGate] overlay decision 
+{
+  "phase": "restoring",
+  "shouldShowResolver": true,
+  "isBackupInProgress": false,
+  "currentType": "restore",
+  "showResolverOverlay": true,
+  "overlayMounted": true
+} | raw: ["[DatabaseCoordinationGate] overlay decision",{"phase":"restoring","shouldShowResolver":true,"isBackupInProgress":false,"currentType":"restore","showResolverOverlay":true,"overlayMounted":true}]
+[2026-01-21T04:13:06.457Z] [debug] 2026-01-21T04:13:06.457Z | DEBUG : [DatabaseCoordinationGate] overlay state 
+{
+  "phase": "restoring",
+  "shouldShowResolver": true,
+  "isBackupInProgress": false,
+  "showResolverOverlay": true,
+  "currentType": "restore"
+} | raw: ["[DatabaseCoordinationGate] overlay state",{"phase":"restoring","shouldShowResolver":true,"isBackupInProgress":false,"showResolverOverlay":true,"currentType":"restore"}]
+[2026-01-21T04:13:06.434Z] [debug] 2026-01-21T04:13:06.434Z | DEBUG : [DatabaseOperationsProvider] coordinator setPhase 
+{
+  "phase": "restoring"
+} | raw: ["[DatabaseOperationsProvider] coordinator setPhase",{"phase":"restoring"}]
+[2026-01-21T04:13:06.430Z] [debug] 2026-01-21T04:13:06.430Z | DEBUG : [DatabaseOperationsProvider] phase set 
+{
+  "phase": "restoring"
+} | raw: ["[DatabaseOperationsProvider] phase set",{"phase":"restoring"}]
+[2026-01-21T04:13:06.423Z] [debug] 2026-01-21T04:13:06.423Z | DEBUG : [DatabaseOperationsProvider] requestOperation() 
+{
+  "hasOnComplete": true,
+  "operationType": "restore",
+  "phase": "idle"
+} | raw: ["[DatabaseOperationsProvider] requestOperation()",{"hasOnComplete":true,"operationType":"restore","phase":"idle"}]
+[2026-01-21T04:13:06.411Z] [warn] 2026-01-21T04:13:06.411Z | WARN : [useRestoreDatabase] Restore Started: Show Loading | raw: ["[useRestoreDatabase] Restore Started: Show Loading"]
+[2026-01-21T04:13:02.999Z] [debug] 2026-01-21T04:13:02.999Z | DEBUG : [Database] Finished retrieving all records in Tombstone table | raw: ["[Database] Finished retrieving all records in Tombstone table"]
+[2026-01-21T04:13:02.993Z] [debug] 2026-01-21T04:13:02.993Z | DEBUG : [Database] Retrieving all records in Tombstone table: 0 records found | raw: ["[Database] Retrieving all records in Tombstone table: 0 records found"]
+[2026-01-21T04:13:02.791Z] [debug] 2026-01-21T04:13:02.790Z | DEBUG : [iCloud] Last backup: 2026-01-03T04:46:41.869Z | raw: ["[iCloud] Last backup:","2026-01-03T04:46:41.869Z"]
+[2026-01-21T04:13:02.666Z] [debug] 2026-01-21T04:13:02.666Z | DEBUG : [iCloud] Last backup: 2026-01-03T04:46:41.869Z | raw: ["[iCloud] Last backup:","2026-01-03T04:46:41.869Z"]
+[2026-01-21T04:13:02.139Z] [debug] 2026-01-21T04:13:02.139Z | DEBUG : [iCloud] backupExists cache hit | raw: ["[iCloud] backupExists cache hit"]
+[2026-01-21T04:13:02.125Z] [info] 2026-01-21T04:13:02.125Z | INFO : Navigating to route name: DataManagement | raw: ["Navigating to route name: DataManagement"]
+[2026-01-21T04:13:02.123Z] [debug] 2026-01-21T04:13:02.123Z | DEBUG : [Navigation] Current route name: DataManagement | raw: ["[Navigation] Current route name:","DataManagement"]
+[2026-01-21T04:13:02.120Z] [debug] 2026-01-21T04:13:02.120Z | DEBUG : [Navigation] Previous route name: Settings | raw: ["[Navigation] Previous route name:","Settings"]
+[2026-01-21T04:13:02.116Z] [debug] 2026-01-21T04:13:02.116Z | DEBUG : [iCloud] Getting remote last backup ISO | raw: ["[iCloud] Getting remote last backup ISO"]
+[2026-01-21T04:13:02.114Z] [debug] 2026-01-21T04:13:02.114Z | DEBUG : [iCloud] Getting remote last backup ISO | raw: ["[iCloud] Getting remote last backup ISO"]
+[2026-01-21T04:13:02.109Z] [debug] 2026-01-21T04:13:02.109Z | DEBUG : [iCloud] isBackupAvailable start 
+1768968782109
+ignoreCache= 
+false | raw: ["[iCloud] isBackupAvailable start",1768968782109,"ignoreCache=",false]
+[2026-01-21T04:13:02.099Z] [debug] 2026-01-21T04:13:02.099Z | DEBUG : [DataManagement] isBackupAvailable icloud options= 
+undefined | raw: ["[DataManagement] isBackupAvailable","icloud","options=",null]
+[2026-01-21T04:13:00.474Z] [info] 2026-01-21T04:13:00.474Z | INFO : Navigating to route name: Settings | raw: ["Navigating to route name: Settings"]
+[2026-01-21T04:13:00.471Z] [debug] 2026-01-21T04:13:00.471Z | DEBUG : [Navigation] Current route name: Settings | raw: ["[Navigation] Current route name:","Settings"]
+[2026-01-21T04:13:00.468Z] [debug] 2026-01-21T04:13:00.468Z | DEBUG : [Navigation] Previous route name: SettingsStack | raw: ["[Navigation] Previous route name:","SettingsStack"]
+[2026-01-21T04:13:00.405Z] [info] 2026-01-21T04:13:00.405Z | INFO : Navigating to route name: SettingsStack | raw: ["Navigating to route name: SettingsStack"]
+[2026-01-21T04:13:00.401Z] [debug] 2026-01-21T04:13:00.401Z | DEBUG : [Navigation] Current route name: SettingsStack | raw: ["[Navigation] Current route name:","SettingsStack"]
+[2026-01-21T04:13:00.393Z] [debug] 2026-01-21T04:13:00.393Z | DEBUG : [Navigation] Previous route name: Calendar | raw: ["[Navigation] Previous route name:","Calendar"]
+[2026-01-21T04:12:59.328Z] [debug] 2026-01-21T04:12:59.328Z | DEBUG : [Navigation] Current route name: Calendar | raw: ["[Navigation] Current route name:","Calendar"]
+[2026-01-21T04:12:59.326Z] [debug] 2026-01-21T04:12:59.326Z | DEBUG : [Navigation] Previous route name: Calendar | raw: ["[Navigation] Previous route name:","Calendar"]
+[2026-01-21T04:12:59.292Z] [debug] 2026-01-21T04:12:59.292Z | DEBUG : [MainAppNavigator] Rendering RootStack.Navigator with initialRouteName: BottomTabs | raw: ["[MainAppNavigator] Rendering RootStack.Navigator with initialRouteName:","BottomTabs"]
+[2026-01-21T04:12:59.290Z] [info] 2026-01-21T04:12:59.290Z | INFO : [AutoBackup] hook mounted | raw: ["[AutoBackup] hook mounted"]
+[2026-01-21T04:12:59.287Z] [debug] 2026-01-21T04:12:59.287Z | DEBUG : [Database] Finished retrieving all records in MedicationLog table | raw: ["[Database] Finished retrieving all records in MedicationLog table"]
+[2026-01-21T04:12:59.285Z] [debug] 2026-01-21T04:12:59.285Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found"]
+[2026-01-21T04:12:59.282Z] [debug] 2026-01-21T04:12:59.282Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-21T04:12:59.280Z] [debug] 2026-01-21T04:12:59.280Z | DEBUG : [Database] Retrieving all records in Encounter table: 0 records found | raw: ["[Database] Retrieving all records in Encounter table: 0 records found"]
+[2026-01-21T04:12:59.277Z] [debug] 2026-01-21T04:12:59.277Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-01-21T04:12:59.275Z] [debug] 2026-01-21T04:12:59.275Z | DEBUG : [Database] Retrieving all records in Treatment table: 0 records found | raw: ["[Database] Retrieving all records in Treatment table: 0 records found"]
+[2026-01-21T04:12:59.273Z] [debug] 2026-01-21T04:12:59.273Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-01-21T04:12:59.271Z] [debug] 2026-01-21T04:12:59.271Z | DEBUG : [Database] Retrieving all records in TestTaken table: 0 records found | raw: ["[Database] Retrieving all records in TestTaken table: 0 records found"]
+[2026-01-21T04:12:59.268Z] [debug] 2026-01-21T04:12:59.268Z | DEBUG : [Security] No credentials present in Keychain | raw: ["[Security] No credentials present in Keychain"]
+[2026-01-21T04:12:59.263Z] [debug] 2026-01-21T04:12:59.263Z | DEBUG : Location permission granted | raw: ["Location permission","granted"]
+[2026-01-21T04:12:59.260Z] [debug] 2026-01-21T04:12:59.260Z | DEBUG : Notifications permission granted | raw: ["Notifications permission","granted"]
