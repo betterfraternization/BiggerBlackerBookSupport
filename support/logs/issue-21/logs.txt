@@ -1,0 +1,334 @@
+# BBBLogs.txt
+[2026-01-21T21:27:08.856Z] [info] 2026-01-21T21:27:08.856Z | INFO : Navigating to route name: SupportRequest | raw: ["Navigating to route name: SupportRequest"]
+[2026-01-21T21:27:08.852Z] [debug] 2026-01-21T21:27:08.852Z | DEBUG : [Navigation] Current route name: SupportRequest | raw: ["[Navigation] Current route name:","SupportRequest"]
+[2026-01-21T21:27:08.842Z] [debug] 2026-01-21T21:27:08.842Z | DEBUG : [Navigation] Previous route name: FeedbackAndSupport | raw: ["[Navigation] Previous route name:","FeedbackAndSupport"]
+[2026-01-21T21:27:07.260Z] [info] 2026-01-21T21:27:07.260Z | INFO : Navigating to route name: FeedbackAndSupport | raw: ["Navigating to route name: FeedbackAndSupport"]
+[2026-01-21T21:27:07.256Z] [debug] 2026-01-21T21:27:07.256Z | DEBUG : [Navigation] Current route name: FeedbackAndSupport | raw: ["[Navigation] Current route name:","FeedbackAndSupport"]
+[2026-01-21T21:27:07.252Z] [debug] 2026-01-21T21:27:07.252Z | DEBUG : [Navigation] Previous route name: Settings | raw: ["[Navigation] Previous route name:","Settings"]
+[2026-01-21T21:27:04.296Z] [info] 2026-01-21T21:27:04.296Z | INFO : Navigating to route name: Settings | raw: ["Navigating to route name: Settings"]
+[2026-01-21T21:27:04.293Z] [debug] 2026-01-21T21:27:04.293Z | DEBUG : [Navigation] Current route name: Settings | raw: ["[Navigation] Current route name:","Settings"]
+[2026-01-21T21:27:04.288Z] [debug] 2026-01-21T21:27:04.288Z | DEBUG : [Navigation] Previous route name: Developer | raw: ["[Navigation] Previous route name:","Developer"]
+[2026-01-21T21:27:03.346Z] [info] 2026-01-21T21:27:03.346Z | INFO : Navigating to route name: Developer | raw: ["Navigating to route name: Developer"]
+[2026-01-21T21:27:03.341Z] [debug] 2026-01-21T21:27:03.341Z | DEBUG : [Navigation] Current route name: Developer | raw: ["[Navigation] Current route name:","Developer"]
+[2026-01-21T21:27:03.337Z] [debug] 2026-01-21T21:27:03.337Z | DEBUG : [Navigation] Previous route name: LogList | raw: ["[Navigation] Previous route name:","LogList"]
+[2026-01-21T21:27:02.312Z] [info] 2026-01-21T21:27:02.312Z | INFO : Navigating to route name: LogList | raw: ["Navigating to route name: LogList"]
+[2026-01-21T21:27:02.305Z] [debug] 2026-01-21T21:27:02.305Z | DEBUG : [Navigation] Current route name: LogList | raw: ["[Navigation] Current route name:","LogList"]
+[2026-01-21T21:27:02.301Z] [debug] 2026-01-21T21:27:02.301Z | DEBUG : [Navigation] Previous route name: Developer | raw: ["[Navigation] Previous route name:","Developer"]
+[2026-01-21T21:27:02.241Z] [debug] 2026-01-21T21:27:02.241Z | DEBUG : [IMPORT_PROGRESS_TRACE] loading display render 
+{
+  "hasMessage": true
+} | raw: ["[IMPORT_PROGRESS_TRACE] loading display render",{"hasMessage":true}]
+[2026-01-21T21:27:00.720Z] [info] 2026-01-21T21:27:00.720Z | INFO : Navigating to route name: Developer | raw: ["Navigating to route name: Developer"]
+[2026-01-21T21:27:00.717Z] [debug] 2026-01-21T21:27:00.717Z | DEBUG : [Navigation] Current route name: Developer | raw: ["[Navigation] Current route name:","Developer"]
+[2026-01-21T21:27:00.713Z] [debug] 2026-01-21T21:27:00.713Z | DEBUG : [Navigation] Previous route name: LogList | raw: ["[Navigation] Previous route name:","LogList"]
+[2026-01-21T21:26:59.984Z] [info] 2026-01-21T21:26:59.984Z | INFO : Navigating to route name: LogList | raw: ["Navigating to route name: LogList"]
+[2026-01-21T21:26:59.980Z] [debug] 2026-01-21T21:26:59.980Z | DEBUG : [Navigation] Current route name: LogList | raw: ["[Navigation] Current route name:","LogList"]
+[2026-01-21T21:26:59.974Z] [debug] 2026-01-21T21:26:59.974Z | DEBUG : [Navigation] Previous route name: LogView | raw: ["[Navigation] Previous route name:","LogView"]
+[2026-01-21T21:21:47.298Z] [debug] 2026-01-21T21:21:47.298Z | DEBUG : [Database] Finished retrieving all records in Tombstone table | raw: ["[Database] Finished retrieving all records in Tombstone table"]
+[2026-01-21T21:21:47.292Z] [debug] 2026-01-21T21:21:47.292Z | DEBUG : [Database] Retrieving all records in Tombstone table: 0 records found | raw: ["[Database] Retrieving all records in Tombstone table: 0 records found"]
+[2026-01-21T21:21:36.475Z] [info] 2026-01-21T21:21:36.475Z | INFO : Navigating to route name: LogView | raw: ["Navigating to route name: LogView"]
+[2026-01-21T21:21:36.471Z] [debug] 2026-01-21T21:21:36.471Z | DEBUG : [Navigation] Current route name: LogView | raw: ["[Navigation] Current route name:","LogView"]
+[2026-01-21T21:21:36.467Z] [debug] 2026-01-21T21:21:36.467Z | DEBUG : [Navigation] Previous route name: LogList | raw: ["[Navigation] Previous route name:","LogList"]
+[2026-01-21T21:21:34.816Z] [info] 2026-01-21T21:21:34.816Z | INFO : Navigating to route name: LogList | raw: ["Navigating to route name: LogList"]
+[2026-01-21T21:21:34.808Z] [debug] 2026-01-21T21:21:34.808Z | DEBUG : [Navigation] Current route name: LogList | raw: ["[Navigation] Current route name:","LogList"]
+[2026-01-21T21:21:34.804Z] [debug] 2026-01-21T21:21:34.804Z | DEBUG : [Navigation] Previous route name: LogView | raw: ["[Navigation] Previous route name:","LogView"]
+[2026-01-21T21:21:10.315Z] [info] 2026-01-21T21:21:10.315Z | INFO : Navigating to route name: LogView | raw: ["Navigating to route name: LogView"]
+[2026-01-21T21:21:10.308Z] [debug] 2026-01-21T21:21:10.308Z | DEBUG : [Navigation] Current route name: LogView | raw: ["[Navigation] Current route name:","LogView"]
+[2026-01-21T21:21:10.299Z] [debug] 2026-01-21T21:21:10.299Z | DEBUG : [Navigation] Previous route name: LogList | raw: ["[Navigation] Previous route name:","LogList"]
+[2026-01-21T21:21:08.913Z] [info] 2026-01-21T21:21:08.913Z | INFO : Navigating to route name: LogList | raw: ["Navigating to route name: LogList"]
+[2026-01-21T21:21:08.909Z] [debug] 2026-01-21T21:21:08.909Z | DEBUG : [Navigation] Current route name: LogList | raw: ["[Navigation] Current route name:","LogList"]
+[2026-01-21T21:21:08.904Z] [debug] 2026-01-21T21:21:08.904Z | DEBUG : [Navigation] Previous route name: Developer | raw: ["[Navigation] Previous route name:","Developer"]
+[2026-01-21T21:21:08.841Z] [debug] 2026-01-21T21:21:08.841Z | DEBUG : [IMPORT_PROGRESS_TRACE] loading display render 
+{
+  "hasMessage": true
+} | raw: ["[IMPORT_PROGRESS_TRACE] loading display render",{"hasMessage":true}]
+[2026-01-21T21:21:06.827Z] [info] 2026-01-21T21:21:06.827Z | INFO : Navigating to route name: Developer | raw: ["Navigating to route name: Developer"]
+[2026-01-21T21:21:06.824Z] [debug] 2026-01-21T21:21:06.824Z | DEBUG : [Navigation] Current route name: Developer | raw: ["[Navigation] Current route name:","Developer"]
+[2026-01-21T21:21:06.819Z] [debug] 2026-01-21T21:21:06.819Z | DEBUG : [Navigation] Previous route name: Settings | raw: ["[Navigation] Previous route name:","Settings"]
+[2026-01-21T21:21:04.713Z] [info] 2026-01-21T21:21:04.713Z | INFO : Navigating to route name: Settings | raw: ["Navigating to route name: Settings"]
+[2026-01-21T21:21:04.707Z] [debug] 2026-01-21T21:21:04.707Z | DEBUG : [Navigation] Current route name: Settings | raw: ["[Navigation] Current route name:","Settings"]
+[2026-01-21T21:21:04.702Z] [debug] 2026-01-21T21:21:04.702Z | DEBUG : [Navigation] Previous route name: SettingsStack | raw: ["[Navigation] Previous route name:","SettingsStack"]
+[2026-01-21T21:21:04.521Z] [info] 2026-01-21T21:21:04.521Z | INFO : Navigating to route name: SettingsStack | raw: ["Navigating to route name: SettingsStack"]
+[2026-01-21T21:21:04.517Z] [debug] 2026-01-21T21:21:04.517Z | DEBUG : [Navigation] Current route name: SettingsStack | raw: ["[Navigation] Current route name:","SettingsStack"]
+[2026-01-21T21:21:04.512Z] [debug] 2026-01-21T21:21:04.512Z | DEBUG : [Navigation] Previous route name: Calendar | raw: ["[Navigation] Previous route name:","Calendar"]
+[2026-01-21T21:21:03.861Z] [debug] 2026-01-21T21:21:03.861Z | DEBUG : [IMPORT_PROGRESS_TRACE] loading display render 
+{
+  "hasMessage": false
+} | raw: ["[IMPORT_PROGRESS_TRACE] loading display render",{"hasMessage":false}]
+[2026-01-21T21:21:03.829Z] [debug] 2026-01-21T21:21:03.828Z | DEBUG : [Navigation] Current route name: Calendar | raw: ["[Navigation] Current route name:","Calendar"]
+[2026-01-21T21:21:03.825Z] [debug] 2026-01-21T21:21:03.825Z | DEBUG : [Navigation] Previous route name: Calendar | raw: ["[Navigation] Previous route name:","Calendar"]
+[2026-01-21T21:21:03.422Z] [debug] 2026-01-21T21:21:03.422Z | DEBUG : [Database] Finished retrieving all records in CalendarEvent table | raw: ["[Database] Finished retrieving all records in CalendarEvent table"]
+[2026-01-21T21:21:03.419Z] [debug] 2026-01-21T21:21:03.419Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found"]
+[2026-01-21T21:21:03.405Z] [debug] 2026-01-21T21:21:03.405Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-21T21:21:03.402Z] [debug] 2026-01-21T21:21:03.402Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Encounter table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Encounter table: 0 records found"]
+[2026-01-21T21:21:03.399Z] [debug] 2026-01-21T21:21:03.399Z | DEBUG : [Database] Finished retrieving all records in CalendarEvent table | raw: ["[Database] Finished retrieving all records in CalendarEvent table"]
+[2026-01-21T21:21:03.396Z] [debug] 2026-01-21T21:21:03.395Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found"]
+[2026-01-21T21:21:03.391Z] [debug] 2026-01-21T21:21:03.391Z | DEBUG : [Database] Finished retrieving all records in CalendarEvent table | raw: ["[Database] Finished retrieving all records in CalendarEvent table"]
+[2026-01-21T21:21:03.388Z] [debug] 2026-01-21T21:21:03.388Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found"]
+[2026-01-21T21:21:03.369Z] [debug] 2026-01-21T21:21:03.369Z | DEBUG : [IMPORT_PROGRESS_TRACE] loading display render 
+{
+  "hasMessage": false
+} | raw: ["[IMPORT_PROGRESS_TRACE] loading display render",{"hasMessage":false}]
+[2026-01-21T21:21:02.889Z] [debug] 2026-01-21T21:21:02.889Z | DEBUG : [IMPORT_PROGRESS_TRACE] loading display render 
+{
+  "hasMessage": false
+} | raw: ["[IMPORT_PROGRESS_TRACE] loading display render",{"hasMessage":false}]
+[2026-01-21T21:21:02.857Z] [debug] 2026-01-21T21:21:02.857Z | DEBUG : [Navigation] Current route name: Calendar | raw: ["[Navigation] Current route name:","Calendar"]
+[2026-01-21T21:21:02.853Z] [debug] 2026-01-21T21:21:02.853Z | DEBUG : [Navigation] Previous route name: Calendar | raw: ["[Navigation] Previous route name:","Calendar"]
+[2026-01-21T21:21:02.496Z] [debug] 2026-01-21T21:21:02.496Z | DEBUG : [Database] Finished retrieving all records in CalendarEvent table | raw: ["[Database] Finished retrieving all records in CalendarEvent table"]
+[2026-01-21T21:21:02.493Z] [debug] 2026-01-21T21:21:02.493Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found"]
+[2026-01-21T21:21:02.477Z] [debug] 2026-01-21T21:21:02.477Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-21T21:21:02.472Z] [debug] 2026-01-21T21:21:02.472Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Encounter table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Encounter table: 0 records found"]
+[2026-01-21T21:21:02.469Z] [debug] 2026-01-21T21:21:02.469Z | DEBUG : [Database] Finished retrieving all records in CalendarEvent table | raw: ["[Database] Finished retrieving all records in CalendarEvent table"]
+[2026-01-21T21:21:02.464Z] [debug] 2026-01-21T21:21:02.464Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found"]
+[2026-01-21T21:21:02.460Z] [debug] 2026-01-21T21:21:02.460Z | DEBUG : [Database] Finished retrieving all records in CalendarEvent table | raw: ["[Database] Finished retrieving all records in CalendarEvent table"]
+[2026-01-21T21:21:02.457Z] [debug] 2026-01-21T21:21:02.457Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found"]
+[2026-01-21T21:21:02.440Z] [debug] 2026-01-21T21:21:02.440Z | DEBUG : [IMPORT_PROGRESS_TRACE] loading display render 
+{
+  "hasMessage": false
+} | raw: ["[IMPORT_PROGRESS_TRACE] loading display render",{"hasMessage":false}]
+[2026-01-21T21:21:00.812Z] [debug] 2026-01-21T21:21:00.812Z | DEBUG : [Navigation] Current route name: Calendar | raw: ["[Navigation] Current route name:","Calendar"]
+[2026-01-21T21:21:00.809Z] [debug] 2026-01-21T21:21:00.809Z | DEBUG : [Navigation] Previous route name: Calendar | raw: ["[Navigation] Previous route name:","Calendar"]
+[2026-01-21T21:21:00.743Z] [debug] 2026-01-21T21:21:00.743Z | DEBUG : [MainAppNavigator] Rendering RootStack.Navigator with initialRouteName: BottomTabs | raw: ["[MainAppNavigator] Rendering RootStack.Navigator with initialRouteName:","BottomTabs"]
+[2026-01-21T21:21:00.739Z] [info] 2026-01-21T21:21:00.739Z | INFO : [AutoBackup] hook mounted | raw: ["[AutoBackup] hook mounted"]
+[2026-01-21T21:21:00.734Z] [debug] 2026-01-21T21:21:00.734Z | DEBUG : [Database] Finished retrieving all records in MedicationLog table | raw: ["[Database] Finished retrieving all records in MedicationLog table"]
+[2026-01-21T21:21:00.730Z] [debug] 2026-01-21T21:21:00.730Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found"]
+[2026-01-21T21:21:00.725Z] [debug] 2026-01-21T21:21:00.725Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-21T21:21:00.723Z] [debug] 2026-01-21T21:21:00.723Z | DEBUG : [Database] Retrieving all records in Encounter table: 0 records found | raw: ["[Database] Retrieving all records in Encounter table: 0 records found"]
+[2026-01-21T21:21:00.719Z] [debug] 2026-01-21T21:21:00.719Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-01-21T21:21:00.717Z] [debug] 2026-01-21T21:21:00.717Z | DEBUG : [Database] Retrieving all records in Treatment table: 0 records found | raw: ["[Database] Retrieving all records in Treatment table: 0 records found"]
+[2026-01-21T21:21:00.714Z] [debug] 2026-01-21T21:21:00.714Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-01-21T21:21:00.711Z] [debug] 2026-01-21T21:21:00.711Z | DEBUG : [Database] Retrieving all records in TestTaken table: 0 records found | raw: ["[Database] Retrieving all records in TestTaken table: 0 records found"]
+[2026-01-21T21:21:00.611Z] [debug] 2026-01-21T21:21:00.611Z | DEBUG : [IMPORT_PROGRESS_TRACE] loading display render 
+{
+  "hasMessage": false
+} | raw: ["[IMPORT_PROGRESS_TRACE] loading display render",{"hasMessage":false}]
+[2026-01-21T21:21:00.575Z] [debug] 2026-01-21T21:21:00.575Z | DEBUG : [MainAppNavigator] Rendering RootStack.Navigator with initialRouteName: BottomTabs | raw: ["[MainAppNavigator] Rendering RootStack.Navigator with initialRouteName:","BottomTabs"]
+[2026-01-21T21:21:00.569Z] [info] 2026-01-21T21:21:00.569Z | INFO : [AutoBackup] hook mounted | raw: ["[AutoBackup] hook mounted"]
+[2026-01-21T21:21:00.552Z] [debug] 2026-01-21T21:21:00.552Z | DEBUG : Location permission granted | raw: ["Location permission","granted"]
+[2026-01-21T21:21:00.547Z] [debug] 2026-01-21T21:21:00.547Z | DEBUG : Notifications permission granted | raw: ["Notifications permission","granted"]
+[2026-01-21T21:21:00.443Z] [debug] 2026-01-21T21:21:00.443Z | DEBUG : [IMPORT_PROGRESS_TRACE] loading display render 
+{
+  "hasMessage": false
+} | raw: ["[IMPORT_PROGRESS_TRACE] loading display render",{"hasMessage":false}]
+[2026-01-21T21:21:00.406Z] [debug] 2026-01-21T21:21:00.406Z | DEBUG : [Navigation] Current route name: Calendar | raw: ["[Navigation] Current route name:","Calendar"]
+[2026-01-21T21:21:00.402Z] [debug] 2026-01-21T21:21:00.401Z | DEBUG : [Navigation] Previous route name: Calendar | raw: ["[Navigation] Previous route name:","Calendar"]
+[2026-01-21T21:21:00.331Z] [info] 2026-01-21T21:21:00.331Z | INFO : Navigating to route name: Calendar | raw: ["Navigating to route name: Calendar"]
+[2026-01-21T21:21:00.326Z] [debug] 2026-01-21T21:21:00.326Z | DEBUG : [Navigation] Current route name: Calendar | raw: ["[Navigation] Current route name:","Calendar"]
+[2026-01-21T21:21:00.322Z] [debug] 2026-01-21T21:21:00.322Z | DEBUG : [Navigation] Previous route name: 
+undefined | raw: ["[Navigation] Previous route name:",null]
+[2026-01-21T21:21:00.129Z] [debug] 2026-01-21T21:21:00.129Z | DEBUG : [Database] Finished retrieving all records in CalendarEvent table | raw: ["[Database] Finished retrieving all records in CalendarEvent table"]
+[2026-01-21T21:21:00.126Z] [debug] 2026-01-21T21:21:00.126Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found"]
+[2026-01-21T21:21:00.110Z] [debug] 2026-01-21T21:21:00.110Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-21T21:21:00.107Z] [debug] 2026-01-21T21:21:00.107Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Encounter table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Encounter table: 0 records found"]
+[2026-01-21T21:21:00.103Z] [debug] 2026-01-21T21:21:00.103Z | DEBUG : [Database] Finished retrieving all records in MedicationRegimenStep table | raw: ["[Database] Finished retrieving all records in MedicationRegimenStep table"]
+[2026-01-21T21:21:00.100Z] [debug] 2026-01-21T21:21:00.100Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationRegimenStep table: 10 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationRegimenStep table: 10 records found"]
+[2026-01-21T21:21:00.097Z] [debug] 2026-01-21T21:21:00.097Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-21T21:21:00.095Z] [debug] 2026-01-21T21:21:00.095Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found"]
+[2026-01-21T21:21:00.091Z] [debug] 2026-01-21T21:21:00.091Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-21T21:21:00.088Z] [debug] 2026-01-21T21:21:00.088Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found"]
+[2026-01-21T21:21:00.085Z] [debug] 2026-01-21T21:21:00.085Z | DEBUG : [Database] Finished retrieving all records in CalendarEvent table | raw: ["[Database] Finished retrieving all records in CalendarEvent table"]
+[2026-01-21T21:21:00.083Z] [debug] 2026-01-21T21:21:00.082Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found"]
+[2026-01-21T21:21:00.079Z] [debug] 2026-01-21T21:21:00.079Z | DEBUG : [Database] Finished retrieving all records in MedicationRegimenStep table | raw: ["[Database] Finished retrieving all records in MedicationRegimenStep table"]
+[2026-01-21T21:21:00.077Z] [debug] 2026-01-21T21:21:00.077Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationRegimenStep table: 10 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationRegimenStep table: 10 records found"]
+[2026-01-21T21:21:00.072Z] [debug] 2026-01-21T21:21:00.072Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-21T21:21:00.069Z] [debug] 2026-01-21T21:21:00.069Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found"]
+[2026-01-21T21:21:00.066Z] [debug] 2026-01-21T21:21:00.066Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-21T21:21:00.063Z] [debug] 2026-01-21T21:21:00.063Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found"]
+[2026-01-21T21:21:00.060Z] [debug] 2026-01-21T21:21:00.060Z | DEBUG : [Database] Finished retrieving all records in CalendarEvent table | raw: ["[Database] Finished retrieving all records in CalendarEvent table"]
+[2026-01-21T21:21:00.055Z] [debug] 2026-01-21T21:21:00.055Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found"]
+[2026-01-21T21:21:00.043Z] [debug] 2026-01-21T21:21:00.043Z | DEBUG : [MainAppNavigator] Rendering RootStack.Navigator with initialRouteName: BottomTabs | raw: ["[MainAppNavigator] Rendering RootStack.Navigator with initialRouteName:","BottomTabs"]
+[2026-01-21T21:21:00.040Z] [info] 2026-01-21T21:21:00.040Z | INFO : [AutoBackup] hook mounted | raw: ["[AutoBackup] hook mounted"]
+[2026-01-21T21:21:00.032Z] [debug] 2026-01-21T21:21:00.032Z | DEBUG : [Database] Finished retrieving all records in MedicationLog table | raw: ["[Database] Finished retrieving all records in MedicationLog table"]
+[2026-01-21T21:21:00.029Z] [debug] 2026-01-21T21:21:00.029Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found"]
+[2026-01-21T21:21:00.025Z] [debug] 2026-01-21T21:21:00.025Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-21T21:21:00.021Z] [debug] 2026-01-21T21:21:00.021Z | DEBUG : [Database] Retrieving all records in Encounter table: 0 records found | raw: ["[Database] Retrieving all records in Encounter table: 0 records found"]
+[2026-01-21T21:21:00.018Z] [debug] 2026-01-21T21:21:00.018Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-01-21T21:21:00.015Z] [debug] 2026-01-21T21:21:00.015Z | DEBUG : [Database] Retrieving all records in Treatment table: 0 records found | raw: ["[Database] Retrieving all records in Treatment table: 0 records found"]
+[2026-01-21T21:21:00.012Z] [debug] 2026-01-21T21:21:00.012Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-01-21T21:21:00.006Z] [debug] 2026-01-21T21:21:00.006Z | DEBUG : [Database] Retrieving all records in TestTaken table: 0 records found | raw: ["[Database] Retrieving all records in TestTaken table: 0 records found"]
+[2026-01-21T21:21:00.001Z] [debug] 2026-01-21T21:21:00.001Z | DEBUG : [DatabaseOperationsProvider] Phase=idle → Navigation markReady() invoked | raw: ["[DatabaseOperationsProvider] Phase=idle → Navigation markReady() invoked"]
+[2026-01-21T21:20:59.997Z] [debug] 2026-01-21T21:20:59.997Z | DEBUG : [DatabaseOperationsProvider] coordinator phase changed 
+{
+  "phase": "idle"
+} | raw: ["[DatabaseOperationsProvider] coordinator phase changed",{"phase":"idle"}]
+[2026-01-21T21:20:59.993Z] [debug] 2026-01-21T21:20:59.993Z | DEBUG : [DatabaseOperationsProvider] phase changed 
+{
+  "phase": "idle"
+} | raw: ["[DatabaseOperationsProvider] phase changed",{"phase":"idle"}]
+[2026-01-21T21:20:59.988Z] [debug] 2026-01-21T21:20:59.988Z | DEBUG : [DatabaseCoordinationGate] overlay decision 
+{
+  "phase": "idle",
+  "shouldShowResolver": false,
+  "isBackupInProgress": false,
+  "currentType": null,
+  "showResolverOverlay": null,
+  "overlayMounted": false
+} | raw: ["[DatabaseCoordinationGate] overlay decision",{"phase":"idle","shouldShowResolver":false,"isBackupInProgress":false,"currentType":null,"showResolverOverlay":null,"overlayMounted":false}]
+[2026-01-21T21:20:59.985Z] [debug] 2026-01-21T21:20:59.985Z | DEBUG : [DatabaseCoordinationGate] overlay state 
+{
+  "phase": "idle",
+  "shouldShowResolver": false,
+  "isBackupInProgress": false,
+  "showResolverOverlay": null,
+  "currentType": null
+} | raw: ["[DatabaseCoordinationGate] overlay state",{"phase":"idle","shouldShowResolver":false,"isBackupInProgress":false,"showResolverOverlay":null,"currentType":null}]
+[2026-01-21T21:20:59.980Z] [debug] 2026-01-21T21:20:59.980Z | DEBUG : [DatabaseCoordinationGate] Waiting for readyForModal before running onComplete 
+{
+  "operationType": "generate"
+} | raw: ["[DatabaseCoordinationGate] Waiting for readyForModal before running onComplete",{"operationType":"generate"}]
+[2026-01-21T21:20:59.966Z] [warn] 2026-01-21T21:20:59.966Z | WARN : [GoogleDrive] Resume pending operations is not supported. | raw: ["[GoogleDrive] Resume pending operations is not supported."]
+[2026-01-21T21:20:59.906Z] [debug] 2026-01-21T21:20:59.906Z | DEBUG : [MainAppNavigator] Rendering RootStack.Navigator with initialRouteName: BottomTabs | raw: ["[MainAppNavigator] Rendering RootStack.Navigator with initialRouteName:","BottomTabs"]
+[2026-01-21T21:20:59.903Z] [debug] 2026-01-21T21:20:59.902Z | DEBUG : [Database] Finished retrieving all records in MedicationRegimen table | raw: ["[Database] Finished retrieving all records in MedicationRegimen table"]
+[2026-01-21T21:20:59.900Z] [debug] 2026-01-21T21:20:59.900Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationRegimen table: 6 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationRegimen table: 6 records found"]
+[2026-01-21T21:20:59.896Z] [debug] 2026-01-21T21:20:59.896Z | DEBUG : [Database] Finished retrieving all records in Screening table | raw: ["[Database] Finished retrieving all records in Screening table"]
+[2026-01-21T21:20:59.893Z] [debug] 2026-01-21T21:20:59.893Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Screening table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Screening table: 0 records found"]
+[2026-01-21T21:20:59.888Z] [info] 2026-01-21T21:20:59.888Z | INFO : [AutoBackup] hook mounted | raw: ["[AutoBackup] hook mounted"]
+[2026-01-21T21:20:59.881Z] [debug] 2026-01-21T21:20:59.881Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-21T21:20:59.878Z] [debug] 2026-01-21T21:20:59.877Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found"]
+[2026-01-21T21:20:59.872Z] [debug] 2026-01-21T21:20:59.872Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-21T21:20:59.869Z] [debug] 2026-01-21T21:20:59.869Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found"]
+[2026-01-21T21:20:59.866Z] [debug] 2026-01-21T21:20:59.866Z | DEBUG : [Database] Finished retrieving all records in Screening table | raw: ["[Database] Finished retrieving all records in Screening table"]
+[2026-01-21T21:20:59.863Z] [debug] 2026-01-21T21:20:59.863Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Screening table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Screening table: 0 records found"]
+[2026-01-21T21:20:59.857Z] [debug] 2026-01-21T21:20:59.857Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-21T21:20:59.854Z] [debug] 2026-01-21T21:20:59.854Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found"]
+[2026-01-21T21:20:59.851Z] [debug] 2026-01-21T21:20:59.851Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-21T21:20:59.848Z] [debug] 2026-01-21T21:20:59.848Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found"]
+[2026-01-21T21:20:59.844Z] [debug] 2026-01-21T21:20:59.844Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-21T21:20:59.839Z] [debug] 2026-01-21T21:20:59.839Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found"]
+[2026-01-21T21:20:59.836Z] [debug] 2026-01-21T21:20:59.836Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-21T21:20:59.833Z] [debug] 2026-01-21T21:20:59.833Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found"]
+[2026-01-21T21:20:59.829Z] [debug] 2026-01-21T21:20:59.829Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-21T21:20:59.823Z] [debug] 2026-01-21T21:20:59.823Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found"]
+[2026-01-21T21:20:59.820Z] [debug] 2026-01-21T21:20:59.820Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-21T21:20:59.817Z] [debug] 2026-01-21T21:20:59.817Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found"]
+[2026-01-21T21:20:59.813Z] [debug] 2026-01-21T21:20:59.812Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-21T21:20:59.807Z] [debug] 2026-01-21T21:20:59.807Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found"]
+[2026-01-21T21:20:59.802Z] [debug] 2026-01-21T21:20:59.802Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-21T21:20:59.799Z] [debug] 2026-01-21T21:20:59.799Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found"]
+[2026-01-21T21:20:59.794Z] [debug] 2026-01-21T21:20:59.793Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-21T21:20:59.789Z] [debug] 2026-01-21T21:20:59.789Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found"]
+[2026-01-21T21:20:59.785Z] [debug] 2026-01-21T21:20:59.785Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-21T21:20:59.783Z] [debug] 2026-01-21T21:20:59.783Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found"]
+[2026-01-21T21:20:59.779Z] [debug] 2026-01-21T21:20:59.779Z | DEBUG : [Database] Finished retrieving all records in MedicationLog table | raw: ["[Database] Finished retrieving all records in MedicationLog table"]
+[2026-01-21T21:20:59.773Z] [debug] 2026-01-21T21:20:59.773Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found"]
+[2026-01-21T21:20:59.771Z] [debug] 2026-01-21T21:20:59.771Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-21T21:20:59.768Z] [debug] 2026-01-21T21:20:59.768Z | DEBUG : [Database] Retrieving all records in Encounter table: 0 records found | raw: ["[Database] Retrieving all records in Encounter table: 0 records found"]
+[2026-01-21T21:20:59.766Z] [debug] 2026-01-21T21:20:59.766Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-01-21T21:20:59.763Z] [debug] 2026-01-21T21:20:59.763Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found"]
+[2026-01-21T21:20:59.756Z] [debug] 2026-01-21T21:20:59.756Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-01-21T21:20:59.754Z] [debug] 2026-01-21T21:20:59.754Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found"]
+[2026-01-21T21:20:59.750Z] [debug] 2026-01-21T21:20:59.750Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-01-21T21:20:59.748Z] [debug] 2026-01-21T21:20:59.748Z | DEBUG : [Database] Retrieving all records in Treatment table: 0 records found | raw: ["[Database] Retrieving all records in Treatment table: 0 records found"]
+[2026-01-21T21:20:59.746Z] [debug] 2026-01-21T21:20:59.746Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-01-21T21:20:59.742Z] [debug] 2026-01-21T21:20:59.742Z | DEBUG : [Database] Retrieving all records in TestTaken table: 0 records found | raw: ["[Database] Retrieving all records in TestTaken table: 0 records found"]
+[2026-01-21T21:20:59.735Z] [debug] 2026-01-21T21:20:59.735Z | DEBUG : [IMPORT_PROGRESS_TRACE] updateProgress reset skipped: already undefined | raw: ["[IMPORT_PROGRESS_TRACE] updateProgress reset skipped: already undefined"]
+[2026-01-21T21:20:59.733Z] [debug] 2026-01-21T21:20:59.733Z | DEBUG : [DatabaseOperationsProvider] phase set to idle after completion | raw: ["[DatabaseOperationsProvider] phase set to idle after completion"]
+[2026-01-21T21:20:59.729Z] [debug] 2026-01-21T21:20:59.729Z | DEBUG : [IMPORT_PROGRESS_TRACE] updateProgress reset applied | raw: ["[IMPORT_PROGRESS_TRACE] updateProgress reset applied"]
+[2026-01-21T21:20:59.725Z] [debug] 2026-01-21T21:20:59.725Z | DEBUG : [DatabaseOperationsProvider] Completing operation 
+{
+  "hasOnComplete": true,
+  "operationType": "generate",
+  "success": false
+} | raw: ["[DatabaseOperationsProvider] Completing operation",{"hasOnComplete":true,"operationType":"generate","success":false}]
+[2026-01-21T21:20:59.714Z] [error] 2026-01-21T21:20:59.714Z | ERROR : [DatabaseOperationsWorkflow] Operation failed [FileSystemError] Error deleting directory at /data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBookDB at /data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBookDB: 
+Caused by: Call to function 'FileSystemDirectory.delete' has been rejected.
+→ Caused by: Unable to delete file or directory: failed to delete 'file:///data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBookDB'
+Error: Call to function 'FileSystemDirectory.delete' has been rejected.
+→ Caused by: Unable to delete file or directory: failed to delete 'file:///data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBookDB'
+    at construct (native)
+    at apply (native)
+    at _construct (http://10.0.2.2:8081/node_modules/expo-router/entry.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.gteksolutions.BiggerBlackerBook&modulesOnly=false&runModule=true&excludeSource=true&sourcePaths=url-server&transform.routerRoot=app&transform.engine=hermes&transform.bytecode=1&unstable_transformProfile=hermes-stable:16491:102)
+    at Wrapper (http://10.0.2.2:8081/node_modules/expo-router/entry.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.gteksolutions.BiggerBlackerBook&modulesOnly=false&runModule=true&excludeSource=true&sourcePaths=url-server&transform.routerRoot=app&transform.engine=hermes&transform.bytecode=1&unstable_transformProfile=hermes-stable:16465:60)
+    at construct (native)
+    at _callSuper (http://10.0.2.2:8081/node_modules/expo-router/entry.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.gteksolutions.BiggerBlackerBook&modulesOnly=false&runModule=true&excludeSource=true&sourcePaths=url-server&transform.routerRoot=app&transform.engine=hermes&transform.bytecode=1&unstable_transformProfile=hermes-stable:4249:215)
+    at CodedError (http://10.0.2.2:8081/node_modules/expo-router/entry.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.gteksolutions.BiggerBlackerBook&modulesOnly=false&runModule=true&excludeSource=true&sourcePaths=url-server&transform.routerRoot=app&transform.engine=hermes&transform.bytecode=1&unstable_transformProfile=hermes-stable:87596:39)
+    at delete (native)
+    at ?anon_0_ (http://10.0.2.2:8081/node_modules/expo-router/entry.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.gteksolutions.BiggerBlackerBook&modulesOnly=false&runModule=true&excludeSource=true&sourcePaths=url-server&transform.routerRoot=app&transform.engine=hermes&transform.bytecode=1&unstable_transformProfile=hermes-stable:416668:31)
+    at next (native)
+    at asyncGeneratorStep (http://10.0.2.2:8081/node_modules/expo-router/entry.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.gteksolutions.BiggerBlackerBook&modulesOnly=false&runModule=true&excludeSource=true&sourcePaths=url-server&transform.routerRoot=app&transform.engine=hermes&transform.bytecode=1&unstable_transformProfile=hermes-stable:17724:19)
+    at _next (http://10.0.2.2:8081/node_modules/expo-router/entry.bundle//&platform=android&dev=true&lazy=true&minify=false&app=com.gteksolutions.BiggerBlackerBook&modulesOnly=false&runModule=true&excludeSource=true&sourcePaths=url-server&transform.routerRoot=app&transform.engine=hermes&transform.bytecode=1&unstable_transformProfile=hermes-stable:17738:29)
+    at tryCallOne (address at InternalBytecode.js:1:1180)
+    at anonymous (address at InternalBytecode.js:1:1874) | raw: ["[DatabaseOperationsWorkflow] Operation failed",{"translationKey":"common:errors.fileSystem","translationParams":{},"error":{"code":"ERR_UNABLE_TO_DELETE"},"name":"FileSystemError","code":6,"path":"/data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBookDB","originalError":{"code":"ERR_UNABLE_TO_DELETE"}}]
+[2026-01-21T21:20:59.710Z] [warn] 2026-01-21T21:20:59.710Z | WARN : [FileSystem] Failed to delete directory at /data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBookDB; contents: 
+[
+  "BBBDatabase.realm.note"
+] | raw: ["[FileSystem] Failed to delete directory at /data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBookDB; contents:",["BBBDatabase.realm.note"]]
+[2026-01-21T21:20:59.705Z] [debug] 2026-01-21T21:20:59.705Z | DEBUG : [FileSystem] Deleting directory at /data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBookDB (contents: BBBDatabase.realm.note) | raw: ["[FileSystem] Deleting directory at /data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBookDB (contents: BBBDatabase.realm.note)"]
+[2026-01-21T21:20:59.701Z] [debug] 2026-01-21T21:20:59.701Z | DEBUG : [FileSystem] Directory at /data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBookDB exists | raw: ["[FileSystem] Directory at /data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBookDB exists"]
+[2026-01-21T21:20:59.698Z] [debug] 2026-01-21T21:20:59.697Z | DEBUG : [FileSystem] Checking if directory exists at /data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBookDB | raw: ["[FileSystem] Checking if directory exists at /data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBookDB"]
+[2026-01-21T21:20:59.682Z] [debug] 2026-01-21T21:20:59.682Z | DEBUG : [IMPORT_PROGRESS_TRACE] progress bar render 
+{
+  "progress": 0
+} | raw: ["[IMPORT_PROGRESS_TRACE] progress bar render",{"progress":0}]
+[2026-01-21T21:20:59.678Z] [debug] 2026-01-21T21:20:59.678Z | DEBUG : [IMPORT_PROGRESS_TRACE] loading display render 
+{
+  "progress": 0,
+  "hasMessage": true
+} | raw: ["[IMPORT_PROGRESS_TRACE] loading display render",{"progress":0,"hasMessage":true}]
+[2026-01-21T21:20:59.673Z] [info] 2026-01-21T21:20:59.673Z | INFO : Navigating to route name: UNKNOWN | raw: ["Navigating to route name: UNKNOWN"]
+[2026-01-21T21:20:59.668Z] [debug] 2026-01-21T21:20:59.668Z | DEBUG : [Navigation] Current route name: 
+undefined | raw: ["[Navigation] Current route name:",null]
+[2026-01-21T21:20:59.664Z] [debug] 2026-01-21T21:20:59.664Z | DEBUG : [Navigation] Previous route name: GeneratorSettings | raw: ["[Navigation] Previous route name:","GeneratorSettings"]
+[2026-01-21T21:20:59.660Z] [debug] 2026-01-21T21:20:59.660Z | DEBUG : [IMPORT_PROGRESS_TRACE] updateProgress skipped: unchanged 
+{
+  "next": 0
+} | raw: ["[IMPORT_PROGRESS_TRACE] updateProgress skipped: unchanged",{"next":0}]
+[2026-01-21T21:20:59.655Z] [debug] 2026-01-21T21:20:59.655Z | DEBUG : [DatabaseOperationsProvider] coordinator progress update 
+{
+  "progress": 0
+} | raw: ["[DatabaseOperationsProvider] coordinator progress update",{"progress":0}]
+[2026-01-21T21:20:59.648Z] [debug] 2026-01-21T21:20:59.648Z | DEBUG : [IMPORT_PROGRESS_TRACE] loading display render 
+{
+  "hasMessage": true
+} | raw: ["[IMPORT_PROGRESS_TRACE] loading display render",{"hasMessage":true}]
+[2026-01-21T21:20:59.642Z] [debug] 2026-01-21T21:20:59.642Z | DEBUG : [IMPORT_PROGRESS_TRACE] loading modal render 
+{
+  "progress": 0,
+  "hasMessage": true
+} | raw: ["[IMPORT_PROGRESS_TRACE] loading modal render",{"progress":0,"hasMessage":true}]
+[2026-01-21T21:20:59.639Z] [debug] 2026-01-21T21:20:59.639Z | DEBUG : [IMPORT_PROGRESS_TRACE] overlay props 
+{
+  "phase": "generating",
+  "isBackupInProgress": false,
+  "isBackupOverlayActive": false,
+  "progress": 0,
+  "backupProgress": 0,
+  "displayProgress": 0,
+  "hasMessage": true
+} | raw: ["[IMPORT_PROGRESS_TRACE] overlay props",{"phase":"generating","isBackupInProgress":false,"isBackupOverlayActive":false,"progress":0,"backupProgress":0,"displayProgress":0,"hasMessage":true}]
+[2026-01-21T21:20:59.633Z] [debug] 2026-01-21T21:20:59.633Z | DEBUG : [DatabaseOperationsProvider] Phase=generating → Navigation resetReady() invoked | raw: ["[DatabaseOperationsProvider] Phase=generating → Navigation resetReady() invoked"]
+[2026-01-21T21:20:59.629Z] [debug] 2026-01-21T21:20:59.629Z | DEBUG : [DatabaseOperationsProvider] coordinator phase changed 
+{
+  "phase": "generating"
+} | raw: ["[DatabaseOperationsProvider] coordinator phase changed",{"phase":"generating"}]
+[2026-01-21T21:20:59.625Z] [debug] 2026-01-21T21:20:59.625Z | DEBUG : [DatabaseOperationsProvider] phase changed 
+{
+  "phase": "generating"
+} | raw: ["[DatabaseOperationsProvider] phase changed",{"phase":"generating"}]
+[2026-01-21T21:20:59.622Z] [debug] 2026-01-21T21:20:59.622Z | DEBUG : [DatabaseCoordinationGate] overlay decision 
+{
+  "phase": "generating",
+  "shouldShowResolver": true,
+  "isBackupInProgress": false,
+  "currentType": "generate",
+  "showResolverOverlay": true,
+  "overlayMounted": true
+} | raw: ["[DatabaseCoordinationGate] overlay decision",{"phase":"generating","shouldShowResolver":true,"isBackupInProgress":false,"currentType":"generate","showResolverOverlay":true,"overlayMounted":true}]
+[2026-01-21T21:20:59.619Z] [debug] 2026-01-21T21:20:59.619Z | DEBUG : [DatabaseCoordinationGate] overlay state 
+{
+  "phase": "generating",
+  "shouldShowResolver": true,
+  "isBackupInProgress": false,
+  "showResolverOverlay": true,
+  "currentType": "generate"
+} | raw: ["[DatabaseCoordinationGate] overlay state",{"phase":"generating","shouldShowResolver":true,"isBackupInProgress":false,"showResolverOverlay":true,"currentType":"generate"}]
+[2026-01-21T21:20:59.615Z] [debug] 2026-01-21T21:20:59.615Z | DEBUG : [IMPORT_PROGRESS_TRACE] updateProgress applied 
+{
+  "next": 0
+} | raw: ["[IMPORT_PROGRESS_TRACE] updateProgress applied",{"next":0}]
+[2026-01-21T21:20:59.611Z] [debug] 2026-01-21T21:20:59.611Z | DEBUG : [IMPORT_PROGRESS_TRACE] run start 
+{
+  "operationType": "generate",
+  "hasPreparation": false
+} | raw: ["[IMPORT_PROGRESS_TRACE] run start",{"operationType":"generate","hasPreparation":false}]
