@@ -1,0 +1,257 @@
+# BBBLogs.txt
+[2026-01-25T16:14:47.858Z] [debug] 2026-01-25T16:14:47.858Z | DEBUG : [MainAppNavigator] Rendering RootStack.Navigator with initialRouteName: BottomTabs | raw: ["[MainAppNavigator] Rendering RootStack.Navigator with initialRouteName:","BottomTabs"]
+[2026-01-25T16:14:47.854Z] [info] 2026-01-25T16:14:47.854Z | INFO : [AutoBackup] hook mounted | raw: ["[AutoBackup] hook mounted"]
+[2026-01-25T16:14:47.850Z] [debug] 2026-01-25T16:14:47.850Z | DEBUG : [Database] Finished retrieving all records in MedicationLog table | raw: ["[Database] Finished retrieving all records in MedicationLog table"]
+[2026-01-25T16:14:47.846Z] [debug] 2026-01-25T16:14:47.846Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found"]
+[2026-01-25T16:14:47.833Z] [debug] 2026-01-25T16:14:47.833Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-25T16:14:47.832Z] [debug] 2026-01-25T16:14:47.832Z | DEBUG : [Database] Retrieving all records in Encounter table: 0 records found | raw: ["[Database] Retrieving all records in Encounter table: 0 records found"]
+[2026-01-25T16:14:47.830Z] [debug] 2026-01-25T16:14:47.830Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-01-25T16:14:47.829Z] [debug] 2026-01-25T16:14:47.829Z | DEBUG : [Database] Retrieving all records in Treatment table: 0 records found | raw: ["[Database] Retrieving all records in Treatment table: 0 records found"]
+[2026-01-25T16:14:47.826Z] [debug] 2026-01-25T16:14:47.826Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-01-25T16:14:47.824Z] [debug] 2026-01-25T16:14:47.824Z | DEBUG : [Database] Retrieving all records in TestTaken table: 0 records found | raw: ["[Database] Retrieving all records in TestTaken table: 0 records found"]
+[2026-01-25T16:14:47.689Z] [debug] 2026-01-25T16:14:47.689Z | DEBUG : [MainAppNavigator] Rendering RootStack.Navigator with initialRouteName: BottomTabs | raw: ["[MainAppNavigator] Rendering RootStack.Navigator with initialRouteName:","BottomTabs"]
+[2026-01-25T16:14:47.684Z] [info] 2026-01-25T16:14:47.684Z | INFO : [AutoBackup] hook mounted | raw: ["[AutoBackup] hook mounted"]
+[2026-01-25T16:14:47.680Z] [debug] 2026-01-25T16:14:47.680Z | DEBUG : [Database] Finished retrieving all records in MedicationLog table | raw: ["[Database] Finished retrieving all records in MedicationLog table"]
+[2026-01-25T16:14:47.677Z] [debug] 2026-01-25T16:14:47.677Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found"]
+[2026-01-25T16:14:47.675Z] [debug] 2026-01-25T16:14:47.675Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-25T16:14:47.673Z] [debug] 2026-01-25T16:14:47.673Z | DEBUG : [Database] Retrieving all records in Encounter table: 0 records found | raw: ["[Database] Retrieving all records in Encounter table: 0 records found"]
+[2026-01-25T16:14:47.671Z] [debug] 2026-01-25T16:14:47.670Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-01-25T16:14:47.667Z] [debug] 2026-01-25T16:14:47.667Z | DEBUG : [Database] Retrieving all records in Treatment table: 0 records found | raw: ["[Database] Retrieving all records in Treatment table: 0 records found"]
+[2026-01-25T16:14:47.665Z] [debug] 2026-01-25T16:14:47.665Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-01-25T16:14:47.664Z] [debug] 2026-01-25T16:14:47.664Z | DEBUG : [Database] Retrieving all records in TestTaken table: 0 records found | raw: ["[Database] Retrieving all records in TestTaken table: 0 records found"]
+[2026-01-25T16:14:47.657Z] [debug] 2026-01-25T16:14:47.657Z | DEBUG : [SecuredRealmBoundary] Rendering children 
+{
+  "encryptionBufferPresent": false,
+  "isEncrypting": false,
+  "isEncryptionEnabled": true
+} | raw: ["[SecuredRealmBoundary] Rendering children",{"encryptionBufferPresent":false,"isEncrypting":false,"isEncryptionEnabled":true}]
+[2026-01-25T16:14:47.614Z] [debug] 2026-01-25T16:14:47.614Z | DEBUG : [Database] Finished retrieving all records in MedicationDoseOccurrence table | raw: ["[Database] Finished retrieving all records in MedicationDoseOccurrence table"]
+[2026-01-25T16:14:47.613Z] [debug] 2026-01-25T16:14:47.613Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationDoseOccurrence table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationDoseOccurrence table: 0 records found"]
+[2026-01-25T16:14:47.610Z] [debug] 2026-01-25T16:14:47.610Z | DEBUG : [Database] Finished retrieving all records in Screening table | raw: ["[Database] Finished retrieving all records in Screening table"]
+[2026-01-25T16:14:47.608Z] [debug] 2026-01-25T16:14:47.608Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Screening table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Screening table: 0 records found"]
+[2026-01-25T16:14:47.607Z] [debug] 2026-01-25T16:14:47.607Z | DEBUG : [Database] Finished retrieving all records in Friend table | raw: ["[Database] Finished retrieving all records in Friend table"]
+[2026-01-25T16:14:47.605Z] [debug] 2026-01-25T16:14:47.605Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Friend table: 1 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Friend table: 1 records found"]
+[2026-01-25T16:14:47.603Z] [debug] 2026-01-25T16:14:47.603Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-25T16:14:47.601Z] [debug] 2026-01-25T16:14:47.601Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Encounter table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Encounter table: 0 records found"]
+[2026-01-25T16:14:47.582Z] [debug] 2026-01-25T16:14:47.582Z | DEBUG : [Database] Finished retrieving all records in Tombstone table | raw: ["[Database] Finished retrieving all records in Tombstone table"]
+[2026-01-25T16:14:47.561Z] [debug] 2026-01-25T16:14:47.560Z | DEBUG : [Database] Retrieving all records in Tombstone table: 0 records found | raw: ["[Database] Retrieving all records in Tombstone table: 0 records found"]
+[2026-01-25T16:14:27.707Z] [debug] 2026-01-25T16:14:27.707Z | DEBUG : [MainAppNavigator] Rendering RootStack.Navigator with initialRouteName: BottomTabs | raw: ["[MainAppNavigator] Rendering RootStack.Navigator with initialRouteName:","BottomTabs"]
+[2026-01-25T16:14:27.706Z] [info] 2026-01-25T16:14:27.706Z | INFO : [AutoBackup] hook mounted | raw: ["[AutoBackup] hook mounted"]
+[2026-01-25T16:14:27.704Z] [debug] 2026-01-25T16:14:27.704Z | DEBUG : [Database] Finished retrieving all records in MedicationLog table | raw: ["[Database] Finished retrieving all records in MedicationLog table"]
+[2026-01-25T16:14:27.703Z] [debug] 2026-01-25T16:14:27.703Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found"]
+[2026-01-25T16:14:27.701Z] [debug] 2026-01-25T16:14:27.701Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-25T16:14:27.700Z] [debug] 2026-01-25T16:14:27.700Z | DEBUG : [Database] Retrieving all records in Encounter table: 0 records found | raw: ["[Database] Retrieving all records in Encounter table: 0 records found"]
+[2026-01-25T16:14:27.698Z] [debug] 2026-01-25T16:14:27.698Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-01-25T16:14:27.697Z] [debug] 2026-01-25T16:14:27.697Z | DEBUG : [Database] Retrieving all records in Treatment table: 0 records found | raw: ["[Database] Retrieving all records in Treatment table: 0 records found"]
+[2026-01-25T16:14:27.696Z] [debug] 2026-01-25T16:14:27.696Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-01-25T16:14:27.685Z] [debug] 2026-01-25T16:14:27.685Z | DEBUG : [Database] Retrieving all records in TestTaken table: 0 records found | raw: ["[Database] Retrieving all records in TestTaken table: 0 records found"]
+[2026-01-25T16:14:27.579Z] [debug] 2026-01-25T16:14:27.579Z | DEBUG : [MainAppNavigator] Rendering RootStack.Navigator with initialRouteName: BottomTabs | raw: ["[MainAppNavigator] Rendering RootStack.Navigator with initialRouteName:","BottomTabs"]
+[2026-01-25T16:14:27.577Z] [info] 2026-01-25T16:14:27.577Z | INFO : [AutoBackup] hook mounted | raw: ["[AutoBackup] hook mounted"]
+[2026-01-25T16:14:27.548Z] [debug] 2026-01-25T16:14:27.548Z | DEBUG : [Database] Finished retrieving all records in MedicationLog table | raw: ["[Database] Finished retrieving all records in MedicationLog table"]
+[2026-01-25T16:14:27.545Z] [debug] 2026-01-25T16:14:27.545Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found"]
+[2026-01-25T16:14:27.541Z] [debug] 2026-01-25T16:14:27.541Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-25T16:14:27.535Z] [debug] 2026-01-25T16:14:27.535Z | DEBUG : [Database] Retrieving all records in Encounter table: 0 records found | raw: ["[Database] Retrieving all records in Encounter table: 0 records found"]
+[2026-01-25T16:14:27.532Z] [debug] 2026-01-25T16:14:27.532Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-01-25T16:14:27.525Z] [debug] 2026-01-25T16:14:27.525Z | DEBUG : [Database] Retrieving all records in Treatment table: 0 records found | raw: ["[Database] Retrieving all records in Treatment table: 0 records found"]
+[2026-01-25T16:14:27.520Z] [debug] 2026-01-25T16:14:27.520Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-01-25T16:14:27.518Z] [debug] 2026-01-25T16:14:27.518Z | DEBUG : [Database] Retrieving all records in TestTaken table: 0 records found | raw: ["[Database] Retrieving all records in TestTaken table: 0 records found"]
+[2026-01-25T16:14:27.510Z] [debug] 2026-01-25T16:14:27.510Z | DEBUG : [SecuredRealmBoundary] Rendering children 
+{
+  "encryptionBufferPresent": false,
+  "isEncrypting": false,
+  "isEncryptionEnabled": true
+} | raw: ["[SecuredRealmBoundary] Rendering children",{"encryptionBufferPresent":false,"isEncrypting":false,"isEncryptionEnabled":true}]
+[2026-01-25T16:13:52.476Z] [info] 2026-01-25T16:13:52.476Z | INFO : Navigating to route name: SupportRequest | raw: ["Navigating to route name: SupportRequest"]
+[2026-01-25T16:13:52.475Z] [debug] 2026-01-25T16:13:52.475Z | DEBUG : [Navigation] Current route name: SupportRequest | raw: ["[Navigation] Current route name:","SupportRequest"]
+[2026-01-25T16:13:52.467Z] [debug] 2026-01-25T16:13:52.467Z | DEBUG : [Navigation] Previous route name: FeedbackAndSupport | raw: ["[Navigation] Previous route name:","FeedbackAndSupport"]
+[2026-01-25T16:13:50.577Z] [info] 2026-01-25T16:13:50.577Z | INFO : Navigating to route name: FeedbackAndSupport | raw: ["Navigating to route name: FeedbackAndSupport"]
+[2026-01-25T16:13:50.576Z] [debug] 2026-01-25T16:13:50.576Z | DEBUG : [Navigation] Current route name: FeedbackAndSupport | raw: ["[Navigation] Current route name:","FeedbackAndSupport"]
+[2026-01-25T16:13:50.568Z] [debug] 2026-01-25T16:13:50.568Z | DEBUG : [Navigation] Previous route name: Settings | raw: ["[Navigation] Previous route name:","Settings"]
+[2026-01-25T16:13:48.988Z] [debug] 2026-01-25T16:13:48.988Z | DEBUG : [Database] Finished retrieving all records in ActivityGroup table | raw: ["[Database] Finished retrieving all records in ActivityGroup table"]
+[2026-01-25T16:13:48.982Z] [debug] 2026-01-25T16:13:48.982Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in ActivityGroup table: 6 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in ActivityGroup table: 6 records found"]
+[2026-01-25T16:13:48.968Z] [debug] 2026-01-25T16:13:48.968Z | DEBUG : [Database] Finished retrieving all records in Activity table | raw: ["[Database] Finished retrieving all records in Activity table"]
+[2026-01-25T16:13:48.960Z] [debug] 2026-01-25T16:13:48.960Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Activity table: 66 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Activity table: 66 records found"]
+[2026-01-25T16:13:48.937Z] [info] 2026-01-25T16:13:48.937Z | INFO : Navigating to route name: Settings | raw: ["Navigating to route name: Settings"]
+[2026-01-25T16:13:48.936Z] [debug] 2026-01-25T16:13:48.936Z | DEBUG : [Navigation] Current route name: Settings | raw: ["[Navigation] Current route name:","Settings"]
+[2026-01-25T16:13:48.929Z] [debug] 2026-01-25T16:13:48.929Z | DEBUG : [Navigation] Previous route name: Charts | raw: ["[Navigation] Previous route name:","Charts"]
+[2026-01-25T16:13:41.462Z] [debug] 2026-01-25T16:13:41.462Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-25T16:13:41.461Z] [debug] 2026-01-25T16:13:41.461Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Encounter table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Encounter table: 0 records found"]
+[2026-01-25T16:13:41.432Z] [debug] 2026-01-25T16:13:41.432Z | DEBUG : [Database] Finished retrieving all records in ActivityGroup table | raw: ["[Database] Finished retrieving all records in ActivityGroup table"]
+[2026-01-25T16:13:41.422Z] [debug] 2026-01-25T16:13:41.422Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in ActivityGroup table: 6 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in ActivityGroup table: 6 records found"]
+[2026-01-25T16:13:41.414Z] [debug] 2026-01-25T16:13:41.414Z | DEBUG : [Database] Finished retrieving all records in Activity table | raw: ["[Database] Finished retrieving all records in Activity table"]
+[2026-01-25T16:13:41.413Z] [debug] 2026-01-25T16:13:41.413Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Activity table: 66 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Activity table: 66 records found"]
+[2026-01-25T16:13:41.412Z] [debug] 2026-01-25T16:13:41.412Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-25T16:13:41.411Z] [debug] 2026-01-25T16:13:41.411Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Encounter table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Encounter table: 0 records found"]
+[2026-01-25T16:13:41.409Z] [debug] 2026-01-25T16:13:41.409Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-25T16:13:41.407Z] [debug] 2026-01-25T16:13:41.407Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Encounter table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Encounter table: 0 records found"]
+[2026-01-25T16:13:41.405Z] [debug] 2026-01-25T16:13:41.405Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-25T16:13:41.404Z] [debug] 2026-01-25T16:13:41.404Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Encounter table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Encounter table: 0 records found"]
+[2026-01-25T16:13:41.398Z] [debug] 2026-01-25T16:13:41.398Z | DEBUG : [Database] Finished retrieving all records in CalendarEvent table | raw: ["[Database] Finished retrieving all records in CalendarEvent table"]
+[2026-01-25T16:13:41.397Z] [debug] 2026-01-25T16:13:41.397Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found"]
+[2026-01-25T16:13:41.390Z] [debug] 2026-01-25T16:13:41.390Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-25T16:13:41.388Z] [debug] 2026-01-25T16:13:41.388Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Encounter table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Encounter table: 0 records found"]
+[2026-01-25T16:13:41.377Z] [debug] 2026-01-25T16:13:41.377Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-25T16:13:41.375Z] [debug] 2026-01-25T16:13:41.375Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Encounter table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Encounter table: 0 records found"]
+[2026-01-25T16:13:41.372Z] [debug] 2026-01-25T16:13:41.372Z | DEBUG : [Database] Finished retrieving all records in Screening table | raw: ["[Database] Finished retrieving all records in Screening table"]
+[2026-01-25T16:13:41.365Z] [debug] 2026-01-25T16:13:41.365Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Screening table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Screening table: 0 records found"]
+[2026-01-25T16:13:41.340Z] [info] 2026-01-25T16:13:41.340Z | INFO : Navigating to route name: Charts | raw: ["Navigating to route name: Charts"]
+[2026-01-25T16:13:41.339Z] [debug] 2026-01-25T16:13:41.339Z | DEBUG : [Navigation] Current route name: Charts | raw: ["[Navigation] Current route name:","Charts"]
+[2026-01-25T16:13:41.334Z] [debug] 2026-01-25T16:13:41.334Z | DEBUG : [Navigation] Previous route name: AnalysisStack | raw: ["[Navigation] Previous route name:","AnalysisStack"]
+[2026-01-25T16:13:41.308Z] [debug] 2026-01-25T16:13:41.308Z | DEBUG : [Database] Finished retrieving all records in Screening table | raw: ["[Database] Finished retrieving all records in Screening table"]
+[2026-01-25T16:13:41.306Z] [debug] 2026-01-25T16:13:41.306Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Screening table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Screening table: 0 records found"]
+[2026-01-25T16:13:41.304Z] [debug] 2026-01-25T16:13:41.304Z | DEBUG : [Database] Finished retrieving all records in MedicationLog table | raw: ["[Database] Finished retrieving all records in MedicationLog table"]
+[2026-01-25T16:13:41.295Z] [debug] 2026-01-25T16:13:41.295Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found"]
+[2026-01-25T16:13:41.289Z] [debug] 2026-01-25T16:13:41.288Z | DEBUG : [Database] Finished retrieving all records in MedicationLog table | raw: ["[Database] Finished retrieving all records in MedicationLog table"]
+[2026-01-25T16:13:41.287Z] [debug] 2026-01-25T16:13:41.287Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found"]
+[2026-01-25T16:13:41.285Z] [debug] 2026-01-25T16:13:41.285Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-25T16:13:41.284Z] [debug] 2026-01-25T16:13:41.284Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Encounter table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Encounter table: 0 records found"]
+[2026-01-25T16:13:41.283Z] [debug] 2026-01-25T16:13:41.283Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-25T16:13:41.276Z] [debug] 2026-01-25T16:13:41.276Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Encounter table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Encounter table: 0 records found"]
+[2026-01-25T16:13:41.255Z] [info] 2026-01-25T16:13:41.255Z | INFO : Navigating to route name: AnalysisStack | raw: ["Navigating to route name: AnalysisStack"]
+[2026-01-25T16:13:41.254Z] [debug] 2026-01-25T16:13:41.254Z | DEBUG : [Navigation] Current route name: AnalysisStack | raw: ["[Navigation] Current route name:","AnalysisStack"]
+[2026-01-25T16:13:41.252Z] [debug] 2026-01-25T16:13:41.252Z | DEBUG : [Navigation] Previous route name: Calendar | raw: ["[Navigation] Previous route name:","Calendar"]
+[2026-01-25T16:13:40.577Z] [info] 2026-01-25T16:13:40.577Z | INFO : Navigating to route name: Calendar | raw: ["Navigating to route name: Calendar"]
+[2026-01-25T16:13:40.576Z] [debug] 2026-01-25T16:13:40.576Z | DEBUG : [Navigation] Current route name: Calendar | raw: ["[Navigation] Current route name:","Calendar"]
+[2026-01-25T16:13:40.569Z] [debug] 2026-01-25T16:13:40.569Z | DEBUG : [Navigation] Previous route name: Settings | raw: ["[Navigation] Previous route name:","Settings"]
+[2026-01-25T16:13:39.417Z] [info] 2026-01-25T16:13:39.417Z | INFO : Navigating to route name: Settings | raw: ["Navigating to route name: Settings"]
+[2026-01-25T16:13:39.416Z] [debug] 2026-01-25T16:13:39.416Z | DEBUG : [Navigation] Current route name: Settings | raw: ["[Navigation] Current route name:","Settings"]
+[2026-01-25T16:13:39.410Z] [debug] 2026-01-25T16:13:39.410Z | DEBUG : [Navigation] Previous route name: FeedbackAndSupport | raw: ["[Navigation] Previous route name:","FeedbackAndSupport"]
+[2026-01-25T16:13:38.729Z] [info] 2026-01-25T16:13:38.729Z | INFO : Navigating to route name: FeedbackAndSupport | raw: ["Navigating to route name: FeedbackAndSupport"]
+[2026-01-25T16:13:38.727Z] [debug] 2026-01-25T16:13:38.727Z | DEBUG : [Navigation] Current route name: FeedbackAndSupport | raw: ["[Navigation] Current route name:","FeedbackAndSupport"]
+[2026-01-25T16:13:38.721Z] [debug] 2026-01-25T16:13:38.721Z | DEBUG : [Navigation] Previous route name: SupportRequest | raw: ["[Navigation] Previous route name:","SupportRequest"]
+[2026-01-25T16:13:31.616Z] [debug] 2026-01-25T16:13:31.616Z | DEBUG : [Database] Retrieving all records in Tombstone table: 0 records found | raw: ["[Database] Retrieving all records in Tombstone table: 0 records found"]
+[2026-01-25T16:13:31.616Z] [debug] 2026-01-25T16:13:31.616Z | DEBUG : [Database] Finished retrieving all records in Tombstone table | raw: ["[Database] Finished retrieving all records in Tombstone table"]
+[2026-01-25T16:13:31.615Z] [debug] 2026-01-25T16:13:31.615Z | DEBUG : [Database] Finished retrieving all records in Tombstone table | raw: ["[Database] Finished retrieving all records in Tombstone table"]
+[2026-01-25T16:13:31.614Z] [debug] 2026-01-25T16:13:31.614Z | DEBUG : [Database] Retrieving all records in Tombstone table: 0 records found | raw: ["[Database] Retrieving all records in Tombstone table: 0 records found"]
+[2026-01-25T16:13:29.031Z] [debug] 2026-01-25T16:13:29.031Z | DEBUG : [Navigation] Current route name: SupportRequest | raw: ["[Navigation] Current route name:","SupportRequest"]
+[2026-01-25T16:13:29.031Z] [info] 2026-01-25T16:13:29.031Z | INFO : Navigating to route name: SupportRequest | raw: ["Navigating to route name: SupportRequest"]
+[2026-01-25T16:13:29.030Z] [debug] 2026-01-25T16:13:29.030Z | DEBUG : [Navigation] Previous route name: FeedbackAndSupport | raw: ["[Navigation] Previous route name:","FeedbackAndSupport"]
+[2026-01-25T16:13:23.894Z] [info] 2026-01-25T16:13:23.894Z | INFO : Navigating to route name: FeedbackAndSupport | raw: ["Navigating to route name: FeedbackAndSupport"]
+[2026-01-25T16:13:23.893Z] [debug] 2026-01-25T16:13:23.893Z | DEBUG : [Navigation] Current route name: FeedbackAndSupport | raw: ["[Navigation] Current route name:","FeedbackAndSupport"]
+[2026-01-25T16:13:23.887Z] [debug] 2026-01-25T16:13:23.887Z | DEBUG : [Navigation] Previous route name: Settings | raw: ["[Navigation] Previous route name:","Settings"]
+[2026-01-25T16:13:20.758Z] [info] 2026-01-25T16:13:20.758Z | INFO : Navigating to route name: Settings | raw: ["Navigating to route name: Settings"]
+[2026-01-25T16:13:20.757Z] [debug] 2026-01-25T16:13:20.757Z | DEBUG : [Navigation] Current route name: Settings | raw: ["[Navigation] Current route name:","Settings"]
+[2026-01-25T16:13:20.756Z] [debug] 2026-01-25T16:13:20.756Z | DEBUG : [Navigation] Previous route name: SettingsStack | raw: ["[Navigation] Previous route name:","SettingsStack"]
+[2026-01-25T16:13:20.696Z] [info] 2026-01-25T16:13:20.696Z | INFO : Navigating to route name: SettingsStack | raw: ["Navigating to route name: SettingsStack"]
+[2026-01-25T16:13:20.695Z] [debug] 2026-01-25T16:13:20.695Z | DEBUG : [Navigation] Current route name: SettingsStack | raw: ["[Navigation] Current route name:","SettingsStack"]
+[2026-01-25T16:13:20.692Z] [debug] 2026-01-25T16:13:20.692Z | DEBUG : [Navigation] Previous route name: Calendar | raw: ["[Navigation] Previous route name:","Calendar"]
+[2026-01-25T16:13:19.904Z] [debug] 2026-01-25T16:13:19.904Z | DEBUG : [Database] Finished retrieving all records in MedicationDoseOccurrence table | raw: ["[Database] Finished retrieving all records in MedicationDoseOccurrence table"]
+[2026-01-25T16:13:19.903Z] [debug] 2026-01-25T16:13:19.903Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationDoseOccurrence table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationDoseOccurrence table: 0 records found"]
+[2026-01-25T16:13:19.901Z] [debug] 2026-01-25T16:13:19.901Z | DEBUG : [Database] Finished retrieving all records in Screening table | raw: ["[Database] Finished retrieving all records in Screening table"]
+[2026-01-25T16:13:19.900Z] [debug] 2026-01-25T16:13:19.900Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Screening table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Screening table: 0 records found"]
+[2026-01-25T16:13:19.898Z] [debug] 2026-01-25T16:13:19.898Z | DEBUG : [Database] Finished retrieving all records in Friend table | raw: ["[Database] Finished retrieving all records in Friend table"]
+[2026-01-25T16:13:19.897Z] [debug] 2026-01-25T16:13:19.897Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Friend table: 1 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Friend table: 1 records found"]
+[2026-01-25T16:13:19.896Z] [debug] 2026-01-25T16:13:19.896Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-25T16:13:19.885Z] [debug] 2026-01-25T16:13:19.885Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Encounter table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Encounter table: 0 records found"]
+[2026-01-25T16:13:19.157Z] [debug] 2026-01-25T16:13:19.157Z | DEBUG : [MainAppNavigator] Rendering RootStack.Navigator with initialRouteName: BottomTabs | raw: ["[MainAppNavigator] Rendering RootStack.Navigator with initialRouteName:","BottomTabs"]
+[2026-01-25T16:13:19.154Z] [info] 2026-01-25T16:13:19.154Z | INFO : [AutoBackup] hook mounted | raw: ["[AutoBackup] hook mounted"]
+[2026-01-25T16:13:19.152Z] [debug] 2026-01-25T16:13:19.152Z | DEBUG : [Database] Finished retrieving all records in MedicationLog table | raw: ["[Database] Finished retrieving all records in MedicationLog table"]
+[2026-01-25T16:13:19.151Z] [debug] 2026-01-25T16:13:19.151Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found"]
+[2026-01-25T16:13:19.150Z] [debug] 2026-01-25T16:13:19.150Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-25T16:13:19.149Z] [debug] 2026-01-25T16:13:19.149Z | DEBUG : [Database] Retrieving all records in Encounter table: 0 records found | raw: ["[Database] Retrieving all records in Encounter table: 0 records found"]
+[2026-01-25T16:13:19.147Z] [debug] 2026-01-25T16:13:19.147Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-01-25T16:13:19.146Z] [debug] 2026-01-25T16:13:19.146Z | DEBUG : [Database] Retrieving all records in Treatment table: 0 records found | raw: ["[Database] Retrieving all records in Treatment table: 0 records found"]
+[2026-01-25T16:13:19.144Z] [debug] 2026-01-25T16:13:19.144Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-01-25T16:13:19.143Z] [debug] 2026-01-25T16:13:19.143Z | DEBUG : [Database] Retrieving all records in TestTaken table: 0 records found | raw: ["[Database] Retrieving all records in TestTaken table: 0 records found"]
+[2026-01-25T16:13:18.848Z] [debug] 2026-01-25T16:13:18.848Z | DEBUG : [MainAppNavigator] Rendering RootStack.Navigator with initialRouteName: BottomTabs | raw: ["[MainAppNavigator] Rendering RootStack.Navigator with initialRouteName:","BottomTabs"]
+[2026-01-25T16:13:18.847Z] [info] 2026-01-25T16:13:18.847Z | INFO : [AutoBackup] hook mounted | raw: ["[AutoBackup] hook mounted"]
+[2026-01-25T16:13:18.845Z] [debug] 2026-01-25T16:13:18.845Z | DEBUG : [Database] Finished retrieving all records in MedicationLog table | raw: ["[Database] Finished retrieving all records in MedicationLog table"]
+[2026-01-25T16:13:18.844Z] [debug] 2026-01-25T16:13:18.844Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found"]
+[2026-01-25T16:13:18.843Z] [debug] 2026-01-25T16:13:18.843Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-25T16:13:18.842Z] [debug] 2026-01-25T16:13:18.842Z | DEBUG : [Database] Retrieving all records in Encounter table: 0 records found | raw: ["[Database] Retrieving all records in Encounter table: 0 records found"]
+[2026-01-25T16:13:18.840Z] [debug] 2026-01-25T16:13:18.840Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-01-25T16:13:18.839Z] [debug] 2026-01-25T16:13:18.839Z | DEBUG : [Database] Retrieving all records in Treatment table: 0 records found | raw: ["[Database] Retrieving all records in Treatment table: 0 records found"]
+[2026-01-25T16:13:18.838Z] [debug] 2026-01-25T16:13:18.838Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-01-25T16:13:18.836Z] [debug] 2026-01-25T16:13:18.836Z | DEBUG : [Database] Retrieving all records in TestTaken table: 0 records found | raw: ["[Database] Retrieving all records in TestTaken table: 0 records found"]
+[2026-01-25T16:13:18.834Z] [debug] 2026-01-25T16:13:18.834Z | DEBUG : [SecuredRealmBoundary] Rendering children 
+{
+  "encryptionBufferPresent": false,
+  "isEncrypting": false,
+  "isEncryptionEnabled": true
+} | raw: ["[SecuredRealmBoundary] Rendering children",{"encryptionBufferPresent":false,"isEncrypting":false,"isEncryptionEnabled":true}]
+[2026-01-25T16:13:18.829Z] [debug] 2026-01-25T16:13:18.829Z | DEBUG : [AxiosHttpClient] Received response 
+{
+  "baseURL": "https://api.bbbook.app",
+  "method": "POST",
+  "status": 201,
+  "url": "https://api.bbbook.app/memberships"
+} | raw: ["[AxiosHttpClient] Received response",{"baseURL":"https://api.bbbook.app","method":"POST","status":201,"url":"https://api.bbbook.app/memberships"}]
+[2026-01-25T16:13:18.523Z] [debug] 2026-01-25T16:13:18.523Z | DEBUG : [MainAppNavigator] Rendering RootStack.Navigator with initialRouteName: BottomTabs | raw: ["[MainAppNavigator] Rendering RootStack.Navigator with initialRouteName:","BottomTabs"]
+[2026-01-25T16:13:18.522Z] [info] 2026-01-25T16:13:18.522Z | INFO : [AutoBackup] hook mounted | raw: ["[AutoBackup] hook mounted"]
+[2026-01-25T16:13:18.521Z] [debug] 2026-01-25T16:13:18.521Z | DEBUG : [Database] Finished retrieving all records in MedicationLog table | raw: ["[Database] Finished retrieving all records in MedicationLog table"]
+[2026-01-25T16:13:18.520Z] [debug] 2026-01-25T16:13:18.520Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-25T16:13:18.520Z] [debug] 2026-01-25T16:13:18.520Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found"]
+[2026-01-25T16:13:18.519Z] [debug] 2026-01-25T16:13:18.519Z | DEBUG : [Database] Retrieving all records in Encounter table: 0 records found | raw: ["[Database] Retrieving all records in Encounter table: 0 records found"]
+[2026-01-25T16:13:18.518Z] [debug] 2026-01-25T16:13:18.518Z | DEBUG : [Database] Retrieving all records in Treatment table: 0 records found | raw: ["[Database] Retrieving all records in Treatment table: 0 records found"]
+[2026-01-25T16:13:18.518Z] [debug] 2026-01-25T16:13:18.518Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-01-25T16:13:18.516Z] [debug] 2026-01-25T16:13:18.516Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-01-25T16:13:18.515Z] [debug] 2026-01-25T16:13:18.515Z | DEBUG : [Database] Retrieving all records in TestTaken table: 0 records found | raw: ["[Database] Retrieving all records in TestTaken table: 0 records found"]
+[2026-01-25T16:13:18.491Z] [debug] 2026-01-25T16:13:18.490Z | DEBUG : [Navigation] Previous route name: Calendar | raw: ["[Navigation] Previous route name:","Calendar"]
+[2026-01-25T16:13:18.491Z] [debug] 2026-01-25T16:13:18.491Z | DEBUG : [Navigation] Current route name: Calendar | raw: ["[Navigation] Current route name:","Calendar"]
+[2026-01-25T16:13:18.467Z] [debug] 2026-01-25T16:13:18.467Z | DEBUG : [MainAppNavigator] Rendering RootStack.Navigator with initialRouteName: BottomTabs | raw: ["[MainAppNavigator] Rendering RootStack.Navigator with initialRouteName:","BottomTabs"]
+[2026-01-25T16:13:18.466Z] [info] 2026-01-25T16:13:18.466Z | INFO : [AutoBackup] hook mounted | raw: ["[AutoBackup] hook mounted"]
+[2026-01-25T16:13:18.461Z] [debug] 2026-01-25T16:13:18.460Z | DEBUG : [Database] Finished retrieving all records in MedicationLog table | raw: ["[Database] Finished retrieving all records in MedicationLog table"]
+[2026-01-25T16:13:18.458Z] [debug] 2026-01-25T16:13:18.458Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-25T16:13:18.458Z] [debug] 2026-01-25T16:13:18.458Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found"]
+[2026-01-25T16:13:18.457Z] [debug] 2026-01-25T16:13:18.457Z | DEBUG : [Database] Retrieving all records in Encounter table: 0 records found | raw: ["[Database] Retrieving all records in Encounter table: 0 records found"]
+[2026-01-25T16:13:18.456Z] [debug] 2026-01-25T16:13:18.456Z | DEBUG : [Database] Retrieving all records in Treatment table: 0 records found | raw: ["[Database] Retrieving all records in Treatment table: 0 records found"]
+[2026-01-25T16:13:18.456Z] [debug] 2026-01-25T16:13:18.456Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-01-25T16:13:18.455Z] [debug] 2026-01-25T16:13:18.455Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-01-25T16:13:18.454Z] [debug] 2026-01-25T16:13:18.454Z | DEBUG : [Database] Retrieving all records in TestTaken table: 0 records found | raw: ["[Database] Retrieving all records in TestTaken table: 0 records found"]
+[2026-01-25T16:13:18.395Z] [debug] 2026-01-25T16:13:18.395Z | DEBUG : [MainAppNavigator] Rendering RootStack.Navigator with initialRouteName: BottomTabs | raw: ["[MainAppNavigator] Rendering RootStack.Navigator with initialRouteName:","BottomTabs"]
+[2026-01-25T16:13:18.394Z] [info] 2026-01-25T16:13:18.394Z | INFO : [AutoBackup] hook mounted | raw: ["[AutoBackup] hook mounted"]
+[2026-01-25T16:13:18.389Z] [debug] 2026-01-25T16:13:18.389Z | DEBUG : Location permission granted | raw: ["Location permission","granted"]
+[2026-01-25T16:13:18.388Z] [debug] 2026-01-25T16:13:18.388Z | DEBUG : Notifications permission granted | raw: ["Notifications permission","granted"]
+[2026-01-25T16:13:18.384Z] [info] 2026-01-25T16:13:18.384Z | INFO : [SecureStorage] Initialization complete 
+{
+  "trigger": "initial_active",
+  "attempt": 1,
+  "durationMs": 371,
+  "firstRun": false
+} | raw: ["[SecureStorage] Initialization complete",{"trigger":"initial_active","attempt":1,"durationMs":371,"firstRun":false}]
+[2026-01-25T16:13:18.383Z] [info] 2026-01-25T16:13:18.383Z | INFO : [Security] Keychain bootstrap complete 
+{
+  "service": "bbbook.keychain-prewarm",
+  "synchronizable": false,
+  "accessible": "default",
+  "durationMs": 369,
+  "firstRun": false,
+  "migratedFromSynchronizable": false,
+  "synchronizableItemFound": false,
+  "endTimestampMs": 1769357598383
+} | raw: ["[Security] Keychain bootstrap complete",{"service":"bbbook.keychain-prewarm","synchronizable":false,"accessible":"default","durationMs":369,"firstRun":false,"migratedFromSynchronizable":false,"synchronizableItemFound":false,"endTimestampMs":1769357598383}]
+[2026-01-25T16:13:18.382Z] [info] 2026-01-25T16:13:18.382Z | INFO : [Security] Keychain bootstrap read end 
+{
+  "durationMs": 367,
+  "endTimestampMs": 1769357598382,
+  "service": "bbbook.keychain-prewarm",
+  "synchronizable": false,
+  "accessible": "default",
+  "found": true
+} | raw: ["[Security] Keychain bootstrap read end",{"durationMs":367,"endTimestampMs":1769357598382,"service":"bbbook.keychain-prewarm","synchronizable":false,"accessible":"default","found":true}]
+[2026-01-25T16:13:18.350Z] [info] 2026-01-25T16:13:18.350Z | INFO : [AutoBackup] hook mounted | raw: ["[AutoBackup] hook mounted"]
+[2026-01-25T16:13:18.350Z] [debug] 2026-01-25T16:13:18.350Z | DEBUG : [MainAppNavigator] Rendering RootStack.Navigator with initialRouteName: BottomTabs | raw: ["[MainAppNavigator] Rendering RootStack.Navigator with initialRouteName:","BottomTabs"]
+[2026-01-25T16:13:18.348Z] [debug] 2026-01-25T16:13:18.348Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found"]
+[2026-01-25T16:13:18.348Z] [debug] 2026-01-25T16:13:18.348Z | DEBUG : [Database] Finished retrieving all records in MedicationLog table | raw: ["[Database] Finished retrieving all records in MedicationLog table"]
+[2026-01-25T16:13:18.347Z] [debug] 2026-01-25T16:13:18.347Z | DEBUG : [Database] Retrieving all records in Encounter table: 0 records found | raw: ["[Database] Retrieving all records in Encounter table: 0 records found"]
+[2026-01-25T16:13:18.347Z] [debug] 2026-01-25T16:13:18.347Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-01-25T16:13:18.346Z] [debug] 2026-01-25T16:13:18.346Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-01-25T16:13:18.345Z] [debug] 2026-01-25T16:13:18.345Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-01-25T16:13:18.345Z] [debug] 2026-01-25T16:13:18.345Z | DEBUG : [Database] Retrieving all records in Treatment table: 0 records found | raw: ["[Database] Retrieving all records in Treatment table: 0 records found"]
+[2026-01-25T16:13:18.344Z] [debug] 2026-01-25T16:13:18.344Z | DEBUG : [Database] Retrieving all records in TestTaken table: 0 records found | raw: ["[Database] Retrieving all records in TestTaken table: 0 records found"]
+[2026-01-25T16:13:18.336Z] [debug] 2026-01-25T16:13:18.336Z | DEBUG : [AxiosHttpClient] Sending request 
+{
+  "baseURL": "https://api.bbbook.app",
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "method": "POST",
+  "payload": {
+    "membershipId": "20d20b6d-2b7d-4dae-b0eb-d716362b545e"
+  },
+  "url": "https://api.bbbook.app/memberships"
+} | raw: ["[AxiosHttpClient] Sending request",{"baseURL":"https://api.bbbook.app","headers":{"Content-Type":"application/json"},"method":"POST","payload":{"membershipId":"20d20b6d-2b7d-4dae-b0eb-d716362b545e"},"url":"https://api.bbbook.app/memberships"}]
+[2026-01-25T16:13:18.303Z] [debug] 2026-01-25T16:13:18.303Z | DEBUG : [Navigation] Current route name: Calendar | raw: ["[Navigation] Current route name:","Calendar"]
+[2026-01-25T16:13:18.297Z] [debug] 2026-01-25T16:13:18.297Z | DEBUG : [Navigation] Previous route name: Calendar | raw: ["[Navigation] Previous route name:","Calendar"]
+[2026-01-25T16:13:18.270Z] [info] 2026-01-25T16:13:18.270Z | INFO : [AutoBackup] hook mounted | raw: ["[AutoBackup] hook mounted"]
+[2026-01-25T16:13:18.270Z] [debug] 2026-01-25T16:13:18.270Z | DEBUG : [MainAppNavigator] Rendering RootStack.Navigator with initialRouteName: BottomTabs | raw: ["[MainAppNavigator] Rendering RootStack.Navigator with initialRouteName:","BottomTabs"]
