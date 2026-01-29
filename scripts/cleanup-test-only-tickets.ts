@@ -1,5 +1,25 @@
 const { env } = process;
 
+type IssueNode = {
+  id: string;
+  number: number;
+  title: string;
+};
+
+type PageInfo = {
+  hasNextPage: boolean;
+  endCursor: string | null;
+};
+
+type IssuesResponse = {
+  repository: {
+    issues: {
+      nodes: IssueNode[];
+      pageInfo: PageInfo;
+    };
+  };
+};
+
 const API_URL = env.GITHUB_API_URL || "https://api.github.com";
 const GRAPHQL_URL = `${API_URL.replace(/\/$/, "")}/graphql`;
 
@@ -28,7 +48,7 @@ const headers = {
   Authorization: `bearer ${TOKEN}`,
 };
 
-async function graphqlRequest(query, variables) {
+async function graphqlRequest<T>(query: string, variables: Record<string, unknown>): Promise<T> {
   const response = await fetch(GRAPHQL_URL, {
     method: "POST",
     headers,
@@ -40,7 +60,11 @@ async function graphqlRequest(query, variables) {
     throw new Error(`GraphQL request failed (${response.status}): ${text}`);
   }
 
-  const payload = await response.json();
+  const payload = (await response.json()) as {
+    data: T;
+    errors?: Array<{ message: string }>;
+  };
+
   if (payload.errors?.length) {
     throw new Error(`GraphQL errors: ${JSON.stringify(payload.errors)}`);
   }
@@ -48,10 +72,10 @@ async function graphqlRequest(query, variables) {
   return payload.data;
 }
 
-async function listTestOnlyTickets() {
-  const issues = [];
+async function listTestOnlyTickets(): Promise<IssueNode[]> {
+  const issues: IssueNode[] = [];
   let hasNextPage = true;
-  let cursor = null;
+  let cursor: string | null = null;
 
   const query = `
     query ($owner: String!, $name: String!, $cursor: String) {
@@ -72,7 +96,7 @@ async function listTestOnlyTickets() {
   `;
 
   while (hasNextPage) {
-    const data = await graphqlRequest(query, { owner, name, cursor });
+    const data = await graphqlRequest<IssuesResponse>(query, { owner, name, cursor });
     const page = data.repository.issues;
     issues.push(...page.nodes);
     hasNextPage = page.pageInfo.hasNextPage;
@@ -82,7 +106,7 @@ async function listTestOnlyTickets() {
   return issues;
 }
 
-async function deleteTicket(issueId) {
+async function deleteTicket(issueId: string): Promise<void> {
   const mutation = `
     mutation ($issueId: ID!) {
       deleteIssue(input: {issueId: $issueId}) {
@@ -94,7 +118,7 @@ async function deleteTicket(issueId) {
   await graphqlRequest(mutation, { issueId });
 }
 
-async function run() {
+async function run(): Promise<void> {
   const tickets = await listTestOnlyTickets();
 
   if (tickets.length === 0) {

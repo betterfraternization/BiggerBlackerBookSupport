@@ -2,7 +2,7 @@ name: Nightly Support Cleanup
 
 on:
   schedule:
-    - cron: "30 2 * * *"
+    - cron: "30 0,6,12,18 * * *"
   workflow_dispatch: {}
 
 jobs:
@@ -21,6 +21,9 @@ jobs:
 
       - name: Enable Corepack
         run: corepack enable
+
+      - name: Install dependencies
+        run: yarn install
 
       - name: Run cleanup
         run: yarn cleanup:test-only-tickets
