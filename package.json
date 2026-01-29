@@ -1,0 +1,7 @@
+{
+  "name": "bigger-blacker-book-support",
+  "private": true,
+  "scripts": {
+    "cleanup:test-only-tickets": "node scripts/cleanup-test-only-tickets.js"
+  }
+}

@@ -1,0 +1,26 @@
+name: Nightly Support Cleanup
+
+on:
+  schedule:
+    - cron: "30 2 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  cleanup-test-only-tickets:
+    runs-on: ubuntu-latest
+    env:
+      SUPPORT_API_TOKEN: ${{ secrets.SUPPORT_API_TOKEN }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Enable Corepack
+        run: corepack enable
+
+      - name: Run cleanup
+        run: yarn cleanup:test-only-tickets
