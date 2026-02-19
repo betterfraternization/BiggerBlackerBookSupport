@@ -1,0 +1,533 @@
+# BBBLogs.txt
+[2026-02-19T03:23:35.580Z] [info] 2026-02-19T03:23:35.580Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "system",
+  "themePreference": "system"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"system","themePreference":"system"}]
+[2026-02-19T03:23:30.977Z] [info] 2026-02-19T03:23:30.977Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "system",
+  "themePreference": "system"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"system","themePreference":"system"}]
+[2026-02-19T03:22:49.645Z] [info] 2026-02-19T03:22:49.645Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "dark",
+  "override": "dark",
+  "themePreference": "system"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"dark","override":"dark","themePreference":"system"}]
+[2026-02-19T03:22:48.668Z] [info] 2026-02-19T03:22:48.668Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "dark",
+  "override": "dark",
+  "themePreference": "system"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"dark","override":"dark","themePreference":"system"}]
+[2026-02-19T03:22:48.570Z] [info] 2026-02-19T03:22:48.570Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "dark",
+  "override": "dark",
+  "themePreference": "system"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"dark","override":"dark","themePreference":"system"}]
+[2026-02-19T03:22:28.513Z] [info] 2026-02-19T03:22:28.513Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/bbbookStore/persist:root",
+  "size": 3046
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/bbbookStore/persist:root","size":3046}]
+[2026-02-19T03:22:22.783Z] [info] 2026-02-19T03:22:22.783Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "dark",
+  "override": "dark",
+  "themePreference": "system"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"dark","override":"dark","themePreference":"system"}]
+[2026-02-19T03:22:19.965Z] [info] 2026-02-19T03:22:19.965Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "dark",
+  "override": "dark",
+  "themePreference": "system"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"dark","override":"dark","themePreference":"system"}]
+[2026-02-19T03:22:19.871Z] [info] 2026-02-19T03:22:19.871Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "dark",
+  "override": "dark",
+  "themePreference": "system"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"dark","override":"dark","themePreference":"system"}]
+[2026-02-19T03:22:04.030Z] [warn] 2026-02-19T03:22:04.030Z | WARN : [iCloud] backupExists prewarm still running | raw: ["[iCloud] backupExists prewarm still running"]
+[2026-02-19T03:21:51.373Z] [info] 2026-02-19T03:21:51.373Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "dark",
+  "override": "dark",
+  "themePreference": "system"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"dark","override":"dark","themePreference":"system"}]
+[2026-02-19T03:21:34.763Z] [info] 2026-02-19T03:21:34.763Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/bbbookStore/persist:root",
+  "size": 3046
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/bbbookStore/persist:root","size":3046}]
+[2026-02-19T03:21:34.143Z] [info] 2026-02-19T03:21:34.143Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "system",
+  "themePreference": "system"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"system","themePreference":"system"}]
+[2026-02-19T03:21:34.139Z] [info] 2026-02-19T03:21:34.139Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "system",
+  "themePreference": "system"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"system","themePreference":"system"}]
+[2026-02-19T03:21:34.132Z] [info] 2026-02-19T03:21:34.132Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "system",
+  "themePreference": "system"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"system","themePreference":"system"}]
+[2026-02-19T03:21:34.127Z] [info] 2026-02-19T03:21:34.127Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "system",
+  "themePreference": "system"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"system","themePreference":"system"}]
+[2026-02-19T03:21:34.064Z] [info] 2026-02-19T03:21:34.064Z | INFO : [useCloudAuthServices] OneDrive auth client initialized 14fe7e30-0119-4e61-b9e3-69838ca5bc41 | raw: ["[useCloudAuthServices] OneDrive auth client initialized","14fe7e30-0119-4e61-b9e3-69838ca5bc41"]
+[2026-02-19T03:21:34.052Z] [info] 2026-02-19T03:21:34.052Z | INFO : [useCloudAuthServices] DropBox auth client initialized | raw: ["[useCloudAuthServices] DropBox auth client initialized"]
+[2026-02-19T03:21:34.048Z] [info] 2026-02-19T03:21:34.048Z | INFO : [IAPHub:diagnostics] iOS receipt info 
+{
+  "hasEmbeddedProvision": false,
+  "receiptLastPathComponent": "receipt",
+  "isSimulator": false,
+  "isAppStoreBuild": true,
+  "receiptExists": true,
+  "isTestFlight": false,
+  "receiptEnvironment": "production"
+} | raw: ["[IAPHub:diagnostics] iOS receipt info",{"hasEmbeddedProvision":false,"receiptLastPathComponent":"receipt","isSimulator":false,"isAppStoreBuild":true,"receiptExists":true,"isTestFlight":false,"receiptEnvironment":"production"}]
+[2026-02-19T03:21:34.044Z] [info] 2026-02-19T03:21:34.044Z | INFO : [useCloudAuthServices] Google auth client initialized | raw: ["[useCloudAuthServices] Google auth client initialized"]
+[2026-02-19T03:21:34.036Z] [info] 2026-02-19T03:21:34.036Z | INFO : [SecureStorage] Initialization complete 
+{
+  "trigger": "initial_active",
+  "attempt": 1,
+  "durationMs": 287,
+  "firstRun": false
+} | raw: ["[SecureStorage] Initialization complete",{"trigger":"initial_active","attempt":1,"durationMs":287,"firstRun":false}]
+[2026-02-19T03:21:34.032Z] [info] 2026-02-19T03:21:34.032Z | INFO : [Security] Keychain bootstrap complete 
+{
+  "service": "bbbook.keychain-prewarm",
+  "synchronizable": false,
+  "accessible": "AccessibleAfterFirstUnlockThisDeviceOnly",
+  "durationMs": 279,
+  "firstRun": false,
+  "migratedFromSynchronizable": true,
+  "synchronizableItemFound": true,
+  "endTimestampMs": 1771471294032
+} | raw: ["[Security] Keychain bootstrap complete",{"service":"bbbook.keychain-prewarm","synchronizable":false,"accessible":"AccessibleAfterFirstUnlockThisDeviceOnly","durationMs":279,"firstRun":false,"migratedFromSynchronizable":true,"synchronizableItemFound":true,"endTimestampMs":1771471294032}]
+[2026-02-19T03:21:34.029Z] [info] 2026-02-19T03:21:34.029Z | INFO : [Security] Keychain bootstrap sync delete end 
+{
+  "durationMs": 188,
+  "endTimestampMs": 1771471294029,
+  "service": "bbbook.keychain-prewarm",
+  "synchronizable": true,
+  "accessible": "AccessibleAfterFirstUnlockThisDeviceOnly"
+} | raw: ["[Security] Keychain bootstrap sync delete end",{"durationMs":188,"endTimestampMs":1771471294029,"service":"bbbook.keychain-prewarm","synchronizable":true,"accessible":"AccessibleAfterFirstUnlockThisDeviceOnly"}]
+[2026-02-19T03:21:34.024Z] [info] 2026-02-19T03:21:34.024Z | INFO : [DatabaseProvider] Friend image repair completed 
+{
+  "didRun": false,
+  "markerPath": "/var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/diagnostics/friend-image-repair-v1.done",
+  "plannedMoves": 0,
+  "totalImages": 0,
+  "updatedPaths": 0,
+  "skippedReason": "marker-exists"
+} | raw: ["[DatabaseProvider] Friend image repair completed",{"didRun":false,"markerPath":"/var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/diagnostics/friend-image-repair-v1.done","plannedMoves":0,"totalImages":0,"updatedPaths":0,"skippedReason":"marker-exists"}]
+[2026-02-19T03:21:33.950Z] [info] 2026-02-19T03:21:33.950Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/bbbookStore/persist:root",
+  "size": 3046
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/bbbookStore/persist:root","size":3046}]
+[2026-02-19T03:21:33.942Z] [debug] 2026-02-19T03:21:33.942Z | DEBUG : [Database] Finished retrieving all records in MedicationRegimenStep table | raw: ["[Database] Finished retrieving all records in MedicationRegimenStep table"]
+[2026-02-19T03:21:33.938Z] [debug] 2026-02-19T03:21:33.938Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationRegimenStep table: 10 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationRegimenStep table: 10 records found"]
+[2026-02-19T03:21:33.931Z] [debug] 2026-02-19T03:21:33.931Z | DEBUG : [Database] Finished retrieving all records in CalendarEvent table | raw: ["[Database] Finished retrieving all records in CalendarEvent table"]
+[2026-02-19T03:21:33.927Z] [debug] 2026-02-19T03:21:33.927Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 444 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 444 records found"]
+[2026-02-19T03:21:33.919Z] [debug] 2026-02-19T03:21:33.919Z | DEBUG : [Database] Finished retrieving all records in MedicationRegimen table | raw: ["[Database] Finished retrieving all records in MedicationRegimen table"]
+[2026-02-19T03:21:33.914Z] [debug] 2026-02-19T03:21:33.914Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationRegimen table: 6 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationRegimen table: 6 records found"]
+[2026-02-19T03:21:33.909Z] [debug] 2026-02-19T03:21:33.909Z | DEBUG : [Database] Finished retrieving all records in Screening table | raw: ["[Database] Finished retrieving all records in Screening table"]
+[2026-02-19T03:21:33.906Z] [debug] 2026-02-19T03:21:33.906Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Screening table: 8 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Screening table: 8 records found"]
+[2026-02-19T03:21:33.901Z] [debug] 2026-02-19T03:21:33.901Z | DEBUG : [Database] Finished retrieving all records in MedicationLog table | raw: ["[Database] Finished retrieving all records in MedicationLog table"]
+[2026-02-19T03:21:33.896Z] [debug] 2026-02-19T03:21:33.896Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found"]
+[2026-02-19T03:21:33.891Z] [debug] 2026-02-19T03:21:33.891Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-02-19T03:21:33.887Z] [debug] 2026-02-19T03:21:33.887Z | DEBUG : [Database] Retrieving all records in Encounter table: 475 records found | raw: ["[Database] Retrieving all records in Encounter table: 475 records found"]
+[2026-02-19T03:21:33.882Z] [debug] 2026-02-19T03:21:33.882Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-02-19T03:21:33.877Z] [debug] 2026-02-19T03:21:33.877Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found"]
+[2026-02-19T03:21:33.872Z] [debug] 2026-02-19T03:21:33.872Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-02-19T03:21:33.867Z] [debug] 2026-02-19T03:21:33.867Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found"]
+[2026-02-19T03:21:33.862Z] [debug] 2026-02-19T03:21:33.862Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-02-19T03:21:33.858Z] [debug] 2026-02-19T03:21:33.858Z | DEBUG : [Database] Retrieving all records in Treatment table: 6 records found | raw: ["[Database] Retrieving all records in Treatment table: 6 records found"]
+[2026-02-19T03:21:33.853Z] [debug] 2026-02-19T03:21:33.853Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-02-19T03:21:33.849Z] [debug] 2026-02-19T03:21:33.849Z | DEBUG : [Database] Retrieving all records in TestTaken table: 48 records found | raw: ["[Database] Retrieving all records in TestTaken table: 48 records found"]
+[2026-02-19T03:21:33.841Z] [info] 2026-02-19T03:21:33.841Z | INFO : [Security] Keychain bootstrap sync delete start 
+{
+  "startTimestampMs": 1771471293841,
+  "service": "bbbook.keychain-prewarm",
+  "synchronizable": true,
+  "accessible": "AccessibleAfterFirstUnlockThisDeviceOnly"
+} | raw: ["[Security] Keychain bootstrap sync delete start",{"startTimestampMs":1771471293841,"service":"bbbook.keychain-prewarm","synchronizable":true,"accessible":"AccessibleAfterFirstUnlockThisDeviceOnly"}]
+[2026-02-19T03:21:33.837Z] [info] 2026-02-19T03:21:33.837Z | INFO : [Security] Keychain bootstrap migrate end 
+{
+  "durationMs": 51,
+  "endTimestampMs": 1771471293837,
+  "service": "bbbook.keychain-prewarm",
+  "synchronizable": false,
+  "accessible": "AccessibleAfterFirstUnlockThisDeviceOnly"
+} | raw: ["[Security] Keychain bootstrap migrate end",{"durationMs":51,"endTimestampMs":1771471293837,"service":"bbbook.keychain-prewarm","synchronizable":false,"accessible":"AccessibleAfterFirstUnlockThisDeviceOnly"}]
+[2026-02-19T03:21:33.832Z] [debug] 2026-02-19T03:21:33.832Z | DEBUG : [Database] initialization Progress: 100% | raw: ["[Database] initialization Progress: 100%"]
+[2026-02-19T03:21:33.809Z] [debug] 2026-02-19T03:21:33.809Z | DEBUG : [Database] initialization Progress: 25% | raw: ["[Database] initialization Progress: 25%"]
+[2026-02-19T03:21:33.805Z] [debug] 2026-02-19T03:21:33.805Z | DEBUG : [Database]  Starting. Realm path /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/BBBookDB/BBBDatabase.realm | raw: ["[Database]  Starting. Realm path","/var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/BBBookDB/BBBDatabase.realm"]
+[2026-02-19T03:21:33.801Z] [debug] 2026-02-19T03:21:33.801Z | DEBUG : [Database] initialization Progress: 0% | raw: ["[Database] initialization Progress: 0%"]
+[2026-02-19T03:21:33.799Z] [debug] 2026-02-19T03:21:33.799Z | DEBUG : 🥳 [DatabaseLoader] Initializing database | raw: ["🥳 [DatabaseLoader] Initializing database"]
+[2026-02-19T03:21:33.796Z] [debug] 2026-02-19T03:21:33.796Z | DEBUG : [DatabaseLoader] Database Path /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/BBBookDB/BBBDatabase.realm 
+36 | raw: ["[DatabaseLoader] Database Path","/var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/BBBookDB/BBBDatabase.realm",36]
+[2026-02-19T03:21:33.793Z] [info] 2026-02-19T03:21:33.793Z | INFO : [DatabaseLoader] Loading Database | raw: ["[DatabaseLoader] Loading Database"]
+[2026-02-19T03:21:33.786Z] [info] 2026-02-19T03:21:33.786Z | INFO : [Security] Keychain bootstrap migrate start 
+{
+  "startTimestampMs": 1771471293786,
+  "service": "bbbook.keychain-prewarm",
+  "synchronizable": false,
+  "accessible": "AccessibleAfterFirstUnlockThisDeviceOnly"
+} | raw: ["[Security] Keychain bootstrap migrate start",{"startTimestampMs":1771471293786,"service":"bbbook.keychain-prewarm","synchronizable":false,"accessible":"AccessibleAfterFirstUnlockThisDeviceOnly"}]
+[2026-02-19T03:21:33.782Z] [info] 2026-02-19T03:21:33.782Z | INFO : [Security] Keychain bootstrap sync read end 
+{
+  "durationMs": 18,
+  "endTimestampMs": 1771471293782,
+  "service": "bbbook.keychain-prewarm",
+  "synchronizable": true,
+  "accessible": "AccessibleAfterFirstUnlockThisDeviceOnly",
+  "found": true
+} | raw: ["[Security] Keychain bootstrap sync read end",{"durationMs":18,"endTimestampMs":1771471293782,"service":"bbbook.keychain-prewarm","synchronizable":true,"accessible":"AccessibleAfterFirstUnlockThisDeviceOnly","found":true}]
+[2026-02-19T03:21:33.768Z] [debug] 2026-02-19T03:21:33.768Z | DEBUG : [SecuredRealmBoundary] Rendering children 
+{
+  "encryptionBufferPresent": false,
+  "isEncrypting": false,
+  "isEncryptionEnabled": true
+} | raw: ["[SecuredRealmBoundary] Rendering children",{"encryptionBufferPresent":false,"isEncrypting":false,"isEncryptionEnabled":true}]
+[2026-02-19T03:21:33.764Z] [info] 2026-02-19T03:21:33.764Z | INFO : [Security] Keychain bootstrap sync read start 
+{
+  "startTimestampMs": 1771471293764,
+  "service": "bbbook.keychain-prewarm",
+  "synchronizable": true,
+  "accessible": "AccessibleAfterFirstUnlockThisDeviceOnly"
+} | raw: ["[Security] Keychain bootstrap sync read start",{"startTimestampMs":1771471293764,"service":"bbbook.keychain-prewarm","synchronizable":true,"accessible":"AccessibleAfterFirstUnlockThisDeviceOnly"}]
+[2026-02-19T03:21:33.762Z] [info] 2026-02-19T03:21:33.762Z | INFO : [Security] Keychain bootstrap read end 
+{
+  "durationMs": 4,
+  "endTimestampMs": 1771471293762,
+  "service": "bbbook.keychain-prewarm",
+  "synchronizable": false,
+  "accessible": "AccessibleAfterFirstUnlockThisDeviceOnly",
+  "found": true
+} | raw: ["[Security] Keychain bootstrap read end",{"durationMs":4,"endTimestampMs":1771471293762,"service":"bbbook.keychain-prewarm","synchronizable":false,"accessible":"AccessibleAfterFirstUnlockThisDeviceOnly","found":true}]
+[2026-02-19T03:21:33.758Z] [info] 2026-02-19T03:21:33.758Z | INFO : [Security] Keychain bootstrap read start 
+{
+  "startTimestampMs": 1771471293758,
+  "service": "bbbook.keychain-prewarm",
+  "synchronizable": false,
+  "accessible": "AccessibleAfterFirstUnlockThisDeviceOnly"
+} | raw: ["[Security] Keychain bootstrap read start",{"startTimestampMs":1771471293758,"service":"bbbook.keychain-prewarm","synchronizable":false,"accessible":"AccessibleAfterFirstUnlockThisDeviceOnly"}]
+[2026-02-19T03:21:33.753Z] [info] 2026-02-19T03:21:33.753Z | INFO : [Security] Keychain bootstrap start 
+{
+  "startTimestampMs": 1771471293753,
+  "service": "bbbook.keychain-prewarm",
+  "synchronizable": false,
+  "accessible": "AccessibleAfterFirstUnlockThisDeviceOnly"
+} | raw: ["[Security] Keychain bootstrap start",{"startTimestampMs":1771471293753,"service":"bbbook.keychain-prewarm","synchronizable":false,"accessible":"AccessibleAfterFirstUnlockThisDeviceOnly"}]
+[2026-02-19T03:21:33.749Z] [info] 2026-02-19T03:21:33.749Z | INFO : [SecureStorage] Initialization queued 
+{
+  "trigger": "initial_active",
+  "attempt": 1,
+  "startTimestampMs": 1771471293749
+} | raw: ["[SecureStorage] Initialization queued",{"trigger":"initial_active","attempt":1,"startTimestampMs":1771471293749}]
+[2026-02-19T03:21:33.743Z] [debug] 2026-02-19T03:21:33.743Z | DEBUG : [SecuredRealmBoundary] Waiting for realm readiness; showing LockedScreen | raw: ["[SecuredRealmBoundary] Waiting for realm readiness; showing LockedScreen"]
+[2026-02-19T03:21:33.739Z] [debug] 2026-02-19T03:21:33.739Z | DEBUG : [SecurityProvider] checkAuthentication start: isLocked=false isSecured=false shouldAutoUnlock=true hasKey=false canAttemptBiometrics=false shouldBypassBiometrics=false biometricAttempted=false biometricInFlight=false lockSuppressed=false | raw: ["[SecurityProvider] checkAuthentication start: isLocked=false isSecured=false shouldAutoUnlock=true hasKey=false canAttemptBiometrics=false shouldBypassBiometrics=false biometricAttempted=false biometricInFlight=false lockSuppressed=false"]
+[2026-02-19T03:21:33.736Z] [debug] 2026-02-19T03:21:33.736Z | DEBUG : [App] /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/BBBookDB | raw: ["[App] /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/BBBookDB"]
+[2026-02-19T03:21:33.732Z] [debug] 2026-02-19T03:21:33.732Z | DEBUG : [CloudStorageProvider] security effect ran for cloudStorage 
+{
+  "driveType": "icloud"
+} | raw: ["[CloudStorageProvider] security effect ran for cloudStorage",{"driveType":"icloud"}]
+[2026-02-19T03:21:33.722Z] [debug] 2026-02-19T03:21:33.722Z | DEBUG : [iCloud] Fetching salt record | raw: ["[iCloud] Fetching salt record"]
+[2026-02-19T03:21:33.717Z] [debug] 2026-02-19T03:21:33.717Z | DEBUG : [Security] Fetching salt record from external store | raw: ["[Security] Fetching salt record from external store"]
+[2026-02-19T03:21:33.713Z] [debug] 2026-02-19T03:21:33.713Z | DEBUG : [Security] Configuring external salt store 
+{
+  "driveType": "icloud",
+  "provider": "iCloud"
+} | raw: ["[Security] Configuring external salt store",{"driveType":"icloud","provider":"iCloud"}]
+[2026-02-19T03:21:33.708Z] [info] 2026-02-19T03:21:33.708Z | INFO : [CloudStorageProvider] module executing current build | raw: ["[CloudStorageProvider] module executing current build"]
+[2026-02-19T03:21:33.703Z] [debug] 2026-02-19T03:21:33.703Z | DEBUG : [GoogleDriveProvider] inactive, skipping folder discovery | raw: ["[GoogleDriveProvider] inactive, skipping folder discovery"]
+[2026-02-19T03:21:33.698Z] [debug] 2026-02-19T03:21:33.698Z | DEBUG : [DatabaseOperationsProvider] coordinator phase changed 
+{
+  "phase": "idle"
+} | raw: ["[DatabaseOperationsProvider] coordinator phase changed",{"phase":"idle"}]
+[2026-02-19T03:21:33.693Z] [debug] 2026-02-19T03:21:33.693Z | DEBUG : [DatabaseOperationsProvider] phase changed 
+{
+  "phase": "idle"
+} | raw: ["[DatabaseOperationsProvider] phase changed",{"phase":"idle"}]
+[2026-02-19T03:21:33.689Z] [debug] 2026-02-19T03:21:33.689Z | DEBUG : [GoogleDriveProvider] inactive, skipping folder discovery | raw: ["[GoogleDriveProvider] inactive, skipping folder discovery"]
+[2026-02-19T03:21:33.684Z] [debug] 2026-02-19T03:21:33.684Z | DEBUG : [DatabaseCoordinationGate] overlay decision 
+{
+  "phase": "idle",
+  "shouldShowResolver": false,
+  "isBackupInProgress": false,
+  "currentType": null,
+  "showResolverOverlay": null,
+  "overlayMounted": false
+} | raw: ["[DatabaseCoordinationGate] overlay decision",{"phase":"idle","shouldShowResolver":false,"isBackupInProgress":false,"currentType":null,"showResolverOverlay":null,"overlayMounted":false}]
+[2026-02-19T03:21:33.679Z] [debug] 2026-02-19T03:21:33.679Z | DEBUG : [DatabaseCoordinationGate] overlay state 
+{
+  "phase": "idle",
+  "shouldShowResolver": false,
+  "isBackupInProgress": false,
+  "showResolverOverlay": null,
+  "currentType": null
+} | raw: ["[DatabaseCoordinationGate] overlay state",{"phase":"idle","shouldShowResolver":false,"isBackupInProgress":false,"showResolverOverlay":null,"currentType":null}]
+[2026-02-19T03:21:33.654Z] [debug] 2026-02-19T03:21:33.654Z | DEBUG : [SecuredRealmBoundary] Encryption disabled or missing buffer, skipping conversion | raw: ["[SecuredRealmBoundary] Encryption disabled or missing buffer, skipping conversion"]
+[2026-02-19T03:21:33.649Z] [debug] 2026-02-19T03:21:33.649Z | DEBUG : [SecuredRealmBoundary] Waiting for realm readiness; showing LockedScreen | raw: ["[SecuredRealmBoundary] Waiting for realm readiness; showing LockedScreen"]
+[2026-02-19T03:21:33.642Z] [debug] 2026-02-19T03:21:33.642Z | DEBUG : [SecuredRealmBoundary] Building Realm config 
+{
+  "recoveryNonce": 0,
+  "usingEncryptedConfig": false
+} | raw: ["[SecuredRealmBoundary] Building Realm config",{"recoveryNonce":0,"usingEncryptedConfig":false}]
+[2026-02-19T03:21:33.634Z] [info] 2026-02-19T03:21:33.634Z | INFO : HTTP Client Initialized 
+{} | raw: ["HTTP Client Initialized",{}]
+[2026-02-19T03:21:33.624Z] [info] 2026-02-19T03:21:33.624Z | INFO : HTTP Client Initialized 
+{} | raw: ["HTTP Client Initialized",{}]
+[2026-02-19T03:21:33.616Z] [debug] 2026-02-19T03:21:33.616Z | DEBUG : [GeocoderAssetManager] Diagnostics 
+{
+  "context": "startup",
+  "realmPath": "/var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/BBBGeocoder/BBBGeocoder.realm",
+  "stagedRealmPath": "/var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/BBBGeocoder/downloads/BBBGeocoder.realm.download",
+  "installedExists": true,
+  "stagedExists": false,
+  "installedVersion": null,
+  "stagedVersion": null,
+  "installedSize": 16384,
+  "stagedSize": null,
+  "installedRecordCount": 0
+} | raw: ["[GeocoderAssetManager] Diagnostics",{"context":"startup","realmPath":"/var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/BBBGeocoder/BBBGeocoder.realm","stagedRealmPath":"/var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/BBBGeocoder/downloads/BBBGeocoder.realm.download","installedExists":true,"stagedExists":false,"installedVersion":null,"stagedVersion":null,"installedSize":16384,"stagedSize":null,"installedRecordCount":0}]
+[2026-02-19T03:21:33.611Z] [debug] 2026-02-19T03:21:33.611Z | DEBUG : [FileSystem] File stats at /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/BBBGeocoder/BBBGeocoder.realm: {"filename":"BBBGeocoder.realm","lastModified":1768951790193,"path":"/var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/BBBGeocoder/BBBGeocoder.realm","size":16384,"type":"file"} | raw: ["[FileSystem] File stats at /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/BBBGeocoder/BBBGeocoder.realm: {\"filename\":\"BBBGeocoder.realm\",\"lastModified\":1768951790193,\"path\":\"/var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/BBBGeocoder/BBBGeocoder.realm\",\"size\":16384,\"type\":\"file\"}"]
+[2026-02-19T03:21:33.605Z] [debug] 2026-02-19T03:21:33.605Z | DEBUG : [FileSystem] Getting file stats at /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/BBBGeocoder/BBBGeocoder.realm | raw: ["[FileSystem] Getting file stats at /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/BBBGeocoder/BBBGeocoder.realm"]
+[2026-02-19T03:21:33.599Z] [debug] 2026-02-19T03:21:33.599Z | DEBUG : [FileSystem] Directory at /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/BBBGeocoder already exists. No need to create. | raw: ["[FileSystem] Directory at /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/BBBGeocoder already exists. No need to create."]
+[2026-02-19T03:21:33.595Z] [debug] 2026-02-19T03:21:33.595Z | DEBUG : [FileSystem] Directory at /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/BBBGeocoder exists | raw: ["[FileSystem] Directory at /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/BBBGeocoder exists"]
+[2026-02-19T03:21:33.591Z] [debug] 2026-02-19T03:21:33.591Z | DEBUG : [FileSystem] Checking if directory exists at /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/BBBGeocoder | raw: ["[FileSystem] Checking if directory exists at /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/BBBGeocoder"]
+[2026-02-19T03:21:33.588Z] [debug] 2026-02-19T03:21:33.587Z | DEBUG : [Startup] Geocoder database promotion checked 
+{
+  "promoted": false
+} | raw: ["[Startup] Geocoder database promotion checked",{"promoted":false}]
+[2026-02-19T03:21:33.577Z] [info] 2026-02-19T03:21:33.577Z | INFO : [Persistor] Rehydrate complete 
+{
+  "key": "root",
+  "storageKey": "persist:root"
+} | raw: ["[Persistor] Rehydrate complete",{"key":"root","storageKey":"persist:root"}]
+[2026-02-19T03:21:33.574Z] [info] 2026-02-19T03:21:33.574Z | INFO : [Persistor] Migrations complete 
+{
+  "key": "root"
+} | raw: ["[Persistor] Migrations complete",{"key":"root"}]
+[2026-02-19T03:21:33.571Z] [debug] 2026-02-19T03:21:33.571Z | DEBUG : [persistMigrate] Versions match, no migration necessary | raw: ["[persistMigrate] Versions match, no migration necessary"]
+[2026-02-19T03:21:33.568Z] [debug] 2026-02-19T03:21:33.568Z | DEBUG : Inbound Version: 99. Current Version: 99 | raw: ["Inbound Version: 99. Current Version: 99"]
+[2026-02-19T03:21:33.564Z] [info] 2026-02-19T03:21:33.564Z | INFO : [persistMigrate] Inbound version: 99 | raw: ["[persistMigrate] Inbound version: 99"]
+[2026-02-19T03:21:33.561Z] [debug] 2026-02-19T03:21:33.561Z | DEBUG : [persistMigrate] Inbound state is app state | raw: ["[persistMigrate] Inbound state is app state"]
+[2026-02-19T03:21:33.557Z] [info] 2026-02-19T03:21:33.557Z | INFO : [Persistor] Running migrations 
+{
+  "key": "root",
+  "version": 99
+} | raw: ["[Persistor] Running migrations",{"key":"root","version":99}]
+[2026-02-19T03:21:33.553Z] [info] 2026-02-19T03:21:33.553Z | INFO : [Persistor] Storage read complete 
+{
+  "key": "root",
+  "storageKey": "persist:root",
+  "hasValue": true
+} | raw: ["[Persistor] Storage read complete",{"key":"root","storageKey":"persist:root","hasValue":true}]
+[2026-02-19T03:21:33.548Z] [debug] 2026-02-19T03:21:33.548Z | DEBUG : [GeocoderProvider] Realm ready 
+{
+  "isClosed": false,
+  "path": "/var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/BBBGeocoder/BBBGeocoder.realm"
+} | raw: ["[GeocoderProvider] Realm ready",{"isClosed":false,"path":"/var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/BBBGeocoder/BBBGeocoder.realm"}]
+[2026-02-19T03:21:33.544Z] [info] 2026-02-19T03:21:33.544Z | INFO : [FileStorage] Read success 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/bbbookStore/persist:root",
+  "size": 3055
+} | raw: ["[FileStorage] Read success",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/bbbookStore/persist:root","size":3055}]
+[2026-02-19T03:21:33.542Z] [info] 2026-02-19T03:21:33.542Z | INFO : [FileStorage] Using File Storage System | raw: ["[FileStorage] Using File Storage System"]
+[2026-02-19T03:21:33.537Z] [debug] 2026-02-19T03:21:33.537Z | DEBUG : [GeocoderProvider] Realm ready 
+{
+  "isClosed": false,
+  "path": "/var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/BBBGeocoder/BBBGeocoder.realm"
+} | raw: ["[GeocoderProvider] Realm ready",{"isClosed":false,"path":"/var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/BBBGeocoder/BBBGeocoder.realm"}]
+[2026-02-19T03:21:33.533Z] [debug] 2026-02-19T03:21:33.533Z | DEBUG : [FileSystem] Reading file at /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/bbbookStore/persist:root | raw: ["[FileSystem] Reading file at /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/bbbookStore/persist:root"]
+[2026-02-19T03:21:33.523Z] [info] 2026-02-19T03:21:33.523Z | INFO : [FileStorage] Read start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/bbbookStore/persist:root"
+} | raw: ["[FileStorage] Read start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/bbbookStore/persist:root"}]
+[2026-02-19T03:21:33.518Z] [info] 2026-02-19T03:21:33.518Z | INFO : [Persistor] Reading storage 
+{
+  "key": "root",
+  "legacyKeys": [
+    "root",
+    "persist"
+  ],
+  "storageKey": "persist:root"
+} | raw: ["[Persistor] Reading storage",{"key":"root","legacyKeys":["root","persist"],"storageKey":"persist:root"}]
+[2026-02-19T03:21:33.513Z] [info] 2026-02-19T03:21:33.513Z | INFO : [Persistor] Rehydrate start 
+{
+  "key": "root",
+  "storageKey": "persist:root"
+} | raw: ["[Persistor] Rehydrate start",{"key":"root","storageKey":"persist:root"}]
+[2026-02-19T03:21:33.501Z] [debug] 2026-02-19T03:21:33.501Z | DEBUG : [FileSystem] Directory at /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/BBBGeocoder already exists. No need to create. | raw: ["[FileSystem] Directory at /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/BBBGeocoder already exists. No need to create."]
+[2026-02-19T03:21:33.496Z] [debug] 2026-02-19T03:21:33.496Z | DEBUG : [FileSystem] Directory at /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/BBBGeocoder exists | raw: ["[FileSystem] Directory at /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/BBBGeocoder exists"]
+[2026-02-19T03:21:33.492Z] [debug] 2026-02-19T03:21:33.492Z | DEBUG : [FileSystem] Checking if directory exists at /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/BBBGeocoder | raw: ["[FileSystem] Checking if directory exists at /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/BBBGeocoder"]
+[2026-02-19T03:21:33.478Z] [debug] 2026-02-19T03:21:33.478Z | DEBUG : [GeocoderProvider] Creating Realm context 
+{
+  "path": "/var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/BBBGeocoder/BBBGeocoder.realm"
+} | raw: ["[GeocoderProvider] Creating Realm context",{"path":"/var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/BBBGeocoder/BBBGeocoder.realm"}]
+[2026-02-17T03:08:50.323Z] [debug] 2026-02-17T03:08:50.323Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Pronouns table: 3 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Pronouns table: 3 records found"]
+[2026-02-17T03:08:50.320Z] [debug] 2026-02-17T03:08:50.320Z | DEBUG : [Database] Finished retrieving all records in Gender table | raw: ["[Database] Finished retrieving all records in Gender table"]
+[2026-02-17T03:08:50.317Z] [debug] 2026-02-17T03:08:50.317Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Gender table: 15 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Gender table: 15 records found"]
+[2026-02-17T03:08:50.313Z] [debug] 2026-02-17T03:08:50.313Z | DEBUG : [Database] Finished retrieving all records in BodyType table | raw: ["[Database] Finished retrieving all records in BodyType table"]
+[2026-02-17T03:08:50.309Z] [debug] 2026-02-17T03:08:50.309Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in BodyType table: 5 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in BodyType table: 5 records found"]
+[2026-02-17T03:08:50.306Z] [debug] 2026-02-17T03:08:50.306Z | DEBUG : [Database] Finished retrieving all records in UserLocation table | raw: ["[Database] Finished retrieving all records in UserLocation table"]
+[2026-02-17T03:08:50.302Z] [debug] 2026-02-17T03:08:50.302Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in UserLocation table: 21 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in UserLocation table: 21 records found"]
+[2026-02-17T03:08:50.297Z] [debug] 2026-02-17T03:08:50.297Z | DEBUG : [Database] Finished retrieving all records in Medication table | raw: ["[Database] Finished retrieving all records in Medication table"]
+[2026-02-17T03:08:50.293Z] [debug] 2026-02-17T03:08:50.293Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Medication table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Medication table: 7 records found"]
+[2026-02-17T03:08:50.290Z] [debug] 2026-02-17T03:08:50.289Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-02-17T03:08:50.285Z] [debug] 2026-02-17T03:08:50.285Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Treatment table: 6 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Treatment table: 6 records found"]
+[2026-02-17T03:08:50.279Z] [debug] 2026-02-17T03:08:50.279Z | DEBUG : [AutoBackup] App moved to background | raw: ["[AutoBackup] App moved to background"]
+[2026-02-17T03:08:49.397Z] [debug] 2026-02-17T03:08:49.397Z | DEBUG : [iCloud] Resumed pending operations | raw: ["[iCloud] Resumed pending operations"]
+[2026-02-17T03:08:49.392Z] [debug] 2026-02-17T03:08:49.392Z | DEBUG : [iCloud] Resuming pending operations | raw: ["[iCloud] Resuming pending operations"]
+[2026-02-17T03:08:49.273Z] [debug] 2026-02-17T03:08:49.273Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-02-17T03:08:49.270Z] [debug] 2026-02-17T03:08:49.270Z | DEBUG : [Database] Retrieving all records in Encounter table: 475 records found | raw: ["[Database] Retrieving all records in Encounter table: 475 records found"]
+[2026-02-17T03:08:49.267Z] [debug] 2026-02-17T03:08:49.267Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-02-17T03:08:49.264Z] [debug] 2026-02-17T03:08:49.264Z | DEBUG : [Database] Retrieving all records in Treatment table: 6 records found | raw: ["[Database] Retrieving all records in Treatment table: 6 records found"]
+[2026-02-17T03:08:49.260Z] [debug] 2026-02-17T03:08:49.260Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-02-17T03:08:49.256Z] [debug] 2026-02-17T03:08:49.256Z | DEBUG : [Database] Retrieving all records in TestTaken table: 48 records found | raw: ["[Database] Retrieving all records in TestTaken table: 48 records found"]
+[2026-02-17T03:08:49.249Z] [debug] 2026-02-17T03:08:49.249Z | DEBUG : [SecuredRealmBoundary] Rendering children 
+{
+  "encryptionBufferPresent": false,
+  "isEncrypting": false,
+  "isEncryptionEnabled": true
+} | raw: ["[SecuredRealmBoundary] Rendering children",{"encryptionBufferPresent":false,"isEncrypting":false,"isEncryptionEnabled":true}]
+[2026-02-17T03:08:46.066Z] [debug] 2026-02-17T03:08:46.066Z | DEBUG : [AxiosHttpClient] Received response 
+{
+  "baseURL": "https://api.bbbook.app",
+  "method": "GET",
+  "status": 200,
+  "url": "https://api.mapbox.com/geocoding/v5/mapbox.places/-117.15145162641768,32.777439412181835.json"
+} | raw: ["[AxiosHttpClient] Received response",{"baseURL":"https://api.bbbook.app","method":"GET","status":200,"url":"https://api.mapbox.com/geocoding/v5/mapbox.places/-117.15145162641768,32.777439412181835.json"}]
+[2026-02-17T03:08:45.859Z] [debug] 2026-02-17T03:08:45.859Z | DEBUG : [AxiosHttpClient] Sending request 
+{
+  "baseURL": "https://api.bbbook.app",
+  "method": "GET",
+  "params": {
+    "access_token": "[REDACTED]",
+    "types": "place",
+    "limit": "1",
+    "proximity": "-117.15145162641768,32.777439412181835"
+  },
+  "url": "https://api.mapbox.com/geocoding/v5/mapbox.places/-117.15145162641768,32.777439412181835.json"
+} | raw: ["[AxiosHttpClient] Sending request",{"baseURL":"https://api.bbbook.app","method":"GET","params":{"access_token":"[REDACTED]","types":"place","limit":"1","proximity":"-117.15145162641768,32.777439412181835"},"url":"https://api.mapbox.com/geocoding/v5/mapbox.places/-117.15145162641768,32.777439412181835.json"}]
+[2026-02-17T03:08:45.856Z] [debug] 2026-02-17T03:08:45.855Z | DEBUG : [GeocoderWeb] fetchCitiesFromCoords request 
+{
+  "limit": 1,
+  "requestUrl": "https://api.mapbox.com/geocoding/v5/mapbox.places/-117.15145162641768,32.777439412181835.json",
+  "url": "-117.15145162641768,32.777439412181835.json"
+} | raw: ["[GeocoderWeb] fetchCitiesFromCoords request",{"limit":1,"requestUrl":"https://api.mapbox.com/geocoding/v5/mapbox.places/-117.15145162641768,32.777439412181835.json","url":"-117.15145162641768,32.777439412181835.json"}]
+[2026-02-17T03:08:45.654Z] [debug] 2026-02-17T03:08:45.654Z | DEBUG : [FileSystem] Writing file at /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/bbbookStore/persist:root | raw: ["[FileSystem] Writing file at /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/bbbookStore/persist:root"]
+[2026-02-17T03:08:45.649Z] [debug] 2026-02-17T03:08:45.649Z | DEBUG : [FileSystem] Directory at /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/bbbookStore already exists. No need to create. | raw: ["[FileSystem] Directory at /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/bbbookStore already exists. No need to create."]
+[2026-02-17T03:08:45.618Z] [debug] 2026-02-17T03:08:45.618Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-02-17T03:08:45.614Z] [debug] 2026-02-17T03:08:45.614Z | DEBUG : [Database] Retrieving all records in Encounter table: 475 records found | raw: ["[Database] Retrieving all records in Encounter table: 475 records found"]
+[2026-02-17T03:08:45.607Z] [debug] 2026-02-17T03:08:45.607Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-02-17T03:08:45.603Z] [debug] 2026-02-17T03:08:45.603Z | DEBUG : [Database] Retrieving all records in Treatment table: 6 records found | raw: ["[Database] Retrieving all records in Treatment table: 6 records found"]
+[2026-02-17T03:08:45.600Z] [debug] 2026-02-17T03:08:45.600Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-02-17T03:08:45.596Z] [debug] 2026-02-17T03:08:45.596Z | DEBUG : [Database] Retrieving all records in TestTaken table: 48 records found | raw: ["[Database] Retrieving all records in TestTaken table: 48 records found"]
+[2026-02-17T03:08:45.592Z] [debug] 2026-02-17T03:08:45.592Z | DEBUG : [FileSystem] Directory at /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/bbbookStore exists | raw: ["[FileSystem] Directory at /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/bbbookStore exists"]
+[2026-02-17T03:08:45.587Z] [debug] 2026-02-17T03:08:45.587Z | DEBUG : [FileSystem] Checking if directory exists at /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/bbbookStore | raw: ["[FileSystem] Checking if directory exists at /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/bbbookStore"]
+[2026-02-17T03:08:45.583Z] [info] 2026-02-17T03:08:45.583Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/bbbookStore/persist:root",
+  "size": 3055
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/bbbookStore/persist:root","size":3055}]
+[2026-02-17T03:08:45.568Z] [debug] 2026-02-17T03:08:45.568Z | DEBUG : [iCloud] Resumed pending operations | raw: ["[iCloud] Resumed pending operations"]
+[2026-02-17T03:08:45.564Z] [debug] 2026-02-17T03:08:45.564Z | DEBUG : [iCloud] Resuming pending operations | raw: ["[iCloud] Resuming pending operations"]
+[2026-02-17T03:08:45.547Z] [debug] 2026-02-17T03:08:45.547Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-02-17T03:08:45.543Z] [debug] 2026-02-17T03:08:45.543Z | DEBUG : [Database] Retrieving all records in Encounter table: 475 records found | raw: ["[Database] Retrieving all records in Encounter table: 475 records found"]
+[2026-02-17T03:08:45.539Z] [debug] 2026-02-17T03:08:45.539Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-02-17T03:08:45.535Z] [debug] 2026-02-17T03:08:45.535Z | DEBUG : [Database] Retrieving all records in Treatment table: 6 records found | raw: ["[Database] Retrieving all records in Treatment table: 6 records found"]
+[2026-02-17T03:08:45.531Z] [debug] 2026-02-17T03:08:45.531Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-02-17T03:08:45.527Z] [debug] 2026-02-17T03:08:45.527Z | DEBUG : [Database] Retrieving all records in TestTaken table: 48 records found | raw: ["[Database] Retrieving all records in TestTaken table: 48 records found"]
+[2026-02-17T03:08:45.519Z] [debug] 2026-02-17T03:08:45.519Z | DEBUG : [iCloud] Resumed pending operations | raw: ["[iCloud] Resumed pending operations"]
+[2026-02-17T03:08:45.515Z] [debug] 2026-02-17T03:08:45.515Z | DEBUG : [iCloud] Resuming pending operations | raw: ["[iCloud] Resuming pending operations"]
+[2026-02-17T03:08:45.203Z] [debug] 2026-02-17T03:08:45.203Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-02-17T03:08:45.200Z] [debug] 2026-02-17T03:08:45.200Z | DEBUG : [Database] Retrieving all records in Encounter table: 475 records found | raw: ["[Database] Retrieving all records in Encounter table: 475 records found"]
+[2026-02-17T03:08:45.196Z] [debug] 2026-02-17T03:08:45.196Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-02-17T03:08:45.194Z] [debug] 2026-02-17T03:08:45.194Z | DEBUG : [Database] Retrieving all records in Treatment table: 6 records found | raw: ["[Database] Retrieving all records in Treatment table: 6 records found"]
+[2026-02-17T03:08:45.192Z] [debug] 2026-02-17T03:08:45.192Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-02-17T03:08:45.189Z] [debug] 2026-02-17T03:08:45.189Z | DEBUG : [Database] Retrieving all records in TestTaken table: 48 records found | raw: ["[Database] Retrieving all records in TestTaken table: 48 records found"]
+[2026-02-17T03:08:45.181Z] [info] 2026-02-17T03:08:45.181Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "dark",
+  "override": "dark",
+  "themePreference": "system"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"dark","override":"dark","themePreference":"system"}]
+[2026-02-17T03:08:45.154Z] [debug] 2026-02-17T03:08:45.154Z | DEBUG : [Database] Finished retrieving all records in Substance table | raw: ["[Database] Finished retrieving all records in Substance table"]
+[2026-02-17T03:08:45.149Z] [debug] 2026-02-17T03:08:45.149Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Substance table: 14 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Substance table: 14 records found"]
+[2026-02-17T03:08:45.021Z] [info] 2026-02-17T03:08:45.021Z | INFO : [Database] Created record in CalendarEvent table | raw: ["[Database] Created record in CalendarEvent table"]
+[2026-02-17T03:08:45.010Z] [info] 2026-02-17T03:08:45.010Z | INFO : [Database] Created record in Encounter table | raw: ["[Database] Created record in Encounter table"]
+[2026-02-17T03:08:43.122Z] [debug] 2026-02-17T03:08:43.122Z | DEBUG : [Database] Finished retrieving all records in Tombstone table | raw: ["[Database] Finished retrieving all records in Tombstone table"]
+[2026-02-17T03:08:43.111Z] [debug] 2026-02-17T03:08:43.110Z | DEBUG : [Database] Retrieving all records in Tombstone table: 0 records found | raw: ["[Database] Retrieving all records in Tombstone table: 0 records found"]
+[2026-02-17T03:08:42.381Z] [debug] 2026-02-17T03:08:42.381Z | DEBUG : [iCloud] Resumed pending operations | raw: ["[iCloud] Resumed pending operations"]
+[2026-02-17T03:08:42.377Z] [debug] 2026-02-17T03:08:42.377Z | DEBUG : [iCloud] Resuming pending operations | raw: ["[iCloud] Resuming pending operations"]
+[2026-02-17T03:08:42.356Z] [debug] 2026-02-17T03:08:42.356Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-02-17T03:08:42.352Z] [debug] 2026-02-17T03:08:42.352Z | DEBUG : [Database] Retrieving all records in Encounter table: 474 records found | raw: ["[Database] Retrieving all records in Encounter table: 474 records found"]
+[2026-02-17T03:08:42.347Z] [debug] 2026-02-17T03:08:42.347Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-02-17T03:08:42.343Z] [debug] 2026-02-17T03:08:42.343Z | DEBUG : [Database] Retrieving all records in Treatment table: 6 records found | raw: ["[Database] Retrieving all records in Treatment table: 6 records found"]
+[2026-02-17T03:08:42.337Z] [debug] 2026-02-17T03:08:42.337Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-02-17T03:08:42.329Z] [debug] 2026-02-17T03:08:42.329Z | DEBUG : [Database] Retrieving all records in TestTaken table: 48 records found | raw: ["[Database] Retrieving all records in TestTaken table: 48 records found"]
+[2026-02-17T03:08:41.384Z] [debug] 2026-02-17T03:08:41.384Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-02-17T03:08:41.378Z] [debug] 2026-02-17T03:08:41.378Z | DEBUG : [Database] Retrieving all records in Encounter table: 474 records found | raw: ["[Database] Retrieving all records in Encounter table: 474 records found"]
+[2026-02-17T03:08:41.372Z] [debug] 2026-02-17T03:08:41.372Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-02-17T03:08:41.366Z] [debug] 2026-02-17T03:08:41.366Z | DEBUG : [Database] Retrieving all records in Treatment table: 6 records found | raw: ["[Database] Retrieving all records in Treatment table: 6 records found"]
+[2026-02-17T03:08:41.362Z] [debug] 2026-02-17T03:08:41.362Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-02-17T03:08:41.356Z] [debug] 2026-02-17T03:08:41.356Z | DEBUG : [Database] Retrieving all records in TestTaken table: 48 records found | raw: ["[Database] Retrieving all records in TestTaken table: 48 records found"]
+[2026-02-17T03:08:40.785Z] [debug] 2026-02-17T03:08:40.785Z | DEBUG : [iCloud] backupExists duration (ms) 
+1649 | raw: ["[iCloud] backupExists duration (ms)",1649]
+[2026-02-17T03:08:40.781Z] [debug] 2026-02-17T03:08:40.781Z | DEBUG : [iCloud] backupExists resolved (prewarm) | raw: ["[iCloud] backupExists resolved (prewarm)"]
+[2026-02-17T03:08:40.626Z] [debug] 2026-02-17T03:08:40.626Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-02-17T03:08:40.621Z] [debug] 2026-02-17T03:08:40.621Z | DEBUG : [Database] Retrieving all records in Encounter table: 474 records found | raw: ["[Database] Retrieving all records in Encounter table: 474 records found"]
+[2026-02-17T03:08:40.616Z] [debug] 2026-02-17T03:08:40.616Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-02-17T03:08:40.612Z] [debug] 2026-02-17T03:08:40.612Z | DEBUG : [Database] Retrieving all records in Treatment table: 6 records found | raw: ["[Database] Retrieving all records in Treatment table: 6 records found"]
+[2026-02-17T03:08:40.607Z] [debug] 2026-02-17T03:08:40.607Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-02-17T03:08:40.602Z] [debug] 2026-02-17T03:08:40.602Z | DEBUG : [Database] Retrieving all records in TestTaken table: 48 records found | raw: ["[Database] Retrieving all records in TestTaken table: 48 records found"]
+[2026-02-17T03:08:40.287Z] [debug] 2026-02-17T03:08:40.287Z | DEBUG : [Security] No credentials present in Keychain | raw: ["[Security] No credentials present in Keychain"]
+[2026-02-17T03:08:40.213Z] [debug] 2026-02-17T03:08:40.213Z | DEBUG : [FileSystem] Writing file at /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/bbbookStore/persist:root | raw: ["[FileSystem] Writing file at /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/bbbookStore/persist:root"]
+[2026-02-17T03:08:40.053Z] [debug] 2026-02-17T03:08:40.053Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-02-17T03:08:40.051Z] [debug] 2026-02-17T03:08:40.051Z | DEBUG : [Database] Retrieving all records in Encounter table: 474 records found | raw: ["[Database] Retrieving all records in Encounter table: 474 records found"]
+[2026-02-17T03:08:40.047Z] [debug] 2026-02-17T03:08:40.047Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-02-17T03:08:40.044Z] [debug] 2026-02-17T03:08:40.044Z | DEBUG : [Database] Retrieving all records in Treatment table: 6 records found | raw: ["[Database] Retrieving all records in Treatment table: 6 records found"]
+[2026-02-17T03:08:40.041Z] [debug] 2026-02-17T03:08:40.041Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-02-17T03:08:40.038Z] [debug] 2026-02-17T03:08:40.038Z | DEBUG : [Database] Retrieving all records in TestTaken table: 48 records found | raw: ["[Database] Retrieving all records in TestTaken table: 48 records found"]
+[2026-02-17T03:08:40.033Z] [debug] 2026-02-17T03:08:40.033Z | DEBUG : [FileSystem] Directory at /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/bbbookStore already exists. No need to create. | raw: ["[FileSystem] Directory at /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/bbbookStore already exists. No need to create."]
+[2026-02-17T03:08:40.029Z] [debug] 2026-02-17T03:08:40.029Z | DEBUG : [FileSystem] Directory at /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/bbbookStore exists | raw: ["[FileSystem] Directory at /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/bbbookStore exists"]
+[2026-02-17T03:08:40.026Z] [debug] 2026-02-17T03:08:40.026Z | DEBUG : [FileSystem] Checking if directory exists at /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/bbbookStore | raw: ["[FileSystem] Checking if directory exists at /var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/bbbookStore"]
+[2026-02-17T03:08:40.022Z] [info] 2026-02-17T03:08:40.022Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/bbbookStore/persist:root",
+  "size": 3055
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/D88633D3-12A7-48A8-BFEA-D5CC10A4E57A/Documents/BBBook/bbbookStore/persist:root","size":3055}]
