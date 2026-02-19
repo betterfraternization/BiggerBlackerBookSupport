@@ -1,0 +1,510 @@
+# BBBLogs.txt
+[2026-02-19T13:57:35.611Z] [debug] 2026-02-19T13:57:35.611Z | DEBUG : [images.utilities] Library selection cancelled | raw: ["[images.utilities] Library selection cancelled"]
+[2026-02-19T13:56:07.451Z] [debug] 2026-02-19T13:56:07.451Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-02-19T13:56:07.450Z] [debug] 2026-02-19T13:56:07.450Z | DEBUG : [Database] Retrieving all records in Encounter table: 20 records found | raw: ["[Database] Retrieving all records in Encounter table: 20 records found"]
+[2026-02-19T13:56:07.448Z] [debug] 2026-02-19T13:56:07.448Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-02-19T13:56:07.447Z] [debug] 2026-02-19T13:56:07.447Z | DEBUG : [Database] Retrieving all records in Treatment table: 4 records found | raw: ["[Database] Retrieving all records in Treatment table: 4 records found"]
+[2026-02-19T13:56:07.446Z] [debug] 2026-02-19T13:56:07.446Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-02-19T13:56:07.444Z] [debug] 2026-02-19T13:56:07.444Z | DEBUG : [Database] Retrieving all records in TestTaken table: 10 records found | raw: ["[Database] Retrieving all records in TestTaken table: 10 records found"]
+[2026-02-19T13:56:07.407Z] [debug] 2026-02-19T13:56:07.407Z | DEBUG : [iCloud] Resumed pending operations | raw: ["[iCloud] Resumed pending operations"]
+[2026-02-19T13:56:07.405Z] [debug] 2026-02-19T13:56:07.405Z | DEBUG : [iCloud] Resuming pending operations | raw: ["[iCloud] Resuming pending operations"]
+[2026-02-19T13:56:07.370Z] [debug] 2026-02-19T13:56:07.370Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-02-19T13:56:07.368Z] [debug] 2026-02-19T13:56:07.368Z | DEBUG : [Database] Retrieving all records in Encounter table: 20 records found | raw: ["[Database] Retrieving all records in Encounter table: 20 records found"]
+[2026-02-19T13:56:07.366Z] [debug] 2026-02-19T13:56:07.366Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-02-19T13:56:07.363Z] [debug] 2026-02-19T13:56:07.363Z | DEBUG : [Database] Retrieving all records in Treatment table: 4 records found | raw: ["[Database] Retrieving all records in Treatment table: 4 records found"]
+[2026-02-19T13:56:07.361Z] [debug] 2026-02-19T13:56:07.361Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-02-19T13:56:07.357Z] [debug] 2026-02-19T13:56:07.357Z | DEBUG : [Database] Retrieving all records in TestTaken table: 10 records found | raw: ["[Database] Retrieving all records in TestTaken table: 10 records found"]
+[2026-02-19T13:56:07.350Z] [info] 2026-02-19T13:56:07.350Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "system",
+  "themePreference": "system"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"system","themePreference":"system"}]
+[2026-02-19T13:56:02.336Z] [debug] 2026-02-19T13:56:02.336Z | DEBUG : [iCloud] Resumed pending operations | raw: ["[iCloud] Resumed pending operations"]
+[2026-02-19T13:56:02.335Z] [debug] 2026-02-19T13:56:02.335Z | DEBUG : [iCloud] Resuming pending operations | raw: ["[iCloud] Resuming pending operations"]
+[2026-02-19T13:56:02.315Z] [debug] 2026-02-19T13:56:02.315Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-02-19T13:56:02.314Z] [debug] 2026-02-19T13:56:02.314Z | DEBUG : [Database] Retrieving all records in Encounter table: 20 records found | raw: ["[Database] Retrieving all records in Encounter table: 20 records found"]
+[2026-02-19T13:56:02.312Z] [debug] 2026-02-19T13:56:02.312Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-02-19T13:56:02.311Z] [debug] 2026-02-19T13:56:02.311Z | DEBUG : [Database] Retrieving all records in Treatment table: 4 records found | raw: ["[Database] Retrieving all records in Treatment table: 4 records found"]
+[2026-02-19T13:56:02.309Z] [debug] 2026-02-19T13:56:02.309Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-02-19T13:56:02.304Z] [debug] 2026-02-19T13:56:02.304Z | DEBUG : [Database] Retrieving all records in TestTaken table: 10 records found | raw: ["[Database] Retrieving all records in TestTaken table: 10 records found"]
+[2026-02-19T13:56:02.295Z] [info] 2026-02-19T13:56:02.295Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "system",
+  "themePreference": "system"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"system","themePreference":"system"}]
+[2026-02-19T13:55:50.352Z] [debug] 2026-02-19T13:55:50.352Z | DEBUG : [iCloud] Resumed pending operations | raw: ["[iCloud] Resumed pending operations"]
+[2026-02-19T13:55:50.349Z] [debug] 2026-02-19T13:55:50.349Z | DEBUG : [iCloud] Resuming pending operations | raw: ["[iCloud] Resuming pending operations"]
+[2026-02-19T13:55:50.322Z] [debug] 2026-02-19T13:55:50.322Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-02-19T13:55:50.320Z] [debug] 2026-02-19T13:55:50.320Z | DEBUG : [Database] Retrieving all records in Encounter table: 20 records found | raw: ["[Database] Retrieving all records in Encounter table: 20 records found"]
+[2026-02-19T13:55:50.318Z] [debug] 2026-02-19T13:55:50.318Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-02-19T13:55:50.315Z] [debug] 2026-02-19T13:55:50.315Z | DEBUG : [Database] Retrieving all records in Treatment table: 4 records found | raw: ["[Database] Retrieving all records in Treatment table: 4 records found"]
+[2026-02-19T13:55:50.312Z] [debug] 2026-02-19T13:55:50.312Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-02-19T13:55:50.305Z] [debug] 2026-02-19T13:55:50.305Z | DEBUG : [Database] Retrieving all records in TestTaken table: 10 records found | raw: ["[Database] Retrieving all records in TestTaken table: 10 records found"]
+[2026-02-19T13:55:46.468Z] [debug] 2026-02-19T13:55:46.468Z | DEBUG : [iCloud] Resumed pending operations | raw: ["[iCloud] Resumed pending operations"]
+[2026-02-19T13:55:46.464Z] [debug] 2026-02-19T13:55:46.464Z | DEBUG : [iCloud] Resuming pending operations | raw: ["[iCloud] Resuming pending operations"]
+[2026-02-19T13:55:46.452Z] [debug] 2026-02-19T13:55:46.452Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-02-19T13:55:46.450Z] [debug] 2026-02-19T13:55:46.450Z | DEBUG : [Database] Retrieving all records in Encounter table: 20 records found | raw: ["[Database] Retrieving all records in Encounter table: 20 records found"]
+[2026-02-19T13:55:46.449Z] [debug] 2026-02-19T13:55:46.449Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-02-19T13:55:46.447Z] [debug] 2026-02-19T13:55:46.447Z | DEBUG : [Database] Retrieving all records in Treatment table: 4 records found | raw: ["[Database] Retrieving all records in Treatment table: 4 records found"]
+[2026-02-19T13:55:46.445Z] [debug] 2026-02-19T13:55:46.445Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-02-19T13:55:46.443Z] [debug] 2026-02-19T13:55:46.443Z | DEBUG : [Database] Retrieving all records in TestTaken table: 10 records found | raw: ["[Database] Retrieving all records in TestTaken table: 10 records found"]
+[2026-02-19T13:55:46.342Z] [debug] 2026-02-19T13:55:46.342Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-02-19T13:55:46.340Z] [debug] 2026-02-19T13:55:46.340Z | DEBUG : [Database] Retrieving all records in Encounter table: 20 records found | raw: ["[Database] Retrieving all records in Encounter table: 20 records found"]
+[2026-02-19T13:55:46.338Z] [debug] 2026-02-19T13:55:46.338Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-02-19T13:55:46.337Z] [debug] 2026-02-19T13:55:46.337Z | DEBUG : [Database] Retrieving all records in Treatment table: 4 records found | raw: ["[Database] Retrieving all records in Treatment table: 4 records found"]
+[2026-02-19T13:55:46.335Z] [debug] 2026-02-19T13:55:46.335Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-02-19T13:55:46.333Z] [debug] 2026-02-19T13:55:46.333Z | DEBUG : [Database] Retrieving all records in TestTaken table: 10 records found | raw: ["[Database] Retrieving all records in TestTaken table: 10 records found"]
+[2026-02-19T13:55:46.319Z] [info] 2026-02-19T13:55:46.319Z | INFO : [Database] Deleted record in Encounter table | raw: ["[Database] Deleted record in Encounter table"]
+[2026-02-19T13:55:46.310Z] [info] 2026-02-19T13:55:46.310Z | INFO : [Database] Deleted record in Encounter table | raw: ["[Database] Deleted record in Encounter table"]
+[2026-02-19T13:54:51.545Z] [debug] 2026-02-19T13:54:51.545Z | DEBUG : [iCloud] Resumed pending operations | raw: ["[iCloud] Resumed pending operations"]
+[2026-02-19T13:54:51.542Z] [debug] 2026-02-19T13:54:51.542Z | DEBUG : [iCloud] Resuming pending operations | raw: ["[iCloud] Resuming pending operations"]
+[2026-02-19T13:54:51.510Z] [debug] 2026-02-19T13:54:51.510Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-02-19T13:54:51.509Z] [debug] 2026-02-19T13:54:51.509Z | DEBUG : [Database] Retrieving all records in Encounter table: 20 records found | raw: ["[Database] Retrieving all records in Encounter table: 20 records found"]
+[2026-02-19T13:54:51.507Z] [debug] 2026-02-19T13:54:51.507Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-02-19T13:54:51.505Z] [debug] 2026-02-19T13:54:51.505Z | DEBUG : [Database] Retrieving all records in Treatment table: 4 records found | raw: ["[Database] Retrieving all records in Treatment table: 4 records found"]
+[2026-02-19T13:54:51.503Z] [debug] 2026-02-19T13:54:51.503Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-02-19T13:54:51.500Z] [debug] 2026-02-19T13:54:51.500Z | DEBUG : [Database] Retrieving all records in TestTaken table: 10 records found | raw: ["[Database] Retrieving all records in TestTaken table: 10 records found"]
+[2026-02-19T13:54:51.338Z] [debug] 2026-02-19T13:54:51.338Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-02-19T13:54:51.336Z] [debug] 2026-02-19T13:54:51.336Z | DEBUG : [Database] Retrieving all records in Encounter table: 20 records found | raw: ["[Database] Retrieving all records in Encounter table: 20 records found"]
+[2026-02-19T13:54:51.332Z] [debug] 2026-02-19T13:54:51.332Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-02-19T13:54:51.330Z] [debug] 2026-02-19T13:54:51.330Z | DEBUG : [Database] Retrieving all records in Treatment table: 4 records found | raw: ["[Database] Retrieving all records in Treatment table: 4 records found"]
+[2026-02-19T13:54:51.329Z] [debug] 2026-02-19T13:54:51.329Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-02-19T13:54:51.327Z] [debug] 2026-02-19T13:54:51.327Z | DEBUG : [Database] Retrieving all records in TestTaken table: 10 records found | raw: ["[Database] Retrieving all records in TestTaken table: 10 records found"]
+[2026-02-19T13:54:51.309Z] [info] 2026-02-19T13:54:51.309Z | INFO : [Database] Created record in Friend table | raw: ["[Database] Created record in Friend table"]
+[2026-02-19T13:54:34.860Z] [info] 2026-02-19T13:54:34.860Z | INFO : [Validation Errors] 
+{
+  "location": {
+    "location": {
+      "coords": {
+        "latitude": {
+          "message": "location.location.coords.latitude must be defined",
+          "type": "optionality"
+        },
+        "longitude": {
+          "message": "location.location.coords.longitude must be defined",
+          "type": "optionality"
+        }
+      }
+    }
+  }
+}
+
+[] | raw: ["[Validation Errors]",{"location":{"location":{"coords":{"latitude":{"message":"location.location.coords.latitude must be defined","type":"optionality"},"longitude":{"message":"location.location.coords.longitude must be defined","type":"optionality"}}}}},[]]
+[2026-02-19T13:54:03.363Z] [debug] 2026-02-19T13:54:03.363Z | DEBUG : [AxiosHttpClient] Received response 
+{
+  "baseURL": "https://api.bbbook.app",
+  "method": "GET",
+  "status": 200,
+  "url": "https://api.mapbox.com/geocoding/v5/mapbox.places/-122.40937597638049,37.777025372942255.json"
+} | raw: ["[AxiosHttpClient] Received response",{"baseURL":"https://api.bbbook.app","method":"GET","status":200,"url":"https://api.mapbox.com/geocoding/v5/mapbox.places/-122.40937597638049,37.777025372942255.json"}]
+[2026-02-19T13:54:03.102Z] [debug] 2026-02-19T13:54:03.102Z | DEBUG : [AxiosHttpClient] Sending request 
+{
+  "baseURL": "https://api.bbbook.app",
+  "method": "GET",
+  "params": {
+    "access_token": "[REDACTED]",
+    "types": "place",
+    "limit": "1",
+    "proximity": "-122.40937597638049,37.777025372942255"
+  },
+  "url": "https://api.mapbox.com/geocoding/v5/mapbox.places/-122.40937597638049,37.777025372942255.json"
+} | raw: ["[AxiosHttpClient] Sending request",{"baseURL":"https://api.bbbook.app","method":"GET","params":{"access_token":"[REDACTED]","types":"place","limit":"1","proximity":"-122.40937597638049,37.777025372942255"},"url":"https://api.mapbox.com/geocoding/v5/mapbox.places/-122.40937597638049,37.777025372942255.json"}]
+[2026-02-19T13:54:03.098Z] [debug] 2026-02-19T13:54:03.097Z | DEBUG : [GeocoderWeb] fetchCitiesFromCoords request 
+{
+  "limit": 1,
+  "requestUrl": "https://api.mapbox.com/geocoding/v5/mapbox.places/-122.40937597638049,37.777025372942255.json",
+  "url": "-122.40937597638049,37.777025372942255.json"
+} | raw: ["[GeocoderWeb] fetchCitiesFromCoords request",{"limit":1,"requestUrl":"https://api.mapbox.com/geocoding/v5/mapbox.places/-122.40937597638049,37.777025372942255.json","url":"-122.40937597638049,37.777025372942255.json"}]
+[2026-02-19T13:53:57.064Z] [debug] 2026-02-19T13:53:57.064Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-02-19T13:53:57.063Z] [debug] 2026-02-19T13:53:57.063Z | DEBUG : [Database] Retrieving all records in Encounter table: 20 records found | raw: ["[Database] Retrieving all records in Encounter table: 20 records found"]
+[2026-02-19T13:53:57.062Z] [debug] 2026-02-19T13:53:57.062Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-02-19T13:53:57.061Z] [debug] 2026-02-19T13:53:57.061Z | DEBUG : [Database] Retrieving all records in Treatment table: 4 records found | raw: ["[Database] Retrieving all records in Treatment table: 4 records found"]
+[2026-02-19T13:53:57.060Z] [debug] 2026-02-19T13:53:57.060Z | DEBUG : [Database] Retrieving all records in TestTaken table: 10 records found | raw: ["[Database] Retrieving all records in TestTaken table: 10 records found"]
+[2026-02-19T13:53:57.060Z] [debug] 2026-02-19T13:53:57.060Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-02-19T13:53:57.011Z] [debug] 2026-02-19T13:53:57.011Z | DEBUG : [iCloud] Resumed pending operations | raw: ["[iCloud] Resumed pending operations"]
+[2026-02-19T13:53:57.009Z] [debug] 2026-02-19T13:53:57.009Z | DEBUG : [iCloud] Resuming pending operations | raw: ["[iCloud] Resuming pending operations"]
+[2026-02-19T13:53:56.886Z] [debug] 2026-02-19T13:53:56.886Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-02-19T13:53:56.884Z] [debug] 2026-02-19T13:53:56.884Z | DEBUG : [Database] Retrieving all records in Encounter table: 20 records found | raw: ["[Database] Retrieving all records in Encounter table: 20 records found"]
+[2026-02-19T13:53:56.882Z] [debug] 2026-02-19T13:53:56.882Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-02-19T13:53:56.880Z] [debug] 2026-02-19T13:53:56.880Z | DEBUG : [Database] Retrieving all records in Treatment table: 4 records found | raw: ["[Database] Retrieving all records in Treatment table: 4 records found"]
+[2026-02-19T13:53:56.878Z] [debug] 2026-02-19T13:53:56.878Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-02-19T13:53:56.877Z] [debug] 2026-02-19T13:53:56.877Z | DEBUG : [Database] Retrieving all records in TestTaken table: 10 records found | raw: ["[Database] Retrieving all records in TestTaken table: 10 records found"]
+[2026-02-19T13:53:56.871Z] [info] 2026-02-19T13:53:56.871Z | INFO : [Database] Created record in Friend table | raw: ["[Database] Created record in Friend table"]
+[2026-02-19T13:53:56.865Z] [info] 2026-02-19T13:53:56.865Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "dark",
+  "override": "dark",
+  "themePreference": "system"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"dark","override":"dark","themePreference":"system"}]
+[2026-02-19T13:53:50.822Z] [debug] 2026-02-19T13:53:50.822Z | DEBUG : [iCloud] Resumed pending operations | raw: ["[iCloud] Resumed pending operations"]
+[2026-02-19T13:53:50.820Z] [debug] 2026-02-19T13:53:50.820Z | DEBUG : [iCloud] Resuming pending operations | raw: ["[iCloud] Resuming pending operations"]
+[2026-02-19T13:53:50.777Z] [debug] 2026-02-19T13:53:50.777Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-02-19T13:53:50.774Z] [debug] 2026-02-19T13:53:50.774Z | DEBUG : [Database] Retrieving all records in Encounter table: 20 records found | raw: ["[Database] Retrieving all records in Encounter table: 20 records found"]
+[2026-02-19T13:53:50.772Z] [debug] 2026-02-19T13:53:50.772Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-02-19T13:53:50.769Z] [debug] 2026-02-19T13:53:50.769Z | DEBUG : [Database] Retrieving all records in Treatment table: 4 records found | raw: ["[Database] Retrieving all records in Treatment table: 4 records found"]
+[2026-02-19T13:53:50.766Z] [debug] 2026-02-19T13:53:50.766Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-02-19T13:53:50.763Z] [debug] 2026-02-19T13:53:50.763Z | DEBUG : [Database] Retrieving all records in TestTaken table: 10 records found | raw: ["[Database] Retrieving all records in TestTaken table: 10 records found"]
+[2026-02-19T13:53:50.712Z] [debug] 2026-02-19T13:53:50.712Z | DEBUG : [LOCATIONDELAY] navigation dispatched 
+{
+  "locationId": "San FranciscoCAUS",
+  "screen": "EncounterLocationPicker",
+  "totalDurationMs": 7
+} | raw: ["[LOCATIONDELAY] navigation dispatched",{"locationId":"San FranciscoCAUS","screen":"EncounterLocationPicker","totalDurationMs":7}]
+[2026-02-19T13:53:50.709Z] [debug] 2026-02-19T13:53:50.709Z | DEBUG : [LOCATIONDELAY] user location saved 
+{
+  "locationId": "San FranciscoCAUS",
+  "screen": "EncounterLocationPicker",
+  "writeDurationMs": 1
+} | raw: ["[LOCATIONDELAY] user location saved",{"locationId":"San FranciscoCAUS","screen":"EncounterLocationPicker","writeDurationMs":1}]
+[2026-02-19T13:53:50.705Z] [debug] 2026-02-19T13:53:50.705Z | DEBUG : [LOCATIONDELAY] onSavePress start 
+{
+  "locationId": "San FranciscoCAUS",
+  "screen": "EncounterLocationPicker"
+} | raw: ["[LOCATIONDELAY] onSavePress start",{"locationId":"San FranciscoCAUS","screen":"EncounterLocationPicker"}]
+[2026-02-19T13:53:50.699Z] [debug] 2026-02-19T13:53:50.699Z | DEBUG : [LOCATIONDELAY] location selected 
+{
+  "locationId": "San FranciscoCAUS",
+  "formattedAddress": "San Francisco, CA, US "
+} | raw: ["[LOCATIONDELAY] location selected",{"locationId":"San FranciscoCAUS","formattedAddress":"San Francisco, CA, US "}]
+[2026-02-19T13:53:47.323Z] [debug] 2026-02-19T13:53:47.323Z | DEBUG : Fetched locations from geocoder 
+[
+  {
+    "address": "",
+    "createdAt": "2026-02-19T13:53:47.323Z",
+    "id": "San FranciscoCAUS",
+    "isDefault": false,
+    "location": {
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "US",
+      "coords": {
+        "latitude": 37.779238,
+        "longitude": -122.419359
+      }
+    },
+    "name": "San Francisco",
+    "source": "geocoder",
+    "updatedAt": "2026-02-19T13:53:47.323Z"
+  }
+] | raw: ["Fetched locations from geocoder",[{"address":"","createdAt":"2026-02-19T13:53:47.323Z","id":"San FranciscoCAUS","isDefault":false,"location":{"city":"San Francisco","region":"CA","country":"US","coords":{"latitude":37.779238,"longitude":-122.419359}},"name":"San Francisco","source":"geocoder","updatedAt":"2026-02-19T13:53:47.323Z"}]]
+[2026-02-19T13:53:47.322Z] [debug] 2026-02-19T13:53:47.322Z | DEBUG : [AxiosHttpClient] Received response 
+{
+  "baseURL": "https://api.bbbook.app",
+  "method": "GET",
+  "status": 200,
+  "url": "https://api.mapbox.com/geocoding/v5/mapbox.places/-122.40937572580427,37.77702529678731.json"
+} | raw: ["[AxiosHttpClient] Received response",{"baseURL":"https://api.bbbook.app","method":"GET","status":200,"url":"https://api.mapbox.com/geocoding/v5/mapbox.places/-122.40937572580427,37.77702529678731.json"}]
+[2026-02-19T13:53:47.302Z] [debug] 2026-02-19T13:53:47.302Z | DEBUG : Fetched locations from geocoder 
+[
+  {
+    "address": "",
+    "createdAt": "2026-02-19T13:53:47.302Z",
+    "id": "San FranciscoCAUS",
+    "isDefault": false,
+    "location": {
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "US",
+      "coords": {
+        "latitude": 37.779238,
+        "longitude": -122.419359
+      }
+    },
+    "name": "San Francisco",
+    "source": "geocoder",
+    "updatedAt": "2026-02-19T13:53:47.302Z"
+  }
+] | raw: ["Fetched locations from geocoder",[{"address":"","createdAt":"2026-02-19T13:53:47.302Z","id":"San FranciscoCAUS","isDefault":false,"location":{"city":"San Francisco","region":"CA","country":"US","coords":{"latitude":37.779238,"longitude":-122.419359}},"name":"San Francisco","source":"geocoder","updatedAt":"2026-02-19T13:53:47.302Z"}]]
+[2026-02-19T13:53:47.301Z] [debug] 2026-02-19T13:53:47.301Z | DEBUG : [AxiosHttpClient] Received response 
+{
+  "baseURL": "https://api.bbbook.app",
+  "method": "GET",
+  "status": 200,
+  "url": "https://api.mapbox.com/geocoding/v5/mapbox.places/-122.40937598814271,37.77702527603552.json"
+} | raw: ["[AxiosHttpClient] Received response",{"baseURL":"https://api.bbbook.app","method":"GET","status":200,"url":"https://api.mapbox.com/geocoding/v5/mapbox.places/-122.40937598814271,37.77702527603552.json"}]
+[2026-02-19T13:53:47.276Z] [debug] 2026-02-19T13:53:47.276Z | DEBUG : [AxiosHttpClient] Sending request 
+{
+  "baseURL": "https://api.bbbook.app",
+  "method": "GET",
+  "params": {
+    "access_token": "[REDACTED]",
+    "types": "place",
+    "limit": "10",
+    "proximity": "-122.40937572580427,37.77702529678731"
+  },
+  "url": "https://api.mapbox.com/geocoding/v5/mapbox.places/-122.40937572580427,37.77702529678731.json"
+} | raw: ["[AxiosHttpClient] Sending request",{"baseURL":"https://api.bbbook.app","method":"GET","params":{"access_token":"[REDACTED]","types":"place","limit":"10","proximity":"-122.40937572580427,37.77702529678731"},"url":"https://api.mapbox.com/geocoding/v5/mapbox.places/-122.40937572580427,37.77702529678731.json"}]
+[2026-02-19T13:53:47.275Z] [debug] 2026-02-19T13:53:47.275Z | DEBUG : [GeocoderWeb] fetchCitiesFromCoords request 
+{
+  "limit": 10,
+  "requestUrl": "https://api.mapbox.com/geocoding/v5/mapbox.places/-122.40937572580427,37.77702529678731.json",
+  "url": "-122.40937572580427,37.77702529678731.json"
+} | raw: ["[GeocoderWeb] fetchCitiesFromCoords request",{"limit":10,"requestUrl":"https://api.mapbox.com/geocoding/v5/mapbox.places/-122.40937572580427,37.77702529678731.json","url":"-122.40937572580427,37.77702529678731.json"}]
+[2026-02-19T13:53:47.252Z] [debug] 2026-02-19T13:53:47.252Z | DEBUG : [AxiosHttpClient] Sending request 
+{
+  "baseURL": "https://api.bbbook.app",
+  "method": "GET",
+  "params": {
+    "access_token": "[REDACTED]",
+    "types": "place",
+    "limit": "10",
+    "proximity": "-122.40937598814271,37.77702527603552"
+  },
+  "url": "https://api.mapbox.com/geocoding/v5/mapbox.places/-122.40937598814271,37.77702527603552.json"
+} | raw: ["[AxiosHttpClient] Sending request",{"baseURL":"https://api.bbbook.app","method":"GET","params":{"access_token":"[REDACTED]","types":"place","limit":"10","proximity":"-122.40937598814271,37.77702527603552"},"url":"https://api.mapbox.com/geocoding/v5/mapbox.places/-122.40937598814271,37.77702527603552.json"}]
+[2026-02-19T13:53:47.250Z] [debug] 2026-02-19T13:53:47.250Z | DEBUG : [GeocoderWeb] fetchCitiesFromCoords request 
+{
+  "limit": 10,
+  "requestUrl": "https://api.mapbox.com/geocoding/v5/mapbox.places/-122.40937598814271,37.77702527603552.json",
+  "url": "-122.40937598814271,37.77702527603552.json"
+} | raw: ["[GeocoderWeb] fetchCitiesFromCoords request",{"limit":10,"requestUrl":"https://api.mapbox.com/geocoding/v5/mapbox.places/-122.40937598814271,37.77702527603552.json","url":"-122.40937598814271,37.77702527603552.json"}]
+[2026-02-19T13:53:47.228Z] [debug] 2026-02-19T13:53:47.228Z | DEBUG : [iCloud] Resumed pending operations | raw: ["[iCloud] Resumed pending operations"]
+[2026-02-19T13:53:47.225Z] [debug] 2026-02-19T13:53:47.225Z | DEBUG : [iCloud] Resuming pending operations | raw: ["[iCloud] Resuming pending operations"]
+[2026-02-19T13:53:47.173Z] [debug] 2026-02-19T13:53:47.173Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-02-19T13:53:47.171Z] [debug] 2026-02-19T13:53:47.171Z | DEBUG : [Database] Retrieving all records in Encounter table: 20 records found | raw: ["[Database] Retrieving all records in Encounter table: 20 records found"]
+[2026-02-19T13:53:47.170Z] [debug] 2026-02-19T13:53:47.170Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-02-19T13:53:47.168Z] [debug] 2026-02-19T13:53:47.168Z | DEBUG : [Database] Retrieving all records in Treatment table: 4 records found | raw: ["[Database] Retrieving all records in Treatment table: 4 records found"]
+[2026-02-19T13:53:47.167Z] [debug] 2026-02-19T13:53:47.167Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-02-19T13:53:47.165Z] [debug] 2026-02-19T13:53:47.165Z | DEBUG : [Database] Retrieving all records in TestTaken table: 10 records found | raw: ["[Database] Retrieving all records in TestTaken table: 10 records found"]
+[2026-02-19T13:53:47.161Z] [info] 2026-02-19T13:53:47.161Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "system",
+  "themePreference": "system"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"system","themePreference":"system"}]
+[2026-02-19T13:53:47.157Z] [info] 2026-02-19T13:53:47.157Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "dark",
+  "override": "dark",
+  "themePreference": "system"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"dark","override":"dark","themePreference":"system"}]
+[2026-02-19T13:53:47.096Z] [info] 2026-02-19T13:53:47.096Z | INFO : FormFieldLocation: opening location picker | raw: ["FormFieldLocation: opening location picker"]
+[2026-02-19T13:53:47.090Z] [info] 2026-02-19T13:53:47.090Z | INFO : FormFieldLocation: press received | raw: ["FormFieldLocation: press received"]
+[2026-02-19T13:53:37.483Z] [debug] 2026-02-19T13:53:37.483Z | DEBUG : [iCloud] Resumed pending operations | raw: ["[iCloud] Resumed pending operations"]
+[2026-02-19T13:53:37.481Z] [debug] 2026-02-19T13:53:37.481Z | DEBUG : [iCloud] Resuming pending operations | raw: ["[iCloud] Resuming pending operations"]
+[2026-02-19T13:53:37.433Z] [debug] 2026-02-19T13:53:37.433Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-02-19T13:53:37.431Z] [debug] 2026-02-19T13:53:37.431Z | DEBUG : [Database] Retrieving all records in Encounter table: 20 records found | raw: ["[Database] Retrieving all records in Encounter table: 20 records found"]
+[2026-02-19T13:53:37.429Z] [debug] 2026-02-19T13:53:37.429Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-02-19T13:53:37.426Z] [debug] 2026-02-19T13:53:37.426Z | DEBUG : [Database] Retrieving all records in Treatment table: 4 records found | raw: ["[Database] Retrieving all records in Treatment table: 4 records found"]
+[2026-02-19T13:53:37.423Z] [debug] 2026-02-19T13:53:37.423Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-02-19T13:53:37.417Z] [debug] 2026-02-19T13:53:37.417Z | DEBUG : [Database] Retrieving all records in TestTaken table: 10 records found | raw: ["[Database] Retrieving all records in TestTaken table: 10 records found"]
+[2026-02-19T13:53:31.929Z] [debug] 2026-02-19T13:53:31.929Z | DEBUG : [iCloud] Resumed pending operations | raw: ["[iCloud] Resumed pending operations"]
+[2026-02-19T13:53:31.926Z] [debug] 2026-02-19T13:53:31.926Z | DEBUG : [iCloud] Resuming pending operations | raw: ["[iCloud] Resuming pending operations"]
+[2026-02-19T13:53:31.882Z] [debug] 2026-02-19T13:53:31.882Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-02-19T13:53:31.880Z] [debug] 2026-02-19T13:53:31.880Z | DEBUG : [Database] Retrieving all records in Encounter table: 20 records found | raw: ["[Database] Retrieving all records in Encounter table: 20 records found"]
+[2026-02-19T13:53:31.877Z] [debug] 2026-02-19T13:53:31.877Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-02-19T13:53:31.875Z] [debug] 2026-02-19T13:53:31.875Z | DEBUG : [Database] Retrieving all records in Treatment table: 4 records found | raw: ["[Database] Retrieving all records in Treatment table: 4 records found"]
+[2026-02-19T13:53:31.871Z] [debug] 2026-02-19T13:53:31.871Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-02-19T13:53:31.864Z] [debug] 2026-02-19T13:53:31.864Z | DEBUG : [Database] Retrieving all records in TestTaken table: 10 records found | raw: ["[Database] Retrieving all records in TestTaken table: 10 records found"]
+[2026-02-19T13:53:26.139Z] [info] 2026-02-19T13:53:26.139Z | INFO : [Validation Errors] 
+{
+  "location": {
+    "location": {
+      "coords": {
+        "latitude": {
+          "message": "location.location.coords.latitude must be defined",
+          "type": "optionality"
+        },
+        "longitude": {
+          "message": "location.location.coords.longitude must be defined",
+          "type": "optionality"
+        }
+      }
+    }
+  }
+}
+
+[] | raw: ["[Validation Errors]",{"location":{"location":{"coords":{"latitude":{"message":"location.location.coords.latitude must be defined","type":"optionality"},"longitude":{"message":"location.location.coords.longitude must be defined","type":"optionality"}}}}},[]]
+[2026-02-19T13:53:04.503Z] [debug] 2026-02-19T13:53:04.503Z | DEBUG : [AxiosHttpClient] Received response 
+{
+  "baseURL": "https://api.bbbook.app",
+  "method": "GET",
+  "status": 200,
+  "url": "https://api.mapbox.com/geocoding/v5/mapbox.places/-122.40937578408321,37.77702531443763.json"
+} | raw: ["[AxiosHttpClient] Received response",{"baseURL":"https://api.bbbook.app","method":"GET","status":200,"url":"https://api.mapbox.com/geocoding/v5/mapbox.places/-122.40937578408321,37.77702531443763.json"}]
+[2026-02-19T13:53:04.437Z] [debug] 2026-02-19T13:53:04.437Z | DEBUG : [AxiosHttpClient] Sending request 
+{
+  "baseURL": "https://api.bbbook.app",
+  "method": "GET",
+  "params": {
+    "access_token": "[REDACTED]",
+    "types": "place",
+    "limit": "1",
+    "proximity": "-122.40937578408321,37.77702531443763"
+  },
+  "url": "https://api.mapbox.com/geocoding/v5/mapbox.places/-122.40937578408321,37.77702531443763.json"
+} | raw: ["[AxiosHttpClient] Sending request",{"baseURL":"https://api.bbbook.app","method":"GET","params":{"access_token":"[REDACTED]","types":"place","limit":"1","proximity":"-122.40937578408321,37.77702531443763"},"url":"https://api.mapbox.com/geocoding/v5/mapbox.places/-122.40937578408321,37.77702531443763.json"}]
+[2026-02-19T13:53:04.434Z] [debug] 2026-02-19T13:53:04.434Z | DEBUG : [GeocoderWeb] fetchCitiesFromCoords request 
+{
+  "limit": 1,
+  "requestUrl": "https://api.mapbox.com/geocoding/v5/mapbox.places/-122.40937578408321,37.77702531443763.json",
+  "url": "-122.40937578408321,37.77702531443763.json"
+} | raw: ["[GeocoderWeb] fetchCitiesFromCoords request",{"limit":1,"requestUrl":"https://api.mapbox.com/geocoding/v5/mapbox.places/-122.40937578408321,37.77702531443763.json","url":"-122.40937578408321,37.77702531443763.json"}]
+[2026-02-19T13:53:04.314Z] [debug] 2026-02-19T13:53:04.314Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-02-19T13:53:04.313Z] [debug] 2026-02-19T13:53:04.313Z | DEBUG : [Database] Retrieving all records in Encounter table: 20 records found | raw: ["[Database] Retrieving all records in Encounter table: 20 records found"]
+[2026-02-19T13:53:04.312Z] [debug] 2026-02-19T13:53:04.312Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-02-19T13:53:04.311Z] [debug] 2026-02-19T13:53:04.311Z | DEBUG : [Database] Retrieving all records in Treatment table: 4 records found | raw: ["[Database] Retrieving all records in Treatment table: 4 records found"]
+[2026-02-19T13:53:04.310Z] [debug] 2026-02-19T13:53:04.310Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-02-19T13:53:04.309Z] [debug] 2026-02-19T13:53:04.308Z | DEBUG : [Database] Retrieving all records in TestTaken table: 10 records found | raw: ["[Database] Retrieving all records in TestTaken table: 10 records found"]
+[2026-02-19T13:53:04.266Z] [debug] 2026-02-19T13:53:04.266Z | DEBUG : [iCloud] Resumed pending operations | raw: ["[iCloud] Resumed pending operations"]
+[2026-02-19T13:53:04.264Z] [debug] 2026-02-19T13:53:04.264Z | DEBUG : [iCloud] Resuming pending operations | raw: ["[iCloud] Resuming pending operations"]
+[2026-02-19T13:53:04.230Z] [debug] 2026-02-19T13:53:04.230Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-02-19T13:53:04.227Z] [debug] 2026-02-19T13:53:04.227Z | DEBUG : [Database] Retrieving all records in Encounter table: 20 records found | raw: ["[Database] Retrieving all records in Encounter table: 20 records found"]
+[2026-02-19T13:53:04.226Z] [debug] 2026-02-19T13:53:04.226Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-02-19T13:53:04.224Z] [debug] 2026-02-19T13:53:04.224Z | DEBUG : [Database] Retrieving all records in Treatment table: 4 records found | raw: ["[Database] Retrieving all records in Treatment table: 4 records found"]
+[2026-02-19T13:53:04.222Z] [debug] 2026-02-19T13:53:04.222Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-02-19T13:53:04.220Z] [debug] 2026-02-19T13:53:04.220Z | DEBUG : [Database] Retrieving all records in TestTaken table: 10 records found | raw: ["[Database] Retrieving all records in TestTaken table: 10 records found"]
+[2026-02-19T13:53:04.216Z] [debug] 2026-02-19T13:53:04.216Z | DEBUG : [iCloud] Resumed pending operations | raw: ["[iCloud] Resumed pending operations"]
+[2026-02-19T13:53:04.213Z] [debug] 2026-02-19T13:53:04.213Z | DEBUG : [iCloud] Resuming pending operations | raw: ["[iCloud] Resuming pending operations"]
+[2026-02-19T13:53:04.087Z] [debug] 2026-02-19T13:53:04.087Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-02-19T13:53:04.085Z] [debug] 2026-02-19T13:53:04.085Z | DEBUG : [Database] Retrieving all records in Encounter table: 20 records found | raw: ["[Database] Retrieving all records in Encounter table: 20 records found"]
+[2026-02-19T13:53:04.083Z] [debug] 2026-02-19T13:53:04.083Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-02-19T13:53:04.081Z] [debug] 2026-02-19T13:53:04.081Z | DEBUG : [Database] Retrieving all records in Treatment table: 4 records found | raw: ["[Database] Retrieving all records in Treatment table: 4 records found"]
+[2026-02-19T13:53:04.079Z] [debug] 2026-02-19T13:53:04.079Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-02-19T13:53:04.078Z] [debug] 2026-02-19T13:53:04.078Z | DEBUG : [Database] Retrieving all records in TestTaken table: 10 records found | raw: ["[Database] Retrieving all records in TestTaken table: 10 records found"]
+[2026-02-19T13:53:04.072Z] [info] 2026-02-19T13:53:04.072Z | INFO : [Database] Created record in Friend table | raw: ["[Database] Created record in Friend table"]
+[2026-02-19T13:53:04.067Z] [info] 2026-02-19T13:53:04.067Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "dark",
+  "override": "dark",
+  "themePreference": "system"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"dark","override":"dark","themePreference":"system"}]
+[2026-02-19T13:53:03.981Z] [debug] 2026-02-19T13:53:03.981Z | DEBUG : [LOCATIONDELAY] navigation dispatched 
+{
+  "locationId": "San FranciscoCAUS",
+  "screen": "EncounterAddFriendLocationPicker",
+  "totalDurationMs": 27
+} | raw: ["[LOCATIONDELAY] navigation dispatched",{"locationId":"San FranciscoCAUS","screen":"EncounterAddFriendLocationPicker","totalDurationMs":27}]
+[2026-02-19T13:53:03.957Z] [debug] 2026-02-19T13:53:03.957Z | DEBUG : [LOCATIONDELAY] user location saved 
+{
+  "locationId": "San FranciscoCAUS",
+  "screen": "EncounterAddFriendLocationPicker",
+  "writeDurationMs": 0
+} | raw: ["[LOCATIONDELAY] user location saved",{"locationId":"San FranciscoCAUS","screen":"EncounterAddFriendLocationPicker","writeDurationMs":0}]
+[2026-02-19T13:53:03.954Z] [debug] 2026-02-19T13:53:03.954Z | DEBUG : [LOCATIONDELAY] onSavePress start 
+{
+  "locationId": "San FranciscoCAUS",
+  "screen": "EncounterAddFriendLocationPicker"
+} | raw: ["[LOCATIONDELAY] onSavePress start",{"locationId":"San FranciscoCAUS","screen":"EncounterAddFriendLocationPicker"}]
+[2026-02-19T13:53:03.949Z] [debug] 2026-02-19T13:53:03.949Z | DEBUG : [LOCATIONDELAY] location selected 
+{
+  "locationId": "San FranciscoCAUS",
+  "formattedAddress": "San Francisco, CA, US "
+} | raw: ["[LOCATIONDELAY] location selected",{"locationId":"San FranciscoCAUS","formattedAddress":"San Francisco, CA, US "}]
+[2026-02-19T13:53:02.840Z] [debug] 2026-02-19T13:53:02.840Z | DEBUG : Fetched locations from geocoder 
+[
+  {
+    "address": "",
+    "createdAt": "2026-02-19T13:53:02.840Z",
+    "id": "San FranciscoCAUS",
+    "isDefault": false,
+    "location": {
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "US",
+      "coords": {
+        "latitude": 37.779238,
+        "longitude": -122.419359
+      }
+    },
+    "name": "San Francisco",
+    "source": "geocoder",
+    "updatedAt": "2026-02-19T13:53:02.840Z"
+  }
+] | raw: ["Fetched locations from geocoder",[{"address":"","createdAt":"2026-02-19T13:53:02.840Z","id":"San FranciscoCAUS","isDefault":false,"location":{"city":"San Francisco","region":"CA","country":"US","coords":{"latitude":37.779238,"longitude":-122.419359}},"name":"San Francisco","source":"geocoder","updatedAt":"2026-02-19T13:53:02.840Z"}]]
+[2026-02-19T13:53:02.838Z] [debug] 2026-02-19T13:53:02.837Z | DEBUG : [AxiosHttpClient] Received response 
+{
+  "baseURL": "https://api.bbbook.app",
+  "method": "GET",
+  "status": 200,
+  "url": "https://api.mapbox.com/geocoding/v5/mapbox.places/-122.40937578408321,37.77702531443763.json"
+} | raw: ["[AxiosHttpClient] Received response",{"baseURL":"https://api.bbbook.app","method":"GET","status":200,"url":"https://api.mapbox.com/geocoding/v5/mapbox.places/-122.40937578408321,37.77702531443763.json"}]
+[2026-02-19T13:53:02.772Z] [debug] 2026-02-19T13:53:02.772Z | DEBUG : [AxiosHttpClient] Sending request 
+{
+  "baseURL": "https://api.bbbook.app",
+  "method": "GET",
+  "params": {
+    "access_token": "[REDACTED]",
+    "types": "place",
+    "limit": "10",
+    "proximity": "-122.40937578408321,37.77702531443763"
+  },
+  "url": "https://api.mapbox.com/geocoding/v5/mapbox.places/-122.40937578408321,37.77702531443763.json"
+} | raw: ["[AxiosHttpClient] Sending request",{"baseURL":"https://api.bbbook.app","method":"GET","params":{"access_token":"[REDACTED]","types":"place","limit":"10","proximity":"-122.40937578408321,37.77702531443763"},"url":"https://api.mapbox.com/geocoding/v5/mapbox.places/-122.40937578408321,37.77702531443763.json"}]
+[2026-02-19T13:53:02.770Z] [debug] 2026-02-19T13:53:02.770Z | DEBUG : [GeocoderWeb] fetchCitiesFromCoords request 
+{
+  "limit": 10,
+  "requestUrl": "https://api.mapbox.com/geocoding/v5/mapbox.places/-122.40937578408321,37.77702531443763.json",
+  "url": "-122.40937578408321,37.77702531443763.json"
+} | raw: ["[GeocoderWeb] fetchCitiesFromCoords request",{"limit":10,"requestUrl":"https://api.mapbox.com/geocoding/v5/mapbox.places/-122.40937578408321,37.77702531443763.json","url":"-122.40937578408321,37.77702531443763.json"}]
+[2026-02-19T13:53:02.717Z] [debug] 2026-02-19T13:53:02.717Z | DEBUG : Fetched locations from geocoder 
+[] | raw: ["Fetched locations from geocoder",[]]
+[2026-02-19T13:53:02.715Z] [debug] 2026-02-19T13:53:02.715Z | DEBUG : [iCloud] Resumed pending operations | raw: ["[iCloud] Resumed pending operations"]
+[2026-02-19T13:53:02.712Z] [debug] 2026-02-19T13:53:02.712Z | DEBUG : [iCloud] Resuming pending operations | raw: ["[iCloud] Resuming pending operations"]
+[2026-02-19T13:53:02.662Z] [debug] 2026-02-19T13:53:02.662Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-02-19T13:53:02.660Z] [debug] 2026-02-19T13:53:02.660Z | DEBUG : [Database] Retrieving all records in Encounter table: 20 records found | raw: ["[Database] Retrieving all records in Encounter table: 20 records found"]
+[2026-02-19T13:53:02.658Z] [debug] 2026-02-19T13:53:02.658Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-02-19T13:53:02.657Z] [debug] 2026-02-19T13:53:02.657Z | DEBUG : [Database] Retrieving all records in Treatment table: 4 records found | raw: ["[Database] Retrieving all records in Treatment table: 4 records found"]
+[2026-02-19T13:53:02.655Z] [debug] 2026-02-19T13:53:02.655Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-02-19T13:53:02.654Z] [debug] 2026-02-19T13:53:02.654Z | DEBUG : [Database] Retrieving all records in TestTaken table: 10 records found | raw: ["[Database] Retrieving all records in TestTaken table: 10 records found"]
+[2026-02-19T13:53:02.651Z] [info] 2026-02-19T13:53:02.651Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "system",
+  "themePreference": "system"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"system","themePreference":"system"}]
+[2026-02-19T13:53:02.648Z] [info] 2026-02-19T13:53:02.648Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "dark",
+  "override": "dark",
+  "themePreference": "system"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"dark","override":"dark","themePreference":"system"}]
+[2026-02-19T13:53:02.581Z] [info] 2026-02-19T13:53:02.581Z | INFO : FormFieldLocation: opening location picker | raw: ["FormFieldLocation: opening location picker"]
+[2026-02-19T13:53:02.573Z] [info] 2026-02-19T13:53:02.573Z | INFO : FormFieldLocation: press received | raw: ["FormFieldLocation: press received"]
+[2026-02-19T13:52:56.858Z] [debug] 2026-02-19T13:52:56.858Z | DEBUG : [iCloud] Resumed pending operations | raw: ["[iCloud] Resumed pending operations"]
+[2026-02-19T13:52:56.856Z] [debug] 2026-02-19T13:52:56.856Z | DEBUG : [iCloud] Resuming pending operations | raw: ["[iCloud] Resuming pending operations"]
+[2026-02-19T13:52:56.808Z] [debug] 2026-02-19T13:52:56.808Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-02-19T13:52:56.806Z] [debug] 2026-02-19T13:52:56.806Z | DEBUG : [Database] Retrieving all records in Encounter table: 20 records found | raw: ["[Database] Retrieving all records in Encounter table: 20 records found"]
+[2026-02-19T13:52:56.803Z] [debug] 2026-02-19T13:52:56.803Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-02-19T13:52:56.801Z] [debug] 2026-02-19T13:52:56.801Z | DEBUG : [Database] Retrieving all records in Treatment table: 4 records found | raw: ["[Database] Retrieving all records in Treatment table: 4 records found"]
+[2026-02-19T13:52:56.797Z] [debug] 2026-02-19T13:52:56.797Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-02-19T13:52:56.794Z] [debug] 2026-02-19T13:52:56.794Z | DEBUG : [Database] Retrieving all records in TestTaken table: 10 records found | raw: ["[Database] Retrieving all records in TestTaken table: 10 records found"]
+[2026-02-19T13:52:40.697Z] [debug] 2026-02-19T13:52:40.697Z | DEBUG : [AxiosHttpClient] Received response 
+{
+  "baseURL": "https://api.bbbook.app",
+  "method": "GET",
+  "status": 200,
+  "url": "https://api.mapbox.com/geocoding/v5/mapbox.places/-122.4093758189587,37.777025325.json"
+} | raw: ["[AxiosHttpClient] Received response",{"baseURL":"https://api.bbbook.app","method":"GET","status":200,"url":"https://api.mapbox.com/geocoding/v5/mapbox.places/-122.4093758189587,37.777025325.json"}]
+[2026-02-19T13:52:40.638Z] [debug] 2026-02-19T13:52:40.638Z | DEBUG : [AxiosHttpClient] Sending request 
+{
+  "baseURL": "https://api.bbbook.app",
+  "method": "GET",
+  "params": {
+    "access_token": "[REDACTED]",
+    "types": "place",
+    "limit": "1",
+    "proximity": "-122.4093758189587,37.777025325"
+  },
+  "url": "https://api.mapbox.com/geocoding/v5/mapbox.places/-122.4093758189587,37.777025325.json"
+} | raw: ["[AxiosHttpClient] Sending request",{"baseURL":"https://api.bbbook.app","method":"GET","params":{"access_token":"[REDACTED]","types":"place","limit":"1","proximity":"-122.4093758189587,37.777025325"},"url":"https://api.mapbox.com/geocoding/v5/mapbox.places/-122.4093758189587,37.777025325.json"}]
+[2026-02-19T13:52:40.636Z] [debug] 2026-02-19T13:52:40.636Z | DEBUG : [GeocoderWeb] fetchCitiesFromCoords request 
+{
+  "limit": 1,
+  "requestUrl": "https://api.mapbox.com/geocoding/v5/mapbox.places/-122.4093758189587,37.777025325.json",
+  "url": "-122.4093758189587,37.777025325.json"
+} | raw: ["[GeocoderWeb] fetchCitiesFromCoords request",{"limit":1,"requestUrl":"https://api.mapbox.com/geocoding/v5/mapbox.places/-122.4093758189587,37.777025325.json","url":"-122.4093758189587,37.777025325.json"}]
+[2026-02-19T13:52:40.502Z] [debug] 2026-02-19T13:52:40.502Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-02-19T13:52:40.501Z] [debug] 2026-02-19T13:52:40.501Z | DEBUG : [Database] Retrieving all records in Encounter table: 20 records found | raw: ["[Database] Retrieving all records in Encounter table: 20 records found"]
+[2026-02-19T13:52:40.500Z] [debug] 2026-02-19T13:52:40.500Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-02-19T13:52:40.499Z] [debug] 2026-02-19T13:52:40.499Z | DEBUG : [Database] Retrieving all records in Treatment table: 4 records found | raw: ["[Database] Retrieving all records in Treatment table: 4 records found"]
+[2026-02-19T13:52:40.497Z] [debug] 2026-02-19T13:52:40.497Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-02-19T13:52:40.496Z] [debug] 2026-02-19T13:52:40.496Z | DEBUG : [Database] Retrieving all records in TestTaken table: 10 records found | raw: ["[Database] Retrieving all records in TestTaken table: 10 records found"]
+[2026-02-19T13:52:40.453Z] [debug] 2026-02-19T13:52:40.453Z | DEBUG : [iCloud] Resumed pending operations | raw: ["[iCloud] Resumed pending operations"]
+[2026-02-19T13:52:40.450Z] [debug] 2026-02-19T13:52:40.450Z | DEBUG : [iCloud] Resuming pending operations | raw: ["[iCloud] Resuming pending operations"]
