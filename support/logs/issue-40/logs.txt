@@ -1,0 +1,731 @@
+# BBBLogs.txt
+[2026-02-28T18:28:28.864Z] [info] 2026-02-28T18:28:28.864Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 3158
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":3158}]
+[2026-02-28T18:27:28.129Z] [info] 2026-02-28T18:27:28.129Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "system",
+  "themePreference": "system"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"system","themePreference":"system"}]
+[2026-02-28T18:27:26.853Z] [info] 2026-02-28T18:27:26.853Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "system",
+  "themePreference": "system"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"system","themePreference":"system"}]
+[2026-02-28T18:27:22.370Z] [info] 2026-02-28T18:27:22.370Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "system",
+  "themePreference": "system"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"system","themePreference":"system"}]
+[2026-02-28T18:27:21.939Z] [info] 2026-02-28T18:27:21.939Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "system",
+  "themePreference": "system"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"system","themePreference":"system"}]
+[2026-02-28T18:27:16.025Z] [info] 2026-02-28T18:27:16.025Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "system",
+  "themePreference": "system"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"system","themePreference":"system"}]
+[2026-02-28T18:27:00.245Z] [info] 2026-02-28T18:27:00.245Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "system",
+  "themePreference": "system"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"system","themePreference":"system"}]
+[2026-02-28T18:26:56.613Z] [info] 2026-02-28T18:26:56.613Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 3158
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":3158}]
+[2026-02-28T18:26:46.843Z] [info] 2026-02-28T18:26:46.843Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "system",
+  "themePreference": "system"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"system","themePreference":"system"}]
+[2026-02-28T18:26:40.419Z] [info] 2026-02-28T18:26:40.419Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 3158
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":3158}]
+[2026-02-28T18:26:35.626Z] [info] 2026-02-28T18:26:35.626Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 3159
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":3159}]
+[2026-02-28T18:26:25.036Z] [info] 2026-02-28T18:26:25.036Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 3159
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":3159}]
+[2026-02-28T18:26:22.333Z] [info] 2026-02-28T18:26:22.333Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 3160
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":3160}]
+[2026-02-28T18:25:52.605Z] [info] 2026-02-28T18:25:52.605Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "system",
+  "themePreference": "system"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"system","themePreference":"system"}]
+[2026-02-28T18:25:49.239Z] [info] 2026-02-28T18:25:49.238Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 3160
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":3160}]
+[2026-02-28T18:25:47.795Z] [info] 2026-02-28T18:25:47.795Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 3161
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":3161}]
+[2026-02-28T18:25:47.689Z] [info] 2026-02-28T18:25:47.689Z | INFO : [useCloudAuthServices] OneDrive auth client initialized 14fe7e30-0119-4e61-b9e3-69838ca5bc41 | raw: ["[useCloudAuthServices] OneDrive auth client initialized","14fe7e30-0119-4e61-b9e3-69838ca5bc41"]
+[2026-02-28T18:25:47.667Z] [info] 2026-02-28T18:25:47.667Z | INFO : [useCloudAuthServices] DropBox auth client initialized | raw: ["[useCloudAuthServices] DropBox auth client initialized"]
+[2026-02-28T18:25:47.437Z] [info] 2026-02-28T18:25:47.437Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "system",
+  "themePreference": "system"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"system","themePreference":"system"}]
+[2026-02-28T18:25:47.436Z] [info] 2026-02-28T18:25:47.436Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "system",
+  "themePreference": "system"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"system","themePreference":"system"}]
+[2026-02-28T18:25:47.434Z] [info] 2026-02-28T18:25:47.434Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "system",
+  "themePreference": "system"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"system","themePreference":"system"}]
+[2026-02-28T18:25:47.432Z] [info] 2026-02-28T18:25:47.432Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "system",
+  "themePreference": "system"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"system","themePreference":"system"}]
+[2026-02-28T18:25:47.391Z] [info] 2026-02-28T18:25:47.391Z | INFO : [useCloudAuthServices] Google auth client initialized | raw: ["[useCloudAuthServices] Google auth client initialized"]
+[2026-02-28T18:25:47.387Z] [info] 2026-02-28T18:25:47.387Z | INFO : [DatabaseProvider] Friend image repair completed 
+{
+  "didRun": false,
+  "markerPath": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/diagnostics/friend-image-repair-v1.done",
+  "plannedMoves": 0,
+  "totalImages": 0,
+  "updatedPaths": 0,
+  "skippedReason": "marker-exists"
+} | raw: ["[DatabaseProvider] Friend image repair completed",{"didRun":false,"markerPath":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/diagnostics/friend-image-repair-v1.done","plannedMoves":0,"totalImages":0,"updatedPaths":0,"skippedReason":"marker-exists"}]
+[2026-02-28T18:25:47.352Z] [warn] 2026-02-28T18:25:47.352Z | WARN : [Database] Realm instance was closed unexpectedly; reopening for operation 
+{
+  "hasEncryptionKey": false,
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/BBBookDB/BBBDatabase.realm"
+} | raw: ["[Database] Realm instance was closed unexpectedly; reopening for operation",{"hasEncryptionKey":false,"path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/BBBookDB/BBBDatabase.realm"}]
+[2026-02-28T18:25:47.335Z] [info] 2026-02-28T18:25:47.335Z | INFO : [DatabaseLoader] Loading Database | raw: ["[DatabaseLoader] Loading Database"]
+[2026-02-28T18:25:47.268Z] [info] 2026-02-28T18:25:47.268Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 3161
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":3161}]
+[2026-02-28T18:25:47.265Z] [info] 2026-02-28T18:25:47.265Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 3161
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":3161}]
+[2026-02-28T18:25:47.260Z] [info] 2026-02-28T18:25:47.260Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 3162
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":3162}]
+[2026-02-28T18:25:47.253Z] [info] 2026-02-28T18:25:47.253Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 3163
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":3163}]
+[2026-02-28T18:25:45.579Z] [info] 2026-02-28T18:25:45.579Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 3163
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":3163}]
+[2026-02-28T18:25:43.513Z] [info] 2026-02-28T18:25:43.513Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 3110
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":3110}]
+[2026-02-28T18:25:43.509Z] [info] 2026-02-28T18:25:43.509Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 3049
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":3049}]
+[2026-02-28T18:25:43.504Z] [info] 2026-02-28T18:25:43.504Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 3049
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":3049}]
+[2026-02-28T18:25:43.495Z] [info] 2026-02-28T18:25:43.495Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 3049
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":3049}]
+[2026-02-28T18:25:41.637Z] [info] 2026-02-28T18:25:41.636Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 3048
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":3048}]
+[2026-02-28T18:25:41.629Z] [info] 2026-02-28T18:25:41.629Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 2994
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":2994}]
+[2026-02-28T18:25:39.547Z] [info] 2026-02-28T18:25:39.547Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 2994
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":2994}]
+[2026-02-28T18:25:39.345Z] [info] 2026-02-28T18:25:39.345Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 2940
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":2940}]
+[2026-02-28T18:25:39.338Z] [info] 2026-02-28T18:25:39.338Z | INFO : [HealthKit] Permission authorized | raw: ["[HealthKit] Permission authorized"]
+[2026-02-28T18:25:30.811Z] [info] 2026-02-28T18:25:30.811Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 2941
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":2941}]
+[2026-02-28T18:25:30.404Z] [warn] 2026-02-28T18:25:30.404Z | WARN : [FileSystem] Failed to list contents of /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBookDB after delete failure | raw: ["[FileSystem] Failed to list contents of /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBookDB after delete failure"]
+[2026-02-28T18:25:30.400Z] [warn] 2026-02-28T18:25:30.400Z | WARN : [FileSystem] Unable to list contents before deleting /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBookDB UnexpectedException: The file “BBBookDB” couldn’t be opened because there is no such file. (at ExpoModulesCore/SyncFunctionDefinition.swift:139) | raw: ["[FileSystem] Unable to list contents before deleting /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBookDB",{"code":"ERR_UNEXPECTED"}]
+[2026-02-28T18:25:30.341Z] [info] 2026-02-28T18:25:30.341Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 2940
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":2940}]
+[2026-02-28T18:25:30.332Z] [info] 2026-02-28T18:25:30.332Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 2892
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":2892}]
+[2026-02-28T18:25:30.323Z] [info] 2026-02-28T18:25:30.323Z | INFO : [SetupLocationScreen] Location permission granted: true | raw: ["[SetupLocationScreen] Location permission granted: true"]
+[2026-02-28T18:25:25.750Z] [warn] 2026-02-28T18:25:25.750Z | WARN : [Database] Realm instance was closed unexpectedly; reopening for operation 
+{
+  "hasEncryptionKey": false,
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/BBBookDB/BBBDatabase.realm"
+} | raw: ["[Database] Realm instance was closed unexpectedly; reopening for operation",{"hasEncryptionKey":false,"path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/BBBookDB/BBBDatabase.realm"}]
+[2026-02-28T18:25:25.717Z] [info] 2026-02-28T18:25:25.717Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 2891
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":2891}]
+[2026-02-28T18:25:25.714Z] [info] 2026-02-28T18:25:25.714Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 2843
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":2843}]
+[2026-02-28T18:25:25.670Z] [info] 2026-02-28T18:25:25.670Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 2843
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":2843}]
+[2026-02-28T18:25:25.663Z] [info] 2026-02-28T18:25:25.663Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 2843
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":2843}]
+[2026-02-28T18:25:24.123Z] [warn] 2026-02-28T18:25:24.123Z | WARN : [DatabaseOperationsProvider] Location coords repair failed Cannot access realm that has been closed. | raw: ["[DatabaseOperationsProvider] Location coords repair failed",{}]
+[2026-02-28T18:25:23.953Z] [warn] 2026-02-28T18:25:23.953Z | WARN : [WizardDbOps] Staged realm probe failed; assuming unencrypted 
+{
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBookDB/BBBDatabase.realm",
+  "errorMessage": "Realms opened in immutable mode do not use a migration function"
+} | raw: ["[WizardDbOps] Staged realm probe failed; assuming unencrypted",{"path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBookDB/BBBDatabase.realm","errorMessage":"Realms opened in immutable mode do not use a migration function"}]
+[2026-02-28T18:25:23.945Z] [info] 2026-02-28T18:25:23.945Z | INFO : [CloudStorage] Deleting importPath: /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBBackupFile.zip | raw: ["[CloudStorage] Deleting importPath:","/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBBackupFile.zip"]
+[2026-02-28T18:25:23.929Z] [info] 2026-02-28T18:25:23.929Z | INFO : [CloudStorage] Unzipping file: /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBBackupFile.zip to: /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBookDB | raw: ["[CloudStorage] Unzipping file:","/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBBackupFile.zip","to:","/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBookDB"]
+[2026-02-28T18:25:23.745Z] [info] 2026-02-28T18:25:23.745Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 2817
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":2817}]
+[2026-02-28T18:25:23.405Z] [warn] 2026-02-28T18:25:23.405Z | WARN : [WizardDbOps] Staged realm probe failed; assuming unencrypted 
+{
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBookDB/BBBDatabase.realm",
+  "errorMessage": "Realms opened in immutable mode do not use a migration function"
+} | raw: ["[WizardDbOps] Staged realm probe failed; assuming unencrypted",{"path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBookDB/BBBDatabase.realm","errorMessage":"Realms opened in immutable mode do not use a migration function"}]
+[2026-02-28T18:25:23.398Z] [info] 2026-02-28T18:25:23.398Z | INFO : [CloudStorage] Deleting importPath: /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBBackupFile.zip | raw: ["[CloudStorage] Deleting importPath:","/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBBackupFile.zip"]
+[2026-02-28T18:25:23.386Z] [info] 2026-02-28T18:25:23.386Z | INFO : [CloudStorage] Unzipping file: /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBBackupFile.zip to: /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBookDB | raw: ["[CloudStorage] Unzipping file:","/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBBackupFile.zip","to:","/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBookDB"]
+[2026-02-28T18:25:23.340Z] [info] 2026-02-28T18:25:23.340Z | INFO : [useCloudAuthServices] OneDrive auth client initialized 14fe7e30-0119-4e61-b9e3-69838ca5bc41 | raw: ["[useCloudAuthServices] OneDrive auth client initialized","14fe7e30-0119-4e61-b9e3-69838ca5bc41"]
+[2026-02-28T18:25:23.338Z] [info] 2026-02-28T18:25:23.338Z | INFO : [useCloudAuthServices] DropBox auth client initialized | raw: ["[useCloudAuthServices] DropBox auth client initialized"]
+[2026-02-28T18:25:23.336Z] [info] 2026-02-28T18:25:23.336Z | INFO : [useCloudAuthServices] Google auth client initialized | raw: ["[useCloudAuthServices] Google auth client initialized"]
+[2026-02-28T18:25:23.315Z] [info] 2026-02-28T18:25:23.315Z | INFO : [useCloudAuthServices] OneDrive auth client initialized 14fe7e30-0119-4e61-b9e3-69838ca5bc41 | raw: ["[useCloudAuthServices] OneDrive auth client initialized","14fe7e30-0119-4e61-b9e3-69838ca5bc41"]
+[2026-02-28T18:25:23.313Z] [info] 2026-02-28T18:25:23.313Z | INFO : [useCloudAuthServices] DropBox auth client initialized | raw: ["[useCloudAuthServices] DropBox auth client initialized"]
+[2026-02-28T18:25:23.309Z] [info] 2026-02-28T18:25:23.309Z | INFO : [useCloudAuthServices] Google auth client initialized | raw: ["[useCloudAuthServices] Google auth client initialized"]
+[2026-02-28T18:25:23.305Z] [info] 2026-02-28T18:25:23.305Z | INFO : [DatabaseProvider] Friend image repair completed 
+{
+  "didRun": false,
+  "markerPath": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/diagnostics/friend-image-repair-v1.done",
+  "plannedMoves": 0,
+  "totalImages": 0,
+  "updatedPaths": 0,
+  "skippedReason": "marker-exists"
+} | raw: ["[DatabaseProvider] Friend image repair completed",{"didRun":false,"markerPath":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/diagnostics/friend-image-repair-v1.done","plannedMoves":0,"totalImages":0,"updatedPaths":0,"skippedReason":"marker-exists"}]
+[2026-02-28T18:25:23.280Z] [info] 2026-02-28T18:25:23.280Z | INFO : [DatabaseLoader] Loading Database | raw: ["[DatabaseLoader] Loading Database"]
+[2026-02-28T18:25:23.261Z] [warn] 2026-02-28T18:25:23.261Z | WARN : [Database] Realm instance was closed unexpectedly; reopening for operation 
+{
+  "hasEncryptionKey": false,
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/BBBookDB/BBBDatabase.realm"
+} | raw: ["[Database] Realm instance was closed unexpectedly; reopening for operation",{"hasEncryptionKey":false,"path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/BBBookDB/BBBDatabase.realm"}]
+[2026-02-28T18:25:23.239Z] [info] 2026-02-28T18:25:23.239Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 2817
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":2817}]
+[2026-02-28T18:25:23.237Z] [info] 2026-02-28T18:25:23.237Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 2821
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":2821}]
+[2026-02-28T18:25:23.212Z] [info] 2026-02-28T18:25:23.212Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 2745
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":2745}]
+[2026-02-28T18:25:23.210Z] [info] 2026-02-28T18:25:23.210Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 2745
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":2745}]
+[2026-02-28T18:25:23.197Z] [warn] 2026-02-28T18:25:23.197Z | WARN : [WizardDbOps] Staged realm probe failed; assuming unencrypted 
+{
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBookDB/BBBDatabase.realm",
+  "errorMessage": "Realms opened in immutable mode do not use a migration function"
+} | raw: ["[WizardDbOps] Staged realm probe failed; assuming unencrypted",{"path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBookDB/BBBDatabase.realm","errorMessage":"Realms opened in immutable mode do not use a migration function"}]
+[2026-02-28T18:25:23.190Z] [info] 2026-02-28T18:25:23.190Z | INFO : [CloudStorage] Deleting importPath: /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBBackupFile.zip | raw: ["[CloudStorage] Deleting importPath:","/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBBackupFile.zip"]
+[2026-02-28T18:25:23.185Z] [info] 2026-02-28T18:25:23.185Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 2744
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":2744}]
+[2026-02-28T18:25:23.180Z] [info] 2026-02-28T18:25:23.180Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 2744
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":2744}]
+[2026-02-28T18:25:23.177Z] [info] 2026-02-28T18:25:23.177Z | INFO : [CloudStorage] Unzipping file: /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBBackupFile.zip to: /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBookDB | raw: ["[CloudStorage] Unzipping file:","/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBBackupFile.zip","to:","/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBookDB"]
+[2026-02-28T18:25:23.176Z] [info] 2026-02-28T18:25:23.176Z | INFO : Import Progress: 100% | raw: ["Import Progress: 100%"]
+[2026-02-28T18:25:23.173Z] [info] 2026-02-28T18:25:23.173Z | INFO : Import Progress: 99% | raw: ["Import Progress: 99%"]
+[2026-02-28T18:25:23.143Z] [info] 2026-02-28T18:25:23.143Z | INFO : Import Progress: 50% | raw: ["Import Progress: 50%"]
+[2026-02-28T18:25:23.136Z] [info] 2026-02-28T18:25:23.136Z | INFO : Import Progress: 50% | raw: ["Import Progress: 50%"]
+[2026-02-28T18:25:23.126Z] [info] 2026-02-28T18:25:23.126Z | INFO : [ImportManager] validateRealmOpens start 
+{
+  "expectEncrypted": false,
+  "realmPath": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/BBBookDB/BBBDatabase.realm"
+} | raw: ["[ImportManager] validateRealmOpens start",{"expectEncrypted":false,"realmPath":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/BBBookDB/BBBDatabase.realm"}]
+[2026-02-28T18:25:23.114Z] [info] 2026-02-28T18:25:23.114Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 2744
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":2744}]
+[2026-02-28T18:25:23.111Z] [info] 2026-02-28T18:25:23.111Z | INFO : Import Progress: 50% | raw: ["Import Progress: 50%"]
+[2026-02-28T18:25:23.105Z] [info] 2026-02-28T18:25:23.105Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 2744
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":2744}]
+[2026-02-28T18:25:23.102Z] [info] 2026-02-28T18:25:23.102Z | INFO : Import Progress: 45% | raw: ["Import Progress: 45%"]
+[2026-02-28T18:25:23.096Z] [info] 2026-02-28T18:25:23.096Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 2744
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":2744}]
+[2026-02-28T18:25:23.093Z] [info] 2026-02-28T18:25:23.093Z | INFO : Import Progress: 20% | raw: ["Import Progress: 20%"]
+[2026-02-28T18:25:23.080Z] [info] 2026-02-28T18:25:23.080Z | INFO : [ImportManager] validateRealmOpens start 
+{
+  "expectEncrypted": false,
+  "realmPath": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBookDB/BBBDatabase.realm"
+} | raw: ["[ImportManager] validateRealmOpens start",{"expectEncrypted":false,"realmPath":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBookDB/BBBDatabase.realm"}]
+[2026-02-28T18:25:23.075Z] [info] 2026-02-28T18:25:23.075Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 2744
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":2744}]
+[2026-02-28T18:25:23.072Z] [info] 2026-02-28T18:25:23.072Z | INFO : Import Progress: 10% | raw: ["Import Progress: 10%"]
+[2026-02-28T18:25:23.048Z] [info] 2026-02-28T18:25:23.048Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 2744
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":2744}]
+[2026-02-28T18:25:23.044Z] [info] 2026-02-28T18:25:23.044Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 2744
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":2744}]
+[2026-02-28T18:25:23.037Z] [warn] 2026-02-28T18:25:23.037Z | WARN : [WizardDbOps] Staged realm probe failed; assuming unencrypted 
+{
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBookDB/BBBDatabase.realm",
+  "errorMessage": "Realms opened in immutable mode do not use a migration function"
+} | raw: ["[WizardDbOps] Staged realm probe failed; assuming unencrypted",{"path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBookDB/BBBDatabase.realm","errorMessage":"Realms opened in immutable mode do not use a migration function"}]
+[2026-02-28T18:25:22.596Z] [warn] 2026-02-28T18:25:22.596Z | WARN : [WizardDbOps] Staged realm probe failed; assuming unencrypted 
+{
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBookDB/BBBDatabase.realm",
+  "errorMessage": "Realms opened in immutable mode do not use a migration function"
+} | raw: ["[WizardDbOps] Staged realm probe failed; assuming unencrypted",{"path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBookDB/BBBDatabase.realm","errorMessage":"Realms opened in immutable mode do not use a migration function"}]
+[2026-02-28T18:25:22.578Z] [info] 2026-02-28T18:25:22.578Z | INFO : [CloudStorage] Deleting importPath: /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBBackupFile.zip | raw: ["[CloudStorage] Deleting importPath:","/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBBackupFile.zip"]
+[2026-02-28T18:25:22.546Z] [info] 2026-02-28T18:25:22.546Z | INFO : [CloudStorage] Unzipping file: /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBBackupFile.zip to: /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBookDB | raw: ["[CloudStorage] Unzipping file:","/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBBackupFile.zip","to:","/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Library/Caches/BBBook/BBBookDB"]
+[2026-02-28T18:25:21.824Z] [info] 2026-02-28T18:25:21.824Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 2744
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":2744}]
+[2026-02-28T18:25:21.820Z] [info] 2026-02-28T18:25:21.820Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 2690
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":2690}]
+[2026-02-28T18:25:21.814Z] [info] 2026-02-28T18:25:21.814Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 2690
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":2690}]
+[2026-02-28T18:25:20.735Z] [info] 2026-02-28T18:25:20.735Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 2686
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":2686}]
+[2026-02-28T18:25:19.403Z] [info] 2026-02-28T18:25:19.403Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 2659
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":2659}]
+[2026-02-28T18:25:19.397Z] [info] 2026-02-28T18:25:19.397Z | INFO : [iCloud] iCloud is available | raw: ["[iCloud] iCloud is available"]
+[2026-02-28T18:25:19.370Z] [info] 2026-02-28T18:25:19.369Z | INFO : [CloudStorageProvider] changeDriveType triggered 
+{
+  "newDriveType": "icloud",
+  "currentDriveType": "none"
+} | raw: ["[CloudStorageProvider] changeDriveType triggered",{"newDriveType":"icloud","currentDriveType":"none"}]
+[2026-02-28T18:25:12.090Z] [info] 2026-02-28T18:25:12.090Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 2655
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":2655}]
+[2026-02-28T18:25:03.038Z] [info] 2026-02-28T18:25:03.038Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 2576
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":2576}]
+[2026-02-28T18:25:02.842Z] [info] 2026-02-28T18:25:02.842Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 2567
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":2567}]
+[2026-02-28T18:25:00.396Z] [info] 2026-02-28T18:25:00.396Z | INFO : [useCloudAuthServices] OneDrive auth client initialized 14fe7e30-0119-4e61-b9e3-69838ca5bc41 | raw: ["[useCloudAuthServices] OneDrive auth client initialized","14fe7e30-0119-4e61-b9e3-69838ca5bc41"]
+[2026-02-28T18:25:00.394Z] [info] 2026-02-28T18:25:00.394Z | INFO : [useCloudAuthServices] DropBox auth client initialized | raw: ["[useCloudAuthServices] DropBox auth client initialized"]
+[2026-02-28T18:25:00.390Z] [info] 2026-02-28T18:25:00.390Z | INFO : [useCloudAuthServices] Google auth client initialized | raw: ["[useCloudAuthServices] Google auth client initialized"]
+[2026-02-28T18:25:00.388Z] [info] 2026-02-28T18:25:00.388Z | INFO : [useCloudAuthServices] OneDrive auth client initialized 14fe7e30-0119-4e61-b9e3-69838ca5bc41 | raw: ["[useCloudAuthServices] OneDrive auth client initialized","14fe7e30-0119-4e61-b9e3-69838ca5bc41"]
+[2026-02-28T18:25:00.362Z] [info] 2026-02-28T18:25:00.362Z | INFO : [useCloudAuthServices] DropBox auth client initialized | raw: ["[useCloudAuthServices] DropBox auth client initialized"]
+[2026-02-28T18:25:00.358Z] [info] 2026-02-28T18:25:00.358Z | INFO : [useCloudAuthServices] Google auth client initialized | raw: ["[useCloudAuthServices] Google auth client initialized"]
+[2026-02-28T18:25:00.324Z] [info] 2026-02-28T18:25:00.324Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 2526
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":2526}]
+[2026-02-28T18:25:00.300Z] [debug] 2026-02-28T18:25:00.300Z | DEBUG : [Database] Finished retrieving all records in MedicationRegimen table | raw: ["[Database] Finished retrieving all records in MedicationRegimen table"]
+[2026-02-28T18:25:00.298Z] [debug] 2026-02-28T18:25:00.298Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationRegimen table: 6 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationRegimen table: 6 records found"]
+[2026-02-28T18:25:00.289Z] [debug] 2026-02-28T18:25:00.289Z | DEBUG : [Database] Finished retrieving all records in MedicationLog table | raw: ["[Database] Finished retrieving all records in MedicationLog table"]
+[2026-02-28T18:25:00.287Z] [debug] 2026-02-28T18:25:00.287Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found"]
+[2026-02-28T18:25:00.285Z] [debug] 2026-02-28T18:25:00.285Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-02-28T18:25:00.284Z] [debug] 2026-02-28T18:25:00.284Z | DEBUG : [Database] Retrieving all records in Encounter table: 0 records found | raw: ["[Database] Retrieving all records in Encounter table: 0 records found"]
+[2026-02-28T18:25:00.282Z] [debug] 2026-02-28T18:25:00.282Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-02-28T18:25:00.280Z] [debug] 2026-02-28T18:25:00.280Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found"]
+[2026-02-28T18:25:00.277Z] [debug] 2026-02-28T18:25:00.277Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-02-28T18:25:00.276Z] [debug] 2026-02-28T18:25:00.276Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found"]
+[2026-02-28T18:25:00.273Z] [debug] 2026-02-28T18:25:00.273Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-02-28T18:25:00.272Z] [debug] 2026-02-28T18:25:00.272Z | DEBUG : [Database] Retrieving all records in Treatment table: 0 records found | raw: ["[Database] Retrieving all records in Treatment table: 0 records found"]
+[2026-02-28T18:25:00.270Z] [debug] 2026-02-28T18:25:00.270Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-02-28T18:25:00.268Z] [debug] 2026-02-28T18:25:00.268Z | DEBUG : [Database] Retrieving all records in TestTaken table: 0 records found | raw: ["[Database] Retrieving all records in TestTaken table: 0 records found"]
+[2026-02-28T18:25:00.263Z] [debug] 2026-02-28T18:25:00.263Z | DEBUG : [FileSystem] Making directory at /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore | raw: ["[FileSystem] Making directory at /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore"]
+[2026-02-28T18:25:00.261Z] [debug] 2026-02-28T18:25:00.261Z | DEBUG : [FileSystem] Directory at /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore does not exist | raw: ["[FileSystem] Directory at /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore does not exist"]
+[2026-02-28T18:25:00.258Z] [debug] 2026-02-28T18:25:00.258Z | DEBUG : [FileSystem] Checking if directory exists at /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore | raw: ["[FileSystem] Checking if directory exists at /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore"]
+[2026-02-28T18:25:00.256Z] [info] 2026-02-28T18:25:00.256Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root",
+  "size": 2529
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/bbbookStore/persist:root","size":2529}]
+[2026-02-28T18:25:00.249Z] [debug] 2026-02-28T18:25:00.249Z | DEBUG : [AxiosHttpClient] Received response 
+{
+  "baseURL": "https://api.bbbook.app",
+  "method": "POST",
+  "status": 201,
+  "url": "https://api.bbbook.app/memberships"
+} | raw: ["[AxiosHttpClient] Received response",{"baseURL":"https://api.bbbook.app","method":"POST","status":201,"url":"https://api.bbbook.app/memberships"}]
+[2026-02-28T18:24:59.224Z] [debug] 2026-02-28T18:24:59.224Z | DEBUG : [Database] Finished retrieving all records in MedicationDoseOccurrence table | raw: ["[Database] Finished retrieving all records in MedicationDoseOccurrence table"]
+[2026-02-28T18:24:59.222Z] [debug] 2026-02-28T18:24:59.222Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationDoseOccurrence table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationDoseOccurrence table: 0 records found"]
+[2026-02-28T18:24:59.220Z] [debug] 2026-02-28T18:24:59.220Z | DEBUG : [Database] Finished retrieving all records in Screening table | raw: ["[Database] Finished retrieving all records in Screening table"]
+[2026-02-28T18:24:59.218Z] [debug] 2026-02-28T18:24:59.218Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Screening table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Screening table: 0 records found"]
+[2026-02-28T18:24:59.215Z] [debug] 2026-02-28T18:24:59.215Z | DEBUG : [Database] Finished retrieving all records in ParticipantActivity table | raw: ["[Database] Finished retrieving all records in ParticipantActivity table"]
+[2026-02-28T18:24:59.214Z] [debug] 2026-02-28T18:24:59.214Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in ParticipantActivity table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in ParticipantActivity table: 0 records found"]
+[2026-02-28T18:24:59.212Z] [debug] 2026-02-28T18:24:59.212Z | DEBUG : [Database] Finished retrieving all records in EncounterActivity table | raw: ["[Database] Finished retrieving all records in EncounterActivity table"]
+[2026-02-28T18:24:59.210Z] [debug] 2026-02-28T18:24:59.210Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in EncounterActivity table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in EncounterActivity table: 0 records found"]
+[2026-02-28T18:24:59.208Z] [debug] 2026-02-28T18:24:59.208Z | DEBUG : [Database] Finished retrieving all records in Friend table | raw: ["[Database] Finished retrieving all records in Friend table"]
+[2026-02-28T18:24:59.205Z] [debug] 2026-02-28T18:24:59.205Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Friend table: 1 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Friend table: 1 records found"]
+[2026-02-28T18:24:59.203Z] [debug] 2026-02-28T18:24:59.203Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-02-28T18:24:59.200Z] [debug] 2026-02-28T18:24:59.200Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Encounter table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Encounter table: 0 records found"]
+[2026-02-28T18:24:59.194Z] [debug] 2026-02-28T18:24:59.194Z | DEBUG : [SecuredRealmBoundary] Rendering children 
+{
+  "encryptionBufferPresent": false,
+  "isEncrypting": false,
+  "isEncryptionEnabled": true
+} | raw: ["[SecuredRealmBoundary] Rendering children",{"encryptionBufferPresent":false,"isEncrypting":false,"isEncryptionEnabled":true}]
+[2026-02-28T18:24:59.189Z] [info] 2026-02-28T18:24:59.189Z | INFO : [IAPHub:diagnostics] iOS receipt info 
+{
+  "receiptExists": true,
+  "hasEmbeddedProvision": false,
+  "isTestFlight": false,
+  "receiptLastPathComponent": "receipt",
+  "isAppStoreBuild": true,
+  "receiptEnvironment": "production",
+  "isSimulator": false
+} | raw: ["[IAPHub:diagnostics] iOS receipt info",{"receiptExists":true,"hasEmbeddedProvision":false,"isTestFlight":false,"receiptLastPathComponent":"receipt","isAppStoreBuild":true,"receiptEnvironment":"production","isSimulator":false}]
+[2026-02-28T18:24:59.186Z] [info] 2026-02-28T18:24:59.186Z | INFO : [DatabaseProvider] Friend image repair completed 
+{
+  "didRun": true,
+  "markerPath": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/diagnostics/friend-image-repair-v1.done",
+  "plannedMoves": 0,
+  "totalImages": 0,
+  "updatedPaths": 0,
+  "skippedReason": "no-images"
+} | raw: ["[DatabaseProvider] Friend image repair completed",{"didRun":true,"markerPath":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/diagnostics/friend-image-repair-v1.done","plannedMoves":0,"totalImages":0,"updatedPaths":0,"skippedReason":"no-images"}]
+[2026-02-28T18:24:59.177Z] [debug] 2026-02-28T18:24:59.177Z | DEBUG : [FileSystem] Writing file at /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/diagnostics/friend-image-repair-v1.done | raw: ["[FileSystem] Writing file at /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/diagnostics/friend-image-repair-v1.done"]
+[2026-02-28T18:24:59.172Z] [debug] 2026-02-28T18:24:59.172Z | DEBUG : [FileSystem] Making directory at /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/diagnostics | raw: ["[FileSystem] Making directory at /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/diagnostics"]
+[2026-02-28T18:24:59.170Z] [debug] 2026-02-28T18:24:59.170Z | DEBUG : [AxiosHttpClient] Sending request 
+{
+  "baseURL": "https://api.bbbook.app",
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "method": "POST",
+  "payload": {
+    "membershipId": "1b07cdbf-a42f-4a72-8fbf-b36169c04563"
+  },
+  "url": "https://api.bbbook.app/memberships"
+} | raw: ["[AxiosHttpClient] Sending request",{"baseURL":"https://api.bbbook.app","headers":{"Content-Type":"application/json"},"method":"POST","payload":{"membershipId":"1b07cdbf-a42f-4a72-8fbf-b36169c04563"},"url":"https://api.bbbook.app/memberships"}]
+[2026-02-28T18:24:59.168Z] [debug] 2026-02-28T18:24:59.168Z | DEBUG : [FileSystem] Directory at /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/diagnostics does not exist | raw: ["[FileSystem] Directory at /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/diagnostics does not exist"]
+[2026-02-28T18:24:59.166Z] [debug] 2026-02-28T18:24:59.166Z | DEBUG : [FileSystem] Checking if directory exists at /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/diagnostics | raw: ["[FileSystem] Checking if directory exists at /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/diagnostics"]
+[2026-02-28T18:24:59.162Z] [debug] 2026-02-28T18:24:59.162Z | DEBUG : [FileSystem] Directory at /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/diagnostics does not exist | raw: ["[FileSystem] Directory at /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/diagnostics does not exist"]
+[2026-02-28T18:24:59.160Z] [debug] 2026-02-28T18:24:59.160Z | DEBUG : [FileSystem] Checking if directory exists at /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/diagnostics | raw: ["[FileSystem] Checking if directory exists at /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/diagnostics"]
+[2026-02-28T18:24:59.152Z] [debug] 2026-02-28T18:24:59.152Z | DEBUG : [SecurityProvider] checkAuthentication start: isLocked=false isSecured=false shouldAutoUnlock=true hasKey=false canAttemptBiometrics=null shouldBypassBiometrics=false biometricAttempted=false biometricInFlight=false lockSuppressed=false | raw: ["[SecurityProvider] checkAuthentication start: isLocked=false isSecured=false shouldAutoUnlock=true hasKey=false canAttemptBiometrics=null shouldBypassBiometrics=false biometricAttempted=false biometricInFlight=false lockSuppressed=false"]
+[2026-02-28T18:24:59.150Z] [debug] 2026-02-28T18:24:59.150Z | DEBUG : [Database] Updating defaults completed | raw: ["[Database] Updating defaults completed"]
+[2026-02-28T18:24:59.132Z] [info] 2026-02-28T18:24:59.132Z | INFO : Created 3 default pronouns | raw: ["Created 3 default pronouns"]
+[2026-02-28T18:24:59.106Z] [info] 2026-02-28T18:24:59.106Z | INFO : Created 15 default genders | raw: ["Created 15 default genders"]
+[2026-02-28T18:24:59.035Z] [debug] 2026-02-28T18:24:59.035Z | DEBUG : [Database] Updating defaults started | raw: ["[Database] Updating defaults started"]
+[2026-02-28T18:24:59.024Z] [debug] 2026-02-28T18:24:59.024Z | DEBUG : [Database] The database is empty | raw: ["[Database] The database is empty"]
+[2026-02-28T18:24:59.017Z] [debug] 2026-02-28T18:24:59.017Z | DEBUG : [Database] initialization Progress: 25% | raw: ["[Database] initialization Progress: 25%"]
+[2026-02-28T18:24:59.009Z] [debug] 2026-02-28T18:24:59.009Z | DEBUG : [Database]  Starting. Realm path /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/BBBookDB/BBBDatabase.realm | raw: ["[Database]  Starting. Realm path","/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/BBBookDB/BBBDatabase.realm"]
+[2026-02-28T18:24:58.999Z] [debug] 2026-02-28T18:24:58.999Z | DEBUG : [Database] initialization Progress: 0% | raw: ["[Database] initialization Progress: 0%"]
+[2026-02-28T18:24:58.992Z] [debug] 2026-02-28T18:24:58.992Z | DEBUG : 🥳 [DatabaseLoader] Initializing database | raw: ["🥳 [DatabaseLoader] Initializing database"]
+[2026-02-28T18:24:58.985Z] [debug] 2026-02-28T18:24:58.985Z | DEBUG : [DatabaseLoader] Database Path /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/BBBookDB/BBBDatabase.realm 
+38 | raw: ["[DatabaseLoader] Database Path","/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/BBBookDB/BBBDatabase.realm",38]
+[2026-02-28T18:24:58.979Z] [info] 2026-02-28T18:24:58.978Z | INFO : [DatabaseLoader] Loading Database | raw: ["[DatabaseLoader] Loading Database"]
+[2026-02-28T18:24:58.971Z] [info] 2026-02-28T18:24:58.971Z | INFO : [SecureStorage] Initialization complete 
+{
+  "trigger": "initial_active",
+  "attempt": 1,
+  "durationMs": 231,
+  "firstRun": true
+} | raw: ["[SecureStorage] Initialization complete",{"trigger":"initial_active","attempt":1,"durationMs":231,"firstRun":true}]
+[2026-02-28T18:24:58.965Z] [info] 2026-02-28T18:24:58.965Z | INFO : [Security] Keychain bootstrap complete 
+{
+  "service": "bbbook.keychain-prewarm",
+  "synchronizable": false,
+  "accessible": "AccessibleAfterFirstUnlockThisDeviceOnly",
+  "durationMs": 202,
+  "firstRun": true,
+  "migratedFromSynchronizable": false,
+  "synchronizableItemFound": false,
+  "endTimestampMs": 1772303098965
+} | raw: ["[Security] Keychain bootstrap complete",{"service":"bbbook.keychain-prewarm","synchronizable":false,"accessible":"AccessibleAfterFirstUnlockThisDeviceOnly","durationMs":202,"firstRun":true,"migratedFromSynchronizable":false,"synchronizableItemFound":false,"endTimestampMs":1772303098965}]
+[2026-02-28T18:24:58.959Z] [info] 2026-02-28T18:24:58.959Z | INFO : [Security] Keychain bootstrap create end 
+{
+  "durationMs": 57,
+  "endTimestampMs": 1772303098959,
+  "service": "bbbook.keychain-prewarm",
+  "synchronizable": false,
+  "accessible": "AccessibleAfterFirstUnlockThisDeviceOnly"
+} | raw: ["[Security] Keychain bootstrap create end",{"durationMs":57,"endTimestampMs":1772303098959,"service":"bbbook.keychain-prewarm","synchronizable":false,"accessible":"AccessibleAfterFirstUnlockThisDeviceOnly"}]
+[2026-02-28T18:24:58.918Z] [debug] 2026-02-28T18:24:58.918Z | DEBUG : [SecuredRealmBoundary] Rendering children 
+{
+  "encryptionBufferPresent": false,
+  "isEncrypting": false,
+  "isEncryptionEnabled": true
+} | raw: ["[SecuredRealmBoundary] Rendering children",{"encryptionBufferPresent":false,"isEncrypting":false,"isEncryptionEnabled":true}]
+[2026-02-28T18:24:58.902Z] [info] 2026-02-28T18:24:58.902Z | INFO : [Security] Keychain bootstrap create start 
+{
+  "startTimestampMs": 1772303098902,
+  "service": "bbbook.keychain-prewarm",
+  "synchronizable": false,
+  "accessible": "AccessibleAfterFirstUnlockThisDeviceOnly"
+} | raw: ["[Security] Keychain bootstrap create start",{"startTimestampMs":1772303098902,"service":"bbbook.keychain-prewarm","synchronizable":false,"accessible":"AccessibleAfterFirstUnlockThisDeviceOnly"}]
+[2026-02-28T18:24:58.870Z] [info] 2026-02-28T18:24:58.870Z | INFO : [Security] Keychain bootstrap sync read end 
+{
+  "durationMs": 26,
+  "endTimestampMs": 1772303098870,
+  "service": "bbbook.keychain-prewarm",
+  "synchronizable": true,
+  "accessible": "AccessibleAfterFirstUnlockThisDeviceOnly",
+  "found": false
+} | raw: ["[Security] Keychain bootstrap sync read end",{"durationMs":26,"endTimestampMs":1772303098870,"service":"bbbook.keychain-prewarm","synchronizable":true,"accessible":"AccessibleAfterFirstUnlockThisDeviceOnly","found":false}]
+[2026-02-28T18:24:58.844Z] [info] 2026-02-28T18:24:58.844Z | INFO : [Security] Keychain bootstrap sync read start 
+{
+  "startTimestampMs": 1772303098844,
+  "service": "bbbook.keychain-prewarm",
+  "synchronizable": true,
+  "accessible": "AccessibleAfterFirstUnlockThisDeviceOnly"
+} | raw: ["[Security] Keychain bootstrap sync read start",{"startTimestampMs":1772303098844,"service":"bbbook.keychain-prewarm","synchronizable":true,"accessible":"AccessibleAfterFirstUnlockThisDeviceOnly"}]
+[2026-02-28T18:24:58.821Z] [info] 2026-02-28T18:24:58.821Z | INFO : [Security] Keychain bootstrap read end 
+{
+  "durationMs": 30,
+  "endTimestampMs": 1772303098821,
+  "service": "bbbook.keychain-prewarm",
+  "synchronizable": false,
+  "accessible": "AccessibleAfterFirstUnlockThisDeviceOnly",
+  "found": false
+} | raw: ["[Security] Keychain bootstrap read end",{"durationMs":30,"endTimestampMs":1772303098821,"service":"bbbook.keychain-prewarm","synchronizable":false,"accessible":"AccessibleAfterFirstUnlockThisDeviceOnly","found":false}]
+[2026-02-28T18:24:58.791Z] [info] 2026-02-28T18:24:58.791Z | INFO : [Security] Keychain bootstrap read start 
+{
+  "startTimestampMs": 1772303098791,
+  "service": "bbbook.keychain-prewarm",
+  "synchronizable": false,
+  "accessible": "AccessibleAfterFirstUnlockThisDeviceOnly"
+} | raw: ["[Security] Keychain bootstrap read start",{"startTimestampMs":1772303098791,"service":"bbbook.keychain-prewarm","synchronizable":false,"accessible":"AccessibleAfterFirstUnlockThisDeviceOnly"}]
+[2026-02-28T18:24:58.763Z] [info] 2026-02-28T18:24:58.763Z | INFO : [Security] Keychain bootstrap start 
+{
+  "startTimestampMs": 1772303098763,
+  "service": "bbbook.keychain-prewarm",
+  "synchronizable": false,
+  "accessible": "AccessibleAfterFirstUnlockThisDeviceOnly"
+} | raw: ["[Security] Keychain bootstrap start",{"startTimestampMs":1772303098763,"service":"bbbook.keychain-prewarm","synchronizable":false,"accessible":"AccessibleAfterFirstUnlockThisDeviceOnly"}]
+[2026-02-28T18:24:58.740Z] [info] 2026-02-28T18:24:58.740Z | INFO : [SecureStorage] Initialization queued 
+{
+  "trigger": "initial_active",
+  "attempt": 1,
+  "startTimestampMs": 1772303098740
+} | raw: ["[SecureStorage] Initialization queued",{"trigger":"initial_active","attempt":1,"startTimestampMs":1772303098740}]
+[2026-02-28T18:24:58.725Z] [debug] 2026-02-28T18:24:58.725Z | DEBUG : [SecuredRealmBoundary] Waiting for realm readiness; showing LockedScreen | raw: ["[SecuredRealmBoundary] Waiting for realm readiness; showing LockedScreen"]
+[2026-02-28T18:24:58.715Z] [debug] 2026-02-28T18:24:58.715Z | DEBUG : [SecurityProvider] checkAuthentication start: isLocked=false isSecured=false shouldAutoUnlock=true hasKey=false canAttemptBiometrics=false shouldBypassBiometrics=false biometricAttempted=false biometricInFlight=false lockSuppressed=false | raw: ["[SecurityProvider] checkAuthentication start: isLocked=false isSecured=false shouldAutoUnlock=true hasKey=false canAttemptBiometrics=false shouldBypassBiometrics=false biometricAttempted=false biometricInFlight=false lockSuppressed=false"]
+[2026-02-28T18:24:58.708Z] [debug] 2026-02-28T18:24:58.708Z | DEBUG : [App] /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/BBBookDB | raw: ["[App] /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/BBBookDB"]
+[2026-02-28T18:24:58.699Z] [debug] 2026-02-28T18:24:58.699Z | DEBUG : [CloudStorageProvider] security effect ran for cloudStorage 
+{
+  "driveType": "none"
+} | raw: ["[CloudStorageProvider] security effect ran for cloudStorage",{"driveType":"none"}]
+[2026-02-28T18:24:58.692Z] [debug] 2026-02-28T18:24:58.692Z | DEBUG : [Security] Clearing external salt store configuration | raw: ["[Security] Clearing external salt store configuration"]
+[2026-02-28T18:24:58.684Z] [info] 2026-02-28T18:24:58.684Z | INFO : [CloudStorageProvider] module executing current build | raw: ["[CloudStorageProvider] module executing current build"]
+[2026-02-28T18:24:58.675Z] [debug] 2026-02-28T18:24:58.675Z | DEBUG : [GoogleDriveProvider] inactive, skipping folder discovery | raw: ["[GoogleDriveProvider] inactive, skipping folder discovery"]
+[2026-02-28T18:24:58.665Z] [debug] 2026-02-28T18:24:58.665Z | DEBUG : [DatabaseOperationsProvider] coordinator phase changed 
+{
+  "phase": "idle"
+} | raw: ["[DatabaseOperationsProvider] coordinator phase changed",{"phase":"idle"}]
+[2026-02-28T18:24:58.660Z] [debug] 2026-02-28T18:24:58.660Z | DEBUG : [DatabaseOperationsProvider] phase changed 
+{
+  "phase": "idle"
+} | raw: ["[DatabaseOperationsProvider] phase changed",{"phase":"idle"}]
+[2026-02-28T18:24:58.651Z] [debug] 2026-02-28T18:24:58.651Z | DEBUG : [GoogleDriveProvider] inactive, skipping folder discovery | raw: ["[GoogleDriveProvider] inactive, skipping folder discovery"]
+[2026-02-28T18:24:58.644Z] [debug] 2026-02-28T18:24:58.644Z | DEBUG : [DatabaseCoordinationGate] overlay decision 
+{
+  "phase": "idle",
+  "shouldShowResolver": false,
+  "isBackupInProgress": false,
+  "currentType": null,
+  "showResolverOverlay": null,
+  "overlayMounted": false
+} | raw: ["[DatabaseCoordinationGate] overlay decision",{"phase":"idle","shouldShowResolver":false,"isBackupInProgress":false,"currentType":null,"showResolverOverlay":null,"overlayMounted":false}]
+[2026-02-28T18:24:58.637Z] [debug] 2026-02-28T18:24:58.637Z | DEBUG : [DatabaseCoordinationGate] overlay state 
+{
+  "phase": "idle",
+  "shouldShowResolver": false,
+  "isBackupInProgress": false,
+  "showResolverOverlay": null,
+  "currentType": null
+} | raw: ["[DatabaseCoordinationGate] overlay state",{"phase":"idle","shouldShowResolver":false,"isBackupInProgress":false,"showResolverOverlay":null,"currentType":null}]
+[2026-02-28T18:24:58.554Z] [debug] 2026-02-28T18:24:58.554Z | DEBUG : [SecuredRealmBoundary] Encryption disabled or missing buffer, skipping conversion | raw: ["[SecuredRealmBoundary] Encryption disabled or missing buffer, skipping conversion"]
+[2026-02-28T18:24:58.547Z] [debug] 2026-02-28T18:24:58.546Z | DEBUG : [SecuredRealmBoundary] Waiting for realm readiness; showing LockedScreen | raw: ["[SecuredRealmBoundary] Waiting for realm readiness; showing LockedScreen"]
+[2026-02-28T18:24:58.532Z] [debug] 2026-02-28T18:24:58.532Z | DEBUG : [SecuredRealmBoundary] Building Realm config 
+{
+  "recoveryNonce": 0,
+  "usingEncryptedConfig": false
+} | raw: ["[SecuredRealmBoundary] Building Realm config",{"recoveryNonce":0,"usingEncryptedConfig":false}]
+[2026-02-28T18:24:58.513Z] [info] 2026-02-28T18:24:58.512Z | INFO : HTTP Client Initialized 
+{} | raw: ["HTTP Client Initialized",{}]
+[2026-02-28T18:24:58.495Z] [info] 2026-02-28T18:24:58.495Z | INFO : HTTP Client Initialized 
+{} | raw: ["HTTP Client Initialized",{}]
+[2026-02-28T18:24:58.483Z] [debug] 2026-02-28T18:24:58.483Z | DEBUG : [GeocoderAssetManager] Diagnostics 
+{
+  "context": "startup",
+  "realmPath": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/BBBGeocoder/BBBGeocoder.realm",
+  "stagedRealmPath": "/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/BBBGeocoder/downloads/BBBGeocoder.realm.download",
+  "installedExists": true,
+  "stagedExists": false,
+  "installedVersion": null,
+  "stagedVersion": null,
+  "installedSize": 16384,
+  "stagedSize": null,
+  "installedRecordCount": 0
+} | raw: ["[GeocoderAssetManager] Diagnostics",{"context":"startup","realmPath":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/BBBGeocoder/BBBGeocoder.realm","stagedRealmPath":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/BBBGeocoder/downloads/BBBGeocoder.realm.download","installedExists":true,"stagedExists":false,"installedVersion":null,"stagedVersion":null,"installedSize":16384,"stagedSize":null,"installedRecordCount":0}]
+[2026-02-28T18:24:58.463Z] [debug] 2026-02-28T18:24:58.463Z | DEBUG : [FileSystem] File stats at /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/BBBGeocoder/BBBGeocoder.realm: {"filename":"BBBGeocoder.realm","lastModified":1772303098256,"path":"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/BBBGeocoder/BBBGeocoder.realm","size":16384,"type":"file"} | raw: ["[FileSystem] File stats at /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/BBBGeocoder/BBBGeocoder.realm: {\"filename\":\"BBBGeocoder.realm\",\"lastModified\":1772303098256,\"path\":\"/var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/BBBGeocoder/BBBGeocoder.realm\",\"size\":16384,\"type\":\"file\"}"]
+[2026-02-28T18:24:58.445Z] [debug] 2026-02-28T18:24:58.445Z | DEBUG : [FileSystem] Getting file stats at /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/BBBGeocoder/BBBGeocoder.realm | raw: ["[FileSystem] Getting file stats at /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/BBBGeocoder/BBBGeocoder.realm"]
+[2026-02-28T18:24:58.424Z] [debug] 2026-02-28T18:24:58.424Z | DEBUG : [FileSystem] Directory at /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/BBBGeocoder already exists. No need to create. | raw: ["[FileSystem] Directory at /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/BBBGeocoder already exists. No need to create."]
+[2026-02-28T18:24:58.405Z] [debug] 2026-02-28T18:24:58.405Z | DEBUG : [FileSystem] Directory at /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/BBBGeocoder exists | raw: ["[FileSystem] Directory at /var/mobile/Containers/Data/Application/005E11C6-FD7E-4715-B4CD-20146DC30C6E/Documents/BBBook/BBBGeocoder exists"]
