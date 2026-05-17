@@ -1,0 +1,18 @@
+{
+  "folders": [
+    {
+      "name": "BiggerBlackerBookSupport",
+      "path": "."
+    }
+  ],
+  "settings": {},
+  "extensions": {
+    "recommendations": [
+      "esbenp.prettier-vscode",
+      "dbaeumer.vscode-eslint",
+      "redhat.vscode-yaml",
+      "ms-vscode.vscode-typescript-next",
+      "eamodio.gitlens"
+    ]
+  }
+}

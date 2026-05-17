@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    // Editor essentials
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "redhat.vscode-yaml",
+
+    // TypeScript
+    "ms-vscode.vscode-typescript-next",
+
+    // Git
+    "eamodio.gitlens"
+  ]
+}

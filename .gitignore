@@ -138,3 +138,26 @@ dist
 
 # Environment variable files
 .env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+secrets/
+**/secrets
+**/secrets.*
+
+# TypeScript compiled output
+dist/
+build/
+
+# ESLint / Prettier cache
+.eslintcache
+.prettiercache
+
+# VS Code — allow shared config, ignore personal overrides
+.vscode/**/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+**/.history
