@@ -1,0 +1,649 @@
+# BBBLogs.txt
+[2026-05-28T22:37:15.848Z] [warn] 2026-05-28T22:37:15.847Z | WARN : [GoogleDrive] Resume pending operations is not supported. | raw: ["[GoogleDrive] Resume pending operations is not supported."]
+[2026-05-28T22:37:15.729Z] [info] 2026-05-28T22:37:15.728Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "light",
+  "effectiveThemePreference": "light",
+  "themePreference": "light"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"light","effectiveThemePreference":"light","themePreference":"light"}]
+[2026-05-28T22:37:12.738Z] [warn] 2026-05-28T22:37:12.738Z | WARN : [GoogleDrive] Resume pending operations is not supported. | raw: ["[GoogleDrive] Resume pending operations is not supported."]
+[2026-05-28T22:37:12.692Z] [info] 2026-05-28T22:37:12.692Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "light",
+  "effectiveThemePreference": "light",
+  "themePreference": "light"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"light","effectiveThemePreference":"light","themePreference":"light"}]
+[2026-05-28T22:37:07.403Z] [warn] 2026-05-28T22:37:07.403Z | WARN : [GoogleDrive] Resume pending operations is not supported. | raw: ["[GoogleDrive] Resume pending operations is not supported."]
+[2026-05-28T22:37:06.022Z] [error] 2026-05-28T22:37:06.021Z | ERROR : [Security] Failed to persist salt record to external store [CloudStorageError] (Code: 4) Could not upload salt record: 
+Caused by: Google Drive upload failed
+Error: Google Drive upload failed
+    at ?anon_0_ (address at index.android.bundle:1:4772155)
+    at next (native)
+    at asyncGeneratorStep (address at index.android.bundle:1:719352)
+    at _next (address at index.android.bundle:1:719609)
+    at tryCallOne (address at InternalBytecode.js:1:1180)
+    at anonymous (address at InternalBytecode.js:1:1874) | raw: ["[Security] Failed to persist salt record to external store",{"translationKey":"common:errors.cloudStorage.cannotUpload","translationParams":{},"error":{},"name":"CloudStorageError","errorCode":4,"driveType":"gdrive"}]
+[2026-05-28T22:37:06.013Z] [error] 2026-05-28T22:37:06.013Z | ERROR : [GoogleDrive] Could not upload salt record Google Drive upload failed | raw: ["[GoogleDrive] Could not upload salt record",{}]
+[2026-05-28T22:37:04.642Z] [error] 2026-05-28T22:37:04.641Z | ERROR : [Security] Could not load salt from external store [CloudStorageError] (Code: 3) Could not download salt record: 
+Caused by: JSON Parse error: Unexpected end of input
+SyntaxError: JSON Parse error: Unexpected end of input
+    at parse (native)
+    at ?anon_0_ (address at index.android.bundle:1:4765923)
+    at next (native)
+    at asyncGeneratorStep (address at index.android.bundle:1:719352)
+    at _next (address at index.android.bundle:1:719609)
+    at tryCallOne (address at InternalBytecode.js:1:1180)
+    at anonymous (address at InternalBytecode.js:1:1874) | raw: ["[Security] Could not load salt from external store",{"translationKey":"common:errors.cloudStorage.cannotDownload","translationParams":{},"error":{},"name":"CloudStorageError","errorCode":3,"driveType":"gdrive"}]
+[2026-05-28T22:37:04.638Z] [error] 2026-05-28T22:37:04.637Z | ERROR : [GoogleDrive] Could not download salt record JSON Parse error: Unexpected end of input | raw: ["[GoogleDrive] Could not download salt record",{}]
+[2026-05-28T22:37:03.711Z] [info] 2026-05-28T22:37:03.711Z | INFO : [useCloudAuthServices] OneDrive auth client initialized 14fe7e30-0119-4e61-b9e3-69838ca5bc41 | raw: ["[useCloudAuthServices] OneDrive auth client initialized","14fe7e30-0119-4e61-b9e3-69838ca5bc41"]
+[2026-05-28T22:37:03.256Z] [info] 2026-05-28T22:37:03.256Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/bbbookStore/persist:root",
+  "size": 3160
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/bbbookStore/persist:root","size":3160}]
+[2026-05-28T22:37:03.237Z] [info] 2026-05-28T22:37:03.237Z | INFO : [useCloudAuthServices] DropBox auth client initialized | raw: ["[useCloudAuthServices] DropBox auth client initialized"]
+[2026-05-28T22:37:03.113Z] [warn] 2026-05-28T22:37:03.113Z | WARN : [GoogleDrive] Resume pending operations is not supported. | raw: ["[GoogleDrive] Resume pending operations is not supported."]
+[2026-05-28T22:37:02.930Z] [warn] 2026-05-28T22:37:02.930Z | WARN : [GoogleDrive] Resume pending operations is not supported. | raw: ["[GoogleDrive] Resume pending operations is not supported."]
+[2026-05-28T22:37:02.427Z] [info] 2026-05-28T22:37:02.427Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "light",
+  "effectiveThemePreference": "light",
+  "themePreference": "light"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"light","effectiveThemePreference":"light","themePreference":"light"}]
+[2026-05-28T22:37:02.423Z] [info] 2026-05-28T22:37:02.422Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "light",
+  "effectiveThemePreference": "light",
+  "themePreference": "light"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"light","effectiveThemePreference":"light","themePreference":"light"}]
+[2026-05-28T22:37:02.419Z] [info] 2026-05-28T22:37:02.419Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "light",
+  "effectiveThemePreference": "light",
+  "themePreference": "light"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"light","effectiveThemePreference":"light","themePreference":"light"}]
+[2026-05-28T22:37:02.415Z] [info] 2026-05-28T22:37:02.415Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "light",
+  "effectiveThemePreference": "light",
+  "themePreference": "light"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"light","effectiveThemePreference":"light","themePreference":"light"}]
+[2026-05-28T22:37:02.167Z] [info] 2026-05-28T22:37:02.167Z | INFO : [useCloudAuthServices] Google auth client initialized | raw: ["[useCloudAuthServices] Google auth client initialized"]
+[2026-05-28T22:37:02.153Z] [info] 2026-05-28T22:37:02.153Z | INFO : [DatabaseProvider] Friend image repair completed 
+{
+  "didRun": false,
+  "markerPath": "/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/diagnostics/friend-image-repair-v1.done",
+  "plannedMoves": 0,
+  "totalImages": 0,
+  "updatedPaths": 0,
+  "skippedReason": "marker-exists"
+} | raw: ["[DatabaseProvider] Friend image repair completed",{"didRun":false,"markerPath":"/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/diagnostics/friend-image-repair-v1.done","plannedMoves":0,"totalImages":0,"updatedPaths":0,"skippedReason":"marker-exists"}]
+[2026-05-28T22:37:02.141Z] [warn] 2026-05-28T22:37:02.141Z | WARN : [GoogleDrive] Resume pending operations is not supported. | raw: ["[GoogleDrive] Resume pending operations is not supported."]
+[2026-05-28T22:37:02.117Z] [warn] 2026-05-28T22:37:02.117Z | WARN : [GoogleDrive] Resume pending operations is not supported. | raw: ["[GoogleDrive] Resume pending operations is not supported."]
+[2026-05-28T22:37:02.094Z] [debug] 2026-05-28T22:37:02.094Z | DEBUG : [Database] Finished retrieving all records in MedicationRegimenStep table | raw: ["[Database] Finished retrieving all records in MedicationRegimenStep table"]
+[2026-05-28T22:37:02.091Z] [debug] 2026-05-28T22:37:02.091Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationRegimenStep table: 10 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationRegimenStep table: 10 records found"]
+[2026-05-28T22:37:02.085Z] [debug] 2026-05-28T22:37:02.085Z | DEBUG : [Database] Finished retrieving all records in CalendarEvent table | raw: ["[Database] Finished retrieving all records in CalendarEvent table"]
+[2026-05-28T22:37:02.082Z] [debug] 2026-05-28T22:37:02.082Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found"]
+[2026-05-28T22:37:02.068Z] [debug] 2026-05-28T22:37:02.068Z | DEBUG : [Database] Finished retrieving all records in MedicationRegimen table | raw: ["[Database] Finished retrieving all records in MedicationRegimen table"]
+[2026-05-28T22:37:02.065Z] [debug] 2026-05-28T22:37:02.065Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationRegimen table: 6 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationRegimen table: 6 records found"]
+[2026-05-28T22:37:02.057Z] [debug] 2026-05-28T22:37:02.057Z | DEBUG : [Database] Finished retrieving all records in Screening table | raw: ["[Database] Finished retrieving all records in Screening table"]
+[2026-05-28T22:37:02.055Z] [debug] 2026-05-28T22:37:02.055Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Screening table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Screening table: 0 records found"]
+[2026-05-28T22:37:02.046Z] [debug] 2026-05-28T22:37:02.046Z | DEBUG : [Database] Finished retrieving all records in MedicationLog table | raw: ["[Database] Finished retrieving all records in MedicationLog table"]
+[2026-05-28T22:37:02.043Z] [debug] 2026-05-28T22:37:02.043Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found"]
+[2026-05-28T22:37:02.041Z] [debug] 2026-05-28T22:37:02.040Z | DEBUG : [Database] Finished retrieving all records in Encounter table | raw: ["[Database] Finished retrieving all records in Encounter table"]
+[2026-05-28T22:37:02.038Z] [debug] 2026-05-28T22:37:02.038Z | DEBUG : [Database] Retrieving all records in Encounter table: 0 records found | raw: ["[Database] Retrieving all records in Encounter table: 0 records found"]
+[2026-05-28T22:37:02.035Z] [debug] 2026-05-28T22:37:02.035Z | DEBUG : [Database] Finished retrieving all records in NotificationState table | raw: ["[Database] Finished retrieving all records in NotificationState table"]
+[2026-05-28T22:37:02.032Z] [debug] 2026-05-28T22:37:02.032Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationState table: 7 records found"]
+[2026-05-28T22:37:02.028Z] [debug] 2026-05-28T22:37:02.028Z | DEBUG : [Database] Finished retrieving all records in NotificationPreference table | raw: ["[Database] Finished retrieving all records in NotificationPreference table"]
+[2026-05-28T22:37:02.026Z] [debug] 2026-05-28T22:37:02.026Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in NotificationPreference table: 7 records found"]
+[2026-05-28T22:37:02.023Z] [debug] 2026-05-28T22:37:02.023Z | DEBUG : [Database] Finished retrieving all records in Treatment table | raw: ["[Database] Finished retrieving all records in Treatment table"]
+[2026-05-28T22:37:02.021Z] [debug] 2026-05-28T22:37:02.021Z | DEBUG : [Database] Retrieving all records in Treatment table: 0 records found | raw: ["[Database] Retrieving all records in Treatment table: 0 records found"]
+[2026-05-28T22:37:02.018Z] [debug] 2026-05-28T22:37:02.018Z | DEBUG : [Database] Finished retrieving all records in TestTaken table | raw: ["[Database] Finished retrieving all records in TestTaken table"]
+[2026-05-28T22:37:02.016Z] [debug] 2026-05-28T22:37:02.016Z | DEBUG : [Database] Retrieving all records in TestTaken table: 0 records found | raw: ["[Database] Retrieving all records in TestTaken table: 0 records found"]
+[2026-05-28T22:37:02.008Z] [debug] 2026-05-28T22:37:02.008Z | DEBUG : [Database] initialization Progress: 100% | raw: ["[Database] initialization Progress: 100%"]
+[2026-05-28T22:37:02.006Z] [debug] 2026-05-28T22:37:02.006Z | DEBUG : [SecurityProvider] checkAuthentication start: isLocked=false isSecured=true shouldAutoUnlock=false hasKey=true canAttemptBiometrics=false shouldBypassBiometrics=false biometricAttempted=false biometricInFlight=false lockSuppressed=false | raw: ["[SecurityProvider] checkAuthentication start: isLocked=false isSecured=true shouldAutoUnlock=false hasKey=true canAttemptBiometrics=false shouldBypassBiometrics=false biometricAttempted=false biometricInFlight=false lockSuppressed=false"]
+[2026-05-28T22:37:02.002Z] [debug] 2026-05-28T22:37:02.002Z | DEBUG : [Database] initialization Progress: 25% | raw: ["[Database] initialization Progress: 25%"]
+[2026-05-28T22:37:01.999Z] [debug] 2026-05-28T22:37:01.999Z | DEBUG : [Database]  Starting. Realm path /data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBookDB/BBBDatabase.realm | raw: ["[Database]  Starting. Realm path","/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBookDB/BBBDatabase.realm"]
+[2026-05-28T22:37:01.997Z] [debug] 2026-05-28T22:37:01.997Z | DEBUG : [Database] initialization Progress: 0% | raw: ["[Database] initialization Progress: 0%"]
+[2026-05-28T22:37:01.995Z] [debug] 2026-05-28T22:37:01.995Z | DEBUG : 🥳 [DatabaseLoader] Initializing database | raw: ["🥳 [DatabaseLoader] Initializing database"]
+[2026-05-28T22:37:01.992Z] [debug] 2026-05-28T22:37:01.992Z | DEBUG : [DatabaseLoader] Database Path /data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBookDB/BBBDatabase.realm 
+36 | raw: ["[DatabaseLoader] Database Path","/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBookDB/BBBDatabase.realm",36]
+[2026-05-28T22:37:01.989Z] [info] 2026-05-28T22:37:01.989Z | INFO : [DatabaseLoader] Loading Database | raw: ["[DatabaseLoader] Loading Database"]
+[2026-05-28T22:37:01.960Z] [debug] 2026-05-28T22:37:01.960Z | DEBUG : [SecuredRealmBoundary] Rendering children 
+{
+  "encryptionBufferPresent": true,
+  "isEncrypting": false,
+  "isEncryptionEnabled": true
+} | raw: ["[SecuredRealmBoundary] Rendering children",{"encryptionBufferPresent":true,"isEncrypting":false,"isEncryptionEnabled":true}]
+[2026-05-28T22:37:01.957Z] [debug] 2026-05-28T22:37:01.957Z | DEBUG : [SecuredRealmBoundary] Read-only encrypted open succeeded; realm already encrypted | raw: ["[SecuredRealmBoundary] Read-only encrypted open succeeded; realm already encrypted"]
+[2026-05-28T22:37:01.907Z] [debug] 2026-05-28T22:37:01.907Z | DEBUG : [SecuredRealmBoundary] Realm exists, attempting open with encrypted config | raw: ["[SecuredRealmBoundary] Realm exists, attempting open with encrypted config"]
+[2026-05-28T22:37:01.904Z] [debug] 2026-05-28T22:37:01.904Z | DEBUG : [SecurityProvider] checkAuthentication start: isLocked=true isSecured=true shouldAutoUnlock=false hasKey=true canAttemptBiometrics=false shouldBypassBiometrics=true biometricAttempted=false biometricInFlight=false lockSuppressed=false | raw: ["[SecurityProvider] checkAuthentication start: isLocked=true isSecured=true shouldAutoUnlock=false hasKey=true canAttemptBiometrics=false shouldBypassBiometrics=true biometricAttempted=false biometricInFlight=false lockSuppressed=false"]
+[2026-05-28T22:37:01.901Z] [debug] 2026-05-28T22:37:01.901Z | DEBUG : [SecuredRealmBoundary] ensureEncryptedRealm invoked | raw: ["[SecuredRealmBoundary] ensureEncryptedRealm invoked"]
+[2026-05-28T22:37:01.896Z] [debug] 2026-05-28T22:37:01.896Z | DEBUG : [SecuredRealmBoundary] Awaiting encrypted realm validation; showing LockedScreen 
+{
+  "hasValidatedEncryptedRealm": false,
+  "isEncrypting": false
+} | raw: ["[SecuredRealmBoundary] Awaiting encrypted realm validation; showing LockedScreen",{"hasValidatedEncryptedRealm":false,"isEncrypting":false}]
+[2026-05-28T22:37:01.894Z] [debug] 2026-05-28T22:37:01.894Z | DEBUG : [SecuredRealmBoundary] Building Realm config 
+{
+  "recoveryNonce": 0,
+  "usingEncryptedConfig": true
+} | raw: ["[SecuredRealmBoundary] Building Realm config",{"recoveryNonce":0,"usingEncryptedConfig":true}]
+[2026-05-28T22:37:01.891Z] [debug] 2026-05-28T22:37:01.891Z | DEBUG : [SecuredRealmBoundary] Computing encryption buffer 
+{
+  "encryptionKey": {},
+  "encryptionKeyPresent": true,
+  "isEncryptionEnabled": true
+} | raw: ["[SecuredRealmBoundary] Computing encryption buffer",{"encryptionKey":{},"encryptionKeyPresent":true,"isEncryptionEnabled":true}]
+[2026-05-28T22:37:01.888Z] [debug] 2026-05-28T22:37:01.887Z | DEBUG : [SecuritySession] Active encryption key 
+{
+  "base64": "nyzaBnNPgC7XjwglvO2Xue2gxnpUvAIr4st69mssrv+cmx5nGWAa6dcX5TsBAUbLt+E4X4sVF7vccf/8zSNonA==",
+  "hex": "9f2cda06734f802ed78f0825bced97b9eda0c67a54bc022be2cb7af66b2caeff9c9b1e6719601ae9d717e53b010146cbb7e1385f8b1517bbdc71fffccd23689c"
+} | raw: ["[SecuritySession] Active encryption key",{"base64":"nyzaBnNPgC7XjwglvO2Xue2gxnpUvAIr4st69mssrv+cmx5nGWAa6dcX5TsBAUbLt+E4X4sVF7vccf/8zSNonA==","hex":"9f2cda06734f802ed78f0825bced97b9eda0c67a54bc022be2cb7af66b2caeff9c9b1e6719601ae9d717e53b010146cbb7e1385f8b1517bbdc71fffccd23689c"}]
+[2026-05-28T22:37:01.885Z] [debug] 2026-05-28T22:37:01.885Z | DEBUG : [UnlockScreen] Derived encryption key length 
+{
+  "length": 64
+} | raw: ["[UnlockScreen] Derived encryption key length",{"length":64}]
+[2026-05-28T22:37:01.882Z] [debug] 2026-05-28T22:37:01.882Z | DEBUG : [UnlockScreen] PIN validation result 
+{
+  "isValid": true
+} | raw: ["[UnlockScreen] PIN validation result",{"isValid":true}]
+[2026-05-28T22:37:01.880Z] [debug] 2026-05-28T22:37:01.880Z | DEBUG : [Security] Stored encryption key for biometric retrieval | raw: ["[Security] Stored encryption key for biometric retrieval"]
+[2026-05-28T22:37:01.580Z] [debug] 2026-05-28T22:37:01.580Z | DEBUG : [SecurityService] Storing pin length metadata 
+{
+  "length": 6
+} | raw: ["[SecurityService] Storing pin length metadata",{"length":6}]
+[2026-05-28T22:37:01.574Z] [debug] 2026-05-28T22:37:01.574Z | DEBUG : [SecurityUtils] deriveKeyFromPin chunk result 
+{
+  "chunkBytes": 16,
+  "chunkHexLength": 32,
+  "chunkIndex": 3,
+  "cumulativeBytes": 64
+} | raw: ["[SecurityUtils] deriveKeyFromPin chunk result",{"chunkBytes":16,"chunkHexLength":32,"chunkIndex":3,"cumulativeBytes":64}]
+[2026-05-28T22:37:01.357Z] [debug] 2026-05-28T22:37:01.357Z | DEBUG : [SecurityUtils] deriveKeyFromPin chunk request 
+{
+  "chunkIndex": 3,
+  "requestHexLength": 128,
+  "saltVariantSample": "6Ds2IdiS"
+} | raw: ["[SecurityUtils] deriveKeyFromPin chunk request",{"chunkIndex":3,"requestHexLength":128,"saltVariantSample":"6Ds2IdiS"}]
+[2026-05-28T22:37:01.352Z] [debug] 2026-05-28T22:37:01.352Z | DEBUG : [SecurityUtils] deriveKeyFromPin chunk result 
+{
+  "chunkBytes": 16,
+  "chunkHexLength": 32,
+  "chunkIndex": 2,
+  "cumulativeBytes": 48
+} | raw: ["[SecurityUtils] deriveKeyFromPin chunk result",{"chunkBytes":16,"chunkHexLength":32,"chunkIndex":2,"cumulativeBytes":48}]
+[2026-05-28T22:37:01.133Z] [debug] 2026-05-28T22:37:01.133Z | DEBUG : [SecurityUtils] deriveKeyFromPin chunk request 
+{
+  "chunkIndex": 2,
+  "requestHexLength": 128,
+  "saltVariantSample": "6Ds2IdiS"
+} | raw: ["[SecurityUtils] deriveKeyFromPin chunk request",{"chunkIndex":2,"requestHexLength":128,"saltVariantSample":"6Ds2IdiS"}]
+[2026-05-28T22:37:01.128Z] [debug] 2026-05-28T22:37:01.128Z | DEBUG : [SecurityUtils] deriveKeyFromPin chunk result 
+{
+  "chunkBytes": 16,
+  "chunkHexLength": 32,
+  "chunkIndex": 1,
+  "cumulativeBytes": 32
+} | raw: ["[SecurityUtils] deriveKeyFromPin chunk result",{"chunkBytes":16,"chunkHexLength":32,"chunkIndex":1,"cumulativeBytes":32}]
+[2026-05-28T22:37:00.912Z] [debug] 2026-05-28T22:37:00.912Z | DEBUG : [SecurityUtils] deriveKeyFromPin chunk request 
+{
+  "chunkIndex": 1,
+  "requestHexLength": 128,
+  "saltVariantSample": "6Ds2IdiS"
+} | raw: ["[SecurityUtils] deriveKeyFromPin chunk request",{"chunkIndex":1,"requestHexLength":128,"saltVariantSample":"6Ds2IdiS"}]
+[2026-05-28T22:37:00.908Z] [debug] 2026-05-28T22:37:00.908Z | DEBUG : [SecurityUtils] deriveKeyFromPin chunk result 
+{
+  "chunkBytes": 16,
+  "chunkHexLength": 32,
+  "chunkIndex": 0,
+  "cumulativeBytes": 16
+} | raw: ["[SecurityUtils] deriveKeyFromPin chunk result",{"chunkBytes":16,"chunkHexLength":32,"chunkIndex":0,"cumulativeBytes":16}]
+[2026-05-28T22:37:00.689Z] [debug] 2026-05-28T22:37:00.689Z | DEBUG : [SecurityUtils] deriveKeyFromPin chunk request 
+{
+  "chunkIndex": 0,
+  "requestHexLength": 128,
+  "saltVariantSample": "6Ds2IdiS"
+} | raw: ["[SecurityUtils] deriveKeyFromPin chunk request",{"chunkIndex":0,"requestHexLength":128,"saltVariantSample":"6Ds2IdiS"}]
+[2026-05-28T22:37:00.684Z] [debug] 2026-05-28T22:37:00.683Z | DEBUG : [Security] Found stored PIN credentials in Keychain | raw: ["[Security] Found stored PIN credentials in Keychain"]
+[2026-05-28T22:37:00.645Z] [debug] 2026-05-28T22:37:00.645Z | DEBUG : [Security] Attempting to load PIN from Keychain | raw: ["[Security] Attempting to load PIN from Keychain"]
+[2026-05-28T22:37:00.642Z] [debug] 2026-05-28T22:37:00.642Z | DEBUG : [UnlockScreen] Attempting unlock 
+{
+  "countFailure": false,
+  "enteredLength": 6,
+  "numberOfAttempts": 1,
+  "preserveInput": true,
+  "storedLength": 6
+} | raw: ["[UnlockScreen] Attempting unlock",{"countFailure":false,"enteredLength":6,"numberOfAttempts":1,"preserveInput":true,"storedLength":6}]
+[2026-05-28T22:37:00.638Z] [debug] 2026-05-28T22:37:00.638Z | DEBUG : [UnlockScreen] Auto-submit evaluation 
+{
+  "countdown": 0,
+  "enteredLength": 6,
+  "isLoading": false,
+  "storedLength": 6
+} | raw: ["[UnlockScreen] Auto-submit evaluation",{"countdown":0,"enteredLength":6,"isLoading":false,"storedLength":6}]
+[2026-05-28T22:36:56.492Z] [info] 2026-05-28T22:36:56.492Z | INFO : [SecureStorage] Initialization complete 
+{
+  "trigger": "initial_active",
+  "attempt": 1,
+  "durationMs": 46,
+  "firstRun": false
+} | raw: ["[SecureStorage] Initialization complete",{"trigger":"initial_active","attempt":1,"durationMs":46,"firstRun":false}]
+[2026-05-28T22:36:56.490Z] [info] 2026-05-28T22:36:56.490Z | INFO : [Security] Keychain bootstrap complete 
+{
+  "service": "bbbook.keychain-prewarm",
+  "synchronizable": false,
+  "accessible": "default",
+  "durationMs": 41,
+  "firstRun": false,
+  "migratedFromSynchronizable": false,
+  "synchronizableItemFound": false,
+  "endTimestampMs": 1780007816490
+} | raw: ["[Security] Keychain bootstrap complete",{"service":"bbbook.keychain-prewarm","synchronizable":false,"accessible":"default","durationMs":41,"firstRun":false,"migratedFromSynchronizable":false,"synchronizableItemFound":false,"endTimestampMs":1780007816490}]
+[2026-05-28T22:36:56.487Z] [info] 2026-05-28T22:36:56.487Z | INFO : [Security] Keychain bootstrap read end 
+{
+  "durationMs": 36,
+  "endTimestampMs": 1780007816487,
+  "service": "bbbook.keychain-prewarm",
+  "synchronizable": false,
+  "accessible": "default",
+  "found": true
+} | raw: ["[Security] Keychain bootstrap read end",{"durationMs":36,"endTimestampMs":1780007816487,"service":"bbbook.keychain-prewarm","synchronizable":false,"accessible":"default","found":true}]
+[2026-05-28T22:36:56.461Z] [debug] 2026-05-28T22:36:56.461Z | DEBUG : [UnlockScreen] Loaded stored PIN length 
+{
+  "storedLength": 6
+} | raw: ["[UnlockScreen] Loaded stored PIN length",{"storedLength":6}]
+[2026-05-28T22:36:56.458Z] [debug] 2026-05-28T22:36:56.458Z | DEBUG : [SecurityService] Using cached pin length metadata 
+{
+  "storedLength": 6
+} | raw: ["[SecurityService] Using cached pin length metadata",{"storedLength":6}]
+[2026-05-28T22:36:56.456Z] [debug] 2026-05-28T22:36:56.455Z | DEBUG : [SecurityService] Loaded pin length metadata 
+{
+  "length": 6
+} | raw: ["[SecurityService] Loaded pin length metadata",{"length":6}]
+[2026-05-28T22:36:56.451Z] [info] 2026-05-28T22:36:56.451Z | INFO : [Security] Keychain bootstrap read start 
+{
+  "startTimestampMs": 1780007816451,
+  "service": "bbbook.keychain-prewarm",
+  "synchronizable": false,
+  "accessible": "default"
+} | raw: ["[Security] Keychain bootstrap read start",{"startTimestampMs":1780007816451,"service":"bbbook.keychain-prewarm","synchronizable":false,"accessible":"default"}]
+[2026-05-28T22:36:56.449Z] [info] 2026-05-28T22:36:56.449Z | INFO : [Security] Keychain bootstrap start 
+{
+  "startTimestampMs": 1780007816449,
+  "service": "bbbook.keychain-prewarm",
+  "synchronizable": false,
+  "accessible": "default"
+} | raw: ["[Security] Keychain bootstrap start",{"startTimestampMs":1780007816449,"service":"bbbook.keychain-prewarm","synchronizable":false,"accessible":"default"}]
+[2026-05-28T22:36:56.446Z] [info] 2026-05-28T22:36:56.446Z | INFO : [SecureStorage] Initialization queued 
+{
+  "trigger": "initial_active",
+  "attempt": 1,
+  "startTimestampMs": 1780007816446
+} | raw: ["[SecureStorage] Initialization queued",{"trigger":"initial_active","attempt":1,"startTimestampMs":1780007816446}]
+[2026-05-28T22:36:56.443Z] [debug] 2026-05-28T22:36:56.443Z | DEBUG : [GoogleDriveProvider] Could not locate BBBook folder GoogleAuthClient was not initialized | raw: ["[GoogleDriveProvider] Could not locate BBBook folder",{}]
+[2026-05-28T22:36:56.439Z] [debug] 2026-05-28T22:36:56.439Z | DEBUG : [GoogleDriveProvider] Could not locate BBBook folder GoogleAuthClient was not initialized | raw: ["[GoogleDriveProvider] Could not locate BBBook folder",{}]
+[2026-05-28T22:36:56.431Z] [debug] 2026-05-28T22:36:56.431Z | DEBUG : [SecurityProvider] Falling back to PIN; biometrics unavailable or bypassed | raw: ["[SecurityProvider] Falling back to PIN; biometrics unavailable or bypassed"]
+[2026-05-28T22:36:56.428Z] [debug] 2026-05-28T22:36:56.428Z | DEBUG : [SecurityProvider] biometric evaluation: shouldAttempt=false shouldFallback=true canAttemptBiometrics=false shouldBypassBiometrics=true | raw: ["[SecurityProvider] biometric evaluation: shouldAttempt=false shouldFallback=true canAttemptBiometrics=false shouldBypassBiometrics=true"]
+[2026-05-28T22:36:56.425Z] [debug] 2026-05-28T22:36:56.425Z | DEBUG : [SecurityProvider] checkAuthentication start: isLocked=true isSecured=true shouldAutoUnlock=false hasKey=false canAttemptBiometrics=false shouldBypassBiometrics=true biometricAttempted=false biometricInFlight=false lockSuppressed=false | raw: ["[SecurityProvider] checkAuthentication start: isLocked=true isSecured=true shouldAutoUnlock=false hasKey=false canAttemptBiometrics=false shouldBypassBiometrics=true biometricAttempted=false biometricInFlight=false lockSuppressed=false"]
+[2026-05-28T22:36:56.422Z] [debug] 2026-05-28T22:36:56.422Z | DEBUG : [App] /data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBookDB | raw: ["[App] /data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBookDB"]
+[2026-05-28T22:36:56.419Z] [debug] 2026-05-28T22:36:56.419Z | DEBUG : [CloudStorageProvider] security effect ran for cloudStorage 
+{
+  "driveType": "gdrive"
+} | raw: ["[CloudStorageProvider] security effect ran for cloudStorage",{"driveType":"gdrive"}]
+[2026-05-28T22:36:56.416Z] [debug] 2026-05-28T22:36:56.416Z | DEBUG : [Security] Fetching salt record from external store | raw: ["[Security] Fetching salt record from external store"]
+[2026-05-28T22:36:56.414Z] [debug] 2026-05-28T22:36:56.413Z | DEBUG : [Security] Configuring external salt store 
+{
+  "driveType": "gdrive",
+  "provider": "Google Drive"
+} | raw: ["[Security] Configuring external salt store",{"driveType":"gdrive","provider":"Google Drive"}]
+[2026-05-28T22:36:56.411Z] [info] 2026-05-28T22:36:56.411Z | INFO : [CloudStorageProvider] module executing current build | raw: ["[CloudStorageProvider] module executing current build"]
+[2026-05-28T22:36:56.408Z] [debug] 2026-05-28T22:36:56.408Z | DEBUG : [DatabaseOperationsProvider] coordinator phase changed 
+{
+  "phase": "idle"
+} | raw: ["[DatabaseOperationsProvider] coordinator phase changed",{"phase":"idle"}]
+[2026-05-28T22:36:56.406Z] [debug] 2026-05-28T22:36:56.406Z | DEBUG : [DatabaseOperationsProvider] phase changed 
+{
+  "phase": "idle"
+} | raw: ["[DatabaseOperationsProvider] phase changed",{"phase":"idle"}]
+[2026-05-28T22:36:56.402Z] [debug] 2026-05-28T22:36:56.402Z | DEBUG : [DatabaseCoordinationGate] overlay decision 
+{
+  "phase": "idle",
+  "shouldShowResolver": false,
+  "isBackupInProgress": false,
+  "currentType": null,
+  "showResolverOverlay": null,
+  "overlayMounted": false
+} | raw: ["[DatabaseCoordinationGate] overlay decision",{"phase":"idle","shouldShowResolver":false,"isBackupInProgress":false,"currentType":null,"showResolverOverlay":null,"overlayMounted":false}]
+[2026-05-28T22:36:56.399Z] [debug] 2026-05-28T22:36:56.399Z | DEBUG : [DatabaseCoordinationGate] overlay state 
+{
+  "phase": "idle",
+  "shouldShowResolver": false,
+  "isBackupInProgress": false,
+  "showResolverOverlay": null,
+  "currentType": null
+} | raw: ["[DatabaseCoordinationGate] overlay state",{"phase":"idle","shouldShowResolver":false,"isBackupInProgress":false,"showResolverOverlay":null,"currentType":null}]
+[2026-05-28T22:36:56.397Z] [debug] 2026-05-28T22:36:56.397Z | DEBUG : [SecuredRealmBoundary] Encryption disabled or missing buffer, skipping conversion | raw: ["[SecuredRealmBoundary] Encryption disabled or missing buffer, skipping conversion"]
+[2026-05-28T22:36:56.389Z] [debug] 2026-05-28T22:36:56.389Z | DEBUG : [EncryptionUnlockGate] Rendering UnlockScreen while awaiting encryption key | raw: ["[EncryptionUnlockGate] Rendering UnlockScreen while awaiting encryption key"]
+[2026-05-28T22:36:56.383Z] [debug] 2026-05-28T22:36:56.383Z | DEBUG : [SecuredRealmBoundary] Building Realm config 
+{
+  "recoveryNonce": 0,
+  "usingEncryptedConfig": false
+} | raw: ["[SecuredRealmBoundary] Building Realm config",{"recoveryNonce":0,"usingEncryptedConfig":false}]
+[2026-05-28T22:36:56.374Z] [info] 2026-05-28T22:36:56.374Z | INFO : HTTP Client Initialized 
+{} | raw: ["HTTP Client Initialized",{}]
+[2026-05-28T22:36:56.363Z] [info] 2026-05-28T22:36:56.363Z | INFO : HTTP Client Initialized 
+{} | raw: ["HTTP Client Initialized",{}]
+[2026-05-28T22:36:56.355Z] [debug] 2026-05-28T22:36:56.354Z | DEBUG : [GeocoderAssetManager] Diagnostics 
+{
+  "context": "startup",
+  "realmPath": "/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBGeocoder/BBBGeocoder.realm",
+  "stagedRealmPath": "/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBGeocoder/downloads/BBBGeocoder.realm.download",
+  "installedExists": true,
+  "stagedExists": false,
+  "installedVersion": null,
+  "stagedVersion": null,
+  "installedSize": 4096,
+  "stagedSize": null,
+  "installedRecordCount": 0
+} | raw: ["[GeocoderAssetManager] Diagnostics",{"context":"startup","realmPath":"/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBGeocoder/BBBGeocoder.realm","stagedRealmPath":"/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBGeocoder/downloads/BBBGeocoder.realm.download","installedExists":true,"stagedExists":false,"installedVersion":null,"stagedVersion":null,"installedSize":4096,"stagedSize":null,"installedRecordCount":0}]
+[2026-05-28T22:36:56.351Z] [debug] 2026-05-28T22:36:56.351Z | DEBUG : [FileSystem] File stats at /data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBGeocoder/BBBGeocoder.realm: {"filename":"BBBGeocoder.realm","lastModified":1779890667505,"path":"/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBGeocoder/BBBGeocoder.realm","size":4096,"type":"file"} | raw: ["[FileSystem] File stats at /data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBGeocoder/BBBGeocoder.realm: {\"filename\":\"BBBGeocoder.realm\",\"lastModified\":1779890667505,\"path\":\"/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBGeocoder/BBBGeocoder.realm\",\"size\":4096,\"type\":\"file\"}"]
+[2026-05-28T22:36:56.345Z] [debug] 2026-05-28T22:36:56.345Z | DEBUG : [FileSystem] Getting file stats at /data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBGeocoder/BBBGeocoder.realm | raw: ["[FileSystem] Getting file stats at /data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBGeocoder/BBBGeocoder.realm"]
+[2026-05-28T22:36:56.342Z] [debug] 2026-05-28T22:36:56.342Z | DEBUG : [FileSystem] Directory at /data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBGeocoder already exists. No need to create. | raw: ["[FileSystem] Directory at /data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBGeocoder already exists. No need to create."]
+[2026-05-28T22:36:56.340Z] [debug] 2026-05-28T22:36:56.340Z | DEBUG : [FileSystem] Directory at /data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBGeocoder exists | raw: ["[FileSystem] Directory at /data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBGeocoder exists"]
+[2026-05-28T22:36:56.337Z] [debug] 2026-05-28T22:36:56.337Z | DEBUG : [FileSystem] Checking if directory exists at /data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBGeocoder | raw: ["[FileSystem] Checking if directory exists at /data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBGeocoder"]
+[2026-05-28T22:36:56.334Z] [debug] 2026-05-28T22:36:56.334Z | DEBUG : [Startup] Geocoder database promotion checked 
+{
+  "promoted": false
+} | raw: ["[Startup] Geocoder database promotion checked",{"promoted":false}]
+[2026-05-28T22:36:56.311Z] [info] 2026-05-28T22:36:56.311Z | INFO : [Persistor] Rehydrate complete 
+{
+  "key": "root",
+  "storageKey": "persist:root"
+} | raw: ["[Persistor] Rehydrate complete",{"key":"root","storageKey":"persist:root"}]
+[2026-05-28T22:36:56.308Z] [info] 2026-05-28T22:36:56.308Z | INFO : [Persistor] Migrations complete 
+{
+  "key": "root"
+} | raw: ["[Persistor] Migrations complete",{"key":"root"}]
+[2026-05-28T22:36:56.306Z] [debug] 2026-05-28T22:36:56.306Z | DEBUG : [persistMigrate] Versions match, no migration necessary | raw: ["[persistMigrate] Versions match, no migration necessary"]
+[2026-05-28T22:36:56.304Z] [debug] 2026-05-28T22:36:56.304Z | DEBUG : Inbound Version: 99. Current Version: 99 | raw: ["Inbound Version: 99. Current Version: 99"]
+[2026-05-28T22:36:56.302Z] [info] 2026-05-28T22:36:56.301Z | INFO : [persistMigrate] Inbound version: 99 | raw: ["[persistMigrate] Inbound version: 99"]
+[2026-05-28T22:36:56.299Z] [debug] 2026-05-28T22:36:56.299Z | DEBUG : [persistMigrate] Inbound state is app state | raw: ["[persistMigrate] Inbound state is app state"]
+[2026-05-28T22:36:56.297Z] [info] 2026-05-28T22:36:56.297Z | INFO : [Persistor] Running migrations 
+{
+  "key": "root",
+  "version": 99
+} | raw: ["[Persistor] Running migrations",{"key":"root","version":99}]
+[2026-05-28T22:36:56.295Z] [info] 2026-05-28T22:36:56.294Z | INFO : [Persistor] Storage read complete 
+{
+  "key": "root",
+  "storageKey": "persist:root",
+  "hasValue": true
+} | raw: ["[Persistor] Storage read complete",{"key":"root","storageKey":"persist:root","hasValue":true}]
+[2026-05-28T22:36:56.292Z] [debug] 2026-05-28T22:36:56.292Z | DEBUG : [GeocoderProvider] Realm ready 
+{
+  "isClosed": false,
+  "path": "/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBGeocoder/BBBGeocoder.realm"
+} | raw: ["[GeocoderProvider] Realm ready",{"isClosed":false,"path":"/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBGeocoder/BBBGeocoder.realm"}]
+[2026-05-28T22:36:56.288Z] [info] 2026-05-28T22:36:56.288Z | INFO : [FileStorage] Read success 
+{
+  "key": "persist:root",
+  "path": "/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/bbbookStore/persist:root",
+  "size": 3160
+} | raw: ["[FileStorage] Read success",{"key":"persist:root","path":"/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/bbbookStore/persist:root","size":3160}]
+[2026-05-28T22:36:56.285Z] [info] 2026-05-28T22:36:56.285Z | INFO : [FileStorage] Using File Storage System | raw: ["[FileStorage] Using File Storage System"]
+[2026-05-28T22:36:56.283Z] [debug] 2026-05-28T22:36:56.283Z | DEBUG : [GeocoderProvider] Realm ready 
+{
+  "isClosed": false,
+  "path": "/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBGeocoder/BBBGeocoder.realm"
+} | raw: ["[GeocoderProvider] Realm ready",{"isClosed":false,"path":"/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBGeocoder/BBBGeocoder.realm"}]
+[2026-05-28T22:36:56.279Z] [debug] 2026-05-28T22:36:56.279Z | DEBUG : [FileSystem] Reading file at /data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/bbbookStore/persist:root | raw: ["[FileSystem] Reading file at /data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/bbbookStore/persist:root"]
+[2026-05-28T22:36:56.268Z] [info] 2026-05-28T22:36:56.268Z | INFO : [FileStorage] Read start 
+{
+  "key": "persist:root",
+  "path": "/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/bbbookStore/persist:root"
+} | raw: ["[FileStorage] Read start",{"key":"persist:root","path":"/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/bbbookStore/persist:root"}]
+[2026-05-28T22:36:56.266Z] [info] 2026-05-28T22:36:56.266Z | INFO : [Persistor] Reading storage 
+{
+  "key": "root",
+  "legacyKeys": [
+    "root",
+    "persist"
+  ],
+  "storageKey": "persist:root"
+} | raw: ["[Persistor] Reading storage",{"key":"root","legacyKeys":["root","persist"],"storageKey":"persist:root"}]
+[2026-05-28T22:36:56.264Z] [info] 2026-05-28T22:36:56.263Z | INFO : [Persistor] Rehydrate start 
+{
+  "key": "root",
+  "storageKey": "persist:root"
+} | raw: ["[Persistor] Rehydrate start",{"key":"root","storageKey":"persist:root"}]
+[2026-05-28T22:36:56.247Z] [debug] 2026-05-28T22:36:56.247Z | DEBUG : [FileSystem] Directory at /data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBGeocoder already exists. No need to create. | raw: ["[FileSystem] Directory at /data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBGeocoder already exists. No need to create."]
+[2026-05-28T22:36:56.244Z] [debug] 2026-05-28T22:36:56.244Z | DEBUG : [FileSystem] Directory at /data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBGeocoder exists | raw: ["[FileSystem] Directory at /data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBGeocoder exists"]
+[2026-05-28T22:36:56.238Z] [debug] 2026-05-28T22:36:56.238Z | DEBUG : [FileSystem] Checking if directory exists at /data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBGeocoder | raw: ["[FileSystem] Checking if directory exists at /data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBGeocoder"]
+[2026-05-28T22:36:56.231Z] [debug] 2026-05-28T22:36:56.230Z | DEBUG : [GeocoderProvider] Creating Realm context 
+{
+  "path": "/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBGeocoder/BBBGeocoder.realm"
+} | raw: ["[GeocoderProvider] Creating Realm context",{"path":"/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBGeocoder/BBBGeocoder.realm"}]
+[2026-05-28T22:36:48.431Z] [error] 2026-05-28T22:36:48.431Z | ERROR : [NativeExceptionHandler] Global error caught: com.facebook.react.common.JavascriptException: TypeError: Cannot read property 'origin' of undefined
+
+This error is located at:
+    at SystemInfo (address at index.android.bundle:1:1141089)
+    at RCTView (<anonymous>)
+    at View (address at index.android.bundle:1:580697)
+    at RCTScrollView (<anonymous>)
+    at ScrollView (address at index.android.bundle:1:726903)
+    at ScrollView (address at index.android.bundle:1:733898)
+    at RCTView (<anonymous>)
+    at View (address at index.android.bundle:1:580697)
+    at SitemapInner (address at index.android.bundle:1:1138796)
+    at NoSSR (address at index.android.bundle:1:1141973)
+    at Sitemap (<anonymous>)
+    at StaticContainer (address at index.android.bundle:1:992185)
+    at EnsureSingleNavigator (address at index.android.bundle:1:950991)
+    at SceneView (address at index.android.bundle:1:990302)
+    at PreventRemoveProvider (address at index.android.bundle:1:952504)
+    at NavigationStateListenerProvider (address at index.android.bundle:1:993193)
+    at NavigationContent (address at index.android.bundle:1:992867)
+    at anonymous (address at index.android.bundle:1:992770)
+    at Content (address at index.android.bundle:1:899337)
+    at RNCSafeAreaProvider (<anonymous>)
+    at SafeAreaProvider (address at index.android.bundle:1:901956)
+    at LinkPreviewContextProvider (address at index.android.bundle:1:900461)
+    at anonymous (address at index.android.bundle:1:898020)
+    at ThemeProvider (address at index.android.bundle:1:951335)
+    at EnsureSingleNavigator (address at index.android.bundle:1:950991)
+    at BaseNavigationContainer (address at index.android.bundle:1:925743)
+    at NavigationContainerInner (address at index.android.bundle:1:1199695)
+    at ContextNavigator (address at index.android.bundle:1:898283)
+    at ExpoRoot (address at index.android.bundle:1:897893)
+    at App (<anonymous>)
+    at RCTView (<anonymous>)
+    at View (address at index.android.bundle:1:580697)
+    at AppContainer (address at index.android.bundle:1:580203), stack:
+SystemInfo@1:1141089
+renderWithHooks@1:270680
+updateFunctionComponent@1:289524
+beginWork@1:297404
+performUnitOfWork@1:316330
+workLoopSync@1:315274
+renderRootSync@1:315106
+performWorkOnRoot@1:312730
+performSyncWorkOnRoot@1:266188
+flushSyncWorkAcrossRoots_impl@1:264881
+processRootScheduleInMicrotask@1:265260
+anonymous@1:266316
+
+	at com.facebook.react.modules.core.ExceptionsManagerModule.reportException(ExceptionsManagerModule.kt:52)
+	at com.facebook.jni.NativeRunnable.run(Native Method)
+	at android.os.Handler.handleCallback(Handler.java:1037)
+	at android.os.Handler.dispatchMessage(Handler.java:108)
+	at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.kt:21)
+	at android.os.Looper.loopOnce(Looper.java:304)
+	at android.os.Looper.loop(Looper.java:430)
+	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.startNewBackgroundThread$lambda$1(MessageQueueThreadImpl.kt:175)
+	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.$r8$lambda$ldnZnqelhYFctGaUKkOKYj5rxo4(Unknown Source:0)
+	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1564) | raw: ["[NativeExceptionHandler] Global error caught:","com.facebook.react.common.JavascriptException: TypeError: Cannot read property 'origin' of undefined\n\nThis error is located at:\n    at SystemInfo (address at index.android.bundle:1:1141089)\n    at RCTView (<anonymous>)\n    at View (address at index.android.bundle:1:580697)\n    at RCTScrollView (<anonymous>)\n    at ScrollView (address at index.android.bundle:1:726903)\n    at ScrollView (address at index.android.bundle:1:733898)\n    at RCTView (<anonymous>)\n    at View (address at index.android.bundle:1:580697)\n    at SitemapInner (address at index.android.bundle:1:1138796)\n    at NoSSR (address at index.android.bundle:1:1141973)\n    at Sitemap (<anonymous>)\n    at StaticContainer (address at index.android.bundle:1:992185)\n    at EnsureSingleNavigator (address at index.android.bundle:1:950991)\n    at SceneView (address at index.android.bundle:1:990302)\n    at PreventRemoveProvider (address at index.android.bundle:1:952504)\n    at NavigationStateListenerProvider (address at index.android.bundle:1:993193)\n    at NavigationContent (address at index.android.bundle:1:992867)\n    at anonymous (address at index.android.bundle:1:992770)\n    at Content (address at index.android.bundle:1:899337)\n    at RNCSafeAreaProvider (<anonymous>)\n    at SafeAreaProvider (address at index.android.bundle:1:901956)\n    at LinkPreviewContextProvider (address at index.android.bundle:1:900461)\n    at anonymous (address at index.android.bundle:1:898020)\n    at ThemeProvider (address at index.android.bundle:1:951335)\n    at EnsureSingleNavigator (address at index.android.bundle:1:950991)\n    at BaseNavigationContainer (address at index.android.bundle:1:925743)\n    at NavigationContainerInner (address at index.android.bundle:1:1199695)\n    at ContextNavigator (address at index.android.bundle:1:898283)\n    at ExpoRoot (address at index.android.bundle:1:897893)\n    at App (<anonymous>)\n    at RCTView (<anonymous>)\n    at View (address at index.android.bundle:1:580697)\n    at AppContainer (address at index.android.bundle:1:580203), stack:\nSystemInfo@1:1141089\nrenderWithHooks@1:270680\nupdateFunctionComponent@1:289524\nbeginWork@1:297404\nperformUnitOfWork@1:316330\nworkLoopSync@1:315274\nrenderRootSync@1:315106\nperformWorkOnRoot@1:312730\nperformSyncWorkOnRoot@1:266188\nflushSyncWorkAcrossRoots_impl@1:264881\nprocessRootScheduleInMicrotask@1:265260\nanonymous@1:266316\n\n\tat com.facebook.react.modules.core.ExceptionsManagerModule.reportException(ExceptionsManagerModule.kt:52)\n\tat com.facebook.jni.NativeRunnable.run(Native Method)\n\tat android.os.Handler.handleCallback(Handler.java:1037)\n\tat android.os.Handler.dispatchMessage(Handler.java:108)\n\tat com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.kt:21)\n\tat android.os.Looper.loopOnce(Looper.java:304)\n\tat android.os.Looper.loop(Looper.java:430)\n\tat com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.startNewBackgroundThread$lambda$1(MessageQueueThreadImpl.kt:175)\n\tat com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.$r8$lambda$ldnZnqelhYFctGaUKkOKYj5rxo4(Unknown Source:0)\n\tat com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)\n\tat java.lang.Thread.run(Thread.java:1564)\n"]
+[2026-05-28T22:36:48.413Z] [error] 2026-05-28T22:36:48.413Z | ERROR : [JSExceptionHandler] Global error caught: Cannot read property 'origin' of undefined | raw: ["[JSExceptionHandler] Global error caught:",{"message":"Cannot read property 'origin' of undefined","name":"TypeError","stack":"TypeError: Cannot read property 'origin' of undefined\n    at SystemInfo (address at index.android.bundle:1:1141089)\n    at renderWithHooks (address at index.android.bundle:1:270680)\n    at updateFunctionComponent (address at index.android.bundle:1:289524)\n    at beginWork (address at index.android.bundle:1:297404)\n    at performUnitOfWork (address at index.android.bundle:1:316330)\n    at workLoopSync (address at index.android.bundle:1:315274)\n    at renderRootSync (address at index.android.bundle:1:315106)\n    at performWorkOnRoot (address at index.android.bundle:1:312730)\n    at performSyncWorkOnRoot (address at index.android.bundle:1:266188)\n    at flushSyncWorkAcrossRoots_impl (address at index.android.bundle:1:264881)\n    at processRootScheduleInMicrotask (address at index.android.bundle:1:265260)\n    at anonymous (address at index.android.bundle:1:266316)"}]
+[2026-05-28T22:36:43.355Z] [warn] 2026-05-28T22:36:43.355Z | WARN : [GoogleDrive] Resume pending operations is not supported. | raw: ["[GoogleDrive] Resume pending operations is not supported."]
+[2026-05-28T22:36:43.305Z] [info] 2026-05-28T22:36:43.305Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "light",
+  "themePreference": "light"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"light","themePreference":"light"}]
+[2026-05-28T22:36:38.522Z] [info] 2026-05-28T22:36:38.522Z | INFO : [TombstoneMaintenance] Completed run triggered by app-resume, processed 2 tombstones. | raw: ["[TombstoneMaintenance] Completed run triggered by app-resume, processed 2 tombstones."]
+[2026-05-28T22:36:29.754Z] [warn] 2026-05-28T22:36:29.754Z | WARN : [GoogleDrive] Resume pending operations is not supported. | raw: ["[GoogleDrive] Resume pending operations is not supported."]
+[2026-05-28T22:36:27.397Z] [warn] 2026-05-28T22:36:27.397Z | WARN : [GoogleDrive] Resume pending operations is not supported. | raw: ["[GoogleDrive] Resume pending operations is not supported."]
+[2026-05-28T22:36:27.296Z] [info] 2026-05-28T22:36:27.296Z | INFO : [Database] Deleted record in Encounter table | raw: ["[Database] Deleted record in Encounter table"]
+[2026-05-28T22:36:27.291Z] [info] 2026-05-28T22:36:27.291Z | INFO : [Database] Deleted record in Encounter table | raw: ["[Database] Deleted record in Encounter table"]
+[2026-05-28T22:36:09.253Z] [warn] 2026-05-28T22:36:09.253Z | WARN : [GoogleDrive] Resume pending operations is not supported. | raw: ["[GoogleDrive] Resume pending operations is not supported."]
+[2026-05-28T22:36:09.106Z] [warn] 2026-05-28T22:36:09.106Z | WARN : [Database] Realm instance was closed unexpectedly; reopening for operation 
+{
+  "hasEncryptionKey": true,
+  "path": "/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBookDB/BBBDatabase.realm"
+} | raw: ["[Database] Realm instance was closed unexpectedly; reopening for operation",{"hasEncryptionKey":true,"path":"/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/BBBookDB/BBBDatabase.realm"}]
+[2026-05-28T22:36:09.100Z] [warn] 2026-05-28T22:36:09.100Z | WARN : [AutoBackup] Backup failed [CloudStorageError] (Code: 4) Could not perform backup to Google Drive: 
+Caused by: Google Drive upload failed
+Error: Google Drive upload failed
+    at ?anon_0_ (address at index.android.bundle:1:4772155)
+    at next (native)
+    at asyncGeneratorStep (address at index.android.bundle:1:719352)
+    at _next (address at index.android.bundle:1:719609)
+    at tryCallOne (address at InternalBytecode.js:1:1180)
+    at anonymous (address at InternalBytecode.js:1:1874) | raw: ["[AutoBackup] Backup failed",{"translationKey":"common:errors.cloudStorage.cannotUpload","translationParams":{},"error":{},"name":"CloudStorageError","errorCode":4,"driveType":"gdrive"}]
+[2026-05-28T22:36:09.095Z] [info] 2026-05-28T22:36:09.095Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/bbbookStore/persist:root",
+  "size": 3160
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/bbbookStore/persist:root","size":3160}]
+[2026-05-28T22:36:09.091Z] [error] 2026-05-28T22:36:09.091Z | ERROR : [GoogleDrive] Could not perform backup to Google Drive Google Drive upload failed | raw: ["[GoogleDrive] Could not perform backup to Google Drive",{}]
+[2026-05-28T22:36:09.082Z] [info] 2026-05-28T22:36:09.081Z | INFO : [Database] Created record in UserLocation table | raw: ["[Database] Created record in UserLocation table"]
+[2026-05-28T22:36:07.095Z] [info] 2026-05-28T22:36:07.095Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/bbbookStore/persist:root",
+  "size": 3155
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/bbbookStore/persist:root","size":3155}]
+[2026-05-28T22:36:06.685Z] [warn] 2026-05-28T22:36:06.685Z | WARN : [GoogleDrive] Resume pending operations is not supported. | raw: ["[GoogleDrive] Resume pending operations is not supported."]
+[2026-05-28T22:36:06.657Z] [info] 2026-05-28T22:36:06.657Z | INFO : [ExportManager] done Export process complete | raw: ["[ExportManager]","done","Export process complete"]
+[2026-05-28T22:36:06.653Z] [info] 2026-05-28T22:36:06.653Z | INFO : [Database] Zip File: /data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBook_Export_2026-05-28_15-36-06.zip | raw: ["[Database] Zip File:","/data/user/0/com.gteksolutions.BiggerBlackerBook/cache/BBBook/BBBook_Export_2026-05-28_15-36-06.zip"]
+[2026-05-28T22:36:06.597Z] [warn] 2026-05-28T22:36:06.597Z | WARN : [GoogleDrive] Resume pending operations is not supported. | raw: ["[GoogleDrive] Resume pending operations is not supported."]
+[2026-05-28T22:36:06.569Z] [info] 2026-05-28T22:36:06.569Z | INFO : [ExportManager] done Creating zip file for export | raw: ["[ExportManager]","done","Creating zip file for export"]
+[2026-05-28T22:36:06.550Z] [warn] 2026-05-28T22:36:06.550Z | WARN : [GoogleDrive] Resume pending operations is not supported. | raw: ["[GoogleDrive] Resume pending operations is not supported."]
+[2026-05-28T22:36:06.526Z] [info] 2026-05-28T22:36:06.526Z | INFO : [ExportManager] validating-new Finalizing export and zipping files | raw: ["[ExportManager]","validating-new","Finalizing export and zipping files"]
+[2026-05-28T22:36:06.516Z] [warn] 2026-05-28T22:36:06.516Z | WARN : [GoogleDrive] Resume pending operations is not supported. | raw: ["[GoogleDrive] Resume pending operations is not supported."]
+[2026-05-28T22:36:06.492Z] [info] 2026-05-28T22:36:06.492Z | INFO : [ExportManager] validating-staged Copying images to temp location | raw: ["[ExportManager]","validating-staged","Copying images to temp location"]
+[2026-05-28T22:36:06.489Z] [info] 2026-05-28T22:36:06.489Z | INFO : [Database] Finished exporting. | raw: ["[Database] Finished exporting."]
+[2026-05-28T22:36:06.463Z] [warn] 2026-05-28T22:36:06.463Z | WARN : [GoogleDrive] Resume pending operations is not supported. | raw: ["[GoogleDrive] Resume pending operations is not supported."]
+[2026-05-28T22:36:06.436Z] [info] 2026-05-28T22:36:06.436Z | INFO : [ExportManager] swapping Exporting database to temp file | raw: ["[ExportManager]","swapping","Exporting database to temp file"]
+[2026-05-28T22:36:06.429Z] [info] 2026-05-28T22:36:06.429Z | INFO : [ExportManager] backing-up Creating temp database directory | raw: ["[ExportManager]","backing-up","Creating temp database directory"]
+[2026-05-28T22:36:06.422Z] [info] 2026-05-28T22:36:06.422Z | INFO : [ExportManager] cleaning-up Deleting old temp database files | raw: ["[ExportManager]","cleaning-up","Deleting old temp database files"]
+[2026-05-28T22:36:06.381Z] [warn] 2026-05-28T22:36:06.378Z | WARN : [GoogleDrive] Resume pending operations is not supported. | raw: ["[GoogleDrive] Resume pending operations is not supported."]
+[2026-05-28T22:36:06.047Z] [info] 2026-05-28T22:36:06.047Z | INFO : [ExportManager] idle Starting export process | raw: ["[ExportManager]","idle","Starting export process"]
+[2026-05-28T22:36:06.044Z] [info] 2026-05-28T22:36:06.044Z | INFO : [ExportManager] validating-staged Starting export process | raw: ["[ExportManager]","validating-staged","Starting export process"]
+[2026-05-28T22:36:05.997Z] [warn] 2026-05-28T22:36:05.997Z | WARN : [GoogleDrive] Resume pending operations is not supported. | raw: ["[GoogleDrive] Resume pending operations is not supported."]
+[2026-05-28T22:36:05.846Z] [info] 2026-05-28T22:36:05.846Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/bbbookStore/persist:root",
+  "size": 3156
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/bbbookStore/persist:root","size":3156}]
+[2026-05-28T22:36:05.523Z] [info] 2026-05-28T22:36:05.523Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/bbbookStore/persist:root",
+  "size": 3156
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/bbbookStore/persist:root","size":3156}]
+[2026-05-28T22:36:05.502Z] [warn] 2026-05-28T22:36:05.502Z | WARN : [GoogleDrive] Resume pending operations is not supported. | raw: ["[GoogleDrive] Resume pending operations is not supported."]
+[2026-05-28T22:36:05.462Z] [warn] 2026-05-28T22:36:05.461Z | WARN : [GoogleDrive] Resume pending operations is not supported. | raw: ["[GoogleDrive] Resume pending operations is not supported."]
+[2026-05-28T22:36:05.093Z] [info] 2026-05-28T22:36:05.093Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "dark",
+  "override": "dark",
+  "themePreference": "light"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"dark","override":"dark","themePreference":"light"}]
+[2026-05-28T22:36:04.841Z] [info] 2026-05-28T22:36:04.841Z | INFO : [Database] Created record in CalendarEvent table | raw: ["[Database] Created record in CalendarEvent table"]
+[2026-05-28T22:36:04.837Z] [info] 2026-05-28T22:36:04.837Z | INFO : [Database] Created record in Encounter table | raw: ["[Database] Created record in Encounter table"]
+[2026-05-28T22:36:01.037Z] [warn] 2026-05-28T22:36:01.037Z | WARN : [GoogleDrive] Resume pending operations is not supported. | raw: ["[GoogleDrive] Resume pending operations is not supported."]
+[2026-05-28T22:35:39.216Z] [warn] 2026-05-28T22:35:39.216Z | WARN : [GoogleDrive] Resume pending operations is not supported. | raw: ["[GoogleDrive] Resume pending operations is not supported."]
+[2026-05-28T22:35:38.513Z] [error] 2026-05-28T22:35:38.512Z | ERROR : [Security] Failed to persist salt record to external store [CloudStorageError] (Code: 4) Could not upload salt record: 
+Caused by: Google Drive upload failed
+Error: Google Drive upload failed
+    at ?anon_0_ (address at index.android.bundle:1:4772155)
+    at next (native)
+    at asyncGeneratorStep (address at index.android.bundle:1:719352)
+    at _next (address at index.android.bundle:1:719609)
+    at tryCallOne (address at InternalBytecode.js:1:1180)
+    at anonymous (address at InternalBytecode.js:1:1874) | raw: ["[Security] Failed to persist salt record to external store",{"translationKey":"common:errors.cloudStorage.cannotUpload","translationParams":{},"error":{},"name":"CloudStorageError","errorCode":4,"driveType":"gdrive"}]
+[2026-05-28T22:35:38.502Z] [error] 2026-05-28T22:35:38.501Z | ERROR : [GoogleDrive] Could not upload salt record Google Drive upload failed | raw: ["[GoogleDrive] Could not upload salt record",{}]
+[2026-05-28T22:35:36.969Z] [error] 2026-05-28T22:35:36.969Z | ERROR : [Security] Could not load salt from external store [CloudStorageError] (Code: 3) Could not download salt record: 
+Caused by: JSON Parse error: Unexpected end of input
+SyntaxError: JSON Parse error: Unexpected end of input
+    at parse (native)
+    at ?anon_0_ (address at index.android.bundle:1:4765923)
+    at next (native)
+    at asyncGeneratorStep (address at index.android.bundle:1:719352)
+    at _next (address at index.android.bundle:1:719609)
+    at tryCallOne (address at InternalBytecode.js:1:1180)
+    at anonymous (address at InternalBytecode.js:1:1874) | raw: ["[Security] Could not load salt from external store",{"translationKey":"common:errors.cloudStorage.cannotDownload","translationParams":{},"error":{},"name":"CloudStorageError","errorCode":3,"driveType":"gdrive"}]
+[2026-05-28T22:35:36.963Z] [error] 2026-05-28T22:35:36.962Z | ERROR : [GoogleDrive] Could not download salt record JSON Parse error: Unexpected end of input | raw: ["[GoogleDrive] Could not download salt record",{}]
+[2026-05-28T22:35:35.599Z] [info] 2026-05-28T22:35:35.599Z | INFO : [useCloudAuthServices] OneDrive auth client initialized 14fe7e30-0119-4e61-b9e3-69838ca5bc41 | raw: ["[useCloudAuthServices] OneDrive auth client initialized","14fe7e30-0119-4e61-b9e3-69838ca5bc41"]
+[2026-05-28T22:35:35.446Z] [info] 2026-05-28T22:35:35.446Z | INFO : [FileStorage] Write start 
+{
+  "key": "persist:root",
+  "path": "/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/bbbookStore/persist:root",
+  "size": 3152
+} | raw: ["[FileStorage] Write start",{"key":"persist:root","path":"/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/bbbookStore/persist:root","size":3152}]
+[2026-05-28T22:35:35.421Z] [info] 2026-05-28T22:35:35.421Z | INFO : [useCloudAuthServices] DropBox auth client initialized | raw: ["[useCloudAuthServices] DropBox auth client initialized"]
+[2026-05-28T22:35:35.322Z] [warn] 2026-05-28T22:35:35.322Z | WARN : [GoogleDrive] Resume pending operations is not supported. | raw: ["[GoogleDrive] Resume pending operations is not supported."]
+[2026-05-28T22:35:35.144Z] [warn] 2026-05-28T22:35:35.144Z | WARN : [GoogleDrive] Resume pending operations is not supported. | raw: ["[GoogleDrive] Resume pending operations is not supported."]
+[2026-05-28T22:35:34.698Z] [info] 2026-05-28T22:35:34.698Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "light",
+  "themePreference": "light"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"light","themePreference":"light"}]
+[2026-05-28T22:35:34.694Z] [info] 2026-05-28T22:35:34.694Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "light",
+  "themePreference": "light"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"light","themePreference":"light"}]
+[2026-05-28T22:35:34.691Z] [info] 2026-05-28T22:35:34.691Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "light",
+  "themePreference": "light"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"light","themePreference":"light"}]
+[2026-05-28T22:35:34.688Z] [info] 2026-05-28T22:35:34.687Z | INFO : [ThemeProvider] Theme preference 
+{
+  "colorScheme": "dark",
+  "effectiveThemePreference": "light",
+  "themePreference": "light"
+} | raw: ["[ThemeProvider] Theme preference",{"colorScheme":"dark","effectiveThemePreference":"light","themePreference":"light"}]
+[2026-05-28T22:35:34.510Z] [info] 2026-05-28T22:35:34.509Z | INFO : [useCloudAuthServices] Google auth client initialized | raw: ["[useCloudAuthServices] Google auth client initialized"]
+[2026-05-28T22:35:34.496Z] [info] 2026-05-28T22:35:34.496Z | INFO : [DatabaseProvider] Friend image repair completed 
+{
+  "didRun": false,
+  "markerPath": "/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/diagnostics/friend-image-repair-v1.done",
+  "plannedMoves": 0,
+  "totalImages": 0,
+  "updatedPaths": 0,
+  "skippedReason": "marker-exists"
+} | raw: ["[DatabaseProvider] Friend image repair completed",{"didRun":false,"markerPath":"/data/user/0/com.gteksolutions.BiggerBlackerBook/files/BBBook/diagnostics/friend-image-repair-v1.done","plannedMoves":0,"totalImages":0,"updatedPaths":0,"skippedReason":"marker-exists"}]
+[2026-05-28T22:35:34.483Z] [warn] 2026-05-28T22:35:34.483Z | WARN : [GoogleDrive] Resume pending operations is not supported. | raw: ["[GoogleDrive] Resume pending operations is not supported."]
+[2026-05-28T22:35:34.458Z] [warn] 2026-05-28T22:35:34.458Z | WARN : [GoogleDrive] Resume pending operations is not supported. | raw: ["[GoogleDrive] Resume pending operations is not supported."]
+[2026-05-28T22:35:34.431Z] [debug] 2026-05-28T22:35:34.431Z | DEBUG : [Database] Finished retrieving all records in MedicationRegimenStep table | raw: ["[Database] Finished retrieving all records in MedicationRegimenStep table"]
+[2026-05-28T22:35:34.429Z] [debug] 2026-05-28T22:35:34.428Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationRegimenStep table: 10 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationRegimenStep table: 10 records found"]
+[2026-05-28T22:35:34.424Z] [debug] 2026-05-28T22:35:34.424Z | DEBUG : [Database] Finished retrieving all records in CalendarEvent table | raw: ["[Database] Finished retrieving all records in CalendarEvent table"]
+[2026-05-28T22:35:34.421Z] [debug] 2026-05-28T22:35:34.421Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in CalendarEvent table: 0 records found"]
+[2026-05-28T22:35:34.406Z] [debug] 2026-05-28T22:35:34.406Z | DEBUG : [Database] Finished retrieving all records in MedicationRegimen table | raw: ["[Database] Finished retrieving all records in MedicationRegimen table"]
+[2026-05-28T22:35:34.403Z] [debug] 2026-05-28T22:35:34.403Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationRegimen table: 6 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationRegimen table: 6 records found"]
+[2026-05-28T22:35:34.395Z] [debug] 2026-05-28T22:35:34.395Z | DEBUG : [Database] Finished retrieving all records in Screening table | raw: ["[Database] Finished retrieving all records in Screening table"]
+[2026-05-28T22:35:34.392Z] [debug] 2026-05-28T22:35:34.392Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in Screening table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in Screening table: 0 records found"]
+[2026-05-28T22:35:34.383Z] [debug] 2026-05-28T22:35:34.383Z | DEBUG : [Database] Finished retrieving all records in MedicationLog table | raw: ["[Database] Finished retrieving all records in MedicationLog table"]
+[2026-05-28T22:35:34.380Z] [debug] 2026-05-28T22:35:34.380Z | DEBUG : [Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found | raw: ["[Database] Retrieving all non-deleted and non-draft records in MedicationLog table: 0 records found"]
